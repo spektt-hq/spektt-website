@@ -139,6 +139,64 @@ For translated sentences that contain a hardcoded `<a>` tag or `<strong>` span m
 
 ---
 
+## Git Workflow
+
+### Branching strategy
+
+| Branch | Purpose |
+|--------|---------|
+| `main` | Production — Vercel deploys from here. Only merge when code is ready to go live. |
+| `dev` | Active development — all day-to-day work happens here. |
+
+**Never push directly to `main` during active development.** Work on `dev`, test it, then merge to `main` to deploy.
+
+### Creating the dev branch (one-time setup)
+```
+git checkout -b dev
+git push -u origin dev
+```
+
+### Daily push routine
+```
+git add .
+git commit -m "type: short description"
+git push
+```
+
+### Merging dev → main (when ready to deploy)
+```
+git checkout main
+git merge dev
+git push
+git checkout dev
+```
+
+### Commit message format — Conventional Commits
+
+```
+type: short description
+```
+
+| Type | When to use |
+|------|-------------|
+| `feat:` | new page, new component, new feature |
+| `fix:` | bug fix |
+| `style:` | UI / design changes |
+| `content:` | copy, translation, text changes |
+| `chore:` | dependencies, config, cleanup |
+| `refactor:` | code restructure, no new feature |
+
+**Examples:**
+```
+feat: add showdown rules page with i18n
+fix: hero gap between text and download buttons
+style: update container max-width to 7xl
+content: add French translations for help section
+chore: remove unused public assets
+```
+
+---
+
 ## Keeping Docs in Sync
 
 Update these files when their content changes:
