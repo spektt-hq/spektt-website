@@ -1,0 +1,454 @@
+{
+  "pageTitle": "Política de Privacidad",
+  "effectiveDate": "Fecha de entrada en vigor: May 26th, 2026",
+  "lastUpdated": "Última actualización: May 26th, 2026",
+  "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
+  "toc": {
+    "title": "Tabla de Contenidos",
+    "items": [
+      "1. Quiénes Somos",
+      "2. Información que Recopilamos",
+      "3. Cómo Usamos tu Información",
+      "4. Compartir tu Información",
+      "5. Mensajería Directa",
+      "6. Clusters (Grupos Comunitarios)",
+      "7. Showdowns y Pagos de Premios",
+      "8. Privacidad de los Menores",
+      "9. Tus Derechos",
+      "10. Retención de Datos",
+      "11. Seguridad de los Datos",
+      "12. Transferencias Internacionales de Datos",
+      "13. Base Legal para el Procesamiento",
+      "14. Enlaces de Terceros",
+      "15. Cambios a esta Política de Privacidad",
+      "16. Contáctanos"
+    ]
+  },
+  "s1": {
+    "heading": "1. QUIÉNES SOMOS",
+    "body": "Spektt es una plataforma comunitaria creativa diseñada para fotógrafos, videógrafos, animadores 3D, ingenieros de sonido, artistas digitales y otros creativos.",
+    "legalEntity": "Entidad Legal: Axlume Tech Limited",
+    "registration": "Registro: Corporate Affairs Commission (CAC), República Federal de Nigeria",
+    "contactLabel": "Contacto:",
+    "contactItems": [
+      "General: hello@spektt.com",
+      "Soporte: support@spektt.com",
+      "Solicitudes de privacidad: legal@spektt.com (asunto: \"Privacy Request\")",
+      "Sitio web: spektt.com"
+    ]
+  },
+  "s2": {
+    "heading": "2. INFORMACIÓN QUE RECOPILAMOS",
+    "s2_1_heading": "2.1 Información que Proporcionas Directamente",
+    "accountHeading": "Cuenta e Identidad",
+    "accountItems": [
+      "Nombre completo y nombre de usuario (identificador único)",
+      "Dirección de correo electrónico y contraseña (la contraseña es cifrada por Firebase Authentication — nunca la almacenamos en texto plano)",
+      "Foto de perfil (avatar)",
+      "Fecha de nacimiento (requerida para verificación de edad, elegibilidad para Showdown y cumplimiento legal)",
+      "Categoría creativa / rol (por ejemplo, fotógrafo, videógrafo, animador 3D)",
+      "Texto de ubicación mostrado (la ciudad o región que eliges mostrar en tu perfil)",
+      "País y región (códigos ISO — derivados de tu ubicación GPS durante el registro)"
+    ],
+    "contentHeading": "Contenido Creativo",
+    "contentItems": [
+      "Fotos y videos que subes, incluyendo subtítulos, descripciones y etiquetas",
+      "Comentarios y respuestas que publicas en las subidas de otros usuarios",
+      "Colecciones y selecciones de Spotlight"
+    ],
+    "contestHeading": "Participación en Concursos y Showdowns",
+    "contestItems": [
+      "Participaciones en concursos enviadas a Showdowns",
+      "Votos que emites en las participaciones del concurso",
+      "Puntuaciones de jueces (si eres asignado como juez en un Premium Showdown)",
+      "Detalles de pago de premios: Si ganas un Premium Showdown con premio en efectivo, recopilamos el nombre de tu banco, número de cuenta, nombre de la cuenta e identificación fiscal opcional únicamente para pagar tu premio. Estos datos se almacenan solo durante el tiempo necesario para completar el pago y cumplir con las regulaciones financieras y fiscales de Nigeria."
+    ],
+    "clustersHeading": "Clusters",
+    "clustersItems": [
+      "Clusters que creas o a los que te unes, tu rol y fecha de ingreso",
+      "Publicaciones que haces dentro de un Cluster",
+      "Acciones de moderación que realizas como administrador o moderador (prohibiciones, suspensiones, eliminación de contenido)"
+    ],
+    "dmHeading": "Mensajes Directos",
+    "dmItems": [
+      "El contenido de los mensajes que envías y recibes",
+      "El texto de solicitud de mensaje (primer mensaje al iniciar una conversación)",
+      "Metadatos de conversación: identidades de participantes, marcas de tiempo, estado de lectura, conteos de no leídos y estado de la conversación"
+    ],
+    "subsHeading": "Suscripciones",
+    "subsItems": [
+      "Estado de suscripción de Spektt Pro, fechas de inicio y vencimiento",
+      "El procesamiento de pagos es manejado completamente por Apple (App Store) o Google (Google Play) y RevenueCat. Nunca recibimos ni almacenamos tu número de tarjeta o dirección de facturación."
+    ],
+    "s2_2_heading": "2.2 Información que Recopilamos Automáticamente",
+    "locationHeading": "Datos de Ubicación",
+    "locationItems": [
+      "Coordenadas GPS precisas recopiladas durante el registro (con tu permiso), geocodificadas inversamente en ciudad/región/país. Las coordenadas sin procesar no se almacenan.",
+      "Dirección IP pública — almacenada solo como un hash SHA-256 para detección de fraude y prevención de manipulación de votos. La IP sin procesar nunca se almacena."
+    ],
+    "deviceHeading": "Datos del Dispositivo y Técnicos",
+    "deviceItems": [
+      "Tipo de dispositivo, sistema operativo, versión del SO, versión de la app, preferencia de idioma"
+    ],
+    "gamificationHeading": "Datos de Gamificación y Participación",
+    "gamificationItems": [
+      "XP obtenido, nivel actual, rango, insignias obtenidas",
+      "Totales semanales y mensuales de XP, vistas totales, votos recibidos y emitidos"
+    ],
+    "notifHeading": "Tokens de Notificaciones Push",
+    "notifItems": [
+      "IDs de jugador de OneSignal (por dispositivo, para entregar notificaciones push). Eliminados inmediatamente al cerrar sesión o eliminar la cuenta."
+    ],
+    "crashHeading": "Datos de Errores y Fallos",
+    "crashItems": [
+      "Los informes de fallos enviados a Sentry incluyen tipo de error, rastreo de pila, versión de la app y sistema operativo del dispositivo. No incluyen tu nombre, correo electrónico ni contenido de mensajes."
+    ]
+  },
+  "s3": {
+    "heading": "3. CÓMO USAMOS TU INFORMACIÓN",
+    "tableHeadPurpose": "Propósito",
+    "tableHeadData": "Datos Utilizados",
+    "tableHeadBasis": "Base Legal",
+    "tableRows": [
+      [
+        "Crear y administrar tu cuenta",
+        "Datos de cuenta, información de perfil",
+        "Ejecución de contrato"
+      ],
+      [
+        "Verificar tu edad para elegibilidad en Showdown",
+        "Fecha de nacimiento",
+        "Ejecución de contrato + Obligación legal"
+      ],
+      [
+        "Entregar el feed y descubrimiento de contenido",
+        "Contenido, datos de perfil, ubicación/país",
+        "Ejecución de contrato"
+      ],
+      [
+        "Entregar mensajes directos",
+        "Contenido de mensajes, metadatos",
+        "Ejecución de contrato"
+      ],
+      [
+        "Ejecutar Showdowns y pagar premios en efectivo",
+        "Datos del concurso, detalles de pago de premios",
+        "Ejecución de contrato"
+      ],
+      [
+        "Prevención de fraude y manipulación de votos",
+        "IP cifrada, historial de votos, actividad de cuenta",
+        "Intereses legítimos"
+      ],
+      [
+        "Moderación de seguridad y cumplimiento de directrices",
+        "Reportes, contenido, contenido de mensajes (solo reportados)",
+        "Obligación legal + Intereses legítimos"
+      ],
+      [
+        "Enviar notificaciones push",
+        "IDs de jugador, preferencias de notificación",
+        "Consentimiento (retirable en Configuración)"
+      ],
+      [
+        "Enviar correos electrónicos transaccionales (OTP, alertas)",
+        "Dirección de correo electrónico",
+        "Ejecución de contrato"
+      ],
+      [
+        "Generar tablas de clasificación y datos de ranking",
+        "XP, datos de gamificación",
+        "Intereses legítimos"
+      ],
+      [
+        "Mejorar la App y corregir errores",
+        "Datos de fallos (Sentry), datos de uso",
+        "Intereses legítimos"
+      ],
+      [
+        "Cumplir con la ley financiera y fiscal de Nigeria",
+        "Datos bancarios, identificación fiscal",
+        "Obligación legal"
+      ]
+    ],
+    "notDoLabel": "Lo que NO hacemos:",
+    "notDoItems": [
+      "No vendemos tus datos personales a terceros",
+      "No leemos, escaneamos ni analizamos el contenido de mensajes privados para publicidad o aprendizaje automático",
+      "No utilizamos tus mensajes privados para entrenar algoritmos ni personalizar tu feed",
+      "No compartimos los detalles de pago de tus premios más allá de lo requerido por la ley nigeriana",
+      "No retenemos coordenadas GPS sin procesar — la ubicación se captura una vez durante el registro, se geocodifica y luego las coordenadas sin procesar se descartan"
+    ]
+  },
+  "s4": {
+    "heading": "4. COMPARTIR TU INFORMACIÓN",
+    "intro": "No vendemos tus datos personales. Compartimos tu información solo en las siguientes circunstancias:",
+    "usersHeading": "Con otros usuarios (por diseño)",
+    "usersItems": [
+      "Tu perfil (nombre de usuario, avatar, categoría creativa, conteo de seguidores/seguidos, rango XP) es visible para todos los usuarios con sesión iniciada",
+      "Tus subidas, comentarios y actividad en Cluster son visibles según el alcance de cada función",
+      "Tu clasificación en Leaderboard, rango XP y cantidad de insignias son visibles públicamente en tu perfil",
+      "Tu nombre de usuario aparece junto a las participaciones del concurso durante los Showdowns"
+    ],
+    "providersHeading": "Con nuestros proveedores de servicios",
+    "providerTableHeadProvider": "Proveedor",
+    "providerTableHeadPurpose": "Propósito",
+    "providerTableHeadData": "Datos Procesados",
+    "providerRows": [
+      [
+        "Google Firebase / Firestore",
+        "Base de datos principal, autenticación, datos en tiempo real",
+        "Todos los datos de cuenta y contenido del usuario"
+      ],
+      [
+        "Cloudflare Stream",
+        "Alojamiento de video y transmisión HLS",
+        "Videos que subes"
+      ],
+      ["Cloudflare Images", "CDN y entrega de imágenes", "Fotos que subes"],
+      [
+        "RevenueCat",
+        "Gestión de suscripciones y validación de compras",
+        "Estado de suscripción, fecha de vencimiento, fecha de compra"
+      ],
+      [
+        "OneSignal",
+        "Entrega de notificaciones push",
+        "IDs de jugador; contenido de notificaciones"
+      ],
+      [
+        "Resend",
+        "Entrega de correos electrónicos transaccionales",
+        "Dirección de correo electrónico, códigos OTP, contenido de alertas"
+      ],
+      [
+        "Sentry",
+        "Monitoreo de errores y fallos",
+        "Informes de fallos, rastreos de pila (sin PII)"
+      ],
+      [
+        "ipify.org",
+        "Consulta de IP pública (detección de fraude)",
+        "IP pública de tu dispositivo al momento de la solicitud"
+      ],
+      [
+        "Apple / Google",
+        "Procesamiento de pagos para Spektt Pro",
+        "Datos de compra de suscripción (Spektt nunca recibe datos de tarjeta)"
+      ]
+    ],
+    "lawHeading": "Con autoridades o reguladores",
+    "lawBody": "Podemos divulgar tu información si así lo requiere la ley, una orden judicial o una autoridad gubernamental, o para prevenir fraude o proteger la seguridad de nuestros usuarios.",
+    "transferHeading": "En relación con una transferencia empresarial",
+    "transferBody": "Si Axlume Tech Limited es adquirida o transfiere sus activos, tus datos pueden ser transferidos a la entidad adquirente. Te notificaremos antes de que tus datos queden sujetos a una política de privacidad diferente."
+  },
+  "s5": {
+    "heading": "5. MENSAJERÍA DIRECTA",
+    "s5_1_heading": "5.1 Cómo Funciona la Mensajería",
+    "s5_1_body": "Para iniciar una conversación, debes enviar una solicitud de mensaje que el destinatario debe aceptar antes de que pueda comenzar una conversación completa. Esto protege a todos los usuarios de contactos no solicitados.",
+    "s5_2_heading": "5.2 Qué Almacenamos",
+    "s5_2_items": [
+      "El contenido completo de los mensajes que envías y recibes",
+      "El texto de la solicitud de mensaje (el primer mensaje utilizado para iniciar una conversación)",
+      "Metadatos de conversación: identidades de participantes, marcas de tiempo, estado de lectura, conteos de no leídos y estado de la conversación",
+      "Acciones de bloqueo y reporte realizadas dentro de las conversaciones"
+    ],
+    "s5_3_heading": "5.3 Quién Puede Leer tus Mensajes",
+    "s5_3_body": "Tus mensajes son accesibles solo para ti y el otro participante, y para moderadores de seguridad autorizados de Spektt únicamente cuando un mensaje ha sido reportado. No leemos ni escaneamos proactivamente las conversaciones privadas.",
+    "s5_4_heading": "5.4 Vistas Previas de Notificaciones Push",
+    "s5_4_body": "Si está habilitado, una vista previa corta de los nuevos mensajes se incluye en la carga útil de la notificación mediante OneSignal. Puedes desactivar esto en la Configuración de tu dispositivo o en la Configuración de Notificaciones dentro de la app.",
+    "s5_5_heading": "5.5 Protección Anti-Spam",
+    "s5_5_body": "Un usuario cuya solicitud de mensaje rechaces no podrá contactarte nuevamente durante 30 días. Este registro se elimina automáticamente después del período de espera de 30 días. Los usuarios bloqueados no pueden enviarte mensajes en absoluto.",
+    "s5_6_heading": "5.6 Eliminación de Mensajes",
+    "s5_6_body": "Los mensajes eliminados se reemplazan con \"This message was deleted\" para ambos participantes y se eliminan permanentemente de nuestros servidores dentro de 30 días. Las conversaciones eliminadas se quitan de tu vista inmediatamente y se eliminan dentro de 30 días.",
+    "s5_7_heading": "5.7 Usuarios Menores de Edad",
+    "s5_7_body": "Los usuarios identificados como menores tienen acceso restringido a la mensajería directa. La determinación de edad se basa en la fecha de nacimiento ingresada durante la configuración de la cuenta."
+  },
+  "s6": {
+    "heading": "6. CLUSTERS (GRUPOS COMUNITARIOS)",
+    "p1": "Cuando te unes o creas un Cluster, recopilamos y almacenamos tu registro de membresía, rol y fecha de ingreso. Las publicaciones que haces dentro de un Cluster son visibles para todos los miembros del Cluster. Si eres expulsado de un Cluster, tu registro de membresía y motivo de expulsión se conservan con fines de moderación.",
+    "p2": "Si eres administrador de un Cluster, tu nombre de usuario aparece públicamente como administrador. Las acciones de moderación (prohibiciones, suspensiones, eliminación de contenido) se registran en un historial de auditoría inmutable que incluye el nombre de usuario del moderador, motivo y marca de tiempo.",
+    "p3": "La inactividad de administradores es monitoreada — después de 30 días de inactividad recibes una advertencia; después de 45 días, la propiedad se transfiere automáticamente para proteger a la comunidad."
+  },
+  "s7": {
+    "heading": "7. SHOWDOWNS Y PAGOS DE PREMIOS",
+    "items": [
+      "Datos de participación: Tu participación en Showdown y tu nombre de usuario son visibles para todos los participantes durante el Showdown. Los conteos de votos permanecen ocultos hasta que termina el Showdown.",
+      "Juzgamiento: Si eres asignado como juez, tus puntuaciones individuales son privadas hasta que se anuncian los resultados.",
+      "Resultados: Los nombres de usuario de los ganadores y posiciones se anuncian públicamente. Tus datos bancarios e identificación fiscal nunca se divulgan públicamente.",
+      "Reclamación de premios: Tienes 14 días para enviar tu reclamación. Se deduce un impuesto de retención del 10% conforme a las regulaciones fiscales de Nigeria. Los pagos de premios en efectivo están disponibles actualmente solo para titulares de cuentas bancarias nigerianas.",
+      "Retención: Los detalles de pago de premios (información bancaria) se conservan durante el período requerido por las regulaciones financieras de Nigeria después del pago, independientemente de la eliminación de la cuenta."
+    ]
+  },
+  "s8": {
+    "heading": "8. PRIVACIDAD DE LOS MENORES",
+    "p1": "Spektt está destinado a usuarios de 13 años o más. No recopilamos conscientemente información personal de niños menores de 13 años. Si tomamos conocimiento de que un niño menor de 13 años ha creado una cuenta, eliminaremos esa cuenta y sus datos asociados de inmediato.",
+    "p2": "Para usuarios de 13–17 años (menores), se aplican restricciones adicionales:",
+    "items": [
+      "Los menores no pueden participar en ningún Showdown (Pulse o Premium)",
+      "La mensajería directa está restringida para usuarios menores",
+      "La participación en premios en efectivo requiere que el usuario no esté marcado como menor"
+    ],
+    "p3": "Si crees que un niño menor de 13 años ha creado una cuenta, contáctanos en legal@spektt.com."
+  },
+  "s9": {
+    "heading": "9. TUS DERECHOS",
+    "intro": "Para ejercer cualquiera de los derechos a continuación, contáctanos en legal@spektt.com con el asunto \"Privacy Request.\"",
+    "s9_1_heading": "9.1 Derecho de Acceso",
+    "s9_1_body": "Puedes solicitar una copia de los datos personales que tenemos sobre ti.",
+    "s9_2_heading": "9.2 Derecho de Corrección",
+    "s9_2_body": "Puedes actualizar la mayoría de la información de perfil directamente en la App (Perfil → Editar Perfil o Configuración). Para datos que no puedes editar dentro de la app, contáctanos.",
+    "s9_3_heading": "9.3 Derecho de Eliminación (Eliminación de Cuenta)",
+    "s9_3_body": "Elimina tu cuenta en cualquier momento desde Configuración → Eliminar Cuenta.",
+    "s9_3_items": [
+      "Período de gracia: Tu cuenta se bloquea inmediatamente y se programa para eliminación permanente en 30 días",
+      "Ventana de cancelación: Vuelve a iniciar sesión dentro de 30 días para cancelar la eliminación y restaurar tu cuenta",
+      "Después de 30 días: La información de perfil, subidas, DMs y membresías de Cluster se eliminan permanentemente. Los comentarios se anonimizan. Se conserva un registro fantasma mínimo (solo ID de usuario, sin PII) únicamente para preservar la integridad del historial de auditoría."
+    ],
+    "s9_4_heading": "9.4 Derecho a Excluirse",
+    "s9_4_items": [
+      "Notificaciones push: Desactívalas en la configuración del dispositivo o en la Configuración de Notificaciones dentro de la app",
+      "Participación en Leaderboard: Contáctanos para excluir tu perfil de las tablas de clasificación públicas"
+    ],
+    "s9_5_heading": "9.5 Usuarios Nigerianos (NDPA 2023 / NDPR)",
+    "s9_5_body": "Bajo la Nigeria Data Protection Act 2023 y el NDPR, tienes derecho a saber qué datos tenemos, corregir datos inexactos, solicitar eliminación, retirar consentimiento y presentar una queja ante la Nigeria Data Protection Commission (NDPC) en ndpc.gov.ng.",
+    "s9_6_heading": "9.6 Otros Usuarios Internacionales (GDPR y equivalentes)",
+    "s9_6_body": "Si te encuentras en el Espacio Económico Europeo o en una jurisdicción con una ley equivalente de protección de datos, también tienes derecho a la portabilidad de datos y a presentar una queja ante tu autoridad supervisora local."
+  },
+  "s10": {
+    "heading": "10. RETENCIÓN DE DATOS",
+    "tableHeadType": "Tipo de Datos",
+    "tableHeadPeriod": "Período de Retención",
+    "tableRows": [
+      [
+        "Datos de perfil de cuenta",
+        "Hasta la eliminación de la cuenta (eliminados permanentemente después del período de gracia de 30 días)"
+      ],
+      [
+        "Subidas (fotos / videos)",
+        "Hasta que los elimines o al eliminar la cuenta"
+      ],
+      [
+        "Comentarios",
+        "Anonimizados (\"[deleted]\") al eliminar la cuenta — la estructura del hilo se conserva"
+      ],
+      ["Mensajes directos", "Hasta que los elimines o tu cuenta sea eliminada"],
+      [
+        "Contenido de mensajes eliminados",
+        "Eliminados permanentemente dentro de 30 días desde la eliminación"
+      ],
+      [
+        "Detalles de pago de premios (información bancaria)",
+        "Conservados según lo requerido por las regulaciones financieras de Nigeria (mínimo 7 años) después del pago"
+      ],
+      [
+        "Participaciones en concursos (Showdowns finalizados)",
+        "Conservadas indefinidamente como historial de competencia"
+      ],
+      [
+        "Datos de gamificación (XP, insignias, nivel)",
+        "Conservados hasta la eliminación de la cuenta"
+      ],
+      [
+        "Registros e informes de moderación",
+        "Conservados indefinidamente (integridad del historial de auditoría)"
+      ],
+      [
+        "Tokens de notificaciones push (IDs de jugador de OneSignal)",
+        "Eliminados inmediatamente al cerrar sesión o eliminar la cuenta"
+      ],
+      [
+        "Datos de solicitudes de mensaje rechazadas",
+        "Eliminados 30 días después de que la solicitud fue rechazada"
+      ],
+      ["Dirección IP cifrada", "Conservada durante la duración de la cuenta"],
+      [
+        "Datos de fallos (Sentry)",
+        "Conservados según la política de retención de datos de Sentry (90 días por defecto)"
+      ]
+    ]
+  },
+  "s11": {
+    "heading": "11. SEGURIDAD DE LOS DATOS",
+    "intro": "Implementamos medidas de seguridad estándar de la industria para proteger tus datos personales:",
+    "items": [
+      "Todos los datos se almacenan en Google Firestore con reglas de seguridad estrictas — los clientes solo pueden leer y escribir datos a los que estén explícitamente autorizados a acceder",
+      "Las contraseñas son manejadas completamente por Firebase Authentication y nunca son almacenadas en texto plano por Spektt",
+      "Las claves API y credenciales se almacenan como variables de entorno del lado del servidor y nunca se exponen en la App compilada",
+      "Los archivos multimedia se sirven a través del CDN de Cloudflare con protección DDoS y entrega cifrada (HTTPS/TLS)",
+      "Las acciones de administradores y moderadores se registran en un historial de auditoría inmutable en Firestore",
+      "Las direcciones IP utilizadas para detección de fraude se almacenan solo como hashes SHA-256 — la IP sin procesar nunca se conserva"
+    ],
+    "caveat": "Ningún método de transmisión por internet es 100% seguro. Aunque nos esforzamos por proteger tus datos, no podemos garantizar seguridad absoluta."
+  },
+  "s12": {
+    "heading": "12. TRANSFERENCIAS INTERNACIONALES DE DATOS",
+    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. El CDN de Cloudflare distribuye medios globalmente. OneSignal, Resend, RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
+    "p2": "Al usar la App, consientes la transferencia de tu información a estos servidores. Cuando lo exige la ley, implementamos las salvaguardas apropiadas para dichas transferencias."
+  },
+  "s13": {
+    "heading": "13. BASE LEGAL PARA EL PROCESAMIENTO (NDPA 2023 / GDPR)",
+    "tableHeadActivity": "Actividad de Procesamiento",
+    "tableHeadBasis": "Base Legal",
+    "tableRows": [
+      ["Crear y mantener tu cuenta", "Ejecución de contrato"],
+      ["Entregar mensajes entre usuarios", "Ejecución de contrato"],
+      ["Publicar subidas y contenido", "Ejecución de contrato"],
+      [
+        "Procesar participaciones de Showdown y pagar premios",
+        "Ejecución de contrato"
+      ],
+      [
+        "Determinar elegibilidad por país/edad",
+        "Ejecución de contrato + Obligación legal"
+      ],
+      [
+        "Moderación de seguridad (reportes, prohibiciones, suspensiones)",
+        "Obligación legal + Intereses legítimos"
+      ],
+      ["Prevenir fraude y manipulación de votos", "Intereses legítimos"],
+      [
+        "Enviar notificaciones push",
+        "Consentimiento (retirable en cualquier momento en Configuración)"
+      ],
+      [
+        "Enviar correos electrónicos transaccionales (OTP, alertas)",
+        "Ejecución de contrato"
+      ],
+      [
+        "Generar tablas de clasificación y rankings de gamificación",
+        "Intereses legítimos"
+      ],
+      [
+        "Conservar detalles de pago de premios para cumplimiento fiscal",
+        "Obligación legal (regulaciones financieras de Nigeria)"
+      ],
+      ["Conservar registros de auditoría y moderación", "Obligación legal"],
+      ["Monitoreo de errores y fallos (Sentry)", "Intereses legítimos"]
+    ]
+  },
+  "s14": {
+    "heading": "14. ENLACES DE TERCEROS",
+    "body": "La App puede contener enlaces a sitios web externos. Esta Política de Privacidad aplica únicamente a la App Spektt y al sitio web spektt.com. No somos responsables de las prácticas de privacidad de sitios web de terceros."
+  },
+  "s15": {
+    "heading": "15. CAMBIOS A ESTA POLÍTICA DE PRIVACIDAD",
+    "intro": "Podemos actualizar esta Política de Privacidad ocasionalmente. Cuando hagamos cambios materiales, haremos lo siguiente:",
+    "items": [
+      "Actualizar la fecha de \"Última actualización\" en la parte superior de este documento",
+      "Publicar la política actualizada en spektt.com/privacy",
+      "Cuando lo exija la ley, notificarte mediante notificación dentro de la app o correo electrónico"
+    ],
+    "closing": "Tu uso continuado de la App después de que se publique la política actualizada constituye tu aceptación de los cambios."
+  },
+  "s16": {
+    "heading": "16. CONTÁCTANOS",
+    "intro": "Si tienes preguntas sobre esta Política de Privacidad o deseas ejercer tus derechos de datos, contáctanos en:",
+    "items": [
+      "Correo electrónico: legal@spektt.com (asunto: \"Privacy Request\")",
+      "Sitio web: spektt.com/contact",
+      "Empresa: Axlume Tech Limited, República Federal de Nigeria"
+    ],
+    "ndpc": "Para usuarios nigerianos, también puedes contactar a la Nigeria Data Protection Commission (NDPC) en ndpc.gov.ng si crees que tus derechos bajo la Nigeria Data Protection Act 2023 han sido violados."
+  }
+}

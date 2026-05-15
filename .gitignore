@@ -33,8 +33,13 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+
+
 # vercel
 .vercel
+
+# old source (not part of this repo)
+Cre8ive-website-main/
 
 # typescript
 *.tsbuildinfo

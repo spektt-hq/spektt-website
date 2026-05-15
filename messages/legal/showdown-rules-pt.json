@@ -1,0 +1,151 @@
+{
+  "title": "Spektt Showdowns — Regras Oficiais do Concurso",
+  "lastUpdated": "Última atualização: maio de 2026",
+  "intro1": "Estas Regras Oficiais regem todos os concursos e showdowns («Concursos») realizados no aplicativo móvel Spektt («Plataforma»), operado pela Spektt («Spektt», «nós», «nos», «nosso»), uma empresa registrada sob as leis da República Federal da Nigéria.",
+  "intro2": "Ao enviar uma participação em qualquer Concurso na Plataforma, você («Participante», «você») concorda em estar vinculado a estas Regras Oficiais, aos nossos Termos de Serviço e à nossa Política de Privacidade.",
+  "noPurchase": "Não é necessária nenhuma compra para participar ou ganhar. Uma compra não aumenta suas chances de ganhar.",
+  "s1": {
+    "heading": "1. TIPOS DE CONCURSO",
+    "p1": "A Spektt realiza dois tipos de Concursos:",
+    "pulseLabel": "(a) Concursos Pulse",
+    "pulseText": "Showdowns comunitários abertos a todos os usuários cadastrados. Os prêmios consistem em emblemas digitais, pontos XP, medalhas e reconhecimento na plataforma. Nenhum prêmio em dinheiro é concedido.",
+    "premiumLabel": "(b) Concursos Premium",
+    "premiumText": "Showdowns com pools de prêmios em dinheiro. Os Concursos Premium indicarão os valores exatos dos prêmios e os requisitos de elegibilidade específicos no anúncio do Concurso na Plataforma."
+  },
+  "s2": {
+    "heading": "2. ELEGIBILIDADE",
+    "p1": "Para participar de qualquer Concurso na Plataforma, você deve:",
+    "a": "(a) Ter pelo menos 18 anos de idade no momento da participação. A idade é verificada na criação da conta. Usuários identificados como menores (menores de 18 anos) são automaticamente inelegíveis para participar dos Concursos.",
+    "b": "(b) Ser um usuário cadastrado da Plataforma Spektt com uma conta completa e verificada.",
+    "c": "(c) Não ser residente de, ou estar fisicamente localizado em, nenhuma das seguintes jurisdições onde concursos online desta natureza são proibidos ou restritos por lei:",
+    "restricted": ["Catar", "Emirados Árabes Unidos (EAU)", "Reino da Arábia Saudita"],
+    "d": "(d) Não ser funcionário, executivo, diretor, agente ou membro da família imediata (cônjuge, pai/mãe, irmão/irmã, filho/filha) ou membro do domicílio da Spektt, suas afiliadas, subsidiárias ou qualquer patrocinador de prêmios.",
+    "e": "(e) Não ter sido suspenso ou banido da Plataforma Spektt no momento da participação.",
+    "void": "Nulo onde proibido por lei. A Spektt reserva-se o direito de verificar a elegibilidade a qualquer momento e desqualificar qualquer participação que não atenda a esses requisitos."
+  },
+  "s3": {
+    "heading": "3. PERÍODO DO CONCURSO",
+    "p1": "Cada Concurso tem um período de inscrição, um período de votação e uma data de resultados específicos exibidos no anúncio do Concurso na Plataforma. Todos os horários são indicados no Horário da África Ocidental (WAT, UTC+1), salvo indicação em contrário. O sistema da Spektt é o dispositivo oficial de cronometragem."
+  },
+  "s4": {
+    "heading": "4. COMO PARTICIPAR",
+    "a": "(a) Baixe o aplicativo Spektt, crie uma conta e conclua a integração.",
+    "b": "(b) Navegue até a seção Showdowns e selecione um Concurso ativo.",
+    "c": "(c) Envie seu trabalho criativo original (foto, vídeo ou arte digital) que atenda aos requisitos de categoria do Concurso e às nossas Diretrizes da Comunidade.",
+    "d": "(d) Envie sua participação antes do prazo indicado no anúncio do Concurso.",
+    "limitLabel": "Limite:",
+    "limitText": "UMA (1) participação por pessoa por Concurso, independentemente do tipo de conta (Gratuita ou Pro). O envio de múltiplas participações resultará na desqualificação de todas as participações dessa conta."
+  },
+  "s5": {
+    "heading": "5. MÉTODO ALTERNATIVO DE PARTICIPAÇÃO (MAP)",
+    "p1Before": "Não é necessária nenhuma compra para participar. Usuários gratuitos que atingiram seu limite de upload podem solicitar um crédito de participação gratuita enviando um e-mail para",
+    "p1After": "com o assunto: «PARTICIPAÇÃO GRATUITA — [Nome do Concurso]».",
+    "p2": "As solicitações de participação gratuita devem ser enviadas antes do prazo. Um crédito de participação gratuita por pessoa por Concurso. Responderemos em 48 horas. Solicitações enviadas após o prazo não serão atendidas.",
+    "p3": "Uma assinatura Spektt Pro fornece uploads e recursos adicionais, mas NÃO aumenta suas chances de ganhar. Todos os participantes — Gratuitos e Pro — estão limitados a uma (1) participação por Concurso e são avaliados pelos mesmos critérios."
+  },
+  "s6": {
+    "heading": "6. REQUISITOS DE PARTICIPAÇÃO E PADRÕES DE CONTEÚDO",
+    "p1": "Todas as participações devem:",
+    "a": "(a) Ser seu próprio trabalho original. Você deve possuir todos os direitos sobre o conteúdo enviado.",
+    "b": "(b) Não conter nudez, conteúdo sexual explícito, violência gráfica ou qualquer conteúdo que viole nossas Diretrizes da Comunidade.",
+    "c": "(c) Não infringir direitos autorais, marcas comerciais ou direitos de propriedade intelectual de terceiros.",
+    "d": "(d) Não incluir conteúdo criado principalmente com o auxílio de ferramentas de geração de imagens ou vídeos por IA, a menos que o Concurso específico permita explicitamente trabalhos assistidos por IA.",
+    "e": "(e) Ser enviadas antes do prazo do Concurso.",
+    "reserve": "A Spektt reserva-se o direito de desqualificar qualquer participação que viole esses padrões sem aviso prévio."
+  },
+  "s7": {
+    "heading": "7. AVALIAÇÃO E SELEÇÃO DE VENCEDORES",
+    "p1": "Os vencedores são determinados por um ou mais dos seguintes métodos, conforme especificado em cada anúncio de Concurso:",
+    "communityLabel": "(a) Votação comunitária",
+    "communityText": "Os usuários cadastrados da Spektt votam uma vez por Concurso. Os votos são registrados e verificados. Manipulação de votos, atividade de bots ou votação coordenada inautêntica resultará na desqualificação imediata da participação beneficiada e na suspensão das contas infratoras.",
+    "judgeLabel": "(b) Pontuação dos juízes",
+    "judgeText": "Juízes selecionados avaliam as participações com base em critérios definidos (p. ex. criatividade, qualidade técnica, alinhamento com o tema). As pontuações dos juízes são definitivas.",
+    "combinedLabel": "(c) Combinado",
+    "combinedText": "Uma combinação ponderada de votos comunitários e pontuações de juízes, com a ponderação indicada no anúncio do Concurso.",
+    "tie": "Em caso de empate, vence a participação enviada primeiro.",
+    "odds": "As chances de ganhar dependem do número total de participações elegíveis recebidas."
+  },
+  "s8": {
+    "heading": "8. PRÊMIOS",
+    "pulseLabel": "(a) Concursos Pulse:",
+    "pulseText": "Os vencedores recebem prêmios digitais, incluindo emblemas, pontos XP, medalhas e reconhecimento no perfil. Sem valor monetário.",
+    "premiumLabel": "(b) Concursos Premium:",
+    "premiumText": "Os valores exatos dos prêmios em Naira nigeriana (₦) são indicados em cada anúncio individual de Concurso. Estrutura aproximada de prêmios para um Concurso Premium padrão:",
+    "prizes": ["1º lugar: conforme indicado no anúncio do Concurso", "2º lugar: conforme indicado no anúncio do Concurso", "3º lugar: conforme indicado no anúncio do Concurso"],
+    "nonTransfer": "Os prêmios não são transferíveis. Nenhuma substituição em dinheiro ou troca de prêmios é permitida, exceto a critério exclusivo da Spektt. A Spektt não é responsável por qualquer falha no recebimento de prêmios devido a informações de contato ou dados bancários desatualizados fornecidos pelo vencedor."
+  },
+  "s9": {
+    "heading": "9. NOTIFICAÇÃO DE VENCEDORES E RESGATE DE PRÊMIOS (CONCURSOS PREMIUM)",
+    "a": "(a) Os vencedores serão anunciados na Plataforma e notificados por meio de notificação no aplicativo e do endereço de e-mail registrado em sua conta dentro de 48 horas após o encerramento do período de avaliação.",
+    "bBefore": "(b) Os vencedores têm",
+    "bDays": "QUATORZE (14) DIAS CORRIDOS",
+    "bAfter": "a partir da data de notificação para responder e fornecer as informações necessárias (nome legal completo, dados bancários, identificação fiscal — ver Seção 10).",
+    "c": "(c) A falta de resposta em 14 dias, a falta de documentação necessária ou a inelegibilidade do vencedor original resultará na perda do prêmio. Nesses casos, o próximo participante elegível mais bem classificado será selecionado como vencedor alternativo, que também terá 14 dias para resgatar.",
+    "d": "(d) Se nenhum vencedor elegível resgatar o prêmio dentro de 60 dias do anúncio original, o prêmio será doado a uma instituição de caridade registrada a critério da Spektt."
+  },
+  "s10": {
+    "heading": "10. CONFORMIDADE FISCAL (CONCURSOS PREMIUM)",
+    "nigeriaLabel": "(a) Nigéria:",
+    "nigeriaText": "Os prêmios em dinheiro estão sujeitos à retenção na fonte de acordo com a legislação fiscal nigeriana. A Spektt reterá 10% do valor bruto do prêmio e o remeterá ao Serviço Federal de Receita Interna (FIRS) em nome do vencedor. Os vencedores receberão um prêmio líquido (valor bruto menos 10% de retenção). Um Certificado de Regularidade Fiscal será emitido ao vencedor mediante solicitação.",
+    "intlLabel": "(b) Vencedores internacionais:",
+    "intlText": "Vencedores fora da Nigéria são os únicos responsáveis por declarar e pagar todos os impostos aplicáveis em sua jurisdição. Ao aceitar um prêmio, você confirma que compreende e aceita essa responsabilidade.",
+    "request": "(c) A Spektt reserva-se o direito de solicitar um Número de Identificação Fiscal (TIN), Número de Identificação Nacional (NIN) ou documento equivalente antes de liberar qualquer prêmio em dinheiro."
+  },
+  "s11": {
+    "heading": "11. LICENÇA DE PARTICIPAÇÃO",
+    "p1": "Ao enviar uma participação, você concede à Spektt uma licença não exclusiva, livre de royalties e mundial para exibir, reproduzir e promover sua participação na Plataforma, em nosso site e em nossos materiais de marketing com o objetivo de promover o Concurso e a Plataforma. Você mantém a plena propriedade de seu trabalho."
+  },
+  "s12": {
+    "heading": "12. DESQUALIFICAÇÃO",
+    "p1": "A Spektt reserva-se o direito de desqualificar qualquer participante que:",
+    "items": [
+      "Envie trabalho que não possui ou sobre o qual não tem direitos",
+      "Pratique manipulação de votos ou qualquer forma de trapaça",
+      "Viole estas Regras Oficiais ou nossas Diretrizes da Comunidade",
+      "Forneça informações falsas ou enganosas durante o registro ou o processo de resgate",
+      "Tenha sido previamente banido da Plataforma"
+    ],
+    "final": "As decisões de desqualificação são definitivas."
+  },
+  "s13": {
+    "heading": "13. MODIFICAÇÕES E CANCELAMENTO DE CONCURSOS",
+    "p1": "A Spektt reserva-se o direito de cancelar, suspender ou modificar qualquer Concurso a qualquer momento se fraude, falha técnica ou qualquer outro evento além de nosso controle razoável comprometer a integridade do Concurso, conforme determinado pela Spektt a seu exclusivo critério. Em caso de cancelamento, nenhum prêmio será concedido."
+  },
+  "s14": {
+    "heading": "14. DISPUTAS",
+    "p1Before": "Qualquer disputa sobre estas Regras Oficiais, a realização de um Concurso ou a seleção de vencedores deve ser submetida por escrito a",
+    "p1After": "dentro de SETE (7) DIAS após o anúncio do vencedor, incluindo:",
+    "items": [
+      "Seu nome completo e endereço de e-mail cadastrado",
+      "O Concurso específico em questão",
+      "Uma descrição clara de sua reclamação",
+      "Qualquer evidência de suporte (capturas de tela, registros de data e hora)"
+    ],
+    "response": "Investigaremos e responderemos dentro de 14 dias úteis. Nossa determinação é final e vinculante para todas as partes.",
+    "waiver": "AO PARTICIPAR DE UM CONCURSO, VOCÊ RENUNCIA AO SEU DIREITO A UM JULGAMENTO POR JÚRI E CONCORDA QUE TODAS AS DISPUTAS SERÃO RESOLVIDAS POR ARBITRAGEM VINCULANTE EM LAGOS, NIGÉRIA, DE FORMA INDIVIDUAL. VOCÊ RENUNCIA AO SEU DIREITO DE PARTICIPAR DE QUALQUER PROCESSO DE AÇÃO COLETIVA."
+  },
+  "s15": {
+    "heading": "15. LEI APLICÁVEL",
+    "p1": "Estas Regras Oficiais são regidas pelas leis da República Federal da Nigéria. Qualquer ação legal relacionada a estas Regras ou a qualquer Concurso deve ser ajuizada exclusivamente nos tribunais do Estado de Lagos, Nigéria."
+  },
+  "s16": {
+    "heading": "16. PRIVACIDADE",
+    "p1Before": "As informações coletadas dos participantes são usadas exclusivamente para administração do Concurso e entrega de prêmios, e são tratadas de acordo com nossa",
+    "p1Link": "Política de Privacidade",
+    "p1After": "."
+  },
+  "s17": {
+    "heading": "17. LIMITAÇÃO DE RESPONSABILIDADE",
+    "p1": "NA EXTENSÃO MÁXIMA PERMITIDA POR LEI, A SPEKTT E SUAS AFILIADAS, EXECUTIVOS, FUNCIONÁRIOS E AGENTES NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS OU CONSEQUENTES DECORRENTES DA PARTICIPAÇÃO EM QUALQUER CONCURSO OU ACEITAÇÃO DE QUALQUER PRÊMIO."
+  },
+  "s18": {
+    "heading": "18. CONTATO",
+    "p1": "Para perguntas sobre estas Regras Oficiais ou qualquer Concurso:",
+    "companyLabel": "Empresa:",
+    "company": "Spektt",
+    "emailLabel": "E-mail:",
+    "websiteLabel": "Site:",
+    "copyright": "© 2026 Spektt. Todos os direitos reservados.",
+    "updated": "Última atualização: maio de 2026"
+  }
+}

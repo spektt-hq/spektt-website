@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'Spektt-Bold';
+  src: url('/fonts/Cre8ive-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spektt-Extrabold';
+  src: url('/fonts/Cre8ive-Extrabold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spektt-Medium';
+  src: url('/fonts/Cre8ive-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spektt-Regular';
+  src: url('/fonts/Cre8ive-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spektt-Light';
+  src: url('/fonts/Cre8ive-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spektt-Italic';
+  src: url('/fonts/Cre8ive-RegularItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Medium';
+  src: url('/fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+}
+
+/* Tailwind Theme */
+@theme {
+  /* Font Families */
+  --font-extraBold: 'Spektt-Extrabold', 'sans-serif';
+  --font-bold: 'Spektt-Bold', 'sans-serif';
+  --font-medium: 'Spektt-Medium', 'sans-serif';
+  --font-regular: 'Spektt-Regular', 'sans-serif';
+  --font-light: 'Spektt-Light', 'sans-serif';
+  --font-italic: 'Spektt-Italic', 'sans-serif';
+  --font-fairPlay-Medium: 'PlayfairDisplay-Medium', 'sans-serif';
+
+  /* Custom Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  /* Spektt Brand Colors */
+  --color-warmBlue: #0e2439;
+  --color-lightBlue: #0496ff;
+  --color-dark: #0a1929;
+  --color-textLighter: #9ca3af;
+  --color-white-50: #d9ecff;
+  --color-blue-50: #839cb5;
+  --color-blue-100: #2d2d38;
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .container {
+    @apply mx-auto w-full max-w-7xl px-4 md:px-8;
+  }
+  .slide {
+    @apply fixed;
+  }
+  .privacy-policy-text {
+    @apply text-textLighter font-regular text-sm;
+  }
+  .privacy-policy-header {
+    @apply text-white font-medium;
+  }
+  .scroll-top {
+    @apply size-12.5 cursor-pointer text-white z-999 fixed right-2.5 bottom-24 rounded-full bg-warmBlue border-2 border-lightBlue flex justify-center items-center text-2xl transition-all duration-250 ease-in-out;
+  }
+  .navbar-links {
+    @apply flex flex-col bg-warmBlue fixed top-0 left-0 h-screen w-64 z-[12000] transition-all duration-400 ease-in-out p-5 lg:hidden;
+  }
+  .mobile-btn-toggle {
+    @apply cursor-pointer z-1400 flex-[0.1] mt-1 flex flex-col justify-center items-center gap-1 lg:hidden;
+  }
+  .header-scroll {
+    @apply border-b-0 fixed bg-warmBlue;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
+  }
+}
+
+/* Page Transition Animations */
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0e2439;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0e2439;
+  transform-origin: top;
+}
+
+/* Smooth anchor scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base Body Styles */
+body {
+  font-family: 'Spektt-Regular', sans-serif;
+  background-color: #0e2439;
+  color: #ffffff;
+}

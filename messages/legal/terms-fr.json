@@ -1,0 +1,373 @@
+{
+  "pageTitle": "Conditions Générales",
+  "effectiveDate": "Date d'entrée en vigueur : May 26th, 2026",
+  "lastUpdated": "Dernière mise à jour : May 26th, 2026",
+  "intro": "Les présentes Conditions Générales (\"Conditions\") régissent votre utilisation de l'application mobile et du site web Spektt à l'adresse spektt.com (\"Plateforme\", \"Service\", \"Application\"), exploités par Axlume Tech Limited (\"Spektt\", \"nous\", \"notre\", \"nos\"), une société enregistrée auprès de la Corporate Affairs Commission (CAC) de la République fédérale du Nigeria. En créant un compte ou en utilisant le Service, vous acceptez pleinement les présentes Conditions. Si vous n'acceptez pas ces Conditions, vous devez cesser d'utiliser le Service et supprimer votre compte.",
+  "toc": {
+    "title": "Table des matières",
+    "items": [
+      "1. Présentation du Service",
+      "2. Conditions d'éligibilité et restrictions d'âge",
+      "3. Création de compte et sécurité",
+      "4. Contenu que vous téléchargez",
+      "5. Conduite interdite",
+      "6. Showdowns",
+      "7. Licences de contenu et messages privés",
+      "8. Messagerie directe",
+      "9. Protection de l'enfance et CSAM",
+      "10. Clusters",
+      "11. Contrôles de blocage et de sécurité",
+      "12. Gamification (XP, niveaux et badges)",
+      "13. Abonnement Spektt Pro",
+      "14. Propriété intellectuelle et marques déposées",
+      "15. Violation des droits d'auteur",
+      "16. Limitation de responsabilité",
+      "17. Exonération de responsabilité et indemnisation",
+      "18. Résiliation de compte",
+      "19. Conditions générales",
+      "20. Contact"
+    ]
+  },
+  "s1": {
+    "heading": "1. PRÉSENTATION DU SERVICE",
+    "s1_1_heading": "1.1 Ce qu'est Spektt",
+    "s1_1_body": "Spektt est une plateforme communautaire créative conçue pour les photographes, vidéastes, animateurs 3D, ingénieurs du son, artistes numériques et autres créatifs. La plateforme permet aux utilisateurs enregistrés (\"Créatifs\", \"vous\", \"votre\") de télécharger et partager des œuvres créatives, participer à des Showdowns, développer une audience, gagner des XP et des badges, communiquer avec d'autres créatifs et organiser ou rejoindre des communautés créatives appelées Clusters.",
+    "s1_2_heading": "1.2 Services fournis",
+    "s1_2_body": "Nos services incluent des outils de téléchargement et d'affichage de contenu, des compétitions créatives (Showdowns), des groupes communautaires (Clusters), la messagerie directe, la gamification (XP, niveaux, badges, classements) et des fonctionnalités d'abonnement payantes optionnelles (Spektt Pro).",
+    "s1_3_heading": "1.3 Acceptation des Conditions",
+    "s1_3_body": "En téléchargeant, installant ou utilisant l'Application, vous confirmez avoir lu, compris et accepté d'être lié par les présentes Conditions et notre Politique de confidentialité. Si vous utilisez le Service au nom d'une organisation, vous déclarez avoir l'autorité nécessaire pour engager cette organisation aux présentes Conditions.",
+    "s1_4_heading": "1.4 Contenu et communications — Définitions",
+    "s1_4_visual": "\"Contenu visuel\" désigne les photos et vidéos que vous téléchargez sur la plateforme.",
+    "s1_4_public": "\"Communications publiques\" désigne les commentaires, légendes, descriptions, tags, publications de Cluster et autres contenus que vous publiez publiquement sur la plateforme.",
+    "s1_4_private": "\"Messages privés\" désigne les messages directs envoyés entre vous et un autre utilisateur via la fonctionnalité de messagerie Spektt. Les Messages privés sont explicitement exclus de toutes les licences de contenu accordées dans les présentes Conditions — voir la Section 7 pour plus de détails.",
+    "s1_5_heading": "1.5 Confidentialité",
+    "s1_5_body": "Notre Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles et fait partie intégrante des présentes Conditions."
+  },
+  "s2": {
+    "heading": "2. CONDITIONS D'ÉLIGIBILITÉ ET RESTRICTIONS D'ÂGE",
+    "s2_1_heading": "2.1 Âge minimum",
+    "s2_1_body": "Vous devez avoir au moins 13 ans pour utiliser Spektt. En créant un compte, vous confirmez satisfaire à cette exigence. Si vous avez moins de 13 ans, vous ne devez pas utiliser le Service.",
+    "s2_2_heading": "2.2 Mineurs (moins de 18 ans)",
+    "s2_2_body": "Les utilisateurs de moins de 18 ans sont considérés comme mineurs sur Spektt. Les mineurs peuvent utiliser la plateforme avec le consentement d'un parent ou tuteur légal. Le parent ou tuteur accepte la responsabilité de l'utilisation du Service par le mineur.",
+    "tableHeadFeature": "Fonctionnalité",
+    "tableHeadAge": "Âge minimum",
+    "tableRows": [
+      ["Création de compte, fil d'actualité, téléchargements, profils", "13+"],
+      ["Clusters", "13+"],
+      [
+        "Messagerie directe",
+        "18+ (les mineurs ne peuvent ni envoyer ni recevoir de messages directs)"
+      ],
+      [
+        "Participation aux Showdowns (tout type)",
+        "18+ (les mineurs ne peuvent participer à aucun Showdown)"
+      ],
+      [
+        "Abonnement Spektt Pro",
+        "13+ (Apple/Google gèrent la vérification d'âge lors de l'achat)"
+      ],
+      [
+        "Prix en espèces Premium Showdown",
+        "18+ et titulaire d'un compte bancaire nigérian"
+      ]
+    ],
+    "s2_3_heading": "2.3 Informations exactes",
+    "s2_3_body": "Vous devez fournir des informations exactes lors de la création de votre compte, y compris votre véritable date de naissance. Fournir une fausse date de naissance pour contourner les restrictions d'âge constitue une violation des présentes Conditions et peut entraîner la résiliation permanente du compte."
+  },
+  "s3": {
+    "heading": "3. CRÉATION DE COMPTE ET SÉCURITÉ",
+    "s3_1_heading": "3.1 Création de compte",
+    "s3_1_body": "Pour utiliser Spektt, vous devez vous inscrire avec un nom complet valide, un nom d'utilisateur, une adresse e-mail et un mot de passe. Toutes les informations doivent être exactes et tenues à jour.",
+    "s3_2_heading": "3.2 Nom d'utilisateur et identité",
+    "s3_2_body": "Vous ne pouvez pas utiliser le nom ou l'adresse e-mail d'une autre personne sans autorisation. Les noms d'utilisateur ne doivent pas être offensants, vulgaires ou destinés à usurper l'identité d'une autre personne ou marque.",
+    "s3_3_heading": "3.3 Sécurité du compte",
+    "s3_3_body": "Vous êtes responsable du maintien de la confidentialité de votre mot de passe et de toutes les activités effectuées sous votre compte. Informez-nous immédiatement à support@spektt.com si vous suspectez un accès non autorisé à votre compte.",
+    "s3_4_heading": "3.4 Un compte par personne",
+    "s3_4_body": "Chaque personne ne peut détenir qu'un seul compte Spektt. La création de plusieurs comptes pour manipuler les votes, contourner des suspensions ou éviter toute restriction de la plateforme constitue une violation des présentes Conditions et peut entraîner des bannissements permanents de tous les comptes associés."
+  },
+  "s4": {
+    "heading": "4. CONTENU QUE VOUS TÉLÉCHARGEZ",
+    "s4_1_heading": "4.1 Ce que vous pouvez télécharger",
+    "s4_1_body": "Chaque publication prend en charge un seul média — une seule photo ou une seule vidéo — sélectionné depuis votre galerie. Vous devez détenir les droits sur tout ce que vous téléchargez. Le contenu mettant en scène des personnes identifiables nécessite leur consentement.",
+    "s4_2_heading": "4.2 Propriété du contenu",
+    "s4_2_body": "Vous conservez l'entière propriété des droits d'auteur sur tout le Contenu visuel et les Communications publiques que vous téléchargez. Spektt ne revendique aucun droit de propriété sur votre contenu.",
+    "s4_3_heading": "4.3 Licence accordée à Spektt (contenu public)",
+    "s4_3_body": "En téléchargeant du Contenu visuel ou en publiant des Communications publiques sur Spektt, vous accordez à Axlume Tech Limited une licence non exclusive, mondiale et gratuite pour utiliser, reproduire, afficher, distribuer et promouvoir ce contenu dans le but d'exploiter et de commercialiser le Service. Cette licence s'applique uniquement à votre contenu public, ne s'applique pas aux Messages privés (voir Section 7.3) et prend fin lorsque vous supprimez le contenu ou votre compte, sous réserve de délais techniques raisonnables de propagation et des obligations légales de conservation.",
+    "s4_4_heading": "4.4 Vos garanties",
+    "s4_4_intro": "En téléchargeant du contenu, vous garantissez que :",
+    "s4_4_items": [
+      "Vous détenez ou disposez des droits, licences et autorisations nécessaires pour ce contenu",
+      "Le contenu ne porte atteinte à aucun droit de propriété intellectuelle, de confidentialité ou autre droit de tiers",
+      "Vous avez obtenu toutes les autorisations nécessaires des modèles ou des propriétaires",
+      "Le contenu respecte les présentes Conditions et nos Directives communautaires"
+    ],
+    "s4_5_heading": "4.5 Limites de téléchargement par niveau",
+    "s4_5_body": "Les limites de téléchargement varient selon votre niveau XP et votre statut Pro. Les limites des comptes gratuits augmentent à mesure que vous progressez dans les niveaux (Newcomer, Emerging, Rising Star, Established, Verified, Legendary). Les utilisateurs Spektt Pro bénéficient de limites considérablement plus élevées. Les limites actuelles sont affichées dans l'Application. Spektt se réserve le droit d'ajuster les limites à tout moment."
+  },
+  "s5": {
+    "heading": "5. CONDUITE INTERDITE",
+    "intro": "Vous ne devez pas utiliser Spektt pour :",
+    "content_heading": "Violations de contenu",
+    "content_items": [
+      "Télécharger du contenu que vous ne possédez pas ou pour lequel vous n'avez pas de droits",
+      "Publier du contenu explicite, pornographique ou à caractère sexuellement suggestif",
+      "Publier du contenu violent, graphique ou choquant",
+      "Publier du contenu haineux, discriminatoire ou abusif basé sur la race, l'origine ethnique, la religion, le genre, l'orientation sexuelle, le handicap ou l'origine nationale",
+      "Publier du contenu qui promeut ou glorifie la violence, l'automutilation ou des activités illégales",
+      "Usurper l'identité d'une personne, d'une marque ou d'une organisation",
+      "Télécharger du contenu généré par IA sans le divulguer clairement comme tel",
+      "Publier du contenu avec filigrane provenant d'autres plateformes"
+    ],
+    "platform_heading": "Manipulation de la plateforme",
+    "platform_items": [
+      "Créer plusieurs comptes pour manipuler les votes, les résultats de concours ou les métriques de la plateforme",
+      "Se coordonner avec d'autres pour gonfler artificiellement les votes (\"vote rings\")",
+      "Utiliser des bots, scripts ou outils automatisés pour interagir avec la plateforme",
+      "Tenter d'accéder au compte ou aux données privées d'un autre utilisateur",
+      "Procéder à de l'ingénierie inverse, modifier ou exploiter le logiciel du Service",
+      "Extraire, scraper ou collecter systématiquement du contenu sans autorisation",
+      "Tenter de contourner les fonctionnalités de sécurité, les limites de téléchargement ou les restrictions d'âge"
+    ],
+    "messaging_heading": "Violations de messagerie",
+    "messaging_items": [
+      "Envoyer des messages harcelants, menaçants ou abusifs",
+      "Envoyer du contenu promotionnel non sollicité ou du spam",
+      "Partager du contenu explicite ou adulte via les messages privés",
+      "Solliciter des mineurs à quelque fin que ce soit via les messages",
+      "Tenter de contacter un utilisateur ayant refusé votre demande de message via des comptes alternatifs",
+      "Partager les informations privées d'une autre personne sans son consentement via les messages"
+    ],
+    "general_heading": "Général",
+    "general_items": [
+      "Utiliser la plateforme à des fins illégales",
+      "Vendre, transférer ou céder votre compte à une autre personne",
+      "Utiliser les marques déposées de Spektt dans des noms commerciaux, logos ou produits sans autorisation écrite"
+    ]
+  },
+  "s6": {
+    "heading": "6. SHOWDOWNS",
+    "s6_1_heading": "6.1 Deux types de Showdowns",
+    "s6_1_body": "Spektt organise deux types de compétitions créatives : les Pulse Showdowns — 100% votés par les fans avec des récompenses XP et badges ; et les Premium Showdowns — un système de jugement en deux étapes combinant les votes des fans (50%) et les notes des juges experts (50%), avec des prix en argent réel versés sur un compte bancaire nigérian.",
+    "s6_2_heading": "6.2 Éligibilité aux Showdowns",
+    "s6_2_body": "Pour participer à tout Showdown, vous devez avoir 18 ans ou plus, ne pas être situé au Qatar, aux Émirats arabes unis ou en Arabie saoudite, et ne pas être désigné comme juge pour ce Showdown. Pour les Premium Showdowns (prix en espèces), vous devez également être titulaire d'un compte bancaire nigérian.",
+    "s6_3_heading": "6.3 Règles de participation",
+    "s6_3_items": [
+      "Une participation par utilisateur et par Showdown",
+      "Vous pouvez soumettre un nouveau contenu ou sélectionner une publication existante de votre profil",
+      "Votre participation doit être une œuvre originale que vous possédez et correspondant au brief du Showdown",
+      "Les participations ne peuvent pas être retirées une fois la phase de vote commencée"
+    ],
+    "s6_4_heading": "6.4 Affichage et randomisation des participations",
+    "s6_4_body": "Les participations sont affichées dans un ordre aléatoire unique pour chaque utilisateur, déterminé par une combinaison de votre ID utilisateur et de l'ID du Showdown. Ceci est intentionnel — conçu pour assurer une visibilité équitable pour toutes les participations, indépendamment du nombre d'abonnés. Ce n'est pas un dysfonctionnement.",
+    "s6_5_heading": "6.5 Votes",
+    "s6_5_items": [
+      "Chaque utilisateur Spektt enregistré peut voter une fois par Showdown",
+      "Vous pouvez voter dans plusieurs Showdowns, jusqu'à une limite quotidienne de 20 votes au total",
+      "Le nombre de votes est masqué jusqu'à la fin du Showdown",
+      "Toute manipulation de votes entraîne une disqualification immédiate et des sanctions sur le compte"
+    ],
+    "s6_6_heading": "6.6 Détermination des gagnants",
+    "s6_6_pulse": "Pulse : les participations sont classées par nombre de votes. Les égalités sont départagées par les vues, puis par l'heure de soumission. Les 15 premiers sont affichés.",
+    "s6_6_premium": "Premium : les juges évaluent les 20 meilleures participations selon les votes des fans (0–10 par critère). Score final = (Score de vote normalisé × 50%) + (Score moyen des juges × 50%). Les 15 premiers sont affichés.",
+    "s6_7_heading": "6.7 Décisions de jugement",
+    "s6_7_body": "Les décisions et notes des juges sont finales. Spektt n'interfère pas dans les évaluations individuelles. Les violations avérées des règles (manipulation de votes, plagiat, inéligibilité) peuvent être signalées via la fonction de signalement ou à showdowns@spektt.com. Les désaccords avec les scores ou votes ne constituent pas un motif de contestation.",
+    "s6_8_heading": "6.8 Récompenses — Pulse Showdowns",
+    "s6_8_body": "Bonus XP et badges de classement (or, argent, bronze). Ceux-ci n'ont aucune valeur monétaire et ne peuvent pas être échangés contre de l'argent.",
+    "s6_9_heading": "6.9 Récompenses — Premium Showdowns (Cash)",
+    "s6_9_intro": "Les prix en espèces sont attribués aux 1ère, 2ème et 3ème places. Les montants sont indiqués sur la page du Showdown.",
+    "s6_9_items": [
+      "Vous disposez de 14 jours à partir de l'annonce pour soumettre votre demande",
+      "Vous devez fournir le nom de votre banque, numéro de compte et nom du titulaire. L'identifiant fiscal est facultatif mais recommandé",
+      "Une retenue fiscale de 10% est appliquée conformément à la législation fiscale nigériane",
+      "Les prix sont versés uniquement sur des comptes bancaires nigérians (format NUBAN à 10 chiffres)",
+      "Si vous ne réclamez pas dans les 14 jours, votre prix est définitivement perdu — aucune exception"
+    ],
+    "s6_10_heading": "6.10 Nombre insuffisant de participations",
+    "s6_10_body": "Si un Showdown n'atteint pas le nombre minimum de participations (5 pour Pulse, 10 pour Premium) avant la clôture, il est fermé sans résultat et aucun prix n'est attribué.",
+    "s6_11_heading": "6.11 Showdowns annulés",
+    "s6_11_body": "Spektt se réserve le droit d'annuler tout Showdown à tout moment. En cas d'annulation, aucun prix n'est attribué et les participations ne donnent droit à aucune compensation."
+  },
+  "s7": {
+    "heading": "7. LICENCES DE CONTENU ET MESSAGES PRIVÉS",
+    "s7_1_heading": "7.1 Licence de contenu public",
+    "s7_1_body": "La licence que vous accordez à Spektt dans la Section 4.3 s'applique uniquement à votre contenu public — Contenu visuel et Communications publiques publiés sur la plateforme. En cas de suppression de compte, nous supprimerons votre contenu comme décrit dans la Politique de confidentialité, sous réserve de nos obligations légales de conservation.",
+    "s7_2_heading": "7.2 Licence des communications publiques",
+    "s7_2_body": "Vous accordez à Spektt le droit d'afficher et de distribuer vos Communications publiques (commentaires, légendes, publications de Cluster) dans le cadre de l'exploitation du Service.",
+    "s7_2_important_label": "IMPORTANT — Les messages privés sont exclus :",
+    "s7_2_important_body": "Les messages directs privés ne sont couverts par aucune licence dans les présentes Conditions. Spektt ne revendique aucun droit d'utiliser, reproduire, publier ou commercialiser le contenu de vos messages privés, sauf pour les transmettre au destinataire prévu et appliquer nos politiques de sécurité lorsqu'un message est signalé.",
+    "s7_3_heading": "7.3 Licence promotionnelle",
+    "s7_3_body": "Vous autorisez Spektt à utiliser votre contenu visuel public et les informations de votre profil à des fins promotionnelles sans approbation ou compensation supplémentaire. Spektt fera des efforts raisonnables pour vous créditer. Cette licence ne s'applique pas aux messages privés."
+  },
+  "s8": {
+    "heading": "8. MESSAGERIE DIRECTE",
+    "s8_1_heading": "8.1 Système de demande de message",
+    "s8_1_body": "Pour commencer une conversation, vous devez envoyer une demande de message. Le destinataire peut accepter ou refuser. La conversation complète n'est possible qu'après acceptation.",
+    "s8_2_heading": "8.2 Demandes refusées",
+    "s8_2_body": "Si votre demande est refusée, vous ne pouvez pas recontacter cet utilisateur pendant 30 jours via la plateforme. Contourner cette règle via d'autres comptes constitue une violation pouvant entraîner la suppression permanente du compte.",
+    "s8_3_heading": "8.3 Conversations acceptées",
+    "s8_3_body": "Une fois acceptée, la conversation est libre entre les deux parties, sous réserve des présentes Conditions. Chaque utilisateur peut bloquer l'autre à tout moment.",
+    "s8_4_heading": "8.4 Comportements interdits en messagerie",
+    "s8_4_items": [
+      "Contenu sexuel, explicite ou adulte de toute nature",
+      "Harcèlement, menaces, intimidation ou discours haineux",
+      "Contenu promotionnel non sollicité ou spam",
+      "Partage d'informations personnelles de tiers sans consentement",
+      "Toute violation de la loi applicable, y compris les lois de protection des enfants",
+      "Contourner le système de demande de message avec plusieurs comptes",
+      "Sollicitation de mineurs à toute fin",
+      "Coordination d'activités illégales"
+    ],
+    "s8_5_heading": "8.5 Modération",
+    "s8_5_body": "Spektt ne lit pas proactivement les messages privés. Nous ne les examinons que lorsqu'un message est signalé par un utilisateur.",
+    "s8_6_heading": "8.6 Suppression des messages",
+    "s8_6_body": "Les messages supprimés sont remplacés par \"This message was deleted\" pour les deux parties et supprimés définitivement de nos serveurs sous 30 jours. La suppression d'une conversation la retire immédiatement de votre vue et la supprime définitivement sous 30 jours.",
+    "s8_7_heading": "8.7 Résiliation et messages",
+    "s8_7_body": "En cas de suppression de compte, vos conversations sont immédiatement retirées de votre vue. Les messages des comptes bannis peuvent être conservés comme preuve dans les enquêtes de modération."
+  },
+  "s9": {
+    "heading": "9. PROTECTION DE L'ENFANCE ET CSAM",
+    "p1": "Spektt applique une politique de tolérance zéro concernant le matériel d'abus sexuel sur mineurs (CSAM) ou tout contenu exploitant, mettant en danger ou sollicitant des mineurs. Cela s'applique à toutes les parties de la plateforme.",
+    "p2": "Tout utilisateur impliqué sera immédiatement et définitivement banni et signalé aux autorités compétentes, y compris NAPTIP et NCMEC lorsque applicable.",
+    "p3": "Si vous rencontrez un tel contenu, signalez-le immédiatement via l'application ou à legal@spektt.com. N'interagissez pas avec ce contenu."
+  },
+  "s10": {
+    "heading": "10. CLUSTERS",
+    "s10_1_heading": "10.1 Ce que sont les Clusters",
+    "s10_1_body": "Les Clusters sont des communautés créatives thématiques sur Spektt avec leur propre fil, Showdowns et modération. Tous les Clusters sont ouverts — tout utilisateur peut les rejoindre.",
+    "s10_2_heading": "10.2 Création d'un Cluster",
+    "s10_2_body": "Créer un Cluster nécessite un abonnement Spektt Pro ou d'atteindre le niveau 51 (Legendary). En créant un Cluster, vous en devenez administrateur et acceptez la responsabilité de sa modération.",
+    "s10_3_heading": "10.3 Responsabilités de l'administrateur",
+    "s10_3_body": "Un administrateur peut gérer les Showdowns, supprimer des publications, bannir des membres, nommer des modérateurs, épingler des posts, archiver le Cluster et transférer les droits. Spektt peut intervenir en cas de violation globale.",
+    "s10_4_heading": "10.4 Inactivité de l'administrateur",
+    "s10_4_body": "Après 30 jours d'inactivité, un avertissement est envoyé. Après 45 jours, les droits sont transférés automatiquement.",
+    "s10_5_heading": "10.5 Showdowns de Cluster",
+    "s10_5_body": "Les Showdowns de Cluster suivent les mêmes règles que les Showdowns globaux (voir Section 6)."
+  },
+  "s11": {
+    "heading": "11. CONTRÔLES DE BLOCAGE ET DE SÉCURITÉ",
+    "p1": "Les utilisateurs peuvent bloquer d'autres utilisateurs à tout moment. Le blocage empêche l'utilisateur bloqué de vous envoyer des messages ou des demandes de message, limite sa capacité à interagir avec votre contenu, ne l'informe pas qu'il a été bloqué, et peut être annulé par l'utilisateur qui a bloqué à tout moment.",
+    "p2": "Spektt ne médiatise pas les litiges liés au blocage. Les utilisateurs bloqués qui estiment qu'un blocage a été appliqué par erreur doivent contacter support@spektt.com."
+  },
+  "s12": {
+    "heading": "12. GAMIFICATION (XP, NIVEAUX ET BADGES)",
+    "s12_1_heading": "12.1 Nature des fonctionnalités de gamification",
+    "s12_1_body": "Les XP, niveaux, tiers, badges et positions du classement n'ont aucune valeur monétaire et ne peuvent pas être échangés contre de l'argent, transférés ou retirés de la plateforme.",
+    "s12_2_heading": "12.2 Obtention des XP",
+    "s12_2_body": "Les XP sont obtenus via l'activité sur la plateforme, notamment les inscriptions, vues de contenu, likes reçus, votes de Showdown, participations aux Showdowns, classements, adhésion aux Clusters, création de Clusters et croissance de la communauté des Clusters. Les utilisateurs Spektt Pro reçoivent un bonus de 25% XP sur toutes les activités.",
+    "s12_3_heading": "12.3 Droits de Spektt sur la gamification",
+    "s12_3_body": "Spektt se réserve le droit de modifier les valeurs des XP, les critères des badges, les seuils de niveaux, la méthodologie du classement ou tout autre aspect du système de gamification à tout moment sans préavis ni compensation. Les XP accumulés et les badges obtenus ne seront pas supprimés rétroactivement sauf en cas de violation du compte."
+  },
+  "s13": {
+    "heading": "13. ABONNEMENT SPEKTT PRO",
+    "s13_1_heading": "13.1 Ce qu'est Spektt Pro",
+    "s13_1_body": "Spektt Pro est un abonnement payant optionnel qui débloque des limites de téléchargement plus élevées, des Spotlights et Collections supplémentaires, un badge Pro, un bonus de 25% XP et d'autres avantages. Les prix actuels sont affichés dans l'application.",
+    "s13_2_heading": "13.2 Fonctionnement des paiements",
+    "s13_2_body": "Tous les paiements sont traités entièrement par Apple (App Store) ou Google (Google Play). Spektt ne reçoit ni ne stocke vos informations de carte bancaire.",
+    "s13_3_heading": "13.3 Renouvellement de l'abonnement",
+    "s13_3_body": "Les abonnements se renouvellent automatiquement sauf annulation avant la date de renouvellement via les paramètres d'abonnement de votre appareil.",
+    "s13_4_heading": "13.4 Remboursements",
+    "s13_4_body": "Les demandes de remboursement sont gérées exclusivement par Apple ou Google. Spektt ne peut pas émettre de remboursements directement.",
+    "s13_5_heading": "13.5 Modifications du service",
+    "s13_5_body": "Spektt peut modifier, suspendre ou interrompre les fonctionnalités Spektt Pro à tout moment. Les changements importants seront communiqués via notification dans l'application ou par e-mail."
+  },
+  "s14": {
+    "heading": "14. PROPRIÉTÉ INTELLECTUELLE ET MARQUES",
+    "s14_1_heading": "14.1 Propriété de Spektt",
+    "s14_1_body": "Les marques Spektt — y compris \"Spektt\", \"spektt.com\" et les logos, designs et noms de services associés — sont la propriété de Axlume Tech Limited et sont protégés par la loi applicable. Vous ne pouvez pas utiliser les marques Spektt en relation avec un produit, service, nom commercial ou domaine sans notre autorisation écrite.",
+    "s14_2_heading": "14.2 Contenu de la plateforme",
+    "s14_2_body": "Tous les logiciels, designs, codes et contenus non générés par les utilisateurs sont la propriété de Axlume Tech Limited. Vous ne pouvez pas copier, modifier, distribuer ou créer des œuvres dérivées sans autorisation écrite."
+  },
+  "s15": {
+    "heading": "15. VIOLATION DES DROITS D'AUTEUR",
+    "s15_1_heading": "15.1 Politique",
+    "s15_1_body": "Spektt respecte les droits de propriété intellectuelle et supprimera les contenus enfreignant les droits et prendra des mesures contre les récidivistes.",
+    "s15_2_heading": "15.2 Signalement d'infraction",
+    "s15_2_intro": "Pour signaler un contenu que vous estimez violer vos droits d'auteur, envoyez un e-mail à legal@spektt.com avec :",
+    "s15_2_items": [
+      "Vos coordonnées",
+      "Une description de l'œuvre protégée et du contenu prétendument enfreignant (y compris son emplacement sur la plateforme)",
+      "Une déclaration de bonne foi selon laquelle l'utilisation n'est pas autorisée",
+      "Une déclaration, sous peine de parjure, que les informations sont exactes et que vous êtes le titulaire des droits ou autorisé à agir en son nom",
+      "Votre signature (électronique acceptée)"
+    ],
+    "s15_3_heading": "15.3 Contre-notification",
+    "s15_3_body": "Si vous pensez qu'un contenu a été supprimé par erreur, envoyez un e-mail à legal@spektt.com avec vos coordonnées, une description du contenu supprimé, une déclaration sous peine de parjure indiquant que la suppression était une erreur, et votre consentement à la juridiction de la République fédérale du Nigeria.",
+    "s15_4_heading": "15.4 Obligation de notification d'infraction",
+    "s15_4_body": "Si vous apprenez qu'un contenu que vous avez utilisé sur Spektt fait l'objet d'une réclamation pour violation, vous devez immédiatement cesser son utilisation et nous en informer à legal@spektt.com."
+  },
+  "s16": {
+    "heading": "16. LIMITATION DE RESPONSABILITÉ",
+    "s16_1_heading": "16.1 Service fourni \"en l'état\"",
+    "s16_1_body": "Le Service est fourni \"EN L'ÉTAT\" et \"SELON DISPONIBILITÉ\". Spektt ne fournit aucune garantie — expresse ou implicite — y compris les garanties de qualité marchande, d'adéquation à un usage particulier ou de non-contrefaçon.",
+    "s16_2_heading": "16.2 Ce dont nous ne sommes pas responsables",
+    "s16_2_items": [
+      "Erreurs ou interruptions du Service",
+      "Contenu publié par d'autres utilisateurs",
+      "Perte de données ou de contenu",
+      "Dommages indirects, accessoires, spéciaux ou consécutifs",
+      "Perte de profits ou interruption d'activité",
+      "Actions ou omissions de services tiers (Apple, Google, Firebase, Cloudflare, etc.)"
+    ],
+    "s16_3_heading": "16.3 Plafond de responsabilité",
+    "s16_3_body": "La responsabilité maximale de Spektt pour les dommages directs est limitée au total des frais d'abonnement Spektt Pro que vous avez payés au cours des 12 mois précédant la réclamation, le cas échéant.",
+    "s16_4_heading": "16.4 Exclusions",
+    "s16_4_body": "Les limitations ci-dessus ne s'appliquent pas aux responsabilités résultant de décès ou de blessures corporelles causées par notre négligence, ni aux dommages causés par une négligence grave ou une faute intentionnelle."
+  },
+  "s17": {
+    "heading": "17. EXONÉRATION DE RESPONSABILITÉ ET INDEMNISATION",
+    "s17_1_heading": "17.1 Exonération",
+    "s17_1_body": "Dans la mesure permise par la loi nigériane applicable, vous exonérez Axlume Tech Limited, ses administrateurs, employés, contractants et successeurs de toute réclamation résultant du comportement d'autres utilisateurs sur la plateforme.",
+    "s17_2_heading": "17.2 Vos obligations d'indemnisation",
+    "s17_2_intro": "Vous acceptez de défendre, indemniser et dégager de toute responsabilité Axlume Tech Limited contre toutes réclamations, dommages, pertes et dépenses (y compris les frais juridiques raisonnables) découlant de :",
+    "s17_2_items": [
+      "Votre violation des présentes Conditions",
+      "Le contenu que vous publiez sur la plateforme",
+      "Votre utilisation du Service",
+      "Toute violation des droits de tiers que vous causez"
+    ],
+    "s17_3_heading": "17.3 Droits de défense",
+    "s17_3_body": "Spektt peut, à ses propres frais, prendre en charge la défense de toute réclamation soumise à votre obligation d'indemnisation."
+  },
+  "s18": {
+    "heading": "18. RÉSILIATION DE COMPTE",
+    "s18_1_heading": "18.1 Résiliation par vous",
+    "s18_1_body": "Vous pouvez supprimer votre compte à tout moment depuis Paramètres → Supprimer le compte. La suppression déclenche une période de grâce de 30 jours durant laquelle votre compte est verrouillé mais pas définitivement supprimé. Après 30 jours, la suppression permanente commence.",
+    "s18_2_heading": "18.2 Résiliation par Spektt",
+    "s18_2_body": "Nous pouvons suspendre ou supprimer définitivement votre compte si vous violez ces Conditions, participez à une fraude ou à des abus, ou si nous estimons que votre présence est nuisible à d'autres utilisateurs ou à la communauté. Dans les cas graves (CSAM, menaces, manipulation coordonnée), la résiliation est immédiate et permanente sans préavis.",
+    "s18_3_heading": "18.3 Effets de la résiliation",
+    "s18_3_body": "Après résiliation, votre accès au Service cesse immédiatement. Les utilisateurs supprimés ne peuvent pas se réinscrire sans autorisation écrite expresse de Spektt."
+  },
+  "s19": {
+    "heading": "19. CONDITIONS GÉNÉRALES",
+    "s19_1_heading": "19.1 Modifications des Conditions",
+    "s19_1_body": "Nous pouvons mettre à jour ces Conditions à tout moment. Les modifications importantes seront communiquées via notification dans l'application ou par e-mail au moins 14 jours avant leur entrée en vigueur.",
+    "s19_2_heading": "19.2 Droit applicable",
+    "s19_2_body": "Les présentes Conditions sont régies par les lois de la République fédérale du Nigeria. Les litiges relèvent de la compétence exclusive des tribunaux nigérians.",
+    "s19_3_heading": "19.3 Divisibilité",
+    "s19_3_body": "Si une disposition est jugée invalide ou inapplicable, les autres dispositions restent pleinement en vigueur.",
+    "s19_4_heading": "19.4 Non-renonciation",
+    "s19_4_body": "Le fait pour Spektt de ne pas appliquer une disposition ne constitue pas une renonciation à son droit de l'appliquer ultérieurement.",
+    "s19_5_heading": "19.5 Cession",
+    "s19_5_body": "Spektt peut céder ou transférer ses droits et obligations dans le cadre d'une fusion, acquisition ou vente d'actifs. Vous ne pouvez pas céder vos droits sans notre consentement écrit.",
+    "s19_6_heading": "19.6 Force majeure",
+    "s19_6_body": "Spektt n'est pas responsable des retards ou défaillances causés par des événements indépendants de notre volonté, y compris les catastrophes naturelles, actions gouvernementales, défaillances d'infrastructure ou actions de tiers.",
+    "s19_7_heading": "19.7 Absence de mandat",
+    "s19_7_body": "Rien dans ces Conditions ne crée de partenariat, agence, relation d'emploi ou coentreprise entre vous et Axlume Tech Limited.",
+    "s19_8_heading": "19.8 Accord complet",
+    "s19_8_body": "Ces Conditions, ainsi que notre Politique de confidentialité, constituent l'intégralité de l'accord entre vous et Axlume Tech Limited concernant votre utilisation de Spektt.",
+    "s19_9_heading": "19.9 Modifications du service",
+    "s19_9_body": "Spektt peut modifier, suspendre ou interrompre toute partie du Service à tout moment. Nous ne sommes pas responsables de ces modifications ou interruptions.",
+    "s19_10_heading": "19.10 Stockage du contenu",
+    "s19_10_body": "Ne comptez pas uniquement sur Spektt comme sauvegarde de votre travail créatif. Conservez vos propres copies de tout contenu que vous téléchargez."
+  },
+  "s20": {
+    "heading": "20. CONTACT",
+    "intro": "Pour toute question, préoccupation, notification légale ou réclamation de droits d'auteur :",
+    "legal": "Juridique / Confidentialité : legal@spektt.com",
+    "support": "Support : support@spektt.com",
+    "showdowns": "Litiges Showdown : showdowns@spektt.com",
+    "website": "Site web : spektt.com/contact",
+    "company": "Société : Axlume Tech Limited, République fédérale du Nigeria",
+    "closing": "Merci de faire partie de la communauté Spektt."
+  }
+}

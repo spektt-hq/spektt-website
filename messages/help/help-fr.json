@@ -1,0 +1,467 @@
+{
+  "categories": [
+    {
+      "id": "getting-started",
+      "articles": [
+        {
+          "q": "Qu'est-ce que Spektt ?",
+          "a": "Spektt est une plateforme conçue pour les créatifs — photographes, vidéastes, animateurs 3D, ingénieurs du son, artistes numériques, et plus encore — pour partager leur travail, participer à des Showdowns, développer leur audience et être découverts. Que vous présentiez votre portfolio, participiez à des compétitions pour gagner des prix, ou trouviez votre communauté créative à travers des Clusters, Spektt est fait pour vous."
+        },
+        {
+          "q": "Comment créer un compte ?",
+          "a": "Téléchargez l'application Spektt depuis l'App Store (iOS) ou Google Play (Android). Ouvrez l'application et appuyez sur l'onglet \"Register\". Entrez votre nom complet, nom d'utilisateur, adresse e-mail et mot de passe, puis appuyez pour continuer. Vous recevrez un code à usage unique (OTP) sur votre e-mail — saisissez-le pour vérifier votre compte.\n\nUne fois vérifié, vous passerez par une courte étape d'onboarding : entrez votre date de naissance, sélectionnez votre catégorie créative et activez la localisation pour un contenu personnalisé. C'est tout — vous y êtes."
+        },
+        {
+          "q": "Spektt est-il gratuit ?",
+          "a": "Oui. Spektt est gratuit à télécharger et à utiliser. Vous pouvez suivre des personnes, publier du contenu, rejoindre des Clusters et participer à des Showdowns gratuitement. Les comptes gratuits ont une limite de téléchargement — une fois celle-ci atteinte, vous devrez passer à Spektt Pro pour continuer à publier. Pro débloque également des fonctionnalités supplémentaires dans toute l'application. Voir la section Abonnements & Pro pour plus de détails."
+        },
+        {
+          "q": "Quelles catégories créatives Spektt prend-il en charge ?",
+          "a": "Actuellement : photographie, vidéographie, animation 3D, ingénierie du son et art numérique. Vous choisissez votre catégorie principale lors de l'onboarding et pouvez la modifier à tout moment depuis les paramètres de votre profil. Nous ajouterons davantage de catégories créatives au fur et à mesure que Spektt grandit."
+        },
+        {
+          "q": "Spektt est-il disponible dans ma langue ?",
+          "a": "Spektt prend actuellement en charge l'anglais, le français, l'espagnol, le portugais et l'arabe. Vous pouvez changer de langue à tout moment dans Paramètres → Langue. L'arabe est entièrement pris en charge avec une mise en page de droite à gauche. Nous ajouterons d'autres langues au fur et à mesure que la communauté grandit."
+        },
+        {
+          "q": "Quels appareils Spektt prend-il en charge ?",
+          "a": "Spektt est disponible sur iOS et Android. Nous recommandons de maintenir votre système d'exploitation à jour vers la dernière version pour une meilleure expérience."
+        },
+        {
+          "q": "Je n'ai pas reçu mon code de vérification (OTP). Que dois-je faire ?",
+          "a": "Vérifiez d'abord votre dossier spam/courriers indésirables. S'il n'y est pas, attendez 60 secondes et appuyez sur \"Resend Code.\" Assurez-vous que l'adresse e-mail saisie est correcte. Toujours rien ? Contactez support@spektt.com."
+        },
+        {
+          "q": "Puis-je utiliser Spektt sur une tablette ?",
+          "a": "Spektt fonctionne sur les tablettes Android, bien que l'expérience soit optimisée pour les téléphones. L'iPad n'est pas actuellement pris en charge."
+        }
+      ]
+    },
+    {
+      "id": "your-profile",
+      "articles": [
+        {
+          "q": "Que contient mon profil Spektt ?",
+          "a": "Votre profil affiche votre nom d'affichage, nom d'utilisateur, catégorie créative, localisation et photo de profil, ainsi que votre nombre d'abonnés/abonnements et le total de vues. En dessous se trouvent des onglets pour votre contenu : Spotlights, Uploads, Collections, Milestones, Awards et Bookmarks. Les visiteurs de votre profil peuvent voir vos Spotlights, Uploads et Awards."
+        },
+        {
+          "q": "Comment modifier mon profil ?",
+          "a": "Dans votre écran de profil, appuyez sur \"Edit Profile.\" Vous pouvez mettre à jour votre nom d'affichage, nom d'utilisateur, photo de profil, catégorie créative et localisation."
+        },
+        {
+          "q": "Que sont les Spotlights ?",
+          "a": "Les Spotlights sont des publications mises en avant que vous épinglez en haut de votre profil — vos meilleurs travaux, toujours au premier plan. Les comptes gratuits peuvent avoir un nombre limité de Spotlights actifs à la fois ; passez à Spektt Pro pour en avoir plus. Les visiteurs de votre profil peuvent voir vos Spotlights."
+        },
+        {
+          "q": "Que sont les Collections ?",
+          "a": "Les Collections sont des ensembles organisés de vos publications — comme des albums. Regroupez votre travail par thème, projet ou style. Les comptes gratuits peuvent avoir un nombre limité de Collections ; passez à Spektt Pro pour en avoir plus. Les Collections sont visibles uniquement sur votre profil — elles ne sont pas affichées aux visiteurs."
+        },
+        {
+          "q": "Que sont les Bookmarks ?",
+          "a": "Les Bookmarks vous permettent de sauvegarder n'importe quel Showdown pour plus tard — idéal pour les compétitions auxquelles vous souhaitez revenir, suivre ou participer avant la date limite. Vos Showdowns mis en signet se trouvent dans l'onglet Bookmarks de votre profil et sont uniquement visibles par vous."
+        },
+        {
+          "q": "Que sont les Awards ?",
+          "a": "Les Awards sont vos classements dans les Showdowns — médailles d'or, d'argent et de bronze obtenues en terminant 1er, 2e ou 3e dans un Showdown. Chaque Award affiche le nom du Showdown, la catégorie et s'il s'agit d'un Showdown global ou d'un Showdown de Cluster. Appuyez sur un Award pour accéder directement à ce Showdown. Les Awards sont visibles par les visiteurs sur votre profil."
+        },
+        {
+          "q": "Qu'est-ce que l'onglet Milestones ?",
+          "a": "L'onglet Milestones affiche votre progression XP et les 29 badges sur Spektt — gagnés et non gagnés (avec des barres de progression pour savoir à quel point vous êtes proche). En haut, vous verrez votre niveau actuel, le nom de votre tier, votre XP total et une barre de progression vers le niveau suivant. Appuyez sur \"See All\" pour ouvrir l'écran complet des Milestones. Les Milestones sont visibles uniquement sur votre profil."
+        },
+        {
+          "q": "Qu'est-ce que Showdown Watch ?",
+          "a": "Showdown Watch vous permet de mettre en signet une entrée de Showdown — la vôtre ou celle de quelqu'un d'autre — pour suivre son parcours. Enregistrez une entrée avant la fin des votes et revenez voir ses performances pendant les votes, le jugement et les résultats finaux. Tout est suivi depuis une section dédiée de votre profil."
+        },
+        {
+          "q": "Comment suivre quelqu'un ?",
+          "a": "Accédez à leur profil et appuyez sur \"Follow.\" Leurs nouvelles publications apparaîtront dans votre fil Following. Vous pouvez vous désabonner à tout moment depuis leur profil ou depuis votre liste Following."
+        },
+        {
+          "q": "Puis-je rendre mon compte privé ?",
+          "a": "Actuellement, tous les profils Spektt sont publics. Des paramètres de confidentialité supplémentaires sont prévus."
+        },
+        {
+          "q": "Comment partager mon profil ?",
+          "a": "Appuyez sur l'icône de partage sur votre page de profil pour copier le lien de votre profil Spektt ou le partager directement vers d'autres applications."
+        }
+      ]
+    },
+    {
+      "id": "account-settings",
+      "articles": [
+        {
+          "q": "Comment modifier mon adresse e-mail ou mon mot de passe ?",
+          "a": "Allez dans Paramètres → Compte. Vous pouvez y mettre à jour votre adresse e-mail et votre mot de passe. Toute modification d'e-mail nécessite une vérification OTP."
+        },
+        {
+          "q": "Comment changer la langue de l'application ?",
+          "a": "Paramètres → Changer de langue → sélectionnez English, French, Spanish, Portuguese ou Arabic. Vous devrez redémarrer l'application si vous choisissez Arabic."
+        },
+        {
+          "q": "Comment gérer mes notifications ?",
+          "a": "Paramètres → Compte → Paramètres de notifications. Activez ou désactivez les notifications push pour : follows, commentaires, likes, mises à jour de Showdowns, activité des Clusters, messages, et plus encore."
+        },
+        {
+          "q": "Comment supprimer mon compte ?",
+          "a": "Paramètres → Compte → Supprimer le compte. Cela lance une période de grâce de 30 jours — votre compte est désactivé mais pas supprimé. Reconnectez-vous dans les 30 jours pour le restaurer complètement. Après 30 jours, toutes les données sont définitivement supprimées et irréversibles."
+        },
+        {
+          "q": "J'ai oublié mon mot de passe. Comment le réinitialiser ?",
+          "a": "Sur l'écran de connexion, appuyez sur \"Forgot Password.\" Entrez votre e-mail — nous vous enverrons un lien de réinitialisation. Vérifiez votre dossier spam si vous ne le recevez pas en quelques minutes."
+        },
+        {
+          "q": "Comment me déconnecter ?",
+          "a": "Profil → Paramètres → Déconnexion."
+        },
+        {
+          "q": "Mes données sont-elles sécurisées avec Spektt ?",
+          "a": "Oui. Vos données sont stockées de manière sécurisée sur l'infrastructure Google Cloud (Firebase). Nous ne vendons jamais vos données personnelles à des tiers. Tous les détails sont disponibles sur spektt.com/privacy."
+        },
+        {
+          "q": "Comment signaler un bug ou donner un avis ?",
+          "a": "Envoyez un e-mail à support@spektt.com. Nous lisons chaque message et utilisons les retours pour améliorer l'application."
+        }
+      ]
+    },
+    {
+      "id": "uploads-content",
+      "articles": [
+        {
+          "q": "Quels types de contenu puis-je téléverser ?",
+          "a": "Chaque publication prend en charge un seul contenu média — une seule photo ou une seule vidéo, sélectionnée depuis votre pellicule. Spektt accepte les formats standards utilisés par votre appareil : JPEG et PNG sur Android ; JPEG, PNG et HEIC sur iOS. Pour les vidéos, tout format enregistré par votre caméra (MP4, MOV, etc.) est accepté."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier, de résolution ou de durée ?",
+          "a": "Photos : jusqu'à 10 Mo, et une résolution minimale de 4 mégapixels (environ 2000×2000 px ou plus) — les images de très basse résolution sont rejetées. Vidéos : jusqu'à 50 Mo, 5 minutes maximum. Vous verrez un message d'erreur clair si un fichier ne respecte pas ces limites avant de le soumettre."
+        },
+        {
+          "q": "Comment téléverser une publication ?",
+          "a": "Appuyez sur le bouton \"+\" dans la barre de navigation inférieure. Choisissez New Upload, puis sélectionnez le type de média (image ou vidéo) depuis votre bibliothèque. Ajoutez une légende, sélectionnez une catégorie et, en option, associez un Cluster. Appuyez sur \"New Upload\" pour publier."
+        },
+        {
+          "q": "Puis-je téléverser plusieurs photos ou vidéos dans une seule publication ?",
+          "a": "Non — chaque publication contient un seul média : une photo ou une vidéo. Cela permet de garder le fil propre et cohérent."
+        },
+        {
+          "q": "Puis-je modifier ou supprimer une publication après sa mise en ligne ?",
+          "a": "Vous pouvez supprimer une publication à tout moment : appuyez sur le menu à trois points → Supprimer. La modification de la légende est également disponible via Edit Upload."
+        },
+        {
+          "q": "Qui peut voir mes publications ?",
+          "a": "Toutes les publications sur Spektt sont publiques. Vos publications apparaissent sur votre profil, dans le fil Following de vos abonnés, et dans tout flux de Cluster que vous avez tagué."
+        },
+        {
+          "q": "Que devient mon contenu après l'avoir téléversé ?",
+          "a": "Les photos sont diffusées via Cloudflare Images (CDN global). Les vidéos sont diffusées via Cloudflare Stream. Cela garantit un chargement rapide partout dans le monde."
+        },
+        {
+          "q": "Mon upload échoue constamment. Que dois-je faire ?",
+          "a": "Vérifiez votre connexion internet — les téléversements nécessitent une connexion stable, surtout pour les vidéos. Essayez de passer du WiFi aux données mobiles. Fermez et rouvrez l'application puis réessayez. Si le problème persiste, contactez support@spektt.com."
+        },
+        {
+          "q": "Puis-je publier du contenu montrant d'autres personnes ?",
+          "a": "Vous devez obtenir le consentement de toute personne identifiable dans votre contenu avant de publier. Publier l'image de quelqu'un sans consentement viole nos Community Guidelines."
+        }
+      ]
+    },
+    {
+      "id": "showdowns",
+      "articles": [
+        {
+          "q": "Qu'est-ce qu'un Showdown ?",
+          "a": "Un Showdown est une compétition créative sur Spektt. Un hôte crée un Showdown avec un brief — un thème ou un prompt — définit les fenêtres de participation et de vote, et précise comment les gagnants sont choisis. Les créatifs soumettent leur travail, la communauté vote, et les gagnants sont annoncés.\n\nIl existe deux types de Showdowns : Pulse et Premium."
+        },
+        {
+          "q": "Quelle est la différence entre un Pulse Showdown et un Premium Showdown ?",
+          "a": "Pulse Showdown — 100 % voté par les fans. Il n'y a pas de jury. La communauté vote, et les participations ayant le plus de votes gagnent. Les prix sont des XP et des badges exclusifs de Showdown. Les Pulse Showdowns nécessitent un minimum de 5 participations pour être lancés.\n\nPremium Showdown — Jugement en deux étapes. Les fans votent d'abord pour déterminer les 20 meilleures participations. Un panel de juges experts évalue ensuite ces 20 entrées. Le classement final combine le vote des fans et les notes des juges. Les gagnants reçoivent des prix en argent réel versés sur un compte bancaire nigérian. Les Premium Showdowns nécessitent un minimum de 10 participations et sont actuellement ouverts uniquement aux participants nigérians.\n\nLe type est clairement affiché sur la page de chaque Showdown avant participation."
+        },
+        {
+          "q": "Comment trouver des Showdowns ?",
+          "a": "Ouvrez l'écran Explore et allez à la section Showdowns. Vous verrez aussi des Showdowns dans tous les Clusters que vous avez rejoints. Les Showdowns sont étiquetés avec leur étape actuelle (Upcoming, Open, Voting, etc.) et leur type (Pulse ou Premium)."
+        },
+        {
+          "q": "Comment participer à un Showdown ?",
+          "a": "Appuyez sur un Showdown pour ouvrir sa page de détails. Si la fenêtre de participation est ouverte, appuyez sur \"Join this challenge.\" Vous serez redirigé vers une sélection où vous pourrez soumettre une nouvelle publication ou choisir une publication existante depuis votre profil. Vous avez une entrée par Showdown."
+        },
+        {
+          "q": "Quel est le cycle de vie complet d'un Showdown ?",
+          "a": "Les Showdowns Pulse passent par ces étapes :\n• Upcoming — Publié mais les soumissions ne sont pas encore ouvertes.\n• Submission — Ouvert aux participations. Soumettez votre travail avant la date limite.\n• Voting — Soumissions clôturées. La communauté vote sur les participations.\n• Ended — Vote terminé. Classements finaux publiés. Top 15 affichés.\n\nLes Showdowns Premium passent par ces étapes :\n• Upcoming — Publié, en attente de la période de soumission.\n• Submission — Ouvert aux participations.\n• Voting — Votes de la communauté.\n• Judging — Votes clôturés. Les juges évaluent chaque participation (0–10 par critère).\n• Winners Announced — Résultats finaux publiés. Les gagnants ont 14 jours pour réclamer leur prix.\n• Ended — Période de réclamation terminée. Showdown terminé.\n\nÉtats spéciaux (les deux types) :\n• Cancelled — Le Showdown a été annulé avant la fin.\n• Insufficient Entries — Pas assez de participations (minimum 5 pour Pulse, 10 pour Premium). Aucun résultat."
+        },
+        {
+          "q": "Y a-t-il des restrictions pour participer ?",
+          "a": "Oui. Deux types de restrictions s'appliquent :\n\nÂge — Les utilisateurs identifiés comme mineurs ne sont pas autorisés à participer à un Showdown.\n\nGéographie — Les utilisateurs au Qatar, aux Émirats arabes unis et en Arabie saoudite ne peuvent pas participer à un Showdown. Les Showdowns Premium (prix en argent) sont actuellement ouverts uniquement aux participants nigérians — les paiements sont effectués sur des comptes bancaires nigérians. Si votre région est restreinte, vous verrez un message sur la page du Showdown.\n\nLes juges ne peuvent pas participer aux Showdowns qu'ils évaluent."
+        },
+        {
+          "q": "L'ordre des participations est-il aléatoire ? Pourquoi vois-je un ordre différent de celui de mon ami ?",
+          "a": "Oui — l'ordre des participations est volontairement randomisé via un mélange déterministe. L'ordre que vous voyez dépend d'une combinaison unique de votre ID utilisateur et de l'ID du Showdown, donc chaque utilisateur voit un ordre différent mais cohérent. Vous verrez toujours le même ordre, mais différent des autres.\n\nCela empêche les créateurs ayant beaucoup d'abonnés d'apparaître toujours en premier et donne à chaque participation une chance équitable de visibilité."
+        },
+        {
+          "q": "Comment fonctionne le vote ?",
+          "a": "Pendant la phase de Voting, tout utilisateur Spektt enregistré peut voter — même s'il n'a pas participé. Vous avez un vote par Showdown — choisissez la participation qui mérite de gagner. Vous pouvez voter dans plusieurs Showdowns, jusqu'à une limite quotidienne de 20 votes au total.\n\nLes votes sont cachés pendant la phase de vote — vous ne verrez pas le nombre de votes avant la fin du Showdown. Cela garantit un vote honnête et évite les biais de popularité."
+        },
+        {
+          "q": "Comment les gagnants sont-ils choisis dans un Pulse Showdown ?",
+          "a": "Uniquement par votes des fans. À la fin du vote :\n• Les participations sont classées par nombre de votes.\n• En cas d'égalité, celle avec le plus de vues est prioritaire.\n• En cas d'égalité persistante, la participation la plus ancienne est prioritaire.\n\nLe top 15 est affiché dans le classement final."
+        },
+        {
+          "q": "Comment les gagnants sont-ils choisis dans un Premium Showdown ?",
+          "a": "En deux étapes :\n\nVote des fans — La communauté sélectionne les 20 meilleures participations.\n\nÉvaluation des juges — Un panel de juges évalue ces 20 participations selon des critères définis (0–10).\n\nLe classement final combine les deux : 50 % votes des fans, 50 % scores des juges. Le meilleur score global gagne. Le top 15 est affiché."
+        },
+        {
+          "q": "Quels prix puis-je gagner ?",
+          "a": "Pulse — XP et badges exclusifs de classement (or, argent, bronze).\n\nPremium — Prix en argent pour les 1er, 2e et 3e places. Les montants sont indiqués sur la page du Showdown dans l'onglet Prizes. XP et badges sont aussi attribués."
+        },
+        {
+          "q": "Comment réclamer mon prix en argent dans un Premium Showdown ?",
+          "a": "Lorsqu'un Premium Showdown atteint le statut Winners Announced, vous recevez une notification si vous êtes dans le top 3. Vous avez 14 jours pour réclamer votre prix. Vous devrez fournir votre banque, numéro de compte et nom du titulaire. Un Tax ID est optionnel mais recommandé.\n\nUne retenue fiscale de 10 % s'applique conformément à la réglementation nigériane. Si vous ne réclamez pas dans les 14 jours, le prix est perdu."
+        },
+        {
+          "q": "Puis-je participer à un Showdown dans un Cluster ?",
+          "a": "Oui — si vous êtes membre de ce Cluster. Les Showdowns de Cluster suivent les mêmes règles que les Showdowns globaux mais sont limités aux membres du Cluster. Les récompenses apparaissent dans votre onglet Awards avec le nom du Cluster."
+        },
+        {
+          "q": "Que se passe-t-il si un Showdown n'a pas assez de participations ?",
+          "a": "Si le minimum n'est pas atteint à la fin de la période de soumission (5 pour Pulse, 10 pour Premium), le Showdown passe en état Insufficient Entries et se termine sans résultat. Aucun gagnant n'est désigné et aucun prix n'est attribué."
+        },
+        {
+          "q": "Puis-je retirer ma participation ?",
+          "a": "Oui — tant que la période de soumission est ouverte. Une fois le vote commencé, les participations sont verrouillées et ne peuvent plus être supprimées."
+        },
+        {
+          "q": "Qui peut créer un Showdown ?",
+          "a": "Les Showdowns globaux sont créés et gérés par Spektt. Les administrateurs de Cluster peuvent créer des Showdowns pour leur communauté. Pour organiser un Showdown, contactez showdowns@spektt.com."
+        },
+        {
+          "q": "Qu'est-ce que Showdown Watch ?",
+          "a": "Showdown Watch vous permet de mettre en favori une participation — la vôtre ou celle d'un autre — pour suivre son évolution tout au long du Showdown. Les éléments sauvegardés apparaissent dans une section dédiée de votre profil."
+        },
+        {
+          "q": "Comment sauvegarder une participation dans Showdown Watch ?",
+          "a": "Appuyez sur l'icône de signet sur une participation. Elle sera ajoutée à Showdown Watch sur votre profil. Appuyez à nouveau pour la retirer."
+        },
+        {
+          "q": "Je pense qu'un résultat de Showdown est injuste. Que puis-je faire ?",
+          "a": "Si vous pensez qu'il y a eu une violation des règles — manipulation de votes, plagiat, doublons — utilisez le bouton de signalement ou envoyez un e-mail à showdowns@spektt.com.\n\nUn simple désaccord avec les résultats ou les juges ne constitue pas un motif de contestation. Les juges prennent leurs décisions de manière indépendante."
+        }
+      ]
+    },
+    {
+      "id": "clusters",
+      "articles": [
+        {
+          "q": "Qu'est-ce qu'un Cluster ?",
+          "a": "Un Cluster est une communauté créative thématique sur Spektt. Considérez-le comme un groupe autour d’un style, d’un genre ou d’un intérêt spécifique — \"Street Photography Lagos\", \"UI/UX Designers\", \"Afrobeats Videographers\". Les Clusters ont leur propre fil, Showdowns et modération."
+        },
+        {
+          "q": "Comment trouver et rejoindre un Cluster ?",
+          "a": "Parcourez les Clusters depuis l'écran Explore. Appuyez sur un Cluster pour voir sa description et son activité récente. Appuyez sur \"Join\" pour devenir membre. Les Clusters rejoints apparaissent dans votre fil Cluster."
+        },
+        {
+          "q": "Comment créer un Cluster ?",
+          "a": "Appuyez sur le bouton \"+\" dans la barre de navigation inférieure et sélectionnez \"New Cluster.\" La création d’un Cluster nécessite un abonnement Spektt Pro ou d’atteindre le niveau 51.\n\nSi vous ne remplissez pas ces conditions, l’option apparaîtra dans le menu mais sera verrouillée — vous verrez un badge PRO dessus. Une fois éligible, appuyez dessus pour ouvrir le formulaire : nom du Cluster, description, catégorie et image de couverture. Une fois créé, vous devenez automatiquement administrateur du Cluster."
+        },
+        {
+          "q": "Que peut faire un administrateur de Cluster ?",
+          "a": "En tant qu’administrateur de Cluster, vous pouvez :\n• Organiser des Showdowns de Cluster (Pulse et Premium)\n• Supprimer les publications qui violent les règles du Cluster\n• Bannir des membres du Cluster\n• Suspendre temporairement des membres\n• Nommer des modérateurs pour gérer la communauté\n• Épingler des publications en haut du fil du Cluster\n• Archiver le Cluster\n• Transférer les droits d’administrateur à un autre membre"
+        },
+        {
+          "q": "Puis-je publier directement dans un Cluster ?",
+          "a": "Oui. Lors du téléversement d’une publication, associez-la à un Cluster. Elle apparaîtra dans le fil du Cluster ainsi que sur votre profil."
+        },
+        {
+          "q": "Comment quitter un Cluster ?",
+          "a": "Allez sur la page du Cluster → menu à trois points → \"Leave Cluster.\""
+        },
+        {
+          "q": "Un Cluster peut-il être privé ou sur invitation uniquement ?",
+          "a": "Non. Tous les Clusters sur Spektt sont ouverts — tout le monde peut les trouver et les rejoindre. Spektt est conçu pour être une communauté créative ouverte et découvrable."
+        },
+        {
+          "q": "Que se passe-t-il si un Cluster devient inactif ou enfreint les règles ?",
+          "a": "Utilisez le bouton de signalement sur la page du Cluster ou contactez support@spektt.com. La modération globale de Spektt s’applique à tous les Clusters — nous pouvons intervenir en cas de violations graves, indépendamment de la modération du Cluster."
+        }
+      ]
+    },
+    {
+      "id": "rankings-leaderboard",
+      "articles": [
+        {
+          "q": "Qu'est-ce que le classement Spektt ?",
+          "a": "Le classement (Leaderboard) classe tous les utilisateurs de Spektt selon leur XP total (points d’expérience). Il montre votre position dans l’ensemble de la communauté Spektt et est actualisé tous les 7 jours."
+        },
+        {
+          "q": "Comment mon classement est-il calculé ?",
+          "a": "Votre classement est basé sur votre XP total. Plus vous êtes actif et engagé — publications, interactions, victoires en Showdowns, badges — plus votre classement est élevé."
+        },
+        {
+          "q": "Puis-je filtrer le classement ?",
+          "a": "Oui. Vous pouvez filtrer par période — Tout temps, Mensuel ou Hebdomadaire — pour voir les utilisateurs les plus actifs sur différentes périodes."
+        },
+        {
+          "q": "À quelle fréquence le classement est-il mis à jour ?",
+          "a": "Les classements sont actualisés tous les 7 jours. Votre XP s’accumule en continu, mais les positions sont mises à jour chaque semaine."
+        },
+        {
+          "q": "Puis-je perdre mon classement ?",
+          "a": "Votre XP total ne diminue jamais, mais votre position peut baisser si d’autres utilisateurs gagnent de l’XP plus rapidement que vous. Restez actif pour conserver votre position."
+        },
+        {
+          "q": "Que signifie la position du classement sur mon profil ?",
+          "a": "Votre position dans le Leaderboard est visible sur votre profil. Les créateurs les mieux classés gagnent plus de visibilité sur la plateforme."
+        }
+      ]
+    },
+    {
+      "id": "subscriptions-pro",
+      "articles": [
+        {
+          "q": "Qu'est-ce que Spektt Pro ?",
+          "a": "Spektt Pro est notre abonnement optionnel qui débloque des fonctionnalités premium : visibilité prioritaire dans les fils, badge exclusif d’abonné Pro, uploads illimités, Spotlights illimités et d’autres avantages à venir."
+        },
+        {
+          "q": "Combien coûte Spektt Pro ?",
+          "a": "Les prix actuels sont affichés dans l’application dans votre devise locale. Allez dans Profil → Paramètres → Become a Spektt Pro pour voir les plans disponibles."
+        },
+        {
+          "q": "Comment s'abonner à Spektt Pro ?",
+          "a": "Paramètres → \"Become a Spektt Pro\" → choisissez un plan (mensuel ou annuel) → finalisez le paiement via l’App Store (iOS) ou Google Play (Android). Votre abonnement est activé immédiatement."
+        },
+        {
+          "q": "Puis-je annuler mon abonnement ?",
+          "a": "Oui, à tout moment. Annulez via les paramètres d’abonnement de l’App Store ou Google Play. Votre accès Pro reste actif jusqu’à la fin de la période de facturation."
+        },
+        {
+          "q": "Mon paiement a échoué. Que faire ?",
+          "a": "Les paiements sont gérés par Apple ou Google. Assurez-vous que votre moyen de paiement est à jour dans les paramètres de votre appareil. Si le problème persiste, contactez support@spektt.com."
+        },
+        {
+          "q": "Mes informations de paiement sont-elles stockées par Spektt ?",
+          "a": "Non. Tous les paiements sont traités par Apple (App Store) ou Google (Play Store). Spektt ne stocke jamais vos informations de carte ou de paiement."
+        },
+        {
+          "q": "J'ai été débité mais je n'ai pas accès à Pro. Que faire ?",
+          "a": "Fermez complètement et rouvrez l’application — l’accès Pro peut parfois prendre un moment à s’activer. Si cela ne fonctionne toujours pas, contactez support@spektt.com avec votre reçu."
+        },
+        {
+          "q": "Les remboursements sont-ils disponibles ?",
+          "a": "Les demandes de remboursement sont gérées par Apple ou Google. Spektt ne peut pas effectuer de remboursement directement. Contactez Apple Support ou Google Play Support."
+        }
+      ]
+    },
+    {
+      "id": "messages",
+      "articles": [
+        {
+          "q": "Puis-je envoyer des messages à d'autres utilisateurs sur Spektt ?",
+          "a": "Oui. Spektt dispose d’un système de messagerie directe intégré. Pour commencer une conversation, vous envoyez une demande de chat — l’autre personne peut accepter ou refuser avant tout échange."
+        },
+        {
+          "q": "Comment démarrer une conversation ?",
+          "a": "Allez sur le profil d’un utilisateur et appuyez sur l’icône de message pour envoyer une demande de chat. Il recevra une notification et pourra accepter ou refuser. Une fois accepté, la conversation s’ouvre et vous pouvez discuter."
+        },
+        {
+          "q": "Puis-je répondre à un message spécifique ?",
+          "a": "Oui. Faites glisser un message vers la droite pour le citer et y répondre directement."
+        },
+        {
+          "q": "Puis-je envoyer des photos ou vidéos en DM ?",
+          "a": "Seuls les messages texte sont actuellement pris en charge. Le partage de médias en DM arrivera dans une prochaine mise à jour."
+        },
+        {
+          "q": "Comment supprimer une conversation ?",
+          "a": "Dans votre boîte de réception, glissez vers la gauche sur la conversation et sélectionnez \"Delete.\""
+        },
+        {
+          "q": "Puis-je bloquer quelqu'un ?",
+          "a": "Oui. Allez sur son profil, appuyez sur le menu à trois points et sélectionnez \"Block.\" Les utilisateurs bloqués ne peuvent plus vous envoyer de messages ni voir votre contenu."
+        },
+        {
+          "q": "Je reçois des messages indésirables ou harcelants. Que faire ?",
+          "a": "Bloquez immédiatement l’utilisateur depuis son profil. Si les messages sont menaçants ou violent nos règles, signalez-les également et contactez support@spektt.com."
+        }
+      ]
+    },
+    {
+      "id": "milestones",
+      "articles": [
+        {
+          "q": "Que sont les badges ?",
+          "a": "Les badges sont des reconnaissances pour les accomplissements et jalons sur Spektt. Il existe 29 badges répartis en catégories : milestones de publication, classements Showdown (1er/2e/3e), niveaux de progression, engagement communautaire et événements spéciaux. Les badges sont permanents une fois obtenus."
+        },
+        {
+          "q": "Comment voir mes badges ?",
+          "a": "Ouvrez votre profil et appuyez sur l’onglet Milestones. Vos badges obtenus sont affichés en grille par catégorie. Appuyez sur \"See All\" pour voir tous les badges — obtenus et non obtenus — avec des barres de progression."
+        },
+        {
+          "q": "Que sont les Tiers ?",
+          "a": "Les Tiers sont des niveaux de progression basés sur votre XP :\n• Newcomer — Débutant\n• Rising — En progression\n• Established — Membre actif\n• Pro — Créateur reconnu\n• Elite — Top de la communauté Spektt\n\nVotre tier actuel est affiché sur votre profil."
+        },
+        {
+          "q": "Comment gagner de l'XP ?",
+          "a": "L’XP est gagnée de plusieurs façons :\n• Inscription — bonus unique à la création du compte\n• Vues — XP selon les paliers de vues (100, 1K, 10K, 100K, 1M)\n• Votes en Showdowns — XP par vote (jusqu’à 20 votes par jour)\n• Participation à un Showdown — XP pour chaque entrée\n• Classement en Showdown — top 15 gagne de l’XP ; top 3 gagne plus ; 1er gagne le plus\n• Rejoindre un Cluster — bonus XP\n• Créer un Cluster — bonus XP\n• Développer un Cluster — XP selon les paliers de membres\n• Badges — certains donnent aussi de l’XP\n\nLes utilisateurs Spektt Pro gagnent 25 % d’XP en plus sur tout."
+        },
+        {
+          "q": "Puis-je perdre de l'XP ?",
+          "a": "Non. Votre XP ne diminue jamais. Votre position au classement peut changer, mais votre XP reste intact."
+        },
+        {
+          "q": "Les badges expirent-ils ?",
+          "a": "Non. Tous les badges obtenus sont permanents."
+        },
+        {
+          "q": "Existe-t-il des badges rares ?",
+          "a": "Oui. Les badges de victoire en compétition et de tiers sont prestigieux — ils n’ajoutent pas d’XP mais représentent une reconnaissance. Les plus rares sont ceux des gagnants de Showdown et des utilisateurs du niveau 51+."
+        },
+        {
+          "q": "Spektt Pro affecte-t-il mon XP ou mon niveau ?",
+          "a": "Oui — Spektt Pro donne un bonus de 25 % d’XP sur tout. Les tiers et niveaux restent basés sur l’activité, donc les utilisateurs Pro progressent plus vite, mais le système est identique pour tous."
+        }
+      ]
+    },
+    {
+      "id": "community-guidelines",
+      "articles": [
+        {
+          "q": "Quelles sont les Community Guidelines de Spektt ?",
+          "a": "Spektt est une communauté fondée sur le respect, l’authenticité et l’excellence créative. Nous interdisons :\n• Les contenus haineux, discriminatoires ou abusifs\n• Le harcèlement ou l’intimidation envers tout utilisateur\n• L’utilisation non consentie de l’image ou de la ressemblance d’autrui\n• Le spam ou l’engagement artificiellement gonflé\n• La violation des droits d’auteur ou le plagiat\n• La violence graphique ou les contenus sexuellement explicites\n• L’usurpation d’identité d’utilisateurs ou de marques\n• La triche dans les Showdowns (manipulation des votes, participations en double, groupes de vote coordonnés)\n\nLes violations peuvent entraîner la suppression du contenu, la suspension du compte ou un bannissement permanent."
+        },
+        {
+          "q": "Comment signaler un utilisateur ou un contenu ?",
+          "a": "Appuyez sur le menu à trois points sur n’importe quelle publication, commentaire, participation à un Showdown ou profil, puis sélectionnez \"Report.\" Choisissez la raison correspondant le mieux à la violation. Notre équipe de modération examine tous les signalements."
+        },
+        {
+          "q": "Comment signaler une participation à un Showdown que je pense plagiée ?",
+          "a": "Utilisez le bouton de signalement sur la participation et sélectionnez \"Intellectual Property.\" Fournissez autant de détails que possible, y compris un lien vers l’œuvre originale. Vous pouvez également envoyer un e-mail directement à showdowns@spektt.com."
+        },
+        {
+          "q": "Que se passe-t-il après avoir signalé quelque chose ?",
+          "a": "Notre équipe de modération examine chaque signalement. Si nous confirmons une violation, nous prenons des mesures : suppression du contenu, avertissement, suspension ou bannissement du compte. Vous recevrez une notification une fois votre signalement examiné."
+        },
+        {
+          "q": "Puis-je bloquer un autre utilisateur ?",
+          "a": "Oui. Accédez à son profil → menu à trois points → \"Block.\" Les utilisateurs bloqués ne peuvent pas voir votre contenu, commenter vos publications ni vous envoyer de messages. Gérez votre liste de blocage dans Paramètres → Confidentialité."
+        },
+        {
+          "q": "Mon compte a été suspendu. Que dois-je faire ?",
+          "a": "Vous verrez un message expliquant la raison lorsque vous tenterez de vous connecter. Si vous pensez que la suspension est une erreur, contactez support@spektt.com avec votre nom d’utilisateur et nous examinerons votre cas."
+        },
+        {
+          "q": "Je pense que mon compte a été piraté. Que dois-je faire ?",
+          "a": "Changez immédiatement votre mot de passe via \"Forgot Password\" sur l’écran de connexion. Si vous ne pouvez plus accéder à votre compte, contactez immédiatement support@spektt.com avec votre nom d’utilisateur, votre e-mail enregistré et toute activité inhabituelle constatée."
+        },
+        {
+          "q": "Spektt dispose-t-il de modérateurs humains ?",
+          "a": "Oui. Spektt dispose à la fois de systèmes automatisés et d’une équipe de modération humaine qui examine les signalements, surveille les Clusters et garantit l’intégrité des Showdowns."
+        },
+        {
+          "q": "Quelle est la politique de Spektt concernant les droits d’auteur ?",
+          "a": "Tout contenu publié sur Spektt doit être une œuvre originale vous appartenant ou un contenu que vous avez légalement le droit de publier. Ne publiez pas le travail de quelqu’un d’autre sans autorisation. Si vous pensez que votre œuvre protégée a été publiée sans votre consentement, envoyez un e-mail à legal@spektt.com avec tous les détails — nous agirons rapidement."
+        },
+        {
+          "q": "Puis-je faire une capture d’écran du contenu Spektt d’une autre personne ?",
+          "a": "Le contenu Spektt appartient à son créateur. Les captures d’écran pour un usage personnel sont généralement acceptables. Reproduire, redistribuer ou utiliser commercialement le contenu d’autrui — sans autorisation explicite — constitue une violation de nos Conditions et potentiellement du droit d’auteur."
+        }
+      ]
+    }
+  ]
+}

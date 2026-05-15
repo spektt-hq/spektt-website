@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "help": "Aide",
+    "contact": "Contact",
+    "download": "Télécharger"
+  },
+  "footer": {
+    "helpHeading": "Aide",
+    "companyHeading": "Entreprise",
+    "helpLinks": {
+      "gettingStarted": "Premiers pas",
+      "showdowns": "Showdowns",
+      "clusters": "Clusters",
+      "proSubscription": "Abonnement Pro",
+      "milestones": "Jalons & XP"
+    },
+    "companyLinks": {
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité",
+      "contact": "Nous contacter",
+      "download": "Télécharger l'application"
+    },
+    "copyright": "Axlume Tech Limited. Tous droits réservés."
+  },
+  "hero": {
+    "sentences": [
+      "Présentez votre travail. Faites-vous découvrir.",
+      "Participez aux Showdowns. Gagnez des prix.",
+      "Votre créativité mérite un public.",
+      "Rejoignez la communauté créative mondiale."
+    ]
+  },
+  "whatIs": {
+    "heading": "Qu'est-ce que Spektt ?",
+    "body": "Spektt est la plateforme conçue pour les créatifs — photographes, vidéastes, animateurs 3D, artistes numériques, ingénieurs du son, et bien d'autres. Partagez votre travail, participez aux Showdowns pour remporter de vrais prix, rejoignez des Clusters pour trouver votre niche créative, et évoluez dans une communauté qui valorise vraiment ce que vous créez."
+  },
+  "features": {
+    "heading": "Tout ce dont vous avez besoin pour grandir",
+    "items": [
+      { "header": "Showdowns", "desc": "Participez à des concours créatifs, soyez jugé par la communauté et des panels d'experts, et remportez de vrais prix en argent." },
+      { "header": "Clusters", "desc": "Rejoignez des communautés construites autour de votre niche créative — de la photographie de rue à l'animation 3D." },
+      { "header": "Fil d'actualité", "desc": "Partagez votre travail avec le monde. Photos et vidéos, livrés rapidement à un public mondial de créatifs." },
+      { "header": "Pro", "desc": "Débloquez une visibilité prioritaire, des téléchargements illimités et un bonus XP de 25% avec Spektt Pro." },
+      { "header": "Classement", "desc": "Gagnez de l'XP, grimpez dans les classements et voyez où vous vous situez par rapport à la communauté créative mondiale." },
+      { "header": "Messages directs", "desc": "Connectez-vous et collaborez avec d'autres créatifs directement via les DMs intégrés." }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Comment ça marche",
+    "steps": [
+      { "title": "Créez votre compte", "desc": "Téléchargez Spektt, inscrivez-vous en quelques minutes et choisissez votre catégorie créative — photographie, vidéographie, animation 3D, et plus encore." },
+      { "title": "Téléchargez votre travail", "desc": "Publiez photos et vidéos directement depuis votre galerie. Votre travail est mis en ligne sur votre profil et dans le fil d'actualité mondial instantanément." },
+      { "title": "Concourez et grandissez", "desc": "Participez aux Showdowns, gagnez de l'XP, grimpez dans le classement, remportez des prix et faites-vous découvrir par une communauté mondiale de créatifs." }
+    ]
+  },
+  "showdowns": {
+    "heading": "Showdowns",
+    "subtitle": "Des concours créatifs ouverts à tous. Soumettez votre travail, laissez la communauté voter et voyez votre classement.",
+    "pulse": {
+      "name": "Pulse",
+      "body": "100% voté par les fans. La communauté décide du gagnant — sans juges, sans panels. L'entrée avec le plus de votes gagne.",
+      "prize": "Prix : XP + médailles exclusives de Showdown"
+    },
+    "premium": {
+      "name": "Premium",
+      "body": "Jugement en deux étapes. Les fans votent pour sélectionner le top 20, puis des juges experts évaluent les finalistes. Votes des fans et scores des juges comptent chacun pour 50%.",
+      "prize": "Prix : Vrais prix en argent pour 1er, 2e & 3e"
+    }
+  },
+  "cta": {
+    "heading": "Prêt à concourir ? Téléchargez Spektt.",
+    "subtitle": "Gratuit à télécharger. Disponible sur iOS et Android."
+  },
+  "about": {
+    "heading": "Qu'est-ce que",
+    "headingHighlight": "Spektt",
+    "p1": "Êtes-vous prêt à porter votre parcours créatif au niveau supérieur ? Spektt est la plateforme conçue pour les créatifs — photographes, vidéastes, animateurs 3D, artistes numériques, ingénieurs du son, et bien d'autres — pour présenter leur travail, concourir pour de vrais prix, et se connecter à une communauté mondiale qui valorise réellement ce qu'ils créent.",
+    "p2": "Nous avons créé Spektt car nous connaissons de première main les défis d'être un créatif dans le monde numérique actuel. Faire voir votre travail est difficile. Trouver votre communauté l'est encore plus. C'est pourquoi nous avons créé une plateforme qui place votre créativité au centre — avec les outils, l'audience et les opportunités à la hauteur.",
+    "p3": "Spektt est construit autour des Showdowns — des concours créatifs où vous soumettez votre travail, la communauté vote et des juges experts évaluent. Les Pulse Showdowns sont votés à 100% par les fans. Les Premium Showdowns combinent votes des fans et scores des juges, avec de vrais prix en argent. Chaque Showdown est une chance d'être découvert.",
+    "p4": "Au-delà des concours, Spektt vous offre un fil d'actualité pour partager votre travail, des Clusters pour trouver votre communauté de niche, un classement pour suivre votre position, et un système de jalons qui vous récompense à chaque étape de votre parcours créatif. Plus vous créez, plus vous grandissez.",
+    "p5": "Chez Spektt, nous croyons que la géographie ne devrait jamais être un obstacle à la reconnaissance. Nous construisons une plateforme où tout créatif, partout dans le monde, peut accéder aux mêmes opportunités, à la même scène et à la même chance d'être vu.",
+    "p6": "Spektt est plus qu'une plateforme — c'est une communauté. Que vous débutiez ou soyez déjà établi, vous trouverez votre place ici. Rejoignez les Showdowns, construisez votre profil et laissez votre travail parler pour lui-même.",
+    "signature": "L'équipe Spektt",
+    "company": "Axlume Tech Limited"
+  },
+  "contact": {
+    "heading": "Nous contacter",
+    "subtitle": "Choisissez le bon canal et nous vous répondrons.",
+    "helpNote": "Pour le support de l'application, visitez notre",
+    "helpNoteLink": "Centre d'aide",
+    "helpNoteEnd": "d'abord — la plupart des questions y trouvent une réponse.",
+    "channels": [
+      { "label": "Général", "desc": "Partenariats, presse et tout le reste." },
+      { "label": "Support", "desc": "Problèmes de compte, bugs et retours sur l'application." },
+      { "label": "Juridique", "desc": "Droits d'auteur, confidentialité et questions juridiques." },
+      { "label": "Showdowns", "desc": "Organiser un Showdown ou contester un résultat." }
+    ]
+  },
+  "download": {
+    "description": "Téléchargez l'application et commencez à concourir."
+  },
+  "help": {
+    "title": "Centre d'aide",
+    "subtitle": "Trouvez des réponses sur Spektt — Showdowns, Clusters, profils, et plus encore.",
+    "searchPlaceholder": "Rechercher de l'aide...",
+    "resultsCount": "résultat",
+    "resultsCountPlural": "résultats",
+    "resultsFor": "pour",
+    "noResultsTitle": "Aucun résultat trouvé",
+    "noResultsSubtitle": "Essayez d'autres mots-clés ou parcourez les catégories ci-dessous.",
+    "clearSearch": "Effacer la recherche",
+    "relatedTopics": "Sujets connexes",
+    "stillNeedHelp": "Vous avez encore besoin d'aide ?",
+    "stillNeedHelpBody": "Notre équipe de support est là pour vous.",
+    "stillNeedHelpContact": "support@spektt.com",
+    "englishOnlyNote": "Les articles d'aide sont actuellement disponibles en anglais uniquement.",
+    "categoryTitles": {
+      "getting-started": "Premiers pas",
+      "your-profile": "Votre profil",
+      "account-settings": "Votre compte & paramètres",
+      "uploads-content": "Téléchargements & contenu",
+      "showdowns": "Showdowns",
+      "clusters": "Clusters",
+      "rankings-leaderboard": "Classements & tableau de bord",
+      "subscriptions-pro": "Abonnements & Pro",
+      "messages": "Messages",
+      "milestones": "Jalons",
+      "community-guidelines": "Règles communautaires & sécurité"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "Spektt — Là où les créatifs s'affrontent",
+      "description": "Rejoignez Spektt, la plateforme créative où vous présentez votre travail, entrez dans des Showdowns et concourez pour des prix."
+    },
+    "about": {
+      "title": "À propos — Spektt",
+      "description": "Découvrez Spektt — la plateforme conçue pour que les créatifs se démarquent, grandissent et se fassent découvrir."
+    },
+    "help": {
+      "title": "Centre d'aide — Spektt",
+      "description": "Trouvez des réponses aux questions fréquentes sur Spektt, les Showdowns, les Clusters, et plus encore."
+    },
+    "contact": {
+      "title": "Contact — Spektt",
+      "description": "Prenez contact avec l'équipe Spektt."
+    },
+    "download": {
+      "title": "Télécharger Spektt",
+      "description": "Téléchargez Spektt sur iOS et Android."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation — Spektt",
+      "description": "Les règles régissant votre utilisation de la plateforme Spektt."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité — Spektt",
+      "description": "Comment Spektt collecte, utilise et protège vos données."
+    },
+    "showdownRules": {
+      "title": "Règles des Showdowns — Spektt",
+      "description": "Les règles officielles régissant tous les Showdowns sur la plateforme Spektt."
+    }
+  }
+}
