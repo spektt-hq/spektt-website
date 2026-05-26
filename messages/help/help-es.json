@@ -107,7 +107,7 @@
         },
         {
           "q": "Olvidé mi contraseña. ¿Cómo la restablezco?",
-          "a": "En la pantalla de inicio de sesión, toca \"Forgot Password.\" Introduce tu correo — te enviaremos un enlace de restablecimiento. Revisa tu carpeta de spam si no llega en unos minutos."
+          "a": "En la pantalla de inicio de sesión, toca \"Forgot Password.\" Introduce tu dirección de correo electrónico — te enviaremos un código de verificación de un solo uso (OTP) a tu bandeja de entrada. Ingresa el código en la siguiente pantalla y luego establece tu nueva contraseña. Revisa tu carpeta de spam si el código no llega en unos minutos. El código expira después de 10 minutos."
         },
         { "q": "¿Cómo cierro sesión?", "a": "Profile → Settings → Log Out." },
         {
@@ -323,7 +323,7 @@
         },
         {
           "q": "¿Cómo me suscribo a Spektt Pro?",
-          "a": "Settings → \"Become a Spektt Pro\" → elige un plan (mensual o anual) → completa el pago a través de App Store (iOS) o Google Play (Android). Tu suscripción se activa inmediatamente."
+          "a": "Settings → \"Become a Spektt Pro\" → elige un plan (mensual o anual) → completa el pago a través de App Store (iOS). Tu suscripción se activa inmediatamente. La facturación para Android estará disponible próximamente."
         },
         {
           "q": "¿Puedo cancelar mi suscripción?",

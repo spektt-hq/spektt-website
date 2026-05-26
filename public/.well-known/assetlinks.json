@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.spektt.app",
+      "sha256_cert_fingerprints": [
+        "EB:83:13:C8:24:3F:91:C0:52:8B:2C:1E:77:07:D8:A4:5E:1B:B9:03:C4:AF:E4:2A:06:27:A2:B6:C0:B7:82:C3"
+      ]
+    }
+  }
+]

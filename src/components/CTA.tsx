@@ -22,7 +22,7 @@ function CTA({ dict }: CTAProps) {
           </p>
           <div className='flex-wrap flex-center gap-4'>
             <a
-              href='#'
+              href='https://apps.apple.com/app/spektt/id6770248818'
               target='_blank'
               rel='noopener noreferrer'
               className='w-36 hover:opacity-80 transition-opacity'

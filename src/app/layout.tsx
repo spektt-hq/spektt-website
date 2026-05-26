@@ -33,6 +33,23 @@ export const metadata: Metadata = {
   },
 }
 
+// JSON-LD structured data — tells Google our site name and logo for search results
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Spektt',
+  url: 'https://spektt.com',
+  logo: 'https://spektt.com/spektt-new-favicon.png',
+  sameAs: ['https://spektt.com'],
+}
+
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Spektt',
+  url: 'https://spektt.com',
+}
+
 export default async function RootLayout({
   children,
 }: Readonly<{
@@ -44,6 +61,20 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} dir={dir}>
+      <head>
+        {/* Smart Banner — shows "Open in Spektt" on mobile Safari before app is installed */}
+        <meta name='apple-itunes-app' content='app-id=6770248818' />
+
+        {/* JSON-LD — Google uses this to show the Spektt logo in search results */}
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+      </head>
       <body className='antialiased'>
         <NextTopLoader color='#048BA8' showSpinner={false} />
         {children}

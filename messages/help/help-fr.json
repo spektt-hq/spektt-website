@@ -107,7 +107,7 @@
         },
         {
           "q": "J'ai oublié mon mot de passe. Comment le réinitialiser ?",
-          "a": "Sur l'écran de connexion, appuyez sur \"Forgot Password.\" Entrez votre e-mail — nous vous enverrons un lien de réinitialisation. Vérifiez votre dossier spam si vous ne le recevez pas en quelques minutes."
+          "a": "Sur l'écran de connexion, appuyez sur \"Forgot Password.\" Entrez votre adresse e-mail — nous vous enverrons un code de vérification unique (OTP) dans votre boîte de réception. Saisissez le code à l'écran suivant, puis définissez votre nouveau mot de passe. Vérifiez votre dossier spam si le code n'arrive pas dans quelques minutes. Le code expire après 10 minutes."
         },
         {
           "q": "Comment me déconnecter ?",
@@ -324,7 +324,7 @@
         },
         {
           "q": "Comment s'abonner à Spektt Pro ?",
-          "a": "Paramètres → \"Become a Spektt Pro\" → choisissez un plan (mensuel ou annuel) → finalisez le paiement via l’App Store (iOS) ou Google Play (Android). Votre abonnement est activé immédiatement."
+          "a": "Paramètres → \"Become a Spektt Pro\" → choisissez un plan (mensuel ou annuel) → finalisez le paiement via l’App Store (iOS). Votre abonnement est activé immédiatement. La facturation Android arrive bientôt."
         },
         {
           "q": "Puis-je annuler mon abonnement ?",

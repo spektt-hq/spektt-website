@@ -7,6 +7,7 @@ import gsap from 'gsap'
 const imgGallery = [
   { id: 1, src: '/girl-on-horse.webp' },
   { id: 2, src: '/black-gril.webp' },
+  { id: 3, src: '/eggs.webp' },
 ]
 
 interface HeroProps {
@@ -109,7 +110,7 @@ function Hero({ sentences }: HeroProps) {
         {/* Download buttons */}
         <div className='flex flex-wrap items-center justify-center gap-4'>
           <a
-            href='#'
+            href='https://apps.apple.com/app/spektt/id6770248818'
             target='_blank'
             rel='noopener noreferrer'
             className='w-36 hover:opacity-80 transition-opacity'

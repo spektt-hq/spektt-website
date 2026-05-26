@@ -84,7 +84,7 @@ function Footer({ dict, locale }: FooterProps) {
             {/* Download app links */}
             <div className='flex flex-wrap gap-2 items-center'>
               <a
-                href='#'
+                href='https://apps.apple.com/app/spektt/id6770248818'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='w-36 hover:opacity-80 transition-opacity'

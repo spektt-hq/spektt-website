@@ -107,7 +107,7 @@
         },
         {
           "q": "Esqueci minha senha. Como redefino?",
-          "a": "Na tela de login, toque em \"Forgot Password.\" Insira seu e-mail — enviaremos um link de redefinição. Verifique sua pasta de spam se ele não chegar em alguns minutos."
+          "a": "Na tela de login, toque em \"Forgot Password.\" Insira seu endereço de e-mail — enviaremos um código de verificação único (OTP) para sua caixa de entrada. Insira o código na próxima tela e depois defina sua nova senha. Verifique sua pasta de spam se o código não chegar em alguns minutos. O código expira após 10 minutos."
         },
         {
           "q": "Como faço logout?",
@@ -325,7 +325,7 @@
         },
         {
           "q": "Como assino o Spektt Pro?",
-          "a": "Configurações → \"Become a Spektt Pro\" → escolha um plano (mensal ou anual) → conclua o pagamento pela App Store (iOS) ou Google Play (Android). Sua assinatura é ativada imediatamente."
+          "a": "Configurações → \"Become a Spektt Pro\" → escolha um plano (mensal ou anual) → conclua o pagamento pela App Store (iOS). Sua assinatura é ativada imediatamente. A cobrança para Android está chegando em breve."
         },
         {
           "q": "Posso cancelar minha assinatura?",

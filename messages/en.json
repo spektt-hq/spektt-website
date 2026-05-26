@@ -163,5 +163,10 @@
       "title": "Showdown Rules — Spektt",
       "description": "The official contest rules governing all Showdowns on the Spektt platform."
     }
+  },
+  "fallback": {
+    "profileMessage": "View this profile in the Spektt app.",
+    "clusterMessage": "View this Cluster in the Spektt app.",
+    "showdownMessage": "View this Showdown in the Spektt app."
   }
 }

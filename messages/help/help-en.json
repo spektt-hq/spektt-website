@@ -107,7 +107,7 @@
         },
         {
           "q": "I forgot my password. How do I reset it?",
-          "a": "On the login screen, tap \"Forgot Password.\" Enter your email — we'll send a reset link. Check your spam folder if it doesn't arrive within a few minutes."
+          "a": "On the login screen, tap \"Forgot Password.\" Enter your email address — we'll send a one-time verification code (OTP) to your inbox. Enter the code on the next screen, then set your new password. Check your spam folder if the code doesn't arrive within a few minutes. The code expires after 10 minutes."
         },
         {
           "q": "How do I log out?",
@@ -326,7 +326,7 @@
         },
         {
           "q": "How do I subscribe to Spektt Pro?",
-          "a": "Settings → \"Become a Spektt Pro\" → choose a plan (monthly or annual) → complete payment through the App Store (iOS) or Google Play (Android). Your subscription activates immediately."
+          "a": "Settings → \"Become a Spektt Pro\" → choose a plan (monthly or annual) → complete payment through the App Store (iOS). Your subscription activates immediately. Android billing is coming soon."
         },
         {
           "q": "Can I cancel my subscription?",

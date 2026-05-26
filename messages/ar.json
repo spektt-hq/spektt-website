@@ -163,5 +163,10 @@
       "title": "قواعد المباريات — Spektt",
       "description": "القواعد الرسمية التي تحكم جميع المباريات على منصة Spektt."
     }
+  },
+  "fallback": {
+    "profileMessage": "اعرض هذا الملف الشخصي في تطبيق Spektt.",
+    "clusterMessage": "اعرض هذا الكلاستر في تطبيق Spektt.",
+    "showdownMessage": "اعرض هذا الشودَاون في تطبيق Spektt."
   }
 }

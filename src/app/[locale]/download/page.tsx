@@ -71,7 +71,7 @@ export default async function Download({ params }: Props) {
 
       <div className='flex flex-wrap items-center justify-center gap-4'>
         <a
-          href='#'
+          href='https://apps.apple.com/app/spektt/id6770248818'
           target='_blank'
           rel='noopener noreferrer'
           className='w-40 hover:opacity-80 transition-opacity'
