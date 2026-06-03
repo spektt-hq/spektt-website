@@ -39,20 +39,47 @@
   "features": {
     "heading": "Todo lo que necesitas para crecer",
     "items": [
-      { "header": "Showdowns", "desc": "Participa en competiciones creativas, sé juzgado por la comunidad y paneles de expertos, y gana premios en efectivo." },
-      { "header": "Clusters", "desc": "Únete a comunidades construidas alrededor de tu nicho creativo — desde fotografía callejera hasta animación 3D." },
-      { "header": "Feed", "desc": "Comparte tu trabajo con el mundo. Fotos y videos, entregados rápidamente a una audiencia global de creativos." },
-      { "header": "Pro", "desc": "Desbloquea visibilidad prioritaria, subidas ilimitadas y un impulso del 25% en XP con Spektt Pro." },
-      { "header": "Clasificación", "desc": "Gana XP, escala en los rankings y ve dónde te encuentras frente a la comunidad creativa global." },
-      { "header": "Mensajes directos", "desc": "Conéctate y colabora con otros creativos directamente a través de los DMs integrados." }
+      {
+        "header": "Showdowns",
+        "desc": "Participa en competiciones creativas, sé juzgado por la comunidad y paneles de expertos, y gana premios en efectivo."
+      },
+      {
+        "header": "Clusters",
+        "desc": "Únete a comunidades construidas alrededor de tu nicho creativo — desde fotografía callejera hasta animación 3D."
+      },
+      {
+        "header": "Feed",
+        "desc": "Comparte tu trabajo con el mundo. Fotos y videos, entregados rápidamente a una audiencia global de creativos."
+      },
+      {
+        "header": "Pro",
+        "desc": "Desbloquea visibilidad prioritaria, subidas ilimitadas y un impulso del 25% en XP con Spektt Pro."
+      },
+      {
+        "header": "Clasificación",
+        "desc": "Gana XP, escala en los rankings y ve dónde te encuentras frente a la comunidad creativa global."
+      },
+      {
+        "header": "Mensajes directos",
+        "desc": "Conéctate y colabora con otros creativos directamente a través de los DMs integrados."
+      }
     ]
   },
   "howItWorks": {
     "heading": "Cómo funciona",
     "steps": [
-      { "title": "Crea tu cuenta", "desc": "Descarga Spektt, regístrate en minutos y elige tu categoría creativa — fotografía, videografía, animación 3D y más." },
-      { "title": "Sube tu trabajo", "desc": "Publica fotos y videos directamente desde tu galería. Tu trabajo aparece en tu perfil y en el feed global al instante." },
-      { "title": "Compite y crece", "desc": "Participa en Showdowns, gana XP, escala en la clasificación, gana premios y hazte descubrir por una comunidad global de creativos." }
+      {
+        "title": "Crea tu cuenta",
+        "desc": "Descarga Spektt, regístrate en minutos y elige tu categoría creativa — fotografía, videografía, animación 3D y más."
+      },
+      {
+        "title": "Sube tu trabajo",
+        "desc": "Publica fotos y videos directamente desde tu galería. Tu trabajo aparece en tu perfil y en el feed global al instante."
+      },
+      {
+        "title": "Compite y crece",
+        "desc": "Participa en Showdowns, gana XP, escala en la clasificación, gana premios y hazte descubrir por una comunidad global de creativos."
+      }
     ]
   },
   "showdowns": {
@@ -92,10 +119,22 @@
     "helpNoteLink": "Centro de ayuda",
     "helpNoteEnd": "primero — la mayoría de las preguntas se responden allí.",
     "channels": [
-      { "label": "General", "desc": "Asociaciones, prensa y todo lo demás." },
-      { "label": "Soporte", "desc": "Problemas de cuenta, errores y comentarios de la aplicación." },
-      { "label": "Legal", "desc": "Derechos de autor, privacidad y consultas legales." },
-      { "label": "Showdowns", "desc": "Organizar un Showdown o disputar un resultado." }
+      {
+        "label": "General",
+        "desc": "Asociaciones, prensa y todo lo demás."
+      },
+      {
+        "label": "Soporte",
+        "desc": "Problemas de cuenta, errores y comentarios de la aplicación."
+      },
+      {
+        "label": "Legal",
+        "desc": "Derechos de autor, privacidad y consultas legales."
+      },
+      {
+        "label": "Showdowns",
+        "desc": "Organizar un Showdown o disputar un resultado."
+      }
     ]
   },
   "download": {
@@ -167,6 +206,7 @@
   "fallback": {
     "profileMessage": "Ver este perfil en la aplicación Spektt.",
     "clusterMessage": "Ver este Cluster en la aplicación Spektt.",
-    "showdownMessage": "Ver este Showdown en la aplicación Spektt."
+    "showdownMessage": "Ver este Showdown en la aplicación Spektt.",
+    "collectionMessage": "Ver esta colección en la aplicación Spektt."
   }
 }

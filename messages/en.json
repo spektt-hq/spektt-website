@@ -167,6 +167,7 @@
   "fallback": {
     "profileMessage": "View this profile in the Spektt app.",
     "clusterMessage": "View this Cluster in the Spektt app.",
-    "showdownMessage": "View this Showdown in the Spektt app."
+    "showdownMessage": "View this Showdown in the Spektt app.",
+    "collectionMessage": "View this Collection in the Spektt app."
   }
 }
