@@ -1,20 +1,23 @@
-import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
+import { buildAlternates } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params
+  const { locale: rawLocale, slug } = await params
+  const locale = (locales.includes(rawLocale as Locale) ? rawLocale : 'en') as Locale
 
   return {
-    title: `Collection — Spektt`,
-    description: `View this collection on Spektt — the creative community platform.`,
+    title: `${slug} Collection — Spektt`,
+    description: `View the ${slug} Collection on Spektt — the creative community platform.`,
+    alternates: buildAlternates(locale, `/col/${slug}`),
     openGraph: {
-      title: `Collection — Spektt`,
-      description: `View this collection on Spektt — the creative community platform.`,
+      title: `${slug} Collection — Spektt`,
+      description: `View the ${slug} Collection on Spektt — the creative community platform.`,
       url: `https://spektt.com/col/${slug}`,
       siteName: 'Spektt',
       images: [{ url: '/spektt-new-favicon.png', width: 512, height: 512, alt: 'Spektt' }],
@@ -22,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary',
-      title: `Collection — Spektt`,
-      description: `View this collection on Spektt — the creative community platform.`,
+      title: `${slug} Collection — Spektt`,
+      description: `View the ${slug} Collection on Spektt — the creative community platform.`,
       images: ['/spektt-new-favicon.png'],
     },
   }
@@ -34,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
  * When the app IS installed, iOS Universal Links / Android App Links open the app directly.
  */
 export default async function CollectionFallback({ params }: Props) {
-  const { locale: rawLocale } = await params
+  const { locale: rawLocale, slug } = await params
   const locale = (locales.includes(rawLocale as Locale) ? rawLocale : 'en') as Locale
   const dict = await getDictionary(locale)
 
@@ -43,6 +46,7 @@ export default async function CollectionFallback({ params }: Props) {
       <Image src='/icon.png' alt='Spektt Logo' width={128} height={40} className='object-contain' />
 
       <div className='flex flex-col items-center gap-2 text-center'>
+        <p className='text-white font-bold text-2xl'>{slug}</p>
         <p className='text-textLighter font-regular text-lg'>{dict.fallback.collectionMessage}</p>
       </div>
 

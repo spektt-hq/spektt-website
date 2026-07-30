@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FaEnvelope } from 'react-icons/fa6'
 import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
+import { buildAlternates } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.contact.title,
     description: dict.meta.contact.description,
+    alternates: buildAlternates(locale, '/contact'),
     openGraph: {
       title: dict.meta.contact.title,
       description: dict.meta.contact.description,

@@ -53,7 +53,7 @@
       },
       {
         "header": "Pro",
-        "desc": "Desbloquea visibilidad prioritaria, subidas ilimitadas y un impulso del 25% en XP con Spektt Pro."
+        "desc": "Desbloquea visibilidad prioritaria, subidas ilimitadas y un impulso de XP escalado por nivel con Spektt Pro."
       },
       {
         "header": "Clasificación",
@@ -92,7 +92,7 @@
     },
     "premium": {
       "name": "Premium",
-      "body": "Juzgado en dos etapas. Los fans votan para seleccionar el top 20, luego jueces expertos puntúan a los finalistas. Los votos de fans y las puntuaciones de los jueces cuentan al 50% cada uno.",
+      "body": "Juzgado en dos etapas. Los fans votan para seleccionar el top 20, luego jueces expertos puntúan a los finalistas. Los votos de los fans cuentan un 60%, las puntuaciones de los jueces cuentan un 40%.",
       "prize": "Premio: Premios en efectivo reales para 1°, 2° y 3°"
     }
   },

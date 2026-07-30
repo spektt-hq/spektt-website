@@ -5,6 +5,7 @@ import {
   locales,
   type Locale,
 } from '@/dictionaries/getDictionary'
+import { buildAlternates } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.download.title,
     description: dict.meta.download.description,
+    alternates: buildAlternates(locale, '/download'),
     openGraph: {
       title: dict.meta.download.title,
       description: dict.meta.download.description,

@@ -53,7 +53,7 @@
       },
       {
         "header": "Pro",
-        "desc": "Débloquez une visibilité prioritaire, des téléchargements illimités et un bonus XP de 25% avec Spektt Pro."
+        "desc": "Débloquez une visibilité prioritaire, des téléchargements illimités et un bonus XP évolutif selon le palier avec Spektt Pro."
       },
       {
         "header": "Classement",
@@ -92,7 +92,7 @@
     },
     "premium": {
       "name": "Premium",
-      "body": "Jugement en deux étapes. Les fans votent pour sélectionner le top 20, puis des juges experts évaluent les finalistes. Votes des fans et scores des juges comptent chacun pour 50%.",
+      "body": "Jugement en deux étapes. Les fans votent pour sélectionner le top 20, puis des juges experts évaluent les finalistes. Les votes des fans comptent pour 60 %, les scores des juges comptent pour 40 %.",
       "prize": "Prix : Vrais prix en argent pour 1er, 2e & 3e"
     }
   },

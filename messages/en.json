@@ -42,7 +42,7 @@
       { "header": "Showdowns", "desc": "Enter creative competitions, get judged by the community and expert panels, and win real cash prizes." },
       { "header": "Clusters", "desc": "Join communities built around your creative niche — from street photography to 3D animation." },
       { "header": "Feed", "desc": "Share your work with the world. Photos and videos, delivered fast to a global audience of creatives." },
-      { "header": "Pro", "desc": "Unlock priority visibility, unlimited uploads, and a 25% XP boost with Spektt Pro." },
+      { "header": "Pro", "desc": "Unlock priority visibility, unlimited uploads, and a tier-scaled XP boost with Spektt Pro." },
       { "header": "Leaderboard", "desc": "Earn XP, climb the rankings, and see where you stand against the global creative community." },
       { "header": "Direct Messages", "desc": "Connect and collaborate with other creatives directly through built-in DMs." }
     ]
@@ -65,7 +65,7 @@
     },
     "premium": {
       "name": "Premium",
-      "body": "Two-stage judging. Fans vote to pick the top 20, then expert judges score the finalists. Fan votes and judge scores each count for 50%.",
+      "body": "Two-stage judging. Fans vote to pick the top 20, then expert judges score the finalists. Fan votes count for 60%, judge scores count for 40%.",
       "prize": "Prize: Real cash prizes for 1st, 2nd & 3rd"
     }
   },

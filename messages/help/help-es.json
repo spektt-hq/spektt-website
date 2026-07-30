@@ -69,10 +69,6 @@
           "a": "La pestaña Milestones muestra tu progreso de XP y todas las 29 insignias en Spektt — tanto ganadas como no ganadas (con barras de progreso para que sepas qué tan cerca estás). En la parte superior verás tu nivel actual, nombre de tier, XP total y una barra de progreso al siguiente nivel. Toca \"See All\" para abrir la pantalla completa de Milestones. Milestones son visibles solo en tu perfil."
         },
         {
-          "q": "¿Qué es Showdown Watch?",
-          "a": "Showdown Watch te permite guardar cualquier entrada de Showdown — tuya o de otra persona — para seguir su recorrido. Guarda una entrada antes de que cierre la votación y vuelve para ver cómo evoluciona durante la votación, el juicio y los resultados finales. Todo desde una sección dedicada en tu perfil."
-        },
-        {
           "q": "¿Cómo sigo a alguien?",
           "a": "Ve a su perfil y toca \"Follow.\" Sus nuevas publicaciones aparecerán en tu feed Following. Puedes dejar de seguir en cualquier momento desde su perfil o desde tu lista Following."
         },
@@ -109,14 +105,17 @@
           "q": "Olvidé mi contraseña. ¿Cómo la restablezco?",
           "a": "En la pantalla de inicio de sesión, toca \"Forgot Password.\" Introduce tu dirección de correo electrónico — te enviaremos un código de verificación de un solo uso (OTP) a tu bandeja de entrada. Ingresa el código en la siguiente pantalla y luego establece tu nueva contraseña. Revisa tu carpeta de spam si el código no llega en unos minutos. El código expira después de 10 minutos."
         },
-        { "q": "¿Cómo cierro sesión?", "a": "Profile → Settings → Log Out." },
+        {
+          "q": "¿Cómo cierro sesión?",
+          "a": "Profile → Settings → Log Out."
+        },
         {
           "q": "¿Mis datos están seguros en Spektt?",
           "a": "Sí. Tus datos se almacenan de forma segura en la infraestructura de Google Cloud (Firebase). Nunca vendemos tus datos personales a terceros. Más detalles en spektt.com/privacy."
         },
         {
           "q": "¿Cómo reporto un error o doy feedback?",
-          "a": "Envía un correo a support@spektt.com. Leemos todos los mensajes y usamos el feedback para mejorar la app."
+          "a": "Ve a Settings → Report a Bug para abrir el formulario de comentarios dentro de la app — elige Bug Report, Feature Request, Improvement u Other, luego añade detalles y una captura de pantalla opcional. Puedes enviar hasta 4 veces por semana, con un tiempo de espera de 12 horas entre envíos. También puedes escribir directamente a support@spektt.com — leemos todos los mensajes y usamos el feedback para mejorar la app."
         }
       ]
     },
@@ -129,7 +128,7 @@
         },
         {
           "q": "¿Hay un límite de tamaño de archivo, resolución o duración?",
-          "a": "Fotos: hasta 10MB y una resolución mínima de 4 megapíxeles (aproximadamente 2000×2000px o superior) — las imágenes de muy baja resolución son rechazadas. Videos: hasta 50MB, máximo 5 minutos. Verás un mensaje de error claro si un archivo no cumple estos límites antes de enviarlo."
+          "a": "Fotos: hasta 10MB y una resolución mínima de 4 megapíxeles (aproximadamente 2000×2000px o superior) — las imágenes de muy baja resolución son rechazadas. Videos: máximo 2 minutos (la app comprime tu video antes de subirlo). Verás un mensaje de error claro si un archivo no cumple estos límites antes de enviarlo."
         },
         {
           "q": "¿Cómo subo una publicación?",
@@ -149,7 +148,7 @@
         },
         {
           "q": "¿Qué ocurre con mi contenido después de subirlo?",
-          "a": "Las fotos se entregan a través de Cloudflare Images (CDN global). Los videos se transmiten mediante Cloudflare Stream. Esto garantiza una carga rápida para los espectadores en cualquier parte del mundo."
+          "a": "Las fotos se entregan a través de Cloudflare Images (CDN global). Los videos se codifican y transmiten mediante Bunny.net Stream. Esto garantiza una carga rápida para los espectadores en cualquier parte del mundo."
         },
         {
           "q": "Mi subida sigue fallando. ¿Qué debo hacer?",
@@ -161,7 +160,6 @@
         }
       ]
     },
-
     {
       "id": "showdowns",
       "articles": [
@@ -203,7 +201,7 @@
         },
         {
           "q": "¿Cómo se eligen los ganadores en un Showdown Premium?",
-          "a": "En dos etapas:\n\nVoto de fans — La comunidad vota para determinar las 20 mejores entradas. Estas se convierten en finalistas para los jueces.\n\nEvaluación de jueces — Un panel de jueces expertos califica cada una de esas 20 entradas según criterios definidos (0–10 por criterio).\n\nLa clasificación final combina ambos: el voto de fans cuenta 50%, y las puntuaciones de jueces 50%. La entrada con la puntuación combinada más alta gana. Las 15 mejores se muestran en los resultados finales."
+          "a": "En dos etapas:\n\nVoto de fans — La comunidad vota para determinar las 20 mejores entradas. Estas se convierten en finalistas para los jueces.\n\nEvaluación de jueces — Un panel de jueces expertos califica cada una de esas 20 entradas según criterios definidos (0–10 por criterio).\n\nLa clasificación final combina ambos: el voto de fans cuenta 60%, y las puntuaciones de jueces 40%. La entrada con la puntuación combinada más alta gana. Las 15 mejores se muestran en los resultados finales."
         },
         {
           "q": "¿Qué premios puedo ganar?",
@@ -230,16 +228,16 @@
           "a": "Los Showdowns globales son creados y gestionados por Spektt. Los administradores de Cluster pueden crear Showdowns dentro de su Cluster. Si estás interesado en organizar un Showdown para tu comunidad, contacta a showdowns@spektt.com."
         },
         {
-          "q": "¿Qué es Showdown Watch?",
-          "a": "Showdown Watch te permite guardar cualquier entrada de Showdown — tuya o de otra persona — para seguir su recorrido completo. Las entradas guardadas aparecen en una sección dedicada en tu perfil. Es ideal para seguir tu propia participación o apoyar a otro creador."
-        },
-        {
-          "q": "¿Cómo guardo una entrada en Showdown Watch?",
-          "a": "Toca el icono de marcador en cualquier entrada de Showdown. Se guarda en tu sección Showdown Watch en tu perfil. Toca nuevamente para eliminarlo."
+          "q": "¿Puedo seguir una entrada para ver cómo le va?",
+          "a": "Sí — para eso está la estrella en cada entrada. Tócala para guardar una entrada mientras exploras, y vuelve después de que termine el Showdown para ver cómo quedó clasificada y cuántos votos obtuvo. También es útil mientras el voto está activo, ya que solo tienes un voto y puedes preseleccionar tus favoritas antes de decidir.\n\nPara ver tus entradas guardadas, abre el Showdown y cambia la cuadrícula de entradas de «Todas» a «Guardadas». Al tocar una se abre un visor que contiene solo tus entradas guardadas, para que puedas revisarlas sin desplazarte por todas las demás.\n\nAlgunas cosas que debes saber:\n\n• Tu lista guardada es privada. Los creadores nunca saben que guardaste su entrada, y guardar no es un voto — no tiene ningún efecto en el resultado de nadie.\n• Las entradas guardadas permanecen anónimas mientras el Showdown está activo, igual que el resto de las entradas. Los autores y los recuentos de votos se revelan cuando termina.\n• La lista permanece después de que termina el Showdown — ese es el objetivo. La estrella desaparece cuando termina la votación (ya no hay nada que seguir), pero tus entradas guardadas permanecen para que puedas consultar los resultados.\n• Las cuentas gratuitas pueden guardar hasta 5 entradas por Showdown. Spektt Pro elimina el límite.\n• Tu lista guardada se almacena en tu dispositivo, por lo que no te acompaña a otro teléfono.\n• Si una entrada es retirada o eliminada del Showdown, se elimina automáticamente de tu lista guardada."
         },
         {
           "q": "Creo que el resultado de un Showdown fue injusto. ¿Qué puedo hacer?",
           "a": "Si crees que hubo una violación real de las reglas — manipulación de votos, entrada plagiada, envíos duplicados — usa el botón de reportar en la entrada y selecciona el motivo correspondiente, o envía un correo a showdowns@spektt.com con detalles.\n\nNo estar de acuerdo con un resultado, con las puntuaciones de los jueces o con los votos de la comunidad no es motivo de disputa. Los jueces toman sus decisiones de forma independiente."
+        },
+        {
+          "q": "¿Se puede descalificar una entrada de un Showdown?",
+          "a": "Sí. Si se confirma una infracción de las reglas — plagio, manipulación de votos, un participante no elegible — los moderadores de Spektt pueden descalificar la entrada mientras el Showdown siga activo. Se te notificará si tu entrada es descalificada, junto con el motivo. Un moderador todavía puede revertir una descalificación mientras el Showdown siga activo, pero una vez que termina, el resultado es definitivo."
         }
       ]
     },
@@ -261,6 +259,10 @@
         {
           "q": "¿Qué puede hacer un administrador de Cluster?",
           "a": "Como administrador puedes:\n• Ejecutar Showdowns de Cluster (Pulse y Premium)\n• Eliminar publicaciones que violen las reglas\n• Banear miembros\n• Suspender temporalmente miembros\n• Asignar moderadores\n• Fijar publicaciones\n• Archivar el Cluster\n• Transferir la administración a otro miembro"
+        },
+        {
+          "q": "¿Puede un Cluster tener más de un Showdown a la vez?",
+          "a": "No — cada Cluster solo puede tener un Showdown activo a la vez (desde «Próximamente» hasta los resultados). Esto evita que las entradas y los votos se dividan entre Showdowns que compiten dentro de la misma comunidad. Una vez que el Showdown actual termina o se cancela, los administradores y moderadores del Cluster pueden iniciar uno nuevo."
         },
         {
           "q": "¿Puedo publicar directamente en un Cluster?",
@@ -285,7 +287,7 @@
       "articles": [
         {
           "q": "¿Qué es el Leaderboard de Spektt?",
-          "a": "El Leaderboard clasifica a todos los usuarios de Spektt por su XP total (puntos de experiencia). Muestra tu posición frente a toda la comunidad y se actualiza cada 7 días."
+          "a": "El Leaderboard clasifica a todos los usuarios de Spektt por su XP total (puntos de experiencia). Muestra tu posición frente a toda la comunidad y se actualiza cada hora."
         },
         {
           "q": "¿Cómo se calcula mi rango?",
@@ -297,19 +299,14 @@
         },
         {
           "q": "¿Con qué frecuencia se actualiza el Leaderboard?",
-          "a": "Las clasificaciones se actualizan cada 7 días. El XP se acumula continuamente, pero las posiciones se actualizan semanalmente."
+          "a": "Las clasificaciones se actualizan cada hora según la actividad en tiempo real. El período del ranking Semanal se reinicia cada sábado, y el Mensual el día 1 de cada mes — pero tu XP se registra de forma continua mientras tanto."
         },
         {
           "q": "¿Puedo perder rango?",
           "a": "Tu XP nunca disminuye, pero tu posición puede bajar si otros usuarios ganan XP más rápido que tú. Mantente activo para conservar tu posición."
-        },
-        {
-          "q": "¿Qué significa la posición en el ranking para mi perfil?",
-          "a": "Tu posición en el Leaderboard es visible en tu perfil. Los creadores mejor clasificados obtienen más visibilidad en la plataforma."
         }
       ]
     },
-
     {
       "id": "subscriptions-pro",
       "articles": [
@@ -323,7 +320,7 @@
         },
         {
           "q": "¿Cómo me suscribo a Spektt Pro?",
-          "a": "Settings → \"Become a Spektt Pro\" → elige un plan (mensual o anual) → completa el pago a través de App Store (iOS). Tu suscripción se activa inmediatamente. La facturación para Android estará disponible próximamente."
+          "a": "Settings → \"Become a Spektt Pro\" → elige un plan — Mensual, Anual o De por vida. Spektt Pro llegará pronto tanto a iOS como a Android."
         },
         {
           "q": "¿Puedo cancelar mi suscripción?",
@@ -368,7 +365,7 @@
         },
         {
           "q": "¿Cómo elimino una conversación?",
-          "a": "En tu bandeja de entrada, desliza hacia la izquierda en la conversación y selecciona \"Delete.\""
+          "a": "Abre la conversación, toca el menú ⋮ en la parte superior derecha y selecciona «Eliminar conversación», luego confirma. Se eliminará de tu bandeja de entrada — la otra persona no recibirá ninguna notificación."
         },
         {
           "q": "¿Puedo bloquear a alguien que me envía mensajes?",
@@ -393,11 +390,11 @@
         },
         {
           "q": "¿Qué son los Tiers?",
-          "a": "Los Tiers son niveles de progresión basados en tu XP:\n• Newcomer — Recién comenzando\n• Rising — Creciendo tu presencia\n• Established — Miembro activo de la comunidad\n• Pro — Creador reconocido\n• Elite — En la cima de la comunidad de Spektt\n\nTu tier actual se muestra en tu perfil."
+          "a": "Los Tiers son niveles de progresión basados en tu XP:\n• Newcomer (Nivel 1–5) — Recién comenzando\n• Emerging (Nivel 6–12) — Creciendo tu presencia\n• Rising Star (Nivel 13–20) — Ganando verdadero impulso\n• Established (Nivel 21–30) — Un miembro reconocido de la comunidad\n• Verified (Nivel 31–50) — Creador serio\n• Legendary (Nivel 51–100) — Élite. Muy pocos llegan aquí.\n\nTu tier actual se muestra en tu perfil."
         },
         {
           "q": "¿Cómo gano XP?",
-          "a": "El XP se gana en varias áreas:\n• Registro — bono único al crear tu cuenta\n• Visualizaciones — XP por hitos de vistas (100, 1K, 10K, 100K, 1M vistas)\n• Votar en Showdowns — XP por cada voto (hasta 20 votos diarios)\n• Participar en un Showdown — XP por enviar una entrada\n• Posicionar en un Showdown — el top 15 gana XP; el top 3 gana mucho más; el 1º lugar gana el máximo\n• Unirse a un Cluster — bono de XP al unirte\n• Crear un Cluster — bono de XP al crearlo\n• Crecimiento del Cluster — XP por hitos de miembros\n• Insignias — algunas otorgan XP al desbloquearse\n\nLos usuarios de Spektt Pro ganan 25% más XP en todo."
+          "a": "El XP se gana en varias áreas:\n• Registro — bono único al crear tu cuenta\n• Visualizaciones — XP por hitos de vistas (100, 1K, 10K, 100K, 1M vistas)\n• Votar en Showdowns — XP por cada voto (hasta 20 votos diarios)\n• Participar en un Showdown — XP por enviar una entrada\n• Posicionar en un Showdown — el top 15 gana XP; el top 3 gana mucho más; el 1º lugar gana el máximo\n• Unirse a un Cluster — bono de XP al unirte\n• Crear un Cluster — bono de XP al crearlo\n• Crecimiento del Cluster — XP por hitos de miembros\n• Insignias — algunas otorgan XP al desbloquearse\n\nLos usuarios de Spektt Pro obtienen un multiplicador de XP potenciado que aumenta según el nivel — 1.25× en Newcomer y Emerging, 1.5× en Rising Star y Established, 1.75× en Verified, y 2× en Legendary."
         },
         {
           "q": "¿Puedo perder XP?",
@@ -413,7 +410,7 @@
         },
         {
           "q": "¿Spektt Pro afecta mi XP o tier?",
-          "a": "Sí — Spektt Pro otorga un aumento del 25% de XP en todo lo que ganas. Los tiers y niveles siguen basándose completamente en tu actividad, así que los usuarios Pro avanzan más rápido, pero el sistema es el mismo para todos."
+          "a": "Sí — Spektt Pro te da un multiplicador de XP potenciado que aumenta según tu nivel: 1.25× en Newcomer y Emerging, 1.5× en Rising Star y Established, 1.75× en Verified, y 2× en Legendary. Los tiers y niveles siguen basándose completamente en tu actividad, así que los usuarios Pro avanzan más rápido, pero el sistema es el mismo para todos."
         }
       ]
     },
@@ -434,15 +431,15 @@
         },
         {
           "q": "¿Qué ocurre después de reportar algo?",
-          "a": "Nuestro equipo de moderación revisa todos los reportes. Si confirmamos una violación, tomamos medidas: eliminar contenido, emitir advertencias, suspender o banear la cuenta. Recibirás una notificación cuando tu reporte haya sido revisado."
+          "a": "Nuestro equipo de moderación revisa todos los reportes. Si confirmamos una violación, tomamos medidas: eliminar contenido, emitir advertencias, suspender o banear la cuenta."
         },
         {
           "q": "¿Puedo bloquear a otro usuario?",
-          "a": "Sí. Ve a su perfil → menú de tres puntos → \"Block.\" Los usuarios bloqueados no pueden ver tu contenido, comentar en tus publicaciones ni enviarte mensajes. Gestiona tu lista de bloqueados en Settings → Privacy."
+          "a": "Sí. Ve a su perfil → menú de tres puntos → \"Block.\" Los usuarios bloqueados no pueden ver tu contenido, comentar en tus publicaciones ni enviarte mensajes. Gestiona tu lista de bloqueados en Settings → Blocked Users."
         },
         {
           "q": "Mi cuenta fue suspendida. ¿Qué hago?",
-          "a": "Verás un mensaje explicando el motivo cuando intentes iniciar sesión. Si crees que fue un error, contacta a support@spektt.com con tu nombre de usuario y lo revisaremos."
+          "a": "Verás una pantalla de suspensión que explica el motivo cuando intentes iniciar sesión. Desde esa pantalla puedes enviar una apelación dentro de la app — tienes hasta 2 intentos de apelación por suspensión, y el segundo solo se desbloquea si el primero es rechazado. También puedes contactar a support@spektt.com con tu nombre de usuario si prefieres escribirnos directamente."
         },
         {
           "q": "Creo que mi cuenta fue hackeada. ¿Qué debo hacer?",

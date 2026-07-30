@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
 import { getShowdownRulesDictionary } from '@/dictionaries/getShowdownRulesDictionary'
+import { buildAlternates } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -18,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.showdownRules.title,
     description: dict.meta.showdownRules.description,
+    alternates: buildAlternates(locale, '/showdown-rules'),
     openGraph: {
       title: dict.meta.showdownRules.title,
       description: dict.meta.showdownRules.description,

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
-  "effectiveDate": "Effective Date: May 26th, 2026",
-  "lastUpdated": "Last Updated: May 26th, 2026",
+  "effectiveDate": "Effective Date: July 30th, 2026",
+  "lastUpdated": "Last Updated: July 30th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -35,7 +35,8 @@
       "Support: support@spektt.com",
       "Privacy requests: legal@spektt.com (subject line: \"Privacy Request\")",
       "Website: spektt.com"
-    ]
+    ],
+    "taxId": "Tax Identification Number: 2623715363203"
   },
   "s2": {
     "heading": "2. INFORMATION WE COLLECT",
@@ -110,18 +111,66 @@
     "tableHeadData": "Data Used",
     "tableHeadBasis": "Legal Basis",
     "tableRows": [
-      ["Creating and managing your account", "Account data, profile info", "Contract performance"],
-      ["Verifying your age for Showdown eligibility", "Date of birth", "Contract performance + Legal obligation"],
-      ["Delivering the feed and content discovery", "Content, profile data, location/country", "Contract performance"],
-      ["Delivering direct messages", "Message content, metadata", "Contract performance"],
-      ["Running Showdowns and paying cash prizes", "Contest data, prize payment details", "Contract performance"],
-      ["Fraud and vote manipulation prevention", "Hashed IP, voting history, account activity", "Legitimate interests"],
-      ["Safety moderation and Guidelines enforcement", "Reports, content, message content (reported only)", "Legal obligation + Legitimate interests"],
-      ["Sending push notifications", "Player IDs, notification preferences", "Consent (withdrawable in Settings)"],
-      ["Sending transactional emails (OTP, alerts)", "Email address", "Contract performance"],
-      ["Generating leaderboards and ranking data", "XP, gamification data", "Legitimate interests"],
-      ["Improving the App and fixing bugs", "Crash data (Sentry), usage data", "Legitimate interests"],
-      ["Complying with Nigerian financial and tax law", "Bank details, Tax ID", "Legal obligation"]
+      [
+        "Creating and managing your account",
+        "Account data, profile info",
+        "Contract performance"
+      ],
+      [
+        "Verifying your age for Showdown eligibility",
+        "Date of birth",
+        "Contract performance + Legal obligation"
+      ],
+      [
+        "Delivering the feed and content discovery",
+        "Content, profile data, location/country",
+        "Contract performance"
+      ],
+      [
+        "Delivering direct messages",
+        "Message content, metadata",
+        "Contract performance"
+      ],
+      [
+        "Running Showdowns and paying cash prizes",
+        "Contest data, prize payment details",
+        "Contract performance"
+      ],
+      [
+        "Fraud and vote manipulation prevention",
+        "Hashed IP, voting history, account activity",
+        "Legitimate interests"
+      ],
+      [
+        "Safety moderation and Guidelines enforcement",
+        "Reports, content, message content (reported only)",
+        "Legal obligation + Legitimate interests"
+      ],
+      [
+        "Sending push notifications",
+        "Player IDs, notification preferences",
+        "Consent (withdrawable in Settings)"
+      ],
+      [
+        "Sending transactional emails (OTP, alerts)",
+        "Email address",
+        "Contract performance"
+      ],
+      [
+        "Generating leaderboards and ranking data",
+        "XP, gamification data",
+        "Legitimate interests"
+      ],
+      [
+        "Improving the App and fixing bugs",
+        "Crash data (Sentry), usage data",
+        "Legitimate interests"
+      ],
+      [
+        "Complying with Nigerian financial and tax law",
+        "Bank details, Tax ID",
+        "Legal obligation"
+      ]
     ],
     "notDoLabel": "What we do NOT do:",
     "notDoItems": [
@@ -147,15 +196,51 @@
     "providerTableHeadPurpose": "Purpose",
     "providerTableHeadData": "Data Processed",
     "providerRows": [
-      ["Google Firebase / Firestore", "Primary database, authentication, real-time data", "All user account and content data"],
-      ["Cloudflare Stream", "Video hosting and HLS streaming", "Videos you upload"],
-      ["Cloudflare Images", "Image CDN and delivery", "Photos you upload"],
-      ["RevenueCat", "Subscription management and purchase validation", "Subscription status, expiry date, purchase date"],
-      ["OneSignal", "Push notification delivery", "Player IDs; notification content"],
-      ["Resend", "Transactional email delivery", "Email address, OTP codes, alert content"],
-      ["Sentry", "Error and crash monitoring", "Crash reports, stack traces (no PII)"],
-      ["ipify.org", "Public IP lookup (fraud detection)", "Your device's public IP at time of request"],
-      ["Apple / Google", "Payment processing for Spektt Pro", "Subscription purchase data (Spektt never receives card data)"]
+      [
+        "Google Firebase / Firestore",
+        "Primary database, authentication, real-time data",
+        "All user account and content data"
+      ],
+      [
+        "Bunny.net Stream",
+        "Video hosting, encoding, and HLS streaming",
+        "Videos you upload"
+      ],
+      [
+        "Cloudflare Images",
+        "Image CDN and delivery",
+        "Photos you upload"
+      ],
+      [
+        "RevenueCat",
+        "Subscription management and purchase validation",
+        "Subscription status, expiry date, purchase date"
+      ],
+      [
+        "OneSignal",
+        "Push notification delivery",
+        "Player IDs; notification content"
+      ],
+      [
+        "Resend",
+        "Transactional email delivery",
+        "Email address, OTP codes, alert content"
+      ],
+      [
+        "Sentry",
+        "Error and crash monitoring",
+        "Crash reports, stack traces (no PII)"
+      ],
+      [
+        "ipify.org",
+        "Public IP lookup (fraud detection)",
+        "Your device's public IP at time of request"
+      ],
+      [
+        "Apple / Google",
+        "Payment processing for Spektt Pro",
+        "Subscription purchase data (Spektt never receives card data)"
+      ]
     ],
     "lawHeading": "With law enforcement or regulators",
     "lawBody": "We may disclose your information if required by law, court order, or governmental authority, or to prevent fraud or protect the safety of our users.",
@@ -176,7 +261,7 @@
     "s5_3_heading": "5.3 Who Can Read Your Messages",
     "s5_3_body": "Your messages are accessible only to you and the other participant, and to authorised Spektt safety moderators only when a message has been reported. We do not proactively read or scan private conversations.",
     "s5_4_heading": "5.4 Push Notification Previews",
-    "s5_4_body": "If enabled, a short preview of new messages is included in the notification payload via OneSignal. You can disable this in your device Settings or in-app Notification Settings.",
+    "s5_4_body": "Turning off \"Messages\" in the App's Notification Settings (Settings → Notifications) disables message push notifications entirely — including the preview — rather than just hiding the preview text. You can also manage notification content visibility (e.g. hiding it on your lock screen) through your device's OS-level notification settings.",
     "s5_5_heading": "5.5 Anti-Spam Protection",
     "s5_5_body": "A user whose message request you decline cannot contact you again for 30 days. This record is automatically purged after the 30-day cooldown. Blocked users cannot message you at all.",
     "s5_6_heading": "5.6 Message Deletion",
@@ -202,14 +287,14 @@
   },
   "s8": {
     "heading": "8. CHILDREN'S PRIVACY",
-    "p1": "Spektt is intended for users aged 13 and above. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has created an account, we will delete that account and its associated data promptly.",
-    "p2": "For users aged 13–17 (minors), additional restrictions apply:",
+    "p1": "Spektt is intended for users aged 16 and above. We do not knowingly collect personal information from children under 16. If we become aware that a child under 16 has created an account, we will delete that account and its associated data promptly.",
+    "p2": "For users aged 16–17 (minors), additional restrictions apply:",
     "items": [
       "Minors cannot enter any Showdown (Pulse or Premium)",
       "Direct messaging is restricted for minor users",
       "Cash prize participation requires the user to not be flagged as a minor"
     ],
-    "p3": "If you believe a child under 13 has created an account, contact us at legal@spektt.com."
+    "p3": "If you believe a child under 16 has created an account, contact us at legal@spektt.com."
   },
   "s9": {
     "heading": "9. YOUR RIGHTS",
@@ -228,31 +313,71 @@
     "s9_4_heading": "9.4 Right to Opt Out",
     "s9_4_items": [
       "Push notifications: Disable in device settings or in-app Notification Settings",
-      "Leaderboard participation: Contact us to exclude your profile from public leaderboards"
+      "Analytics / crash reporting: Sentry captures anonymised crash data only; contact us if you have concerns"
     ],
     "s9_5_heading": "9.5 Nigerian Users (NDPA 2023 / NDPR)",
     "s9_5_body": "Under the Nigeria Data Protection Act 2023 and the NDPR, you have the right to know what data we hold, correct inaccurate data, request deletion, withdraw consent, and lodge a complaint with the Nigeria Data Protection Commission (NDPC) at ndpc.gov.ng.",
     "s9_6_heading": "9.6 Other International Users (GDPR and equivalents)",
-    "s9_6_body": "If you are located in the European Economic Area or a jurisdiction with equivalent data protection law, you additionally have the right to data portability and to lodge a complaint with your local supervisory authority."
+    "s9_6_body": "If you are located in the European Economic Area or a jurisdiction with equivalent data protection law, you additionally have the right to data portability and to lodge a complaint with your local supervisory authority.",
+    "s9_4_note": "Leaderboard ranking is a core part of the Spektt experience for every active user and is not an optional feature you can be excluded from while keeping your account active."
   },
   "s10": {
     "heading": "10. DATA RETENTION",
     "tableHeadType": "Data Type",
     "tableHeadPeriod": "Retention Period",
     "tableRows": [
-      ["Account profile data", "Until account deletion (permanently erased after 30-day grace period)"],
-      ["Uploads (photos / videos)", "Until deleted by you, or on account deletion"],
-      ["Comments", "Anonymised (\"[deleted]\") on account deletion — thread structure preserved"],
-      ["Direct messages", "Until you delete them or your account is deleted"],
-      ["Deleted message content", "Permanently purged within 30 days of deletion"],
-      ["Prize payment details (bank info)", "Retained as required by Nigerian financial regulations (minimum 7 years) after payment"],
-      ["Contest entries (ended Showdowns)", "Retained indefinitely as competition history"],
-      ["Gamification data (XP, badges, level)", "Retained until account deletion"],
-      ["Moderation logs and reports", "Retained indefinitely (audit trail integrity)"],
-      ["Push notification tokens (OneSignal Player IDs)", "Cleared immediately on logout or account deletion"],
-      ["Declined message request data", "Purged 30 days after the request was declined"],
-      ["Hashed IP address", "Retained for the duration of the account"],
-      ["Crash data (Sentry)", "Retained per Sentry's data retention policy (90 days by default)"]
+      [
+        "Account profile data",
+        "Until account deletion (permanently erased after 30-day grace period)"
+      ],
+      [
+        "Uploads (photos / videos)",
+        "Until deleted by you, or on account deletion"
+      ],
+      [
+        "Comments",
+        "Anonymised (\"[deleted]\") on account deletion — thread structure preserved"
+      ],
+      [
+        "Direct messages",
+        "Until you delete them or your account is deleted"
+      ],
+      [
+        "Deleted message content",
+        "Permanently purged within 30 days of deletion"
+      ],
+      [
+        "Prize payment details (bank info)",
+        "Retained as required by Nigerian financial regulations (minimum 7 years) after payment"
+      ],
+      [
+        "Contest entries (ended Showdowns)",
+        "Retained indefinitely as competition history"
+      ],
+      [
+        "Gamification data (XP, badges, level)",
+        "Retained until account deletion"
+      ],
+      [
+        "Moderation logs and reports",
+        "Retained indefinitely (audit trail integrity)"
+      ],
+      [
+        "Push notification tokens (OneSignal Player IDs)",
+        "Cleared immediately on logout or account deletion"
+      ],
+      [
+        "Declined message request data",
+        "Purged 30 days after the request was declined"
+      ],
+      [
+        "Hashed IP address",
+        "Retained for the duration of the account"
+      ],
+      [
+        "Crash data (Sentry)",
+        "Retained per Sentry's data retention policy (90 days by default)"
+      ]
     ]
   },
   "s11": {
@@ -278,19 +403,58 @@
     "tableHeadActivity": "Processing Activity",
     "tableHeadBasis": "Legal Basis",
     "tableRows": [
-      ["Creating and maintaining your account", "Contract performance"],
-      ["Delivering messages between users", "Contract performance"],
-      ["Publishing uploads and content", "Contract performance"],
-      ["Processing Showdown entries and paying prizes", "Contract performance"],
-      ["Determining eligibility by country/age", "Contract performance + Legal obligation"],
-      ["Safety moderation (reports, bans, suspensions)", "Legal obligation + Legitimate interests"],
-      ["Preventing fraud and vote manipulation", "Legitimate interests"],
-      ["Sending push notifications", "Consent (withdrawable at any time in Settings)"],
-      ["Sending transactional emails (OTP, alerts)", "Contract performance"],
-      ["Generating leaderboards and gamification rankings", "Legitimate interests"],
-      ["Retaining prize payment details for tax compliance", "Legal obligation (Nigerian financial regulations)"],
-      ["Retaining audit logs and moderation records", "Legal obligation"],
-      ["Crash and error monitoring (Sentry)", "Legitimate interests"]
+      [
+        "Creating and maintaining your account",
+        "Contract performance"
+      ],
+      [
+        "Delivering messages between users",
+        "Contract performance"
+      ],
+      [
+        "Publishing uploads and content",
+        "Contract performance"
+      ],
+      [
+        "Processing Showdown entries and paying prizes",
+        "Contract performance"
+      ],
+      [
+        "Determining eligibility by country/age",
+        "Contract performance + Legal obligation"
+      ],
+      [
+        "Safety moderation (reports, bans, suspensions)",
+        "Legal obligation + Legitimate interests"
+      ],
+      [
+        "Preventing fraud and vote manipulation",
+        "Legitimate interests"
+      ],
+      [
+        "Sending push notifications",
+        "Consent (withdrawable at any time in Settings)"
+      ],
+      [
+        "Sending transactional emails (OTP, alerts)",
+        "Contract performance"
+      ],
+      [
+        "Generating leaderboards and gamification rankings",
+        "Legitimate interests"
+      ],
+      [
+        "Retaining prize payment details for tax compliance",
+        "Legal obligation (Nigerian financial regulations)"
+      ],
+      [
+        "Retaining audit logs and moderation records",
+        "Legal obligation"
+      ],
+      [
+        "Crash and error monitoring (Sentry)",
+        "Legitimate interests"
+      ]
     ]
   },
   "s14": {

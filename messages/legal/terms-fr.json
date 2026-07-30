@@ -1,7 +1,7 @@
 {
   "pageTitle": "Conditions Générales",
-  "effectiveDate": "Date d'entrée en vigueur : May 26th, 2026",
-  "lastUpdated": "Dernière mise à jour : May 26th, 2026",
+  "effectiveDate": "Date d'entrée en vigueur : July 30th, 2026",
+  "lastUpdated": "Dernière mise à jour : July 30th, 2026",
   "intro": "Les présentes Conditions Générales (\"Conditions\") régissent votre utilisation de l'application mobile et du site web Spektt à l'adresse spektt.com (\"Plateforme\", \"Service\", \"Application\"), exploités par Axlume Tech Limited (\"Spektt\", \"nous\", \"notre\", \"nos\"), une société enregistrée auprès de la Corporate Affairs Commission (CAC) de la République fédérale du Nigeria. En créant un compte ou en utilisant le Service, vous acceptez pleinement les présentes Conditions. Si vous n'acceptez pas ces Conditions, vous devez cesser d'utiliser le Service et supprimer votre compte.",
   "toc": {
     "title": "Table des matières",
@@ -46,14 +46,20 @@
   "s2": {
     "heading": "2. CONDITIONS D'ÉLIGIBILITÉ ET RESTRICTIONS D'ÂGE",
     "s2_1_heading": "2.1 Âge minimum",
-    "s2_1_body": "Vous devez avoir au moins 13 ans pour utiliser Spektt. En créant un compte, vous confirmez satisfaire à cette exigence. Si vous avez moins de 13 ans, vous ne devez pas utiliser le Service.",
+    "s2_1_body": "Vous devez avoir au moins 16 ans pour utiliser Spektt. En créant un compte, vous confirmez satisfaire à cette exigence. Si vous avez moins de 16 ans, vous ne devez pas utiliser le Service.",
     "s2_2_heading": "2.2 Mineurs (moins de 18 ans)",
     "s2_2_body": "Les utilisateurs de moins de 18 ans sont considérés comme mineurs sur Spektt. Les mineurs peuvent utiliser la plateforme avec le consentement d'un parent ou tuteur légal. Le parent ou tuteur accepte la responsabilité de l'utilisation du Service par le mineur.",
     "tableHeadFeature": "Fonctionnalité",
     "tableHeadAge": "Âge minimum",
     "tableRows": [
-      ["Création de compte, fil d'actualité, téléchargements, profils", "13+"],
-      ["Clusters", "13+"],
+      [
+        "Création de compte, fil d'actualité, téléchargements, profils",
+        "16+"
+      ],
+      [
+        "Clusters",
+        "16+"
+      ],
       [
         "Messagerie directe",
         "18+ (les mineurs ne peuvent ni envoyer ni recevoir de messages directs)"
@@ -64,7 +70,7 @@
       ],
       [
         "Abonnement Spektt Pro",
-        "13+ (Apple/Google gèrent la vérification d'âge lors de l'achat)"
+        "16+ (Apple/Google gèrent la vérification d'âge lors de l'achat)"
       ],
       [
         "Prix en espèces Premium Showdown",
@@ -168,7 +174,7 @@
     ],
     "s6_6_heading": "6.6 Détermination des gagnants",
     "s6_6_pulse": "Pulse : les participations sont classées par nombre de votes. Les égalités sont départagées par les vues, puis par l'heure de soumission. Les 15 premiers sont affichés.",
-    "s6_6_premium": "Premium : les juges évaluent les 20 meilleures participations selon les votes des fans (0–10 par critère). Score final = (Score de vote normalisé × 50%) + (Score moyen des juges × 50%). Les 15 premiers sont affichés.",
+    "s6_6_premium": "Premium : les juges évaluent les 20 meilleures participations selon les votes des fans (0–10 par critère). Score final = (Score de vote normalisé × 60%) + (Score moyen des juges × 40%). Les 15 premiers sont affichés.",
     "s6_7_heading": "6.7 Décisions de jugement",
     "s6_7_body": "Les décisions et notes des juges sont finales. Spektt n'interfère pas dans les évaluations individuelles. Les violations avérées des règles (manipulation de votes, plagiat, inéligibilité) peuvent être signalées via la fonction de signalement ou à showdowns@spektt.com. Les désaccords avec les scores ou votes ne constituent pas un motif de contestation.",
     "s6_8_heading": "6.8 Récompenses — Pulse Showdowns",
@@ -185,7 +191,9 @@
     "s6_10_heading": "6.10 Nombre insuffisant de participations",
     "s6_10_body": "Si un Showdown n'atteint pas le nombre minimum de participations (5 pour Pulse, 10 pour Premium) avant la clôture, il est fermé sans résultat et aucun prix n'est attribué.",
     "s6_11_heading": "6.11 Showdowns annulés",
-    "s6_11_body": "Spektt se réserve le droit d'annuler tout Showdown à tout moment. En cas d'annulation, aucun prix n'est attribué et les participations ne donnent droit à aucune compensation."
+    "s6_11_body": "Spektt se réserve le droit d'annuler tout Showdown à tout moment. En cas d'annulation, aucun prix n'est attribué et les participations ne donnent droit à aucune compensation.",
+    "s6_7a_heading": "6.7A Disqualification et réintégration des participations",
+    "s6_7a_body": "Les modérateurs de Spektt peuvent disqualifier une participation jugée en violation de ces Conditions (plagiat, manipulation des votes, participant non éligible) à tout moment tant que le Showdown est encore actif. Une participation disqualifiée est retirée des résultats et le participant est informé de la disqualification et de la raison. Tant que le Showdown reste actif, un modérateur peut annuler une disqualification et réintégrer la participation. Une fois le Showdown terminé, les décisions de disqualification sont définitives et ne peuvent pas faire l'objet d'un recours via la procédure de litige standard — voir la Section 6.7."
   },
   "s7": {
     "heading": "7. LICENCES DE CONTENU ET MESSAGES PRIVÉS",
@@ -241,7 +249,7 @@
     "s10_4_heading": "10.4 Inactivité de l'administrateur",
     "s10_4_body": "Après 30 jours d'inactivité, un avertissement est envoyé. Après 45 jours, les droits sont transférés automatiquement.",
     "s10_5_heading": "10.5 Showdowns de Cluster",
-    "s10_5_body": "Les Showdowns de Cluster suivent les mêmes règles que les Showdowns globaux (voir Section 6)."
+    "s10_5_body": "Les Showdowns de Cluster suivent les mêmes règles que les Showdowns globaux (voir Section 6). Un Cluster ne peut avoir qu'un seul Showdown actif à la fois — un nouveau Showdown de Cluster ne peut pas être créé tant qu'un autre est encore en cours (de la phase « À venir » jusqu'aux résultats). Cette restriction ne s'applique pas aux Showdowns globaux."
   },
   "s11": {
     "heading": "11. CONTRÔLES DE BLOCAGE ET DE SÉCURITÉ",
@@ -253,14 +261,14 @@
     "s12_1_heading": "12.1 Nature des fonctionnalités de gamification",
     "s12_1_body": "Les XP, niveaux, tiers, badges et positions du classement n'ont aucune valeur monétaire et ne peuvent pas être échangés contre de l'argent, transférés ou retirés de la plateforme.",
     "s12_2_heading": "12.2 Obtention des XP",
-    "s12_2_body": "Les XP sont obtenus via l'activité sur la plateforme, notamment les inscriptions, vues de contenu, likes reçus, votes de Showdown, participations aux Showdowns, classements, adhésion aux Clusters, création de Clusters et croissance de la communauté des Clusters. Les utilisateurs Spektt Pro reçoivent un bonus de 25% XP sur toutes les activités.",
+    "s12_2_body": "Les XP sont obtenus via l'activité sur la plateforme, notamment les inscriptions, vues de contenu, likes reçus, votes de Showdown, participations aux Showdowns, classements, adhésion aux Clusters, création de Clusters et croissance de la communauté des Clusters. Les utilisateurs Spektt Pro bénéficient d'un multiplicateur d'XP boosté qui évolue selon le palier — 1,25× pour Newcomer et Emerging, 1,5× pour Rising Star et Established, 1,75× pour Verified, et 2× pour Legendary.",
     "s12_3_heading": "12.3 Droits de Spektt sur la gamification",
     "s12_3_body": "Spektt se réserve le droit de modifier les valeurs des XP, les critères des badges, les seuils de niveaux, la méthodologie du classement ou tout autre aspect du système de gamification à tout moment sans préavis ni compensation. Les XP accumulés et les badges obtenus ne seront pas supprimés rétroactivement sauf en cas de violation du compte."
   },
   "s13": {
     "heading": "13. ABONNEMENT SPEKTT PRO",
     "s13_1_heading": "13.1 Ce qu'est Spektt Pro",
-    "s13_1_body": "Spektt Pro est un abonnement payant optionnel qui débloque des limites de téléchargement plus élevées, des Spotlights et Collections supplémentaires, un badge Pro, un bonus de 25% XP et d'autres avantages. Les prix actuels sont affichés dans l'application.",
+    "s13_1_body": "Spektt Pro est un abonnement payant optionnel qui débloque des limites de téléchargement plus élevées, des Spotlights et Collections supplémentaires, un badge Pro, un bonus d'XP évolutif selon le palier (voir Section 12.2) et d'autres avantages. Les prix actuels sont affichés dans l'application.",
     "s13_2_heading": "13.2 Fonctionnement des paiements",
     "s13_2_body": "Tous les paiements sont traités entièrement par Apple (App Store) ou Google (Google Play). Spektt ne reçoit ni ne stocke vos informations de carte bancaire.",
     "s13_3_heading": "13.3 Renouvellement de l'abonnement",
@@ -340,7 +348,7 @@
   "s19": {
     "heading": "19. CONDITIONS GÉNÉRALES",
     "s19_1_heading": "19.1 Modifications des Conditions",
-    "s19_1_body": "Nous pouvons mettre à jour ces Conditions à tout moment. Les modifications importantes seront communiquées via notification dans l'application ou par e-mail au moins 14 jours avant leur entrée en vigueur.",
+    "s19_1_body": "Nous pouvons mettre à jour ces Conditions à tout moment. Lorsque nous apportons des modifications importantes, nous mettrons à jour la date « Dernière mise à jour », publierons les Conditions révisées sur spektt.com/terms et, lorsque la loi l'exige, vous informerons via une notification dans l'application ou par e-mail.",
     "s19_2_heading": "19.2 Droit applicable",
     "s19_2_body": "Les présentes Conditions sont régies par les lois de la République fédérale du Nigeria. Les litiges relèvent de la compétence exclusive des tribunaux nigérians.",
     "s19_3_heading": "19.3 Divisibilité",
