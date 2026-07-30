@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
+import { buildAlternates } from '@/lib/seo'
 import {
   Hero,
   WhatIsSpektt,
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.home.title,
     description: dict.meta.home.description,
+    alternates: buildAlternates(locale, ''),
   }
 }
 

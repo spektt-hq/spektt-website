@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
-  "effectiveDate": "Date d’entrée en vigueur : May 26th, 2026",
-  "lastUpdated": "Dernière mise à jour : May 26th, 2026",
+  "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
+  "lastUpdated": "Dernière mise à jour : July 30th, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -35,7 +35,8 @@
       "Support : support@spektt.com",
       "Demandes relatives à la confidentialité : legal@spektt.com (objet : \"Privacy Request\")",
       "Site web : spektt.com"
-    ]
+    ],
+    "taxId": "Numéro d'identification fiscale : 2623715363203"
   },
   "s2": {
     "heading": "2. INFORMATIONS QUE NOUS COLLECTONS",
@@ -201,8 +202,8 @@
         "Toutes les données de compte utilisateur et de contenu"
       ],
       [
-        "Cloudflare Stream",
-        "Hébergement vidéo et streaming HLS",
+        "Bunny.net Stream",
+        "Hébergement vidéo, encodage et streaming HLS",
         "Vidéos que vous téléchargez"
       ],
       [
@@ -260,7 +261,7 @@
     "s5_3_heading": "5.3 Qui peut lire vos messages",
     "s5_3_body": "Vos messages sont accessibles uniquement à vous et à l’autre participant, ainsi qu’aux modérateurs de sécurité autorisés de Spektt uniquement lorsqu’un message a été signalé. Nous ne lisons ni ne scannons de manière proactive les conversations privées.",
     "s5_4_heading": "5.4 Aperçus des notifications push",
-    "s5_4_body": "Si activé, un court aperçu des nouveaux messages est inclus dans la charge utile de notification via OneSignal. Vous pouvez désactiver cette option dans les Paramètres de votre appareil ou dans les Paramètres de notification de l’application.",
+    "s5_4_body": "Désactiver « Messages » dans les Paramètres de notification de l'application (Paramètres → Notifications) désactive entièrement les notifications push de messages — y compris l'aperçu — plutôt que de simplement masquer le texte de l'aperçu. Vous pouvez également gérer la visibilité du contenu des notifications (par exemple le masquer sur votre écran de verrouillage) via les paramètres de notification au niveau du système d'exploitation de votre appareil.",
     "s5_5_heading": "5.5 Protection anti-spam",
     "s5_5_body": "Un utilisateur dont vous refusez la demande de message ne peut pas vous recontacter pendant 30 jours. Cet enregistrement est automatiquement supprimé après la période de refroidissement de 30 jours. Les utilisateurs bloqués ne peuvent pas vous envoyer de messages du tout.",
     "s5_6_heading": "5.6 Suppression des messages",
@@ -286,14 +287,14 @@
   },
   "s8": {
     "heading": "8. CONFIDENTIALITÉ DES ENFANTS",
-    "p1": "Spektt est destiné aux utilisateurs âgés de 13 ans et plus. Nous ne collectons pas sciemment d’informations personnelles auprès d’enfants de moins de 13 ans. Si nous apprenons qu’un enfant de moins de 13 ans a créé un compte, nous supprimerons rapidement ce compte et les données associées.",
-    "p2": "Pour les utilisateurs âgés de 13 à 17 ans (mineurs), des restrictions supplémentaires s’appliquent :",
+    "p1": "Spektt est destiné aux utilisateurs âgés de 16 ans et plus. Nous ne collectons pas sciemment d’informations personnelles auprès d’enfants de moins de 16 ans. Si nous apprenons qu’un enfant de moins de 16 ans a créé un compte, nous supprimerons rapidement ce compte et les données associées.",
+    "p2": "Pour les utilisateurs âgés de 16 à 17 ans (mineurs), des restrictions supplémentaires s’appliquent :",
     "items": [
       "Les mineurs ne peuvent participer à aucun Showdown (Pulse ou Premium)",
       "La messagerie directe est restreinte pour les utilisateurs mineurs",
       "La participation aux prix en espèces exige que l’utilisateur ne soit pas signalé comme mineur"
     ],
-    "p3": "Si vous pensez qu’un enfant de moins de 13 ans a créé un compte, contactez-nous à legal@spektt.com."
+    "p3": "Si vous pensez qu’un enfant de moins de 16 ans a créé un compte, contactez-nous à legal@spektt.com."
   },
   "s9": {
     "heading": "9. VOS DROITS",
@@ -311,13 +312,14 @@
     ],
     "s9_4_heading": "9.4 Droit de retrait",
     "s9_4_items": [
-      "Notifications push : désactivez-les dans les paramètres de l’appareil ou dans les Paramètres de notification de l’application",
-      "Participation au classement : contactez-nous pour exclure votre profil des classements publics"
+      "Notifications push : désactivez-les dans les paramètres de l'appareil ou dans les Paramètres de notification de l'application",
+      "Analyses / rapports de plantage : Sentry ne collecte que des données de plantage anonymisées ; contactez-nous en cas de préoccupation"
     ],
     "s9_5_heading": "9.5 Utilisateurs nigérians (NDPA 2023 / NDPR)",
     "s9_5_body": "En vertu de la Nigeria Data Protection Act 2023 et du NDPR, vous avez le droit de savoir quelles données nous détenons, de corriger les données inexactes, de demander leur suppression, de retirer votre consentement et de déposer une plainte auprès de la Nigeria Data Protection Commission (NDPC) sur ndpc.gov.ng.",
     "s9_6_heading": "9.6 Autres utilisateurs internationaux (GDPR et équivalents)",
-    "s9_6_body": "Si vous êtes situé dans l’Espace économique européen ou dans une juridiction disposant d’une loi équivalente sur la protection des données, vous avez également le droit à la portabilité des données et de déposer une plainte auprès de votre autorité de contrôle locale."
+    "s9_6_body": "Si vous êtes situé dans l’Espace économique européen ou dans une juridiction disposant d’une loi équivalente sur la protection des données, vous avez également le droit à la portabilité des données et de déposer une plainte auprès de votre autorité de contrôle locale.",
+    "s9_4_note": "Le classement est un élément central de l'expérience Spektt pour chaque utilisateur actif et n'est pas une fonctionnalité facultative dont vous pouvez être exclu tout en gardant votre compte actif."
   },
   "s10": {
     "heading": "10. CONSERVATION DES DONNÉES",
@@ -368,7 +370,10 @@
         "Données des demandes de message refusées",
         "Supprimées 30 jours après le refus de la demande"
       ],
-      ["Adresse IP hachée", "Conservée pendant toute la durée du compte"],
+      [
+        "Adresse IP hachée",
+        "Conservée pendant toute la durée du compte"
+      ],
       [
         "Données de plantage (Sentry)",
         "Conservées selon la politique de conservation des données de Sentry (90 jours par défaut)"
@@ -398,9 +403,18 @@
     "tableHeadActivity": "Activité de traitement",
     "tableHeadBasis": "Base légale",
     "tableRows": [
-      ["Création et maintenance de votre compte", "Exécution du contrat"],
-      ["Livraison des messages entre utilisateurs", "Exécution du contrat"],
-      ["Publication des téléchargements et du contenu", "Exécution du contrat"],
+      [
+        "Création et maintenance de votre compte",
+        "Exécution du contrat"
+      ],
+      [
+        "Livraison des messages entre utilisateurs",
+        "Exécution du contrat"
+      ],
+      [
+        "Publication des téléchargements et du contenu",
+        "Exécution du contrat"
+      ],
       [
         "Traitement des participations aux Showdown et paiement des prix",
         "Exécution du contrat"
@@ -437,7 +451,10 @@
         "Conservation des journaux d’audit et des dossiers de modération",
         "Obligation légale"
       ],
-      ["Surveillance des plantages et erreurs (Sentry)", "Intérêts légitimes"]
+      [
+        "Surveillance des plantages et erreurs (Sentry)",
+        "Intérêts légitimes"
+      ]
     ]
   },
   "s14": {

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { locales, type Locale } from '@/dictionaries/locales'
 import { getDictionary } from '@/dictionaries/getDictionary'
 import { getPrivacyDictionary } from '@/dictionaries/getPrivacyDictionary'
+import { buildAlternates } from '@/lib/seo'
 import PrivacyToC from './PrivacyToC'
 
 type Props = {
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.privacy.title,
     description: dict.meta.privacy.description,
+    alternates: buildAlternates(locale, '/privacy'),
     openGraph: {
       title: dict.meta.privacy.title,
       description: dict.meta.privacy.description,
@@ -67,6 +69,7 @@ export default async function PrivacyPolicy({ params }: Props) {
             <ul className='list-none mt-4 space-y-1'>
               <li className='privacy-policy-text'><strong className='text-white'>{d.s1.legalEntity}</strong></li>
               <li className='privacy-policy-text'><strong className='text-white'>{d.s1.registration}</strong></li>
+              <li className='privacy-policy-text'><strong className='text-white'>{d.s1.taxId}</strong></li>
             </ul>
             <p className='privacy-policy-text mt-4'><strong className='text-white'>{d.s1.contactLabel}</strong></p>
             <ul className='list-none mt-1 space-y-1'>
@@ -272,6 +275,7 @@ export default async function PrivacyPolicy({ params }: Props) {
             <ul className='list-disc list-inside mt-2 space-y-1'>
               {d.s9.s9_4_items.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
             </ul>
+            <p className='privacy-policy-text mt-3'>{d.s9.s9_4_note}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s9.s9_5_heading}</h3>
             <p className='privacy-policy-text mt-2'>{d.s9.s9_5_body}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s9.s9_6_heading}</h3>

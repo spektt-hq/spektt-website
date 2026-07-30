@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
-  "effectiveDate": "Data de Vigência: May 26th, 2026",
-  "lastUpdated": "Última Atualização: May 26th, 2026",
+  "effectiveDate": "Data de Vigência: July 30th, 2026",
+  "lastUpdated": "Última Atualização: July 30th, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -35,7 +35,8 @@
       "Suporte: support@spektt.com",
       "Solicitações de privacidade: legal@spektt.com (linha de assunto: \"Privacy Request\")",
       "Website: spektt.com"
-    ]
+    ],
+    "taxId": "Número de Identificação Fiscal: 2623715363203"
   },
   "s2": {
     "heading": "2. INFORMAÇÕES QUE COLETAMOS",
@@ -201,11 +202,15 @@
         "Todos os dados de conta e conteúdo do usuário"
       ],
       [
-        "Cloudflare Stream",
-        "Hospedagem de vídeo e streaming HLS",
+        "Bunny.net Stream",
+        "Hospedagem de vídeo, codificação e streaming HLS",
         "Vídeos que você envia"
       ],
-      ["Cloudflare Images", "CDN e entrega de imagens", "Fotos que você envia"],
+      [
+        "Cloudflare Images",
+        "CDN e entrega de imagens",
+        "Fotos que você envia"
+      ],
       [
         "RevenueCat",
         "Gerenciamento de assinatura e validação de compra",
@@ -256,7 +261,7 @@
     "s5_3_heading": "5.3 Quem Pode Ler Suas Mensagens",
     "s5_3_body": "Suas mensagens são acessíveis apenas para você e o outro participante, e para moderadores de segurança autorizados da Spektt somente quando uma mensagem tiver sido denunciada. Não lemos ou escaneamos proativamente conversas privadas.",
     "s5_4_heading": "5.4 Pré-visualizações de Notificações Push",
-    "s5_4_body": "Se habilitado, uma breve prévia de novas mensagens é incluída na carga da notificação via OneSignal. Você pode desativar isso nas Configurações do dispositivo ou nas Configurações de Notificação do aplicativo.",
+    "s5_4_body": "Desativar \"Mensagens\" nas Configurações de Notificação do aplicativo (Configurações → Notificações) desativa completamente as notificações push de mensagens — incluindo a prévia — em vez de apenas ocultar o texto da prévia. Você também pode gerenciar a visibilidade do conteúdo das notificações (por exemplo, ocultá-lo na tela de bloqueio) através das configurações de notificação do sistema operacional do seu dispositivo.",
     "s5_5_heading": "5.5 Proteção Contra Spam",
     "s5_5_body": "Um usuário cuja solicitação de mensagem você recusou não poderá entrar em contato novamente por 30 dias. Esse registro é automaticamente removido após o período de 30 dias. Usuários bloqueados não podem enviar mensagens para você.",
     "s5_6_heading": "5.6 Exclusão de Mensagens",
@@ -282,14 +287,14 @@
   },
   "s8": {
     "heading": "8. PRIVACIDADE INFANTIL",
-    "p1": "Spektt destina-se a usuários com 13 anos ou mais. Não coletamos conscientemente informações pessoais de crianças menores de 13 anos. Se tomarmos conhecimento de que uma criança menor de 13 anos criou uma conta, excluiremos essa conta e seus dados associados imediatamente.",
-    "p2": "Para usuários de 13 a 17 anos (menores de idade), aplicam-se restrições adicionais:",
+    "p1": "Spektt destina-se a usuários com 16 anos ou mais. Não coletamos conscientemente informações pessoais de crianças menores de 16 anos. Se tomarmos conhecimento de que uma criança menor de 16 anos criou uma conta, excluiremos essa conta e seus dados associados imediatamente.",
+    "p2": "Para usuários de 16 a 17 anos (menores de idade), aplicam-se restrições adicionais:",
     "items": [
       "Menores de idade não podem participar de nenhum Showdown (Pulse ou Premium)",
       "Mensagens diretas são restritas para usuários menores de idade",
       "A participação em prêmios em dinheiro exige que o usuário não esteja sinalizado como menor de idade"
     ],
-    "p3": "Se você acredita que uma criança menor de 13 anos criou uma conta, entre em contato conosco em legal@spektt.com."
+    "p3": "Se você acredita que uma criança menor de 16 anos criou uma conta, entre em contato conosco em legal@spektt.com."
   },
   "s9": {
     "heading": "9. SEUS DIREITOS",
@@ -308,12 +313,13 @@
     "s9_4_heading": "9.4 Direito de Cancelamento",
     "s9_4_items": [
       "Notificações push: Desative nas configurações do dispositivo ou nas Configurações de Notificação do aplicativo",
-      "Participação no Leaderboard: Entre em contato conosco para excluir seu perfil dos leaderboards públicos"
+      "Análises / relatórios de falhas: O Sentry coleta apenas dados de falhas anonimizados; entre em contato conosco se tiver alguma preocupação"
     ],
     "s9_5_heading": "9.5 Usuários Nigerianos (NDPA 2023 / NDPR)",
     "s9_5_body": "Sob a Nigeria Data Protection Act 2023 e o NDPR, você tem o direito de saber quais dados mantemos, corrigir dados imprecisos, solicitar exclusão, retirar consentimento e apresentar uma reclamação à Nigeria Data Protection Commission (NDPC) em ndpc.gov.ng.",
     "s9_6_heading": "9.6 Outros Usuários Internacionais (GDPR e equivalentes)",
-    "s9_6_body": "Se você estiver localizado no Espaço Econômico Europeu ou em uma jurisdição com legislação equivalente de proteção de dados, você também terá o direito à portabilidade de dados e de apresentar uma reclamação à sua autoridade supervisora local."
+    "s9_6_body": "Se você estiver localizado no Espaço Econômico Europeu ou em uma jurisdição com legislação equivalente de proteção de dados, você também terá o direito à portabilidade de dados e de apresentar uma reclamação à sua autoridade supervisora local.",
+    "s9_4_note": "A classificação no Leaderboard é parte essencial da experiência Spektt para todo usuário ativo e não é um recurso opcional do qual você pode ser excluído mantendo sua conta ativa."
   },
   "s10": {
     "heading": "10. RETENÇÃO DE DADOS",
@@ -332,7 +338,10 @@
         "Comentários",
         "Anonimizados (\"[deleted]\") após exclusão da conta — estrutura da thread preservada"
       ],
-      ["Mensagens diretas", "Até você excluí-las ou sua conta ser excluída"],
+      [
+        "Mensagens diretas",
+        "Até você excluí-las ou sua conta ser excluída"
+      ],
       [
         "Conteúdo de mensagens excluídas",
         "Removido permanentemente dentro de 30 dias após exclusão"
@@ -361,7 +370,10 @@
         "Dados de solicitação de mensagem recusada",
         "Removidos 30 dias após a recusa da solicitação"
       ],
-      ["Endereço IP com hash", "Retido durante a duração da conta"],
+      [
+        "Endereço IP com hash",
+        "Retido durante a duração da conta"
+      ],
       [
         "Dados de falhas (Sentry)",
         "Retidos conforme a política de retenção de dados do Sentry (90 dias por padrão)"
@@ -391,9 +403,18 @@
     "tableHeadActivity": "Atividade de Processamento",
     "tableHeadBasis": "Base Legal",
     "tableRows": [
-      ["Criar e manter sua conta", "Execução de contrato"],
-      ["Entregar mensagens entre usuários", "Execução de contrato"],
-      ["Publicar uploads e conteúdo", "Execução de contrato"],
+      [
+        "Criar e manter sua conta",
+        "Execução de contrato"
+      ],
+      [
+        "Entregar mensagens entre usuários",
+        "Execução de contrato"
+      ],
+      [
+        "Publicar uploads e conteúdo",
+        "Execução de contrato"
+      ],
       [
         "Processar entradas de Showdown e pagar prêmios",
         "Execução de contrato"
@@ -406,12 +427,18 @@
         "Moderação de segurança (relatórios, banimentos, suspensões)",
         "Obrigação legal + Interesses legítimos"
       ],
-      ["Prevenir fraude e manipulação de votos", "Interesses legítimos"],
+      [
+        "Prevenir fraude e manipulação de votos",
+        "Interesses legítimos"
+      ],
       [
         "Enviar notificações push",
         "Consentimento (revogável a qualquer momento nas Configurações)"
       ],
-      ["Enviar e-mails transacionais (OTP, alertas)", "Execução de contrato"],
+      [
+        "Enviar e-mails transacionais (OTP, alertas)",
+        "Execução de contrato"
+      ],
       [
         "Gerar leaderboards e classificações de gamificação",
         "Interesses legítimos"
@@ -420,8 +447,14 @@
         "Reter detalhes de pagamento de prêmio para conformidade fiscal",
         "Obrigação legal (regulamentações financeiras nigerianas)"
       ],
-      ["Reter logs de auditoria e registros de moderação", "Obrigação legal"],
-      ["Monitoramento de falhas e erros (Sentry)", "Interesses legítimos"]
+      [
+        "Reter logs de auditoria e registros de moderação",
+        "Obrigação legal"
+      ],
+      [
+        "Monitoramento de falhas e erros (Sentry)",
+        "Interesses legítimos"
+      ]
     ]
   },
   "s14": {

@@ -89,11 +89,16 @@ scripts/
 
 ## Context Files
 
+The site-content blueprints (help, privacy, terms) live in the **mobile app repo**, not here —
+`C:\Users\USER\Videos\app\spektt\spektt-context\site-content\`. That's the single source of
+truth; a duplicate copy used to live in this repo's `spektt-website-context/site-content/` but
+was deleted (2026-07-30) after it went stale — always read the app repo's copy, never fork it.
+
 | File | Read when |
 |------|-----------|
-| `spektt-website-context/site-content/help-section-blueprint.md` | Updating Help Centre |
-| `spektt-website-context/site-content/privacy-policy-blueprint.md` | Updating Privacy Policy |
-| `spektt-website-context/site-content/terms-and-conditions-blueprint.md` | Updating Terms |
+| `help-section-blueprint.md` | Updating Help Centre |
+| `privacy-policy-blueprint.md` | Updating Privacy Policy |
+| `terms-and-conditions-blueprint.md` | Updating Terms |
 
 ---
 

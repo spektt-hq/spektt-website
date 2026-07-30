@@ -12,21 +12,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = (locales.includes(rawLocale as Locale) ? rawLocale : 'en') as Locale
 
   return {
-    title: `${slug} Showdown — Spektt`,
-    description: `Watch the ${slug} Showdown on Spektt — creative competitions with real prizes.`,
-    alternates: buildAlternates(locale, `/s/${slug}`),
+    title: `${slug} Collection — Spektt`,
+    description: `View the ${slug} Collection on Spektt — the creative community platform.`,
+    alternates: buildAlternates(locale, `/col/${slug}`),
     openGraph: {
-      title: `${slug} Showdown — Spektt`,
-      description: `Watch the ${slug} Showdown on Spektt — creative competitions with real prizes.`,
-      url: `https://spektt.com/s/${slug}`,
+      title: `${slug} Collection — Spektt`,
+      description: `View the ${slug} Collection on Spektt — the creative community platform.`,
+      url: `https://spektt.com/col/${slug}`,
       siteName: 'Spektt',
       images: [{ url: '/spektt-new-favicon.png', width: 512, height: 512, alt: 'Spektt' }],
       type: 'website',
     },
     twitter: {
       card: 'summary',
-      title: `${slug} Showdown — Spektt`,
-      description: `Watch the ${slug} Showdown on Spektt — creative competitions with real prizes.`,
+      title: `${slug} Collection — Spektt`,
+      description: `View the ${slug} Collection on Spektt — the creative community platform.`,
       images: ['/spektt-new-favicon.png'],
     },
   }
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
  * Deep link fallback — shown when the Spektt app is not installed.
  * When the app IS installed, iOS Universal Links / Android App Links open the app directly.
  */
-export default async function ShowdownFallback({ params }: Props) {
+export default async function CollectionFallback({ params }: Props) {
   const { locale: rawLocale, slug } = await params
   const locale = (locales.includes(rawLocale as Locale) ? rawLocale : 'en') as Locale
   const dict = await getDictionary(locale)
@@ -47,7 +47,7 @@ export default async function ShowdownFallback({ params }: Props) {
 
       <div className='flex flex-col items-center gap-2 text-center'>
         <p className='text-white font-bold text-2xl'>{slug}</p>
-        <p className='text-textLighter font-regular text-lg'>{dict.fallback.showdownMessage}</p>
+        <p className='text-textLighter font-regular text-lg'>{dict.fallback.collectionMessage}</p>
       </div>
 
       <div className='flex flex-wrap items-center justify-center gap-4'>

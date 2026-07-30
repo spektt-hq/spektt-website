@@ -1,17 +1,20 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
+import { buildAlternates } from '@/lib/seo'
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params
+  const { locale: rawLocale, slug } = await params
+  const locale = (locales.includes(rawLocale as Locale) ? rawLocale : 'en') as Locale
 
   return {
     title: `${slug} Cluster — Spektt`,
     description: `Join the ${slug} Cluster on Spektt — the creative community platform.`,
+    alternates: buildAlternates(locale, `/c/${slug}`),
     openGraph: {
       title: `${slug} Cluster — Spektt`,
       description: `Join the ${slug} Cluster on Spektt — the creative community platform.`,

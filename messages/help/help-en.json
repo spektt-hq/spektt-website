@@ -69,10 +69,6 @@
           "a": "The Milestones tab shows your XP progress and all 29 badges on Spektt — both earned and unearned (with progress bars so you know how close you are). At the top you'll see your current level, tier name, total XP, and a progress bar to the next level. Tap \"See All\" to open the full Milestones screen. Milestones are visible on your own profile only."
         },
         {
-          "q": "What is Showdown Watch?",
-          "a": "Showdown Watch lets you bookmark a Showdown entry — yours or anyone else's — to follow its journey. Save an entry before voting closes and come back to see how it performs through voting, judging, and final results. All tracked from a dedicated section on your profile."
-        },
-        {
           "q": "How do I follow someone?",
           "a": "Go to their profile and tap \"Follow.\" Their new posts will appear in your Following feed. You can unfollow anytime from their profile or from your Following list."
         },
@@ -119,7 +115,7 @@
         },
         {
           "q": "How do I report a bug or give feedback?",
-          "a": "Email support@spektt.com. We read every message and use feedback to improve the app."
+          "a": "Go to Settings → Report a Bug to open the in-app feedback form — choose Bug Report, Feature Request, Improvement, or Other, then add details and an optional screenshot. You can submit up to 4 times a week, with a 12-hour cooldown between submissions. You can also email support@spektt.com directly — we read every message and use feedback to improve the app."
         }
       ]
     },
@@ -132,7 +128,7 @@
         },
         {
           "q": "Is there a file size, resolution, or length limit?",
-          "a": "Photos: up to 10MB, and a minimum resolution of 4 megapixels (roughly 2000×2000px or better) — very low-resolution images are rejected. Videos: up to 50MB, maximum 5 minutes. You'll see a clear error message if a file doesn't meet these limits before you submit."
+          "a": "Photos: up to 10MB, and a minimum resolution of 4 megapixels (roughly 2000×2000px or better) — very low-resolution images are rejected. Videos: maximum 2 minutes (the app compresses your video before upload). You'll see a clear error message if a file doesn't meet these limits before you submit."
         },
         {
           "q": "How do I upload a post?",
@@ -152,7 +148,7 @@
         },
         {
           "q": "What happens to my content after I upload it?",
-          "a": "Photos are delivered via Cloudflare Images (global CDN). Videos are streamed via Cloudflare Stream. This ensures fast loading for viewers anywhere in the world."
+          "a": "Photos are delivered via Cloudflare Images (global CDN). Videos are encoded and streamed via Bunny.net Stream. This ensures fast loading for viewers anywhere in the world."
         },
         {
           "q": "My upload keeps failing. What should I do?",
@@ -164,7 +160,6 @@
         }
       ]
     },
-
     {
       "id": "showdowns",
       "articles": [
@@ -206,7 +201,7 @@
         },
         {
           "q": "How are winners chosen in a Premium Showdown?",
-          "a": "In two stages:\n\nFan vote — The community votes to determine the top 20 entries. These become the finalists that go to the judges.\n\nJudge scoring — A panel of expert judges scores each of those top 20 entries on defined criteria (0–10 per criterion).\n\nThe final ranking combines both: fan vote performance counts for 50%, judge scores count for 50%. The entry with the highest combined score wins. Top 15 are displayed in the final results."
+          "a": "In two stages:\n\nFan vote — The community votes to determine the top 20 entries. These become the finalists that go to the judges.\n\nJudge scoring — A panel of expert judges scores each of those top 20 entries on defined criteria (0–10 per criterion).\n\nThe final ranking combines both: fan vote performance counts for 60%, judge scores count for 40%. The entry with the highest combined score wins. Top 15 are displayed in the final results."
         },
         {
           "q": "What prizes can I win?",
@@ -233,16 +228,16 @@
           "a": "Global Showdowns are created and managed by Spektt. Cluster admins can create Showdowns scoped to their Cluster. If you're interested in running a Showdown for your community, contact showdowns@spektt.com."
         },
         {
-          "q": "What is Showdown Watch?",
-          "a": "Showdown Watch lets you bookmark any Showdown entry — yours or anyone else's — to follow it through the full lifecycle. Saved entries appear in a dedicated section of your profile. Great for tracking your own submission or following a creator you're rooting for."
-        },
-        {
-          "q": "How do I save an entry to Showdown Watch?",
-          "a": "Tap the bookmark icon on any Showdown entry. It's saved to your Showdown Watch section on your profile. Tap again to remove it."
+          "q": "Can I follow an entry to see how it does?",
+          "a": "Yes — that's what the star on each entry is for. Tap it to save an entry while you browse, then come back after the Showdown ends to see how it placed and how many votes it got. It's also handy while voting is live, since you only get one vote and can shortlist a few favourites before deciding.\n\nTo see your saved entries, open the Showdown and switch the entry grid from All to Saved. Tapping one opens a viewer containing only your saved entries, so you can go through them without scrolling past everything else.\n\nA few things worth knowing:\n\n• Your saved list is private. Creators are never told that you saved their entry, and saving is not a vote — it has no effect on anyone's result.\n• Saved entries stay anonymous while the Showdown is running, exactly like the rest of the entries. Authors and vote counts are revealed once it ends.\n• The list stays after the Showdown ends — that's the point. The star disappears once voting is over (there's nothing left to follow), but your saved entries remain so you can check the results.\n• Free accounts can save up to 5 entries per Showdown. Spektt Pro removes the limit.\n• Your saved list is stored on your device, so it doesn't follow you to another phone.\n• If an entry is withdrawn or removed from the Showdown, it drops out of your saved list automatically."
         },
         {
           "q": "I think a Showdown result was unfair. What can I do?",
           "a": "If you believe there was a genuine rules violation — vote manipulation, plagiarised entry, duplicate submissions — use the report button on the entry and select the relevant reason, or email showdowns@spektt.com with details.\n\nDisagreeing with a result, a judge's scores, or the community's votes is not grounds for a dispute. Judges make their decisions independently."
+        },
+        {
+          "q": "Can an entry be disqualified from a Showdown?",
+          "a": "Yes. If a confirmed rules violation is found — plagiarism, vote manipulation, an ineligible entrant — Spektt moderators can disqualify the entry while the Showdown is still live. You'll be notified if your entry is disqualified, along with the reason. A disqualification can still be reversed by a moderator while the Showdown remains live, but once it ends, the result is final."
         }
       ]
     },
@@ -264,6 +259,10 @@
         {
           "q": "What can a Cluster admin do?",
           "a": "As a Cluster admin you can:\n• Run Cluster Showdowns (Pulse and Premium)\n• Remove posts that violate the Cluster rules\n• Ban members from the Cluster\n• Temporarily suspend members\n• Appoint moderators to help manage the community\n• Pin posts to the top of the Cluster feed\n• Archive the Cluster\n• Transfer admin rights to another member"
+        },
+        {
+          "q": "Can a Cluster run more than one Showdown at a time?",
+          "a": "No — each Cluster can have only one active Showdown running at a time (from Upcoming through to results). This keeps entries and votes from splitting across competing Showdowns in the same community. Once the current Showdown ends or is cancelled, the Cluster's admins and moderators can start a new one."
         },
         {
           "q": "Can I post directly to a Cluster?",
@@ -288,7 +287,7 @@
       "articles": [
         {
           "q": "What is the Spektt Leaderboard?",
-          "a": "The Leaderboard ranks all Spektt users by their total XP (experience points). It shows where you stand against the entire Spektt community and is refreshed every 7 days."
+          "a": "The Leaderboard ranks all Spektt users by their total XP (experience points). It shows where you stand against the entire Spektt community and refreshes every hour."
         },
         {
           "q": "How is my rank calculated?",
@@ -300,19 +299,14 @@
         },
         {
           "q": "How often is the Leaderboard updated?",
-          "a": "Rankings refresh every 7 days. Your XP accumulates continuously, but the ranked positions update on a weekly cycle."
+          "a": "Rankings refresh every hour from live activity. The Weekly board's period resets every Saturday, and the Monthly board resets on the 1st of each month — but your XP itself is tracked continuously in between."
         },
         {
           "q": "Can I lose rank?",
           "a": "Your absolute XP never decreases, but your relative rank can drop if other users earn XP faster than you. Stay active to hold your position."
-        },
-        {
-          "q": "What does the rank position mean for my profile?",
-          "a": "Your Leaderboard position is visible to other users on your profile. Top-ranked creators gain more visibility across the platform."
         }
       ]
     },
-
     {
       "id": "subscriptions-pro",
       "articles": [
@@ -326,7 +320,7 @@
         },
         {
           "q": "How do I subscribe to Spektt Pro?",
-          "a": "Settings → \"Become a Spektt Pro\" → choose a plan (monthly or annual) → complete payment through the App Store (iOS). Your subscription activates immediately. Android billing is coming soon."
+          "a": "Settings → \"Become a Spektt Pro\" → choose a plan — Monthly, Annual, or Lifetime. Spektt Pro is coming soon on both iOS and Android."
         },
         {
           "q": "Can I cancel my subscription?",
@@ -371,7 +365,7 @@
         },
         {
           "q": "How do I delete a conversation?",
-          "a": "In your Inbox, swipe left on the conversation and select \"Delete.\""
+          "a": "Open the conversation, tap the ⋮ menu in the top right, then select \"Delete conversation\" and confirm. This removes it from your inbox — the other person isn't notified."
         },
         {
           "q": "Can I block someone from messaging me?",
@@ -396,11 +390,11 @@
         },
         {
           "q": "What are Tiers?",
-          "a": "Tiers are progression levels based on your XP:\n• Newcomer — Just getting started\n• Rising — Growing your presence\n• Established — Active community member\n• Pro — Recognised creator\n• Elite — Top of the Spektt community\n\nYour current tier is displayed on your profile."
+          "a": "Tiers are progression levels based on your XP:\n• Newcomer (Level 1–5) — Just getting started\n• Emerging (Level 6–12) — Growing your presence\n• Rising Star (Level 13–20) — Building real momentum\n• Established (Level 21–30) — A recognised part of the community\n• Verified (Level 31–50) — Serious creator\n• Legendary (Level 51–100) — Elite. Very few get here.\n\nYour current tier is displayed on your profile."
         },
         {
           "q": "How do I earn XP?",
-          "a": "XP is earned across several areas:\n• Signing up — one-time XP bonus when you create your account\n• Views — XP awarded when your uploads hit view milestones (100, 1K, 10K, 100K, 1M views)\n• Voting in Showdowns — XP for each vote you cast (up to 20 votes per day)\n• Entering a Showdown — XP just for submitting an entry\n• Placing in a Showdown — finishing in the top 15 earns XP; top 3 pays significantly more; 1st place pays the most\n• Joining a Cluster — XP bonus when you join\n• Creating a Cluster — XP bonus when you start your own Cluster\n• Growing your Cluster — XP as your Cluster reaches member milestones\n• Earning badges — some badges come with an XP reward when unlocked\n\nSpektt Pro users earn 25% more XP on everything."
+          "a": "XP is earned across several areas:\n• Signing up — one-time XP bonus when you create your account\n• Views — XP awarded when your uploads hit view milestones (100, 1K, 10K, 100K, 1M views)\n• Voting in Showdowns — XP for each vote you cast (up to 20 votes per day)\n• Entering a Showdown — XP just for submitting an entry\n• Placing in a Showdown — finishing in the top 15 earns XP; top 3 pays significantly more; 1st place pays the most\n• Joining a Cluster — XP bonus when you join\n• Creating a Cluster — XP bonus when you start your own Cluster\n• Growing your Cluster — XP as your Cluster reaches member milestones\n• Earning badges — some badges come with an XP reward when unlocked\n\nSpektt Pro users earn a boosted XP multiplier that scales with tier — 1.25× at Newcomer and Emerging, 1.5× at Rising Star and Established, 1.75× at Verified, and 2× at Legendary."
         },
         {
           "q": "Can I lose XP?",
@@ -416,7 +410,7 @@
         },
         {
           "q": "Does Spektt Pro affect my XP or tier?",
-          "a": "Yes — Spektt Pro gives you a 25% XP boost on everything you earn. Tiers and levels are still based entirely on your activity, so Pro users climb faster but the system is the same for everyone."
+          "a": "Yes — Spektt Pro gives you a boosted XP multiplier that scales with your tier: 1.25× at Newcomer and Emerging, 1.5× at Rising Star and Established, 1.75× at Verified, and 2× at Legendary. Tiers and levels are still based entirely on your activity, so Pro users climb faster but the system is the same for everyone."
         }
       ]
     },
@@ -437,15 +431,15 @@
         },
         {
           "q": "What happens after I report something?",
-          "a": "Our moderation team reviews every report. If we confirm a violation, we take action: removing content, issuing a warning, suspending, or banning the account. You'll receive a notification once your report has been reviewed."
+          "a": "Our moderation team reviews every report. If we confirm a violation, we take action: removing content, issuing a warning, suspending, or banning the account."
         },
         {
           "q": "Can I block another user?",
-          "a": "Yes. Go to their profile → three-dot menu → \"Block.\" Blocked users cannot see your content, comment on your posts, or message you. Manage your blocked list in Settings → Privacy."
+          "a": "Yes. Go to their profile → three-dot menu → \"Block.\" Blocked users cannot see your content, comment on your posts, or message you. Manage your blocked list in Settings → Blocked Users."
         },
         {
           "q": "My account was suspended. What do I do?",
-          "a": "You'll see a message explaining why when you try to log in. If you believe the suspension was a mistake, contact support@spektt.com with your username and we'll review it."
+          "a": "You'll see a suspension screen explaining why when you try to log in. From that screen you can submit an in-app appeal — you get up to 2 appeal attempts per suspension, and a second attempt only unlocks if the first is declined. You can also contact support@spektt.com with your username if you'd rather reach us directly."
         },
         {
           "q": "I think my account was hacked. What should I do?",

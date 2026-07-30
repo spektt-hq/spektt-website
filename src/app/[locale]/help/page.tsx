@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getDictionary, locales, type Locale } from '@/dictionaries/getDictionary'
 import { getHelpDictionary } from '@/dictionaries/getHelpDictionary'
+import { buildAlternates } from '@/lib/seo'
 import HelpClient from './HelpClient'
 
 type Props = {
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.help.title,
     description: dict.meta.help.description,
+    alternates: buildAlternates(locale, '/help'),
     openGraph: {
       title: dict.meta.help.title,
       description: dict.meta.help.description,

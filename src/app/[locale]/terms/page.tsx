@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { locales, type Locale } from '@/dictionaries/locales'
 import { getDictionary } from '@/dictionaries/getDictionary'
 import { getTermsDictionary } from '@/dictionaries/getTermsDictionary'
+import { buildAlternates } from '@/lib/seo'
 import TermsToC from './TermsToC'
 
 type Props = {
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict.meta.terms.title,
     description: dict.meta.terms.description,
+    alternates: buildAlternates(locale, '/terms'),
     openGraph: {
       title: dict.meta.terms.title,
       description: dict.meta.terms.description,
@@ -183,6 +185,8 @@ export default async function Terms({ params }: Props) {
             <p className='privacy-policy-text mt-2'>{d.s6.s6_6_premium}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s6.s6_7_heading}</h3>
             <p className='privacy-policy-text mt-3'>{d.s6.s6_7_body}</p>
+            <h3 className='privacy-policy-header text-xl mt-5'>{d.s6.s6_7a_heading}</h3>
+            <p className='privacy-policy-text mt-3'>{d.s6.s6_7a_body}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s6.s6_8_heading}</h3>
             <p className='privacy-policy-text mt-3'>{d.s6.s6_8_body}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s6.s6_9_heading}</h3>
