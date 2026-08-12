@@ -18,6 +18,7 @@
     },
     "companyLinks": {
       "terms": "الشروط والأحكام",
+      "guidelines": "إرشادات المجتمع",
       "privacy": "سياسة الخصوصية",
       "contact": "تواصل معنا",
       "download": "تحميل التطبيق"
@@ -193,6 +194,10 @@
     "terms": {
       "title": "الشروط والأحكام — Spektt",
       "description": "القواعد التي تحكم استخدامك لمنصة Spektt."
+    },
+    "communityGuidelines": {
+      "title": "إرشادات المجتمع — Spektt",
+      "description": "ما هو مسموح وما هو ممنوع على Spektt، وكيف تعمل البلاغات، وماذا يحدث عند مخالفة القواعد."
     },
     "privacy": {
       "title": "سياسة الخصوصية — Spektt",

@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Community Guidelines",
+  "effectiveDate": "Effective Date: August 12th, 2026",
+  "lastUpdated": "Last Updated: August 12th, 2026",
+  "intro": "Spektt is built for creatives — photographers, videographers, 3D animators, sound engineers, and digital artists — to share real work and compete fairly. These guidelines exist so the platform stays worth posting to.",
+  "appliesTo": "They apply everywhere on Spektt: uploads, Spotlights, comments, captions, profiles, Cluster posts, Showdown entries, and direct messages.",
+  "ageNote": "You must be 16 or older to use Spektt. Direct messaging and Showdown entry are 18+.",
+  "toc": {
+    "title": "Table of Contents",
+    "items": [
+      "1. Post work that is yours",
+      "2. Treat people as people",
+      "3. Keep it safe",
+      "4. Be who you say you are",
+      "5. Do not game the system",
+      "6. No spam",
+      "7. Do not spread harmful false information",
+      "8. Clusters have rules too",
+      "9. How reporting works",
+      "10. What happens when a rule is broken",
+      "11. Appealing",
+      "12. Contact"
+    ]
+  },
+  "s1": {
+    "heading": "1. Post work that is yours",
+    "body": "Only post content you created, or content you have the rights to post.",
+    "items": [
+      "Reposting another creative's work as your own will get it removed.",
+      "Using copyrighted material without permission is not allowed.",
+      "If your work was posted by someone else without permission, email legal@spektt.com with the details and we will act.",
+      "For a plagiarised Showdown entry, report the entry with \"Intellectual Property\" and include a link to the original — or email showdowns@spektt.com directly."
+    ]
+  },
+  "s2": {
+    "heading": "2. Treat people as people",
+    "body": "No harassment, bullying, threats, or repeated unwanted contact. No hate speech — content that promotes hatred based on race, religion, gender, or any other identity. No content targeting someone's ethnicity, religion, gender, or background.",
+    "blocking": "Blocking is always available: go to the profile, open the three-dot menu, and choose Block. A blocked person cannot see your content, comment on your posts, or message you."
+  },
+  "s3": {
+    "heading": "3. Keep it safe",
+    "intro": "Not allowed anywhere on Spektt:",
+    "items": [
+      "Content that endangers or exploits minors, in any form",
+      "Content that promotes or glorifies self-harm or suicide",
+      "Real violence, gore, or disturbing imagery",
+      "Explicit nudity or sexual material",
+      "Promotion of illegal goods or services"
+    ],
+    "priority": "Child safety and self-harm reports are treated as critical and reviewed first.",
+    "support": "If you are struggling, please reach out to a local crisis line. We would rather you talk to someone than post about it."
+  },
+  "s4": {
+    "heading": "4. Be who you say you are",
+    "intro": "One real person, one real account.",
+    "items": [
+      "No impersonating another person, creative, or brand",
+      "No accounts that do not represent a real person",
+      "No accounts under the minimum age",
+      "If your account is compromised, reset your password immediately and contact support@spektt.com"
+    ]
+  },
+  "s5": {
+    "heading": "5. Do not game the system",
+    "intro": "Spektt runs competitions with real prizes. Fairness is the product.",
+    "items": [
+      "No vote manipulation, vote buying, or coordinated voting rings",
+      "No duplicate or multi-account entries",
+      "No advertising prizes you will not award",
+      "No rigged judging",
+      "No exploiting a bug for advantage — report it instead"
+    ],
+    "note": "Showdown integrity issues can be reported directly on the Showdown."
+  },
+  "s6": {
+    "heading": "6. No spam",
+    "body": "No repetitive posting, unsolicited promotion, link drops, fake giveaways, or artificially inflated engagement."
+  },
+  "s7": {
+    "heading": "7. Do not spread harmful false information",
+    "body": "Misinformation that could cause real-world harm will be removed."
+  },
+  "s8": {
+    "heading": "8. Clusters have rules too",
+    "intro": "Clusters are community spaces. Every Cluster on Spektt carries these rules, and a Cluster admin can add rules on top but can never remove or override them:",
+    "tableHeadRule": "Rule",
+    "tableHeadMeaning": "What it means",
+    "tableRows": [
+      ["Be respectful", "No harassment, hate speech, or personal attacks toward any member"],
+      ["Keep it creative", "Posts must relate to the Cluster's creative focus"],
+      ["No spam", "No repetitive posts, unsolicited promotion, or link drops"],
+      ["No NSFW content", "Explicit or adult content isn't allowed on Spektt"],
+      ["No cash prizes here", "Clusters are community spaces — all competitions with prize money are hosted exclusively in Showdowns"],
+      ["Original work only", "Only share content you created or have the rights to"],
+      ["No discrimination", "Content or comments targeting ethnicity, religion, gender, or background will not be tolerated"],
+      ["Follow Spektt guidelines", "Our platform-wide rules always apply inside every Cluster"]
+    ],
+    "screening": "Cluster names and descriptions are screened. Names that promote hate, extremism, illegal activity, sexual exploitation of minors, or violence are blocked at creation. Names using protected brands require verification.",
+    "moderators": "Cluster admins can appoint moderators once the Cluster is large enough. Moderators accept a separate set of moderator guidelines before they can act, and their powers are limited — a moderator cannot delete content that does not break the rules."
+  },
+  "s9": {
+    "heading": "9. How reporting works",
+    "intro": "Tap the three-dot menu on any post, comment, Showdown, Showdown entry, or profile and select Report, then choose the reason that fits best. Reports are reviewed by real people, not only by automated systems.",
+    "tableIntro": "How quickly we review, by severity:",
+    "tableHeadSeverity": "Severity",
+    "tableHeadExamples": "Examples",
+    "tableHeadTime": "Target review time",
+    "tableRows": [
+      ["Critical", "Child safety, self-harm", "Within 24 hours"],
+      ["High", "Hate speech, harassment, violence, nudity, impersonation, illegal goods, rigged judging", "Within 48 hours"],
+      ["Medium", "Copyright, false information, fake accounts, fake contests", "Within 72 hours"],
+      ["Low", "Spam, minor technical issues", "Within 7 days"]
+    ],
+    "note": "Reporting someone does not tell them you reported them."
+  },
+  "s10": {
+    "heading": "10. What happens when a rule is broken",
+    "intro": "Consequences scale with severity and history. We do not use a fixed strike count — serious violations skip straight to suspension.",
+    "items": [
+      "Content removal — the post, comment, or entry comes down.",
+      "Warning — a formal warning you receive in the app and as a push notification. Warnings are recorded on your account and cannot be turned off in notification settings, because a warning you never see cannot change anything.",
+      "Suspension — 7 days, 14 days, 30 days, or permanent. A timed suspension lifts automatically when it expires. While suspended you cannot use the app.",
+      "Permanent ban — for the most serious violations, or repeated ones."
+    ],
+    "clusterNote": "Separately, a Cluster admin or moderator can remove your post from their Cluster or remove you from that Cluster, without affecting your Spektt account."
+  },
+  "s11": {
+    "heading": "11. Appealing",
+    "intro": "If your account is suspended you will see a screen explaining why, and you can appeal from that screen.",
+    "items": [
+      "Up to 2 appeals per suspension. The second only unlocks if the first is declined.",
+      "An appeal must be between 50 and 1,000 characters — enough to actually explain.",
+      "A new suspension resets the count.",
+      "You cannot appeal while an appeal is already under review."
+    ],
+    "contact": "You can also email support@spektt.com with your username."
+  },
+  "s12": {
+    "heading": "12. Contact",
+    "tableHeadReason": "Reason",
+    "tableHeadEmail": "Address",
+    "tableRows": [
+      ["General support, account issues, appeals", "support@spektt.com"],
+      ["Copyright and legal", "legal@spektt.com"],
+      ["Showdown integrity", "showdowns@spektt.com"]
+    ],
+    "closing": "These guidelines work alongside our Terms and Conditions. Where the Terms are the agreement, these guidelines are how we apply it."
+  }
+}

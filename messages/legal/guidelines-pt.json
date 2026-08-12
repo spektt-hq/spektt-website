@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Diretrizes da comunidade",
+  "effectiveDate": "Data de entrada em vigor: 12 de agosto de 2026",
+  "lastUpdated": "Última atualização: 12 de agosto de 2026",
+  "intro": "O Spektt foi criado para criativos — fotógrafos, videógrafos, animadores 3D, engenheiros de som e artistas digitais — para partilharem trabalho real e competirem de forma justa. Estas diretrizes existem para que a plataforma continue a valer a pena.",
+  "appliesTo": "Aplicam-se em todo o Spektt: publicações, Spotlights, comentários, legendas, perfis, publicações de Clusters, participações em Showdowns e mensagens diretas.",
+  "ageNote": "Tem de ter 16 anos ou mais para usar o Spektt. As mensagens diretas e a participação em Showdowns são apenas para maiores de 18 anos.",
+  "toc": {
+    "title": "Índice",
+    "items": [
+      "1. Publique trabalho que é seu",
+      "2. Trate as pessoas como pessoas",
+      "3. Mantenha a plataforma segura",
+      "4. Seja quem diz ser",
+      "5. Não manipule o sistema",
+      "6. Nada de spam",
+      "7. Não espalhe informação falsa e prejudicial",
+      "8. Os Clusters também têm regras",
+      "9. Como funcionam as denúncias",
+      "10. O que acontece quando uma regra é quebrada",
+      "11. Recursos",
+      "12. Contacto"
+    ]
+  },
+  "s1": {
+    "heading": "1. Publique trabalho que é seu",
+    "body": "Publique apenas conteúdo que tenha criado ou sobre o qual detenha os direitos de publicação.",
+    "items": [
+      "Republicar o trabalho de outro criativo como se fosse seu levará à sua remoção.",
+      "Não é permitido usar material protegido por direitos de autor sem autorização.",
+      "Se o seu trabalho foi publicado por outra pessoa sem autorização, escreva para legal@spektt.com com os detalhes e nós agiremos.",
+      "No caso de uma participação plagiada num Showdown, denuncie-a com o motivo «Propriedade intelectual» e inclua um link para o original — ou escreva diretamente para showdowns@spektt.com."
+    ]
+  },
+  "s2": {
+    "heading": "2. Trate as pessoas como pessoas",
+    "body": "Nada de assédio, bullying, ameaças ou contacto repetido indesejado. Nada de discurso de ódio — conteúdo que promova ódio com base em raça, religião, género ou qualquer outra identidade. Nenhum conteúdo dirigido à etnia, religião, género ou origem de alguém.",
+    "blocking": "Bloquear está sempre disponível: abra o perfil, abra o menu de três pontos e escolha Bloquear. Uma pessoa bloqueada não pode ver o seu conteúdo, comentar nas suas publicações nem enviar-lhe mensagens."
+  },
+  "s3": {
+    "heading": "3. Mantenha a plataforma segura",
+    "intro": "Não é permitido em nenhum lugar do Spektt:",
+    "items": [
+      "Conteúdo que ponha em perigo ou explore menores, sob qualquer forma",
+      "Conteúdo que promova ou glorifique a automutilação ou o suicídio",
+      "Violência real, imagens sangrentas ou perturbadoras",
+      "Nudez explícita ou material sexual",
+      "Promoção de bens ou serviços ilegais"
+    ],
+    "priority": "As denúncias relativas à segurança de menores e à automutilação são tratadas como críticas e analisadas em primeiro lugar.",
+    "support": "Se está a passar por um momento difícil, contacte uma linha de apoio local. Preferimos que fale com alguém do que publicar sobre isso."
+  },
+  "s4": {
+    "heading": "4. Seja quem diz ser",
+    "intro": "Uma pessoa real, uma conta real.",
+    "items": [
+      "Não se faça passar por outra pessoa, criativo ou marca",
+      "Nada de contas que não representem uma pessoa real",
+      "Nada de contas abaixo da idade mínima",
+      "Se a sua conta for comprometida, altere imediatamente a palavra-passe e contacte support@spektt.com"
+    ]
+  },
+  "s5": {
+    "heading": "5. Não manipule o sistema",
+    "intro": "O Spektt organiza competições com prémios reais. A justiça é o produto.",
+    "items": [
+      "Nada de manipulação de votos, compra de votos ou redes de votação coordenadas",
+      "Nada de participações duplicadas ou a partir de várias contas",
+      "Não anuncie prémios que não vai atribuir",
+      "Nada de júris viciados",
+      "Não explore um erro do sistema para obter vantagem — denuncie-o"
+    ],
+    "note": "Os problemas de integridade de um Showdown podem ser denunciados diretamente no Showdown."
+  },
+  "s6": {
+    "heading": "6. Nada de spam",
+    "body": "Nada de publicações repetitivas, promoção não solicitada, envio massivo de links, falsos sorteios ou interação inflacionada artificialmente."
+  },
+  "s7": {
+    "heading": "7. Não espalhe informação falsa e prejudicial",
+    "body": "A desinformação que possa causar danos reais será removida."
+  },
+  "s8": {
+    "heading": "8. Os Clusters também têm regras",
+    "intro": "Os Clusters são espaços comunitários. Todos os Clusters do Spektt aplicam estas regras, e um administrador pode acrescentar outras, mas nunca removê-las nem contorná-las:",
+    "tableHeadRule": "Regra",
+    "tableHeadMeaning": "O que significa",
+    "tableRows": [
+      ["Seja respeitoso", "Nada de assédio, discurso de ódio ou ataques pessoais a qualquer membro"],
+      ["Mantenha o foco criativo", "As publicações têm de estar relacionadas com o foco criativo do Cluster"],
+      ["Nada de spam", "Nada de publicações repetitivas, promoção não solicitada ou envio massivo de links"],
+      ["Nada de conteúdo NSFW", "Conteúdo explícito ou adulto não é permitido no Spektt"],
+      ["Aqui não há prémios em dinheiro", "Os Clusters são espaços comunitários — todas as competições com prémios monetários acontecem exclusivamente nos Showdowns"],
+      ["Apenas trabalho original", "Partilhe apenas conteúdo que tenha criado ou sobre o qual detenha os direitos"],
+      ["Nada de discriminação", "Conteúdo ou comentários dirigidos à etnia, religião, género ou origem não serão tolerados"],
+      ["Siga as diretrizes do Spektt", "As nossas regras gerais aplicam-se sempre dentro de cada Cluster"]
+    ],
+    "screening": "Os nomes e descrições dos Clusters são verificados. Nomes que promovam ódio, extremismo, atividades ilegais, exploração sexual de menores ou violência são bloqueados na criação. Nomes que usem marcas protegidas exigem verificação.",
+    "moderators": "Os administradores podem nomear moderadores quando o Cluster for suficientemente grande. Os moderadores aceitam um conjunto separado de diretrizes de moderação antes de poderem agir, e os seus poderes são limitados — um moderador não pode eliminar conteúdo que não infrinja as regras."
+  },
+  "s9": {
+    "heading": "9. Como funcionam as denúncias",
+    "intro": "Toque no menu de três pontos em qualquer publicação, comentário, Showdown, participação ou perfil e selecione Denunciar; depois escolha o motivo mais adequado. As denúncias são analisadas por pessoas reais, não apenas por sistemas automáticos.",
+    "tableIntro": "Prazos de análise, por gravidade:",
+    "tableHeadSeverity": "Gravidade",
+    "tableHeadExamples": "Exemplos",
+    "tableHeadTime": "Prazo de análise previsto",
+    "tableRows": [
+      ["Crítica", "Segurança de menores, automutilação", "Em 24 horas"],
+      ["Alta", "Discurso de ódio, assédio, violência, nudez, falsificação de identidade, bens ilegais, júri viciado", "Em 48 horas"],
+      ["Média", "Direitos de autor, informação falsa, contas falsas, concursos falsos", "Em 72 horas"],
+      ["Baixa", "Spam, problemas técnicos menores", "Em 7 dias"]
+    ],
+    "note": "Denunciar alguém não informa essa pessoa de que foi você a denunciá-la."
+  },
+  "s10": {
+    "heading": "10. O que acontece quando uma regra é quebrada",
+    "intro": "As consequências dependem da gravidade e do histórico. Não usamos um número fixo de avisos — as infrações graves passam diretamente para a suspensão.",
+    "items": [
+      "Remoção do conteúdo — a publicação, o comentário ou a participação é retirada.",
+      "Aviso — um aviso formal que recebe na aplicação e como notificação push. Os avisos ficam registados na sua conta e não podem ser desativados nas definições de notificações, porque um aviso que nunca vê não muda nada.",
+      "Suspensão — 7 dias, 14 dias, 30 dias ou permanente. Uma suspensão temporária termina automaticamente quando expira. Enquanto durar, não pode usar a aplicação.",
+      "Banimento permanente — para as infrações mais graves ou repetidas."
+    ],
+    "clusterNote": "Separadamente, um administrador ou moderador de Cluster pode remover a sua publicação do Cluster dele ou excluí-lo desse Cluster, sem que isso afete a sua conta Spektt."
+  },
+  "s11": {
+    "heading": "11. Recursos",
+    "intro": "Se a sua conta for suspensa, verá um ecrã a explicar porquê e poderá apresentar recurso a partir desse ecrã.",
+    "items": [
+      "Até 2 recursos por suspensão. O segundo só é desbloqueado se o primeiro for recusado.",
+      "Um recurso tem de ter entre 50 e 1000 caracteres — o suficiente para explicar realmente.",
+      "Uma nova suspensão reinicia a contagem.",
+      "Não pode apresentar recurso enquanto houver um recurso em análise."
+    ],
+    "contact": "Também pode escrever para support@spektt.com indicando o seu nome de utilizador."
+  },
+  "s12": {
+    "heading": "12. Contacto",
+    "tableHeadReason": "Motivo",
+    "tableHeadEmail": "Endereço",
+    "tableRows": [
+      ["Apoio geral, problemas de conta, recursos", "support@spektt.com"],
+      ["Direitos de autor e assuntos legais", "legal@spektt.com"],
+      ["Integridade dos Showdowns", "showdowns@spektt.com"]
+    ],
+    "closing": "Estas diretrizes funcionam em conjunto com os nossos Termos e Condições. Se os Termos são o acordo, estas diretrizes são a forma como o aplicamos."
+  }
+}

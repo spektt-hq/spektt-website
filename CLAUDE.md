@@ -99,6 +99,7 @@ was deleted (2026-07-30) after it went stale — always read the app repo's copy
 | `help-section-blueprint.md` | Updating Help Centre |
 | `privacy-policy-blueprint.md` | Updating Privacy Policy |
 | `terms-and-conditions-blueprint.md` | Updating Terms |
+| `community-guidelines-blueprint.md` | Updating Community Guidelines |
 
 ---
 
@@ -168,7 +169,7 @@ All pages under `src/app/[locale]/`. `proxy.ts` detects locale and redirects:
 
 ### Pages
 - ✅ Homepage — Hero, WhatIsSpektt, Features, HowItWorks, ShowdownsHighlight, CTA
-- ✅ About, Contact, Download, Help (FAQ + search), Privacy, Terms, Showdown Rules
+- ✅ About, Contact, Download, Help (FAQ + search), Privacy, Terms, Showdown Rules, Community Guidelines
 
 ### Infrastructure
 - ✅ i18n — 5 languages, RTL Arabic, locale switcher, `npm run translate` script

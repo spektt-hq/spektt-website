@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Règles de la communauté",
+  "effectiveDate": "Date d'entrée en vigueur : 12 août 2026",
+  "lastUpdated": "Dernière mise à jour : 12 août 2026",
+  "intro": "Spektt est conçu pour les créatifs — photographes, vidéastes, animateurs 3D, ingénieurs du son et artistes numériques — afin de partager un vrai travail et de concourir loyalement. Ces règles existent pour que la plateforme reste un endroit où il vaut la peine de publier.",
+  "appliesTo": "Elles s'appliquent partout sur Spektt : publications, Spotlights, commentaires, légendes, profils, publications de Clusters, participations aux Showdowns et messages privés.",
+  "ageNote": "Vous devez avoir 16 ans ou plus pour utiliser Spektt. La messagerie privée et la participation aux Showdowns sont réservées aux 18 ans et plus.",
+  "toc": {
+    "title": "Table des matières",
+    "items": [
+      "1. Publiez un travail qui vous appartient",
+      "2. Traitez les autres comme des personnes",
+      "3. Gardez la plateforme sûre",
+      "4. Soyez qui vous prétendez être",
+      "5. Ne truquez pas le système",
+      "6. Pas de spam",
+      "7. Ne diffusez pas de fausses informations nuisibles",
+      "8. Les Clusters ont aussi des règles",
+      "9. Comment fonctionne le signalement",
+      "10. Ce qui se passe en cas d'infraction",
+      "11. Faire appel",
+      "12. Contact"
+    ]
+  },
+  "s1": {
+    "heading": "1. Publiez un travail qui vous appartient",
+    "body": "Ne publiez que du contenu que vous avez créé ou dont vous détenez les droits de publication.",
+    "items": [
+      "Republier le travail d'un autre créatif comme le vôtre entraînera sa suppression.",
+      "L'utilisation de contenu protégé par le droit d'auteur sans autorisation est interdite.",
+      "Si votre travail a été publié par quelqu'un d'autre sans votre autorisation, écrivez à legal@spektt.com avec les détails et nous agirons.",
+      "Pour une participation plagiée à un Showdown, signalez-la avec le motif « Propriété intellectuelle » et incluez un lien vers l'original — ou écrivez directement à showdowns@spektt.com."
+    ]
+  },
+  "s2": {
+    "heading": "2. Traitez les autres comme des personnes",
+    "body": "Pas de harcèlement, d'intimidation, de menaces ni de contacts répétés non désirés. Pas de discours haineux — aucun contenu qui promeut la haine fondée sur la race, la religion, le genre ou toute autre identité. Aucun contenu visant l'origine ethnique, la religion, le genre ou le milieu d'une personne.",
+    "blocking": "Le blocage est toujours disponible : ouvrez le profil, ouvrez le menu à trois points et choisissez Bloquer. Une personne bloquée ne peut plus voir votre contenu, commenter vos publications ni vous envoyer de messages."
+  },
+  "s3": {
+    "heading": "3. Gardez la plateforme sûre",
+    "intro": "Interdit partout sur Spektt :",
+    "items": [
+      "Tout contenu qui met en danger ou exploite des mineurs, sous quelque forme que ce soit",
+      "Tout contenu qui encourage ou glorifie l'automutilation ou le suicide",
+      "Violence réelle, images sanglantes ou perturbantes",
+      "Nudité explicite ou contenu sexuel",
+      "Promotion de biens ou de services illégaux"
+    ],
+    "priority": "Les signalements liés à la sécurité des mineurs et à l'automutilation sont traités comme critiques et examinés en priorité.",
+    "support": "Si vous traversez une période difficile, contactez une ligne d'écoute locale. Nous préférons que vous parliez à quelqu'un plutôt que de publier à ce sujet."
+  },
+  "s4": {
+    "heading": "4. Soyez qui vous prétendez être",
+    "intro": "Une personne réelle, un compte réel.",
+    "items": [
+      "Ne vous faites pas passer pour une autre personne, un autre créatif ou une marque",
+      "Pas de comptes qui ne représentent pas une personne réelle",
+      "Pas de comptes en dessous de l'âge minimum",
+      "Si votre compte est compromis, réinitialisez immédiatement votre mot de passe et contactez support@spektt.com"
+    ]
+  },
+  "s5": {
+    "heading": "5. Ne truquez pas le système",
+    "intro": "Spektt organise des compétitions avec de vrais prix. L'équité est au cœur du produit.",
+    "items": [
+      "Pas de manipulation des votes, d'achat de votes ni de réseaux de vote coordonnés",
+      "Pas de participations en double ni via plusieurs comptes",
+      "Ne promettez pas des prix que vous n'attribuerez pas",
+      "Pas de jury truqué",
+      "N'exploitez pas un bug à votre avantage — signalez-le plutôt"
+    ],
+    "note": "Les problèmes d'intégrité d'un Showdown peuvent être signalés directement depuis le Showdown."
+  },
+  "s6": {
+    "heading": "6. Pas de spam",
+    "body": "Pas de publications répétitives, de promotion non sollicitée, de dépôt de liens, de faux concours ni d'engagement gonflé artificiellement."
+  },
+  "s7": {
+    "heading": "7. Ne diffusez pas de fausses informations nuisibles",
+    "body": "Toute désinformation susceptible de causer un préjudice réel sera supprimée."
+  },
+  "s8": {
+    "heading": "8. Les Clusters ont aussi des règles",
+    "intro": "Les Clusters sont des espaces communautaires. Chaque Cluster sur Spektt applique ces règles, et un administrateur de Cluster peut en ajouter d'autres, mais ne peut jamais les supprimer ni les contourner :",
+    "tableHeadRule": "Règle",
+    "tableHeadMeaning": "Ce que cela signifie",
+    "tableRows": [
+      ["Soyez respectueux", "Pas de harcèlement, de discours haineux ni d'attaques personnelles envers un membre"],
+      ["Restez créatif", "Les publications doivent être liées à la thématique créative du Cluster"],
+      ["Pas de spam", "Pas de publications répétitives, de promotion non sollicitée ni de dépôt de liens"],
+      ["Pas de contenu NSFW", "Le contenu explicite ou pour adultes n'est pas autorisé sur Spektt"],
+      ["Pas de prix en argent ici", "Les Clusters sont des espaces communautaires — toutes les compétitions dotées de prix en argent sont hébergées exclusivement dans les Showdowns"],
+      ["Uniquement des œuvres originales", "Ne partagez que du contenu que vous avez créé ou dont vous détenez les droits"],
+      ["Pas de discrimination", "Les contenus ou commentaires visant l'origine ethnique, la religion, le genre ou le milieu ne seront pas tolérés"],
+      ["Respectez les règles de Spektt", "Nos règles générales s'appliquent toujours à l'intérieur de chaque Cluster"]
+    ],
+    "screening": "Les noms et descriptions des Clusters sont contrôlés. Les noms qui promeuvent la haine, l'extrémisme, des activités illégales, l'exploitation sexuelle de mineurs ou la violence sont bloqués dès la création. Les noms utilisant des marques protégées nécessitent une vérification.",
+    "moderators": "Les administrateurs de Cluster peuvent nommer des modérateurs une fois que le Cluster est suffisamment grand. Les modérateurs acceptent des règles de modération distinctes avant de pouvoir agir, et leurs pouvoirs sont limités — un modérateur ne peut pas supprimer un contenu qui n'enfreint pas les règles."
+  },
+  "s9": {
+    "heading": "9. Comment fonctionne le signalement",
+    "intro": "Appuyez sur le menu à trois points d'une publication, d'un commentaire, d'un Showdown, d'une participation ou d'un profil et sélectionnez Signaler, puis choisissez le motif le plus adapté. Les signalements sont examinés par de vraies personnes, et pas uniquement par des systèmes automatisés.",
+    "tableIntro": "Nos délais d'examen, par niveau de gravité :",
+    "tableHeadSeverity": "Gravité",
+    "tableHeadExamples": "Exemples",
+    "tableHeadTime": "Délai d'examen visé",
+    "tableRows": [
+      ["Critique", "Sécurité des mineurs, automutilation", "Sous 24 heures"],
+      ["Élevée", "Discours haineux, harcèlement, violence, nudité, usurpation d'identité, biens illégaux, jury truqué", "Sous 48 heures"],
+      ["Moyenne", "Droit d'auteur, fausses informations, faux comptes, faux concours", "Sous 72 heures"],
+      ["Faible", "Spam, problèmes techniques mineurs", "Sous 7 jours"]
+    ],
+    "note": "Signaler quelqu'un ne l'informe pas que vous l'avez signalé."
+  },
+  "s10": {
+    "heading": "10. Ce qui se passe en cas d'infraction",
+    "intro": "Les conséquences dépendent de la gravité et des antécédents. Nous n'utilisons pas de compte d'avertissements fixe — les infractions graves mènent directement à une suspension.",
+    "items": [
+      "Suppression du contenu — la publication, le commentaire ou la participation est retiré.",
+      "Avertissement — un avertissement officiel que vous recevez dans l'application et par notification push. Les avertissements sont enregistrés sur votre compte et ne peuvent pas être désactivés dans les paramètres de notification, car un avertissement que vous ne voyez jamais ne change rien.",
+      "Suspension — 7 jours, 14 jours, 30 jours ou définitive. Une suspension à durée déterminée prend fin automatiquement à son expiration. Pendant la suspension, vous ne pouvez pas utiliser l'application.",
+      "Bannissement définitif — pour les infractions les plus graves ou répétées."
+    ],
+    "clusterNote": "Par ailleurs, un administrateur ou un modérateur de Cluster peut retirer votre publication de son Cluster ou vous en exclure, sans que cela n'affecte votre compte Spektt."
+  },
+  "s11": {
+    "heading": "11. Faire appel",
+    "intro": "Si votre compte est suspendu, un écran vous expliquera pourquoi et vous pourrez y faire appel.",
+    "items": [
+      "Jusqu'à 2 appels par suspension. Le second n'est débloqué que si le premier est rejeté.",
+      "Un appel doit contenir entre 50 et 1 000 caractères — de quoi vous expliquer réellement.",
+      "Une nouvelle suspension réinitialise le compteur.",
+      "Vous ne pouvez pas faire appel tant qu'un appel est déjà en cours d'examen."
+    ],
+    "contact": "Vous pouvez également écrire à support@spektt.com en indiquant votre nom d'utilisateur."
+  },
+  "s12": {
+    "heading": "12. Contact",
+    "tableHeadReason": "Motif",
+    "tableHeadEmail": "Adresse",
+    "tableRows": [
+      ["Assistance générale, problèmes de compte, appels", "support@spektt.com"],
+      ["Droit d'auteur et questions juridiques", "legal@spektt.com"],
+      ["Intégrité des Showdowns", "showdowns@spektt.com"]
+    ],
+    "closing": "Ces règles s'appliquent conjointement à nos Conditions générales. Là où les Conditions constituent l'accord, ces règles décrivent la manière dont nous l'appliquons."
+  }
+}

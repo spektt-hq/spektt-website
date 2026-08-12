@@ -11,6 +11,7 @@ const pages = [
   { path: '/contact', changeFrequency: 'yearly' as const, priority: 0.5 },
   { path: '/privacy', changeFrequency: 'yearly' as const, priority: 0.3 },
   { path: '/terms', changeFrequency: 'yearly' as const, priority: 0.3 },
+  { path: '/community-guidelines', changeFrequency: 'yearly' as const, priority: 0.4 },
   { path: '/showdown-rules', changeFrequency: 'yearly' as const, priority: 0.3 },
 ]
 

@@ -18,6 +18,7 @@
     },
     "companyLinks": {
       "terms": "Conditions d'utilisation",
+      "guidelines": "Règles de la communauté",
       "privacy": "Politique de confidentialité",
       "contact": "Nous contacter",
       "download": "Télécharger l'application"
@@ -193,6 +194,10 @@
     "terms": {
       "title": "Conditions d'utilisation — Spektt",
       "description": "Les règles régissant votre utilisation de la plateforme Spektt."
+    },
+    "communityGuidelines": {
+      "title": "Règles de la communauté — Spektt",
+      "description": "Ce qui est autorisé ou non sur Spektt, comment fonctionne le signalement et ce qui se passe en cas d'infraction."
     },
     "privacy": {
       "title": "Politique de confidentialité — Spektt",
