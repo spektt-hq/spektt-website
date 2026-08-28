@@ -122,7 +122,48 @@ User taps spektt.com/profile/kaycee
 - `next.config.ts` — serves both `.well-known/` files with `Content-Type: application/json`
 - Mobile app `app.config.js` — `associatedDomains` (iOS) + `intentFilters` (Android)
 
-**Slug URLs:** `/profile/{username}` · `/c/{clusterSlug}` · `/s/{showdownSlug}`
+**Slug URLs:** `/profile/{username}` · `/c/{clusterSlug}` · `/s/{showdownSlug}` · `/col/{collectionSlug}`
+
+These are also the app's OWN route segments as of 2026-08-28 — `(protected)/s/[slug]` etc.,
+renamed from `showdowns/clusters/collections` to match. Expo Router resolves an incoming
+link itself, and when the shapes disagreed it pushed an Unmatched Route under the correct
+screen. **Keep the two in sync: a new public path needs the same segment in the app.**
+
+### ⚠️ App Links: the fingerprint must match the INSTALLED app
+
+`assetlinks.json` holds an ARRAY of fingerprints, and Android verifies the certificate that
+signed the app on the device against it. A mismatch fails silently — `pm get-app-links`
+reports state `1024` and every link opens the browser instead of the app. That is exactly
+what happened on 2026-08-28: the file listed only the production keystore while the device
+ran a debug-signed build.
+
+**Before launch — add the PLAY signing fingerprint.** Google Play App Signing re-signs the
+app with **its own** key, so a store install presents a certificate matching neither entry,
+and App Links break for every real user:
+
+1. Play Console → **Test and release → Setup → App integrity → App signing**
+2. Copy the SHA-256 under **App signing key certificate** (Google's key, NOT the upload key)
+3. Add it to `sha256_cert_fingerprints`
+4. Deploy, then `curl https://spektt.com/.well-known/assetlinks.json` to confirm it is live
+5. Install from Play → `adb shell pm get-app-links com.spektt.app` → expect `verified`
+
+Also drop the **debug** fingerprint at that point. It is there so debug-signed builds can be
+tested on device (the app's release builds still sign with the debug keystore), but shipping
+it lets anything signed with that keystore claim the domain.
+
+⚠️ Verification only re-runs on **install/update**. An existing install keeps its previous
+result, so reinstall — or force it with `pm verify-app-links --re-verify com.spektt.app`.
+
+### ⚠️ www cannot verify — it redirects
+
+`www.spektt.com` 308-redirects to the apex, and **neither Android's assetlinks fetch nor
+Apple's AASA fetch follows redirects**. `www` was therefore removed from the app's
+`intentFilters` and `associatedDomains` on 2026-08-28 rather than left advertising a domain
+permanently stuck at state `1024`.
+
+Nothing generates www links — every `shareUrl` in the app is apex. To support www later it
+must **serve** `/.well-known/` directly (a real alias, not a redirect), which means the site
+is served on two hostnames and needs canonical tags.
 
 ---
 
