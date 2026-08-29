@@ -18,9 +18,14 @@
     "a": "(a) Ter pelo menos 18 anos de idade no momento da participação. A idade é verificada na criação da conta. Usuários identificados como menores (menores de 18 anos) são automaticamente inelegíveis para participar dos Concursos.",
     "b": "(b) Ser um usuário cadastrado da Plataforma Spektt com uma conta completa e verificada.",
     "c": "(c) Não ser residente de, ou estar fisicamente localizado em, nenhuma das seguintes jurisdições onde concursos online desta natureza são proibidos ou restritos por lei:",
-    "restricted": ["Catar", "Emirados Árabes Unidos (EAU)", "Reino da Arábia Saudita"],
+    "restricted": [
+      "Catar",
+      "Emirados Árabes Unidos (EAU)",
+      "Reino da Arábia Saudita"
+    ],
     "d": "(d) Não ser funcionário, executivo, diretor, agente ou membro da família imediata (cônjuge, pai/mãe, irmão/irmã, filho/filha) ou membro do domicílio da Spektt, suas afiliadas, subsidiárias ou qualquer patrocinador de prêmios.",
     "e": "(e) Não ter sido suspenso ou banido da Plataforma Spektt no momento da participação.",
+    "f": "(f) Apenas para Concursos Premium: residir e estar fisicamente localizado em um dos seguintes países — Nigéria, Gana, Quênia, África do Sul, Senegal, Costa do Marfim, Camarões, Tanzânia, Uganda ou Ruanda. Os Concursos Pulse são abertos globalmente, sujeitos ao item (c) acima.",
     "void": "Nulo onde proibido por lei. A Spektt reserva-se o direito de verificar a elegibilidade a qualquer momento e desqualificar qualquer participação que não atenda a esses requisitos."
   },
   "s3": {
@@ -57,11 +62,13 @@
     "heading": "7. AVALIAÇÃO E SELEÇÃO DE VENCEDORES",
     "p1": "Os vencedores são determinados por um ou mais dos seguintes métodos, conforme especificado em cada anúncio de Concurso:",
     "communityLabel": "(a) Votação comunitária",
-    "communityText": "Os usuários cadastrados da Spektt votam uma vez por Concurso. Os votos são registrados e verificados. Manipulação de votos, atividade de bots ou votação coordenada inautêntica resultará na desqualificação imediata da participação beneficiada e na suspensão das contas infratoras.",
+    "communityText": "Os usuários cadastrados da Spektt votam uma vez por Concurso. Os votos são registrados e verificados. Manipulação de votos, atividade de bots ou votação coordenada inautêntica resultará na desqualificação imediata da participação beneficiada e na suspensão das contas infratoras. Cada usuário registrado pode dar no máximo vinte (20) votos por dia no conjunto dos Concursos.",
     "judgeLabel": "(b) Pontuação dos juízes",
     "judgeText": "Juízes selecionados avaliam as participações com base em critérios definidos (p. ex. criatividade, qualidade técnica, alinhamento com o tema). As pontuações dos juízes são definitivas.",
     "combinedLabel": "(c) Combinado",
     "combinedText": "Uma combinação ponderada de votos comunitários e pontuações de juízes, com a ponderação indicada no anúncio do Concurso.",
+    "twoStageLabel": "(d) Concursos Premium em duas etapas",
+    "twoStageText": "Nos Concursos Premium, a votação da comunidade determina primeiro as vinte (20) entradas mais votadas. Somente essas vinte entradas são pontuadas pelos jurados. As entradas fora das vinte primeiras não são avaliadas e não podem ser premiadas.",
     "tie": "Em caso de empate, vence a participação enviada primeiro.",
     "odds": "As chances de ganhar dependem do número total de participações elegíveis recebidas."
   },
@@ -71,7 +78,11 @@
     "pulseText": "Os vencedores recebem prêmios digitais, incluindo emblemas, pontos XP, medalhas e reconhecimento no perfil. Sem valor monetário.",
     "premiumLabel": "(b) Concursos Premium:",
     "premiumText": "Os valores exatos dos prêmios em Naira nigeriana (₦) são indicados em cada anúncio individual de Concurso. Estrutura aproximada de prêmios para um Concurso Premium padrão:",
-    "prizes": ["1º lugar: conforme indicado no anúncio do Concurso", "2º lugar: conforme indicado no anúncio do Concurso", "3º lugar: conforme indicado no anúncio do Concurso"],
+    "prizes": [
+      "1º lugar: conforme indicado no anúncio do Concurso",
+      "2º lugar: conforme indicado no anúncio do Concurso",
+      "3º lugar: conforme indicado no anúncio do Concurso"
+    ],
     "nonTransfer": "Os prêmios não são transferíveis. Nenhuma substituição em dinheiro ou troca de prêmios é permitida, exceto a critério exclusivo da Spektt. A Spektt não é responsável por qualquer falha no recebimento de prêmios devido a informações de contato ou dados bancários desatualizados fornecidos pelo vencedor."
   },
   "s9": {
@@ -80,8 +91,8 @@
     "bBefore": "(b) Os vencedores têm",
     "bDays": "QUATORZE (14) DIAS CORRIDOS",
     "bAfter": "a partir da data de notificação para responder e fornecer as informações necessárias (nome legal completo, dados bancários, identificação fiscal — ver Seção 10).",
-    "c": "(c) A falta de resposta em 14 dias, a falta de documentação necessária ou a inelegibilidade do vencedor original resultará na perda do prêmio. Nesses casos, o próximo participante elegível mais bem classificado será selecionado como vencedor alternativo, que também terá 14 dias para resgatar.",
-    "d": "(d) Se nenhum vencedor elegível resgatar o prêmio dentro de 60 dias do anúncio original, o prêmio será doado a uma instituição de caridade registrada a critério da Spektt."
+    "c": "(c) A falta de resposta no prazo de 14 dias, a não apresentação da documentação exigida ou a inelegibilidade do vencedor resultarão na perda do prêmio. A Spektt poderá, a seu exclusivo critério, oferecer o prêmio ao próximo participante elegível melhor classificado, sem qualquer obrigação de fazê-lo.",
+    "d": "(d) Prêmios perdidos ou não reclamados permanecem propriedade do Patrocinador. A Spektt poderá, a seu critério, doar um prêmio perdido a uma instituição de caridade registrada."
   },
   "s10": {
     "heading": "10. CONFORMIDADE FISCAL (CONCURSOS PREMIUM)",

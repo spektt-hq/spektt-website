@@ -18,9 +18,14 @@
     "a": "(a) Avoir au moins 18 ans au moment de la participation. L'âge est vérifié lors de la création du compte. Les utilisateurs identifiés comme mineurs (moins de 18 ans) sont automatiquement inéligibles pour participer aux Concours.",
     "b": "(b) Être un utilisateur inscrit de la Plateforme Spektt avec un compte complet et vérifié.",
     "c": "(c) Ne pas résider, ou être physiquement situé(e) dans, l'une des juridictions suivantes où les concours en ligne de cette nature sont interdits ou restreints par la loi :",
-    "restricted": ["Qatar", "Émirats arabes unis (EAU)", "Royaume d'Arabie saoudite"],
+    "restricted": [
+      "Qatar",
+      "Émirats arabes unis (EAU)",
+      "Royaume d'Arabie saoudite"
+    ],
     "d": "(d) Ne pas être un employé, dirigeant, directeur, agent ou membre de la famille immédiate (conjoint, parent, frère/sœur, enfant) ou membre du foyer de Spektt, de ses filiales, affiliés ou de tout sponsor de prix.",
     "e": "(e) Ne pas avoir été suspendu(e) ou banni(e) de la Plateforme Spektt au moment de la participation.",
+    "f": "(f) Pour les Concours Premium uniquement : résider et être physiquement situé dans l'un des pays suivants — Nigéria, Ghana, Kenya, Afrique du Sud, Sénégal, Côte d'Ivoire, Cameroun, Tanzanie, Ouganda ou Rwanda. Les Concours Pulse sont ouverts dans le monde entier, sous réserve du point (c) ci-dessus.",
     "void": "Nul là où la loi l'interdit. Spektt se réserve le droit de vérifier l'éligibilité à tout moment et de disqualifier toute participation ne répondant pas à ces exigences."
   },
   "s3": {
@@ -57,11 +62,13 @@
     "heading": "7. JUGEMENT ET SÉLECTION DES GAGNANTS",
     "p1": "Les gagnants sont déterminés par une ou plusieurs des méthodes suivantes, telles que spécifiées dans chaque annonce de Concours :",
     "communityLabel": "(a) Vote communautaire",
-    "communityText": "Les utilisateurs Spektt inscrits votent une fois par Concours. Les votes sont enregistrés et vérifiés. La manipulation des votes, l'activité de bots ou le vote inauthentique coordonné entraîneront la disqualification immédiate de la participation bénéficiaire et la suspension des comptes fautifs.",
+    "communityText": "Les utilisateurs Spektt inscrits votent une fois par Concours. Les votes sont enregistrés et vérifiés. La manipulation des votes, l'activité de bots ou le vote inauthentique coordonné entraîneront la disqualification immédiate de la participation bénéficiaire et la suspension des comptes fautifs. Chaque utilisateur inscrit peut voter au maximum vingt (20) fois par jour, tous Concours confondus.",
     "judgeLabel": "(b) Notation par les juges",
     "judgeText": "Les juges sélectionnés évaluent les participations selon des critères définis (p. ex. créativité, qualité technique, adéquation au thème). Les notes des juges sont définitives.",
     "combinedLabel": "(c) Combiné",
     "combinedText": "Une combinaison pondérée des votes communautaires et des notes des juges, avec la pondération indiquée dans l'annonce du Concours.",
+    "twoStageLabel": "(d) Concours Premium en deux étapes",
+    "twoStageText": "Dans les Concours Premium, le vote de la communauté détermine d'abord les vingt (20) participations les plus votées. Seules ces vingt participations sont évaluées par les juges. Les participations classées au-delà de la vingtième place ne sont pas évaluées et ne peuvent pas être primées.",
     "tie": "En cas d'égalité, la participation soumise en premier l'emporte.",
     "odds": "Les chances de gagner dépendent du nombre total de participations éligibles reçues."
   },
@@ -71,7 +78,11 @@
     "pulseText": "Les gagnants reçoivent des prix numériques, notamment des badges, points XP, médailles et reconnaissance sur le profil. Aucune valeur monétaire.",
     "premiumLabel": "(b) Concours Premium :",
     "premiumText": "Les montants exacts des prix en Naira nigérian (₦) sont indiqués dans chaque annonce individuelle de Concours. Structure approximative des prix pour un Concours Premium standard :",
-    "prizes": ["1re place : tel qu'indiqué dans l'annonce du Concours", "2e place : tel qu'indiqué dans l'annonce du Concours", "3e place : tel qu'indiqué dans l'annonce du Concours"],
+    "prizes": [
+      "1re place : tel qu'indiqué dans l'annonce du Concours",
+      "2e place : tel qu'indiqué dans l'annonce du Concours",
+      "3e place : tel qu'indiqué dans l'annonce du Concours"
+    ],
     "nonTransfer": "Les prix ne sont pas transférables. Aucune substitution d'espèces ou échange de prix n'est autorisé, sauf à la seule discrétion de Spektt. Spektt n'est pas responsable de tout défaut de réception des prix dû à des coordonnées ou détails bancaires périmés fournis par le gagnant."
   },
   "s9": {
@@ -80,8 +91,8 @@
     "bBefore": "(b) Les gagnants disposent de",
     "bDays": "QUATORZE (14) JOURS CALENDAIRES",
     "bAfter": "à compter de la date de notification pour répondre et fournir les informations requises (nom légal complet, coordonnées bancaires, identification fiscale — voir Section 10).",
-    "c": "(c) Le défaut de réponse dans les 14 jours, le défaut de fourniture de la documentation requise ou l'inéligibilité du gagnant initial entraîneront la déchéance du prix. Dans ce cas, le participant éligible suivant le mieux classé sera sélectionné comme gagnant de remplacement, qui disposera également de 14 jours pour réclamer.",
-    "d": "(d) Si aucun gagnant éligible ne réclame le prix dans les 60 jours suivant l'annonce initiale, le prix sera reversé à une association caritative enregistrée à la discrétion de Spektt."
+    "c": "(c) L'absence de réponse dans un délai de 14 jours, le défaut de fourniture des documents requis ou l'inéligibilité du gagnant entraînent la perte du prix. Spektt peut, à sa seule discrétion, proposer le prix au participant éligible suivant au classement, sans y être tenu.",
+    "d": "(d) Les prix perdus ou non réclamés restent la propriété du Commanditaire. Spektt peut, à sa discrétion, faire don d'un prix perdu à une organisation caritative enregistrée."
   },
   "s10": {
     "heading": "10. CONFORMITÉ FISCALE (CONCOURS PREMIUM)",

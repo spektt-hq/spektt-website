@@ -18,9 +18,14 @@
     "a": "(a) Tener al menos 18 años de edad en el momento de la participación. La edad se verifica en la creación de la cuenta. Los usuarios identificados como menores (menores de 18 años) son automáticamente inelegibles para participar en los Concursos.",
     "b": "(b) Ser un usuario registrado de la Plataforma Spektt con una cuenta completa y verificada.",
     "c": "(c) No ser residente de, ni estar físicamente ubicado en, ninguna de las siguientes jurisdicciones donde los concursos en línea de esta naturaleza están prohibidos o restringidos por ley:",
-    "restricted": ["Qatar", "Emiratos Árabes Unidos (EAU)", "Reino de Arabia Saudita"],
+    "restricted": [
+      "Qatar",
+      "Emiratos Árabes Unidos (EAU)",
+      "Reino de Arabia Saudita"
+    ],
     "d": "(d) No ser empleado, funcionario, director, agente o miembro de la familia inmediata (cónyuge, padre, hermano, hijo) o miembro del hogar de Spektt, sus afiliados, subsidiarias o cualquier patrocinador de premios.",
     "e": "(e) No haber sido suspendido o prohibido de la Plataforma Spektt en el momento de la participación.",
+    "f": "(f) Solo para los Concursos Premium: residir y encontrarse físicamente en uno de los siguientes países — Nigeria, Ghana, Kenia, Sudáfrica, Senegal, Costa de Marfil, Camerún, Tanzania, Uganda o Ruanda. Los Concursos Pulse están abiertos a todo el mundo, sujeto al apartado (c) anterior.",
     "void": "Nulo donde lo prohíba la ley. Spektt se reserva el derecho de verificar la elegibilidad en cualquier momento y descalificar cualquier participación que no cumpla con estos requisitos."
   },
   "s3": {
@@ -57,11 +62,13 @@
     "heading": "7. EVALUACIÓN Y SELECCIÓN DE GANADORES",
     "p1": "Los ganadores se determinan por uno o más de los siguientes métodos, según se especifique en cada anuncio de Concurso:",
     "communityLabel": "(a) Votación comunitaria",
-    "communityText": "Los usuarios registrados de Spektt emiten un voto por Concurso. Los votos se registran y verifican. La manipulación de votos, la actividad de bots o la votación coordinada inauténtica resultará en la descalificación inmediata de la participación beneficiada y la suspensión de las cuentas infractoras.",
+    "communityText": "Los usuarios registrados de Spektt emiten un voto por Concurso. Los votos se registran y verifican. La manipulación de votos, la actividad de bots o la votación coordinada inauténtica resultará en la descalificación inmediata de la participación beneficiada y la suspensión de las cuentas infractoras. Cada usuario registrado puede emitir un máximo de veinte (20) votos por día en el conjunto de los Concursos.",
     "judgeLabel": "(b) Puntuación de jueces",
     "judgeText": "Los jueces seleccionados puntúan las participaciones según criterios establecidos (p. ej. creatividad, calidad técnica, alineación con el tema). Las puntuaciones de los jueces son definitivas.",
     "combinedLabel": "(c) Combinado",
     "combinedText": "Una combinación ponderada de votos comunitarios y puntuaciones de jueces, con la ponderación indicada en el anuncio del Concurso.",
+    "twoStageLabel": "(d) Concursos Premium en dos etapas",
+    "twoStageText": "En los Concursos Premium, la votación de la comunidad determina primero las veinte (20) entradas más votadas. Solo esas veinte entradas son puntuadas por los jueces. Las entradas que queden fuera de las veinte primeras no se puntúan y no pueden resultar premiadas.",
     "tie": "En caso de empate, gana la participación enviada primero.",
     "odds": "Las probabilidades de ganar dependen del número total de participaciones elegibles recibidas."
   },
@@ -71,7 +78,11 @@
     "pulseText": "Los ganadores reciben premios digitales que incluyen insignias, puntos XP, medallas y reconocimiento en el perfil. Sin valor monetario.",
     "premiumLabel": "(b) Concursos Premium:",
     "premiumText": "Los montos exactos de los premios en Naira nigeriano (₦) se indican en cada anuncio individual de Concurso. Estructura aproximada de premios para un Concurso Premium estándar:",
-    "prizes": ["1er lugar: según lo indicado en el anuncio del Concurso", "2do lugar: según lo indicado en el anuncio del Concurso", "3er lugar: según lo indicado en el anuncio del Concurso"],
+    "prizes": [
+      "1er lugar: según lo indicado en el anuncio del Concurso",
+      "2do lugar: según lo indicado en el anuncio del Concurso",
+      "3er lugar: según lo indicado en el anuncio del Concurso"
+    ],
     "nonTransfer": "Los premios no son transferibles. No se permite sustitución de efectivo ni canje de premios, excepto a discreción exclusiva de Spektt. Spektt no es responsable de ningún fallo en la recepción de premios debido a información de contacto o datos bancarios desactualizados proporcionados por el ganador."
   },
   "s9": {
@@ -80,8 +91,8 @@
     "bBefore": "(b) Los ganadores tienen",
     "bDays": "CATORCE (14) DÍAS CALENDARIO",
     "bAfter": "desde la fecha de notificación para responder y proporcionar la información requerida (nombre legal completo, datos bancarios, identificación fiscal — ver Sección 10).",
-    "c": "(c) El incumplimiento de respuesta en 14 días, el incumplimiento de la documentación requerida o la inelegibilidad del ganador original resultará en la pérdida del premio. En tales casos, el siguiente participante elegible mejor clasificado será seleccionado como ganador alternativo, quien también tendrá 14 días para reclamar.",
-    "d": "(d) Si ningún ganador elegible reclama el premio dentro de los 60 días posteriores al anuncio original, el premio será donado a una organización benéfica registrada a discreción de Spektt."
+    "c": "(c) No responder en un plazo de 14 días, no aportar la documentación requerida o la inelegibilidad del ganador supondrá la pérdida del premio. Spektt podrá, a su entera discreción, ofrecer el premio al siguiente participante elegible mejor clasificado, sin estar obligado a hacerlo.",
+    "d": "(d) Los premios perdidos o no reclamados seguirán siendo propiedad del Patrocinador. Spektt podrá, a su discreción, donar un premio perdido a una organización benéfica registrada."
   },
   "s10": {
     "heading": "10. CUMPLIMIENTO FISCAL (CONCURSOS PREMIUM)",

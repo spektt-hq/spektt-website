@@ -18,9 +18,14 @@
     "a": "(a) Be at least 18 years of age at the time of entry. Age is verified at account creation. Users identified as minors (under 18) are automatically ineligible to enter Contests.",
     "b": "(b) Be a registered user of the Spektt Platform with a complete, verified account.",
     "c": "(c) Not be a resident of, or physically located in, any of the following jurisdictions where online contests of this nature are prohibited or restricted by law:",
-    "restricted": ["Qatar", "United Arab Emirates (UAE)", "Kingdom of Saudi Arabia"],
+    "restricted": [
+      "Qatar",
+      "United Arab Emirates (UAE)",
+      "Kingdom of Saudi Arabia"
+    ],
     "d": "(d) Not be an employee, officer, director, agent, or immediate family member (spouse, parent, sibling, child) or household member of Spektt, its affiliates, subsidiaries, or any prize sponsor.",
     "e": "(e) Not have been suspended or banned from the Spektt Platform at the time of entry.",
+    "f": "(f) For Premium Contests only: be resident in, and physically located in, one of the following countries — Nigeria, Ghana, Kenya, South Africa, Senegal, Côte d'Ivoire, Cameroon, Tanzania, Uganda, or Rwanda. Pulse Contests are open globally, subject to (c) above.",
     "void": "Void where prohibited by law. Spektt reserves the right to verify eligibility at any time and disqualify any entry that does not meet these requirements."
   },
   "s3": {
@@ -57,11 +62,13 @@
     "heading": "7. JUDGING AND WINNER SELECTION",
     "p1": "Winners are determined by one or more of the following methods, as specified in each Contest listing:",
     "communityLabel": "(a) Community Voting",
-    "communityText": "Registered Spektt users cast one vote per Contest. Votes are recorded and verified. Vote manipulation, bot activity, or coordinated inauthentic voting will result in immediate disqualification of the benefitting entry and suspension of the offending accounts.",
+    "communityText": "Registered Spektt users cast one vote per Contest. Votes are recorded and verified. Vote manipulation, bot activity, or coordinated inauthentic voting will result in immediate disqualification of the benefitting entry and suspension of the offending accounts. Each registered user may cast a maximum of twenty (20) votes per day across all Contests.",
     "judgeLabel": "(b) Judge Scoring",
     "judgeText": "Selected judges score entries on stated criteria (e.g. creativity, technical quality, theme alignment). Judge scores are final.",
     "combinedLabel": "(c) Combined",
     "combinedText": "A weighted combination of community votes and judge scores, with the weighting stated in the Contest listing.",
+    "twoStageLabel": "(d) Two-Stage Premium Contests",
+    "twoStageText": "In Premium Contests, community voting first determines the twenty (20) highest-voted entries. Only those twenty entries are scored by judges. Entries placing outside the top twenty are not judged and cannot place.",
     "tie": "In the event of a tie, the entry submitted earliest wins.",
     "odds": "Odds of winning depend on the total number of eligible entries received."
   },
@@ -71,7 +78,11 @@
     "pulseText": "Winners receive digital prizes including badges, XP points, medals, and profile recognition. No cash value.",
     "premiumLabel": "(b) Premium Contests:",
     "premiumText": "The exact prize amounts in Nigerian Naira (₦) are stated in each individual Contest listing. Approximate prize structure for a standard Premium Contest:",
-    "prizes": ["1st Place: as stated in Contest listing", "2nd Place: as stated in Contest listing", "3rd Place: as stated in Contest listing"],
+    "prizes": [
+      "1st Place: as stated in Contest listing",
+      "2nd Place: as stated in Contest listing",
+      "3rd Place: as stated in Contest listing"
+    ],
     "nonTransfer": "Prizes are non-transferable. No cash substitution or prize exchange is permitted, except at Spektt's sole discretion. Spektt is not responsible for any failure to receive prizes due to outdated contact information or bank details provided by the winner."
   },
   "s9": {
@@ -80,8 +91,8 @@
     "bBefore": "(b) Winners have",
     "bDays": "FOURTEEN (14) CALENDAR DAYS",
     "bAfter": "from the date of notification to respond and provide the required information (full legal name, bank account details, tax identification — see Section 10).",
-    "c": "(c) Failure to respond within 14 days, failure to provide required documentation, or ineligibility of the original winner will result in the prize being forfeited. In such cases, the next highest-placed eligible entrant will be selected as the alternate winner, who will also have 14 days to claim.",
-    "d": "(d) If no eligible winner claims the prize within 60 days of the original announcement, the prize will be donated to a registered charity at Spektt's discretion."
+    "c": "(c) Failure to respond within 14 days, failure to provide the required documentation, or ineligibility of the winner will result in the prize being forfeited. Spektt may, at its sole discretion, offer the prize to the next highest-placed eligible entrant, but is under no obligation to do so.",
+    "d": "(d) Forfeited and unclaimed prizes remain the property of the Sponsor. Spektt may, at its discretion, donate a forfeited prize to a registered charity."
   },
   "s10": {
     "heading": "10. TAX COMPLIANCE (PREMIUM CONTESTS)",

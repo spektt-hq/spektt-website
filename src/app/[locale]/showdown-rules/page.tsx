@@ -83,6 +83,7 @@ export default async function ShowdownRulesPage({ params }: Props) {
             </ul>
             <p className='privacy-policy-text mt-3'>{d.s2.d}</p>
             <p className='privacy-policy-text mt-3'>{d.s2.e}</p>
+            <p className='privacy-policy-text mt-3'>{d.s2.f}</p>
             <p className='privacy-policy-text mt-3'>{d.s2.void}</p>
           </section>
 
@@ -142,6 +143,9 @@ export default async function ShowdownRulesPage({ params }: Props) {
             </p>
             <p className='privacy-policy-text mt-3'>
               <span className='text-white font-medium'>{d.s7.combinedLabel}</span> — {d.s7.combinedText}
+            </p>
+            <p className='privacy-policy-text mt-3'>
+              <span className='text-white font-medium'>{d.s7.twoStageLabel}</span> — {d.s7.twoStageText}
             </p>
             <p className='privacy-policy-text mt-3'>{d.s7.tie}</p>
             <p className='privacy-policy-text mt-3'>{d.s7.odds}</p>
