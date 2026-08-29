@@ -229,7 +229,6 @@ export default async function ShowdownRulesPage({ params }: Props) {
               ))}
             </ul>
             <p className='privacy-policy-text mt-3'>{d.s14.response}</p>
-            <p className='privacy-policy-text mt-5 font-medium text-white'>{d.s14.waiver}</p>
           </section>
 
           {/* 15 */}
