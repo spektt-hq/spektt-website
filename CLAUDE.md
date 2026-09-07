@@ -117,7 +117,7 @@ User taps spektt.com/profile/kaycee
 ```
 
 **Key files:**
-- `public/.well-known/assetlinks.json` — Android (SHA256 of production keystore)
+- `public/.well-known/assetlinks.json` — Android (SHA-256 of ALL THREE signing keys — see below)
 - `public/.well-known/apple-app-site-association` — iOS (Team ID + Bundle ID)
 - `next.config.ts` — serves both `.well-known/` files with `Content-Type: application/json`
 - Mobile app `app.config.js` — `associatedDomains` (iOS) + `intentFilters` (Android)
@@ -137,19 +137,34 @@ reports state `1024` and every link opens the browser instead of the app. That i
 what happened on 2026-08-28: the file listed only the production keystore while the device
 ran a debug-signed build.
 
-**Before launch — add the PLAY signing fingerprint.** Google Play App Signing re-signs the
-app with **its own** key, so a store install presents a certificate matching neither entry,
-and App Links break for every real user:
+**Before launch — add the PLAY signing fingerprint.** ✅ DONE 2026-09-07.
 
-1. Play Console → **Test and release → Setup → App integrity → App signing**
-2. Copy the SHA-256 under **App signing key certificate** (Google's key, NOT the upload key)
-3. Add it to `sha256_cert_fingerprints`
-4. Deploy, then `curl https://spektt.com/.well-known/assetlinks.json` to confirm it is live
-5. Install from Play → `adb shell pm get-app-links com.spektt.app` → expect `verified`
+Google Play App Signing re-signs the app with **its own** key, so a store install presents
+a certificate matching neither of the original two entries, and App Links broke for every
+real user. Measured on the internal-testing build: `pm get-app-links` reported signature
+`72:A7:6A:C0:…` against a file listing only `EB:83:…` and `FA:C6:…`, state `1024`.
 
-Also drop the **debug** fingerprint at that point. It is there so debug-signed builds can be
-tested on device (the app's release builds still sign with the debug keystore), but shipping
-it lets anything signed with that keystore claim the domain.
+The file now carries THREE fingerprints, one per distribution channel:
+
+| Fingerprint | Key | Covers |
+|---|---|---|
+| `72:A7:6A:C0:…` | Play app signing (Google's) | every Play install — real users |
+| `EB:83:13:C8:…` | Upload key (EAS-managed) | EAS-built APKs installed directly |
+| `FA:C6:17:45:…` | `android/app/debug.keystore` | local `./gradlew installRelease` |
+
+Play's key is at Play Console → **Protected with Play → Play Store protection →
+Protect app signing key → Manage Play app signing**. That page also emits a ready-made
+Digital Asset Links snippet. ("Test and release → App integrity" now only redirects here.)
+
+### 🔒 GATE: drop the debug fingerprint before OPEN testing
+
+`FA:C6:17:45:…` is the stock React Native template `debug.keystore` — valid-from 2013,
+public on GitHub, byte-identical in every RN project on earth. Publishing it lets ANYONE
+sign an APK with it and claim spektt.com links.
+
+It stays only while the install base is a handful of known testers, because removing it
+kills App Links on local release builds. **Remove it before the open-testing track opens**
+— same gate as spec 23 (the Bunny TUS key still in the APK).
 
 ⚠️ Verification only re-runs on **install/update**. An existing install keeps its previous
 result, so reinstall — or force it with `pm verify-app-links --re-verify com.spektt.app`.
