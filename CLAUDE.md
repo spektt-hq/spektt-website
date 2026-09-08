@@ -150,21 +150,27 @@ The file now carries THREE fingerprints, one per distribution channel:
 |---|---|---|
 | `72:A7:6A:C0:…` | Play app signing (Google's) | every Play install — real users |
 | `EB:83:13:C8:…` | Upload key (EAS-managed) | EAS-built APKs installed directly |
-| `FA:C6:17:45:…` | `android/app/debug.keystore` | local `./gradlew installRelease` |
+| ~~`FA:C6:17:45:…`~~ | `android/app/debug.keystore` | **REMOVED 2026-09-08** — see below |
 
 Play's key is at Play Console → **Protected with Play → Play Store protection →
 Protect app signing key → Manage Play app signing**. That page also emits a ready-made
 Digital Asset Links snippet. ("Test and release → App integrity" now only redirects here.)
 
-### 🔒 GATE: drop the debug fingerprint before OPEN testing
+### ✅ CLOSED 2026-09-08: the debug fingerprint is gone
 
-`FA:C6:17:45:…` is the stock React Native template `debug.keystore` — valid-from 2013,
-public on GitHub, byte-identical in every RN project on earth. Publishing it lets ANYONE
-sign an APK with it and claim spektt.com links.
+`FA:C6:17:45:…` was the stock React Native template `debug.keystore` — valid-from 2013,
+public on GitHub, byte-identical in every RN project on earth. Publishing it let ANYONE
+sign an APK with it and claim spektt.com links. It was removed before open testing, the
+same day spec 23's Bunny key was rotated.
 
-It stays only while the install base is a handful of known testers, because removing it
-kills App Links on local release builds. **Remove it before the open-testing track opens**
-— same gate as spec 23 (the Bunny TUS key still in the APK).
+**The cost, accepted knowingly:** the app repo's `android/app/build.gradle` has
+`release { signingConfig signingConfigs.debug }`, so a LOCAL `expo run:android --variant
+release` build is debug-signed and no longer verifies spektt.com. Deep linking must now
+be tested on an EAS build (`EB:83:…`) or a Play install (`72:A7:…`).
+
+Do NOT re-add the fingerprint to make a local build work — that re-opens the hole for
+every user. If local App Links testing is needed regularly, give the release variant its
+own keystore in the app repo instead.
 
 ⚠️ Verification only re-runs on **install/update**. An existing install keeps its previous
 result, so reinstall — or force it with `pm verify-app-links --re-verify com.spektt.app`.

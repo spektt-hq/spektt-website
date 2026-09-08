@@ -1,13 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.spektt.app",
       "sha256_cert_fingerprints": [
         "72:A7:6A:C0:5B:0D:96:1C:BC:CD:4B:7B:16:46:C3:AB:67:C9:26:C1:92:12:05:31:66:F5:8F:4E:FA:84:77:B0",
-        "EB:83:13:C8:24:3F:91:C0:52:8B:2C:1E:77:07:D8:A4:5E:1B:B9:03:C4:AF:E4:2A:06:27:A2:B6:C0:B7:82:C3",
-        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        "EB:83:13:C8:24:3F:91:C0:52:8B:2C:1E:77:07:D8:A4:5E:1B:B9:03:C4:AF:E4:2A:06:27:A2:B6:C0:B7:82:C3"
       ]
     }
   }
