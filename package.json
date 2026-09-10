@@ -8,7 +8,8 @@
     "dev": "vite dev",
     "prebuild": "node scripts/gen-seo.mjs",
     "build": "vite build",
-    "start": "node .output/server/index.mjs",
+    "preview": "vite preview",
+    "start": "vite preview",
     "lint": "eslint",
     "translate": "node scripts/auto-translate.js"
   },
