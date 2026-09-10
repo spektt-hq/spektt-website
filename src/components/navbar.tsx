@@ -1,5 +1,3 @@
-'use client'
-
 import { useState } from 'react'
 import Header from './header'
 import Backdrop from './back-drop'

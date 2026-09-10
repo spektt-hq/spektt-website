@@ -1,5 +1,3 @@
-'use client'
-
 interface BackdropProps {
   view: boolean
   click: () => void
