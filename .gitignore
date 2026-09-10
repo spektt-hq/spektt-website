@@ -13,9 +13,16 @@
 # testing
 /coverage
 
-# next.js
+# next.js (legacy — migrated to TanStack Start)
 /.next/
 /out/
+
+# tanstack start / vite / nitro
+/.output/
+/.nitro/
+/.tanstack/
+/.vite/
+src/routeTree.gen.ts
 
 # production
 /build
