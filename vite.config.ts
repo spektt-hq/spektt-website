@@ -1,5 +1,6 @@
 import { defineConfig, type Plugin } from 'vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
+import { nitro } from 'nitro/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -39,6 +40,25 @@ export default defineConfig({
     wellKnownJson(),
     tailwindcss(),
     tanstackStart(),
+    // Compiles the SSR handler into a deployable server bundle. On Vercel this
+    // emits `.vercel/output/` (Build Output API v3), which Vercel's zero-config
+    // detection serves as a Function — without it `vite build` only produces a
+    // bare srvx handler that Vercel has no route to, so every path 404s.
+    //
+    // `.well-known` files must be served as `application/json` for Universal Link
+    // / App Links verification. Nitro folds these routeRules into the generated
+    // `.vercel/output/config.json`; `vercel.json` headers are ignored once that
+    // file exists (TanStack/router#4021).
+    nitro({
+      routeRules: {
+        '/.well-known/**': {
+          headers: {
+            'content-type': 'application/json',
+            'access-control-allow-origin': '*',
+          },
+        },
+      },
+    }),
     viteReact(),
   ],
 })
