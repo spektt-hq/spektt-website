@@ -27,9 +27,9 @@ export const Route = createFileRoute('/$locale/')({
       ],
       links: [
         { rel: 'canonical', href: alt.canonical },
-        ...Object.entries(alt.languages).map(([hrefLang, href]) => ({
+        ...Object.entries(alt.languages).map(([hreflang, href]) => ({
           rel: 'alternate',
-          hrefLang,
+          hreflang,
           href,
         })),
       ],
