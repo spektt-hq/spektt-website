@@ -29,6 +29,13 @@ Deploy: push to `main` → Vercel auto-deploys.
 
 ## Stack
 
+> **📋 PLANNED MIGRATION (noted 2026-09-10, not started):** this repo is planned to move off
+> Next.js onto **TanStack Start**, alongside building the admin dashboard
+> (`app/spektt/spektt-context/incoming-features/admin-dashboard-plan.md`) on the new stack.
+> Not scheduled yet — starts when work moves to the new laptop. Everything below still
+> describes the CURRENT, live Next.js 16 site — don't treat this note as the migration
+> having happened.
+
 | Layer | Tech |
 |-------|------|
 | Framework | Next.js 16, App Router |

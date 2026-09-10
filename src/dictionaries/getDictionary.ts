@@ -1,5 +1,3 @@
-import 'server-only'
-
 import type { Locale } from './locales'
 export type { Locale } from './locales'
 export { locales } from './locales'
