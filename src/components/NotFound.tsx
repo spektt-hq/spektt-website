@@ -13,7 +13,8 @@ export default function NotFound() {
         </p>
       </div>
       <Link
-        to='/en'
+        to='/$locale'
+        params={{ locale: 'en' }}
         className='flex flex-col justify-center items-center gap-1 mt-10 cursor-pointer hover:text-[#ff6600] transition-colors'
       >
         <RiFingerprintFill className='size-10' />

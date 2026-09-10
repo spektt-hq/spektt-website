@@ -30,7 +30,6 @@ interface FooterProps {
 function Footer({ dict, locale }: FooterProps) {
   const pathname = useRouterState({ select: (s) => s.location.pathname })
 
-  const helpBase = `/${locale}/help`
   const helpLinks = [
     { hash: 'getting-started', label: dict.helpLinks.gettingStarted },
     { hash: 'showdowns', label: dict.helpLinks.showdowns },
@@ -40,12 +39,14 @@ function Footer({ dict, locale }: FooterProps) {
   ]
 
   const companyLinks = [
-    { href: `/${locale}/terms`, label: dict.companyLinks.terms },
-    { href: `/${locale}/community-guidelines`, label: dict.companyLinks.guidelines },
-    { href: `/${locale}/privacy`, label: dict.companyLinks.privacy },
-    { href: `/${locale}/contact`, label: dict.companyLinks.contact },
-    { href: `/${locale}/download`, label: dict.companyLinks.download },
-  ]
+    { to: '/$locale/terms', label: dict.companyLinks.terms },
+    { to: '/$locale/community-guidelines', label: dict.companyLinks.guidelines },
+    { to: '/$locale/privacy', label: dict.companyLinks.privacy },
+    { to: '/$locale/contact', label: dict.companyLinks.contact },
+    { to: '/$locale/download', label: dict.companyLinks.download },
+  ] as const
+
+  const resolve = (to: string) => `/${locale}${to.slice('/$locale'.length)}`
 
   const socialLinks = [
     { href: 'https://x.com/spektt', icon: FaXTwitter },
@@ -60,7 +61,7 @@ function Footer({ dict, locale }: FooterProps) {
         <div className='flex flex-col gap-8 flex-wrap md:justify-around md:flex-row lg:justify-between'>
           {/* App Logo */}
           <div className='flex flex-col gap-8'>
-            <Link to={`/${locale}`} className='w-32 cursor-pointer'>
+            <Link to='/$locale' params={{ locale }} className='w-32 cursor-pointer'>
               <img
                 src='/icon.png'
                 alt='Spektt Logo'
@@ -125,7 +126,8 @@ function Footer({ dict, locale }: FooterProps) {
               {helpLinks.map((link) => (
                 <Link
                   key={link.hash}
-                  to={helpBase}
+                  to='/$locale/help'
+                  params={{ locale }}
                   hash={link.hash}
                   className='text-textLighter font-regular hover:text-white transition-colors'
                 >
@@ -143,10 +145,11 @@ function Footer({ dict, locale }: FooterProps) {
             <div className='flex flex-col gap-3'>
               {companyLinks.map((link) => (
                 <Link
-                  key={link.href}
-                  to={link.href}
+                  key={link.to}
+                  to={link.to}
+                  params={{ locale }}
                   className={
-                    pathname === link.href
+                    pathname === resolve(link.to)
                       ? 'text-lightBlue font-bold'
                       : 'text-textLighter font-regular hover:text-white transition-colors'
                   }

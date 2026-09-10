@@ -43,7 +43,7 @@ function ContactRoute() {
         <div className='bg-dark border border-lightBlue/30 rounded-xl px-6 py-4 mb-10 text-center'>
           <p className='text-textLighter font-regular'>
             {d.helpNote}{' '}
-            <Link to={`/${locale}/help`} className='text-lightBlue hover:underline font-medium'>
+            <Link to='/$locale/help' params={{ locale }} className='text-lightBlue hover:underline font-medium'>
               {d.helpNoteLink}
             </Link>{' '}
             {d.helpNoteEnd}

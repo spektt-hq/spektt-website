@@ -41,12 +41,16 @@ function Header({ view, click, dict, locale }: HeaderProps) {
   }, [])
 
   const navLinks = [
-    { href: `/${locale}`, label: dict.home },
-    { href: `/${locale}/about`, label: dict.about },
-    { href: `/${locale}/help`, label: dict.help },
-    { href: `/${locale}/contact`, label: dict.contact },
-    { href: `/${locale}/download`, label: dict.download },
-  ]
+    { to: '/$locale', label: dict.home },
+    { to: '/$locale/about', label: dict.about },
+    { to: '/$locale/help', label: dict.help },
+    { to: '/$locale/contact', label: dict.contact },
+    { to: '/$locale/download', label: dict.download },
+  ] as const
+
+  // Route-pattern -> resolved path for the current locale, for the active check.
+  const resolve = (to: string) =>
+    to === '/$locale' ? `/${locale}` : `/${locale}${to.slice('/$locale'.length)}`
 
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`
 
@@ -61,7 +65,7 @@ function Header({ view, click, dict, locale }: HeaderProps) {
           {/* Logo — left column */}
           <div className='flex-1'>
             <div className='w-24'>
-              <Link to={`/${locale}`}>
+              <Link to='/$locale' params={{ locale }}>
                 <img
                   className='object-contain'
                   src='/spektt_text_icon.png'
@@ -76,15 +80,16 @@ function Header({ view, click, dict, locale }: HeaderProps) {
           {/* Desktop Links — true center */}
           <ul className='hidden lg:flex lg:flex-row lg:gap-4'>
             {navLinks.map((link) => (
-              <li key={link.href} className='nav-item'>
+              <li key={link.to} className='nav-item'>
                 <Link
-                  to={link.href}
+                  to={link.to}
+                  params={{ locale }}
                   className='group relative pb-1 text-base font-regular transition-all duration-300'
                 >
                   {link.label}
                   <span
                     className={`absolute left-0 bottom-0 h-0.5 bg-white transition-all duration-300 ${
-                      pathname === link.href
+                      pathname === resolve(link.to)
                         ? 'w-full'
                         : 'w-0 group-hover:w-full'
                     }`}
@@ -114,11 +119,12 @@ function Header({ view, click, dict, locale }: HeaderProps) {
           >
             <ul className='flex flex-col gap-4 my-4'>
               {navLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.to}>
                   <Link
-                    to={link.href}
+                    to={link.to}
+                    params={{ locale }}
                     className={
-                      pathname === link.href
+                      pathname === resolve(link.to)
                         ? 'text-lightBlue font-bold'
                         : 'font-regular text-white'
                     }
