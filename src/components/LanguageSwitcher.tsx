@@ -40,6 +40,9 @@ export default function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
 
   function switchLocale(next: Locale) {
     setOpen(false)
+    // Persist the choice so a later bare `/` visit lands here — read server-side by
+    // `detectLocale()` on the next request.
+    document.cookie = `NEXT_LOCALE=${next}; path=/; max-age=${60 * 60 * 24 * 365}; samesite=lax`
     // Replace the current locale prefix with the new one.
     const segments = pathname.split('/')
     segments[1] = next
