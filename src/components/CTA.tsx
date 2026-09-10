@@ -1,7 +1,3 @@
-'use client'
-
-import Image from 'next/image'
-
 interface CTAProps {
   dict: {
     heading: string
@@ -27,7 +23,7 @@ function CTA({ dict }: CTAProps) {
               rel='noopener noreferrer'
               className='w-36 hover:opacity-80 transition-opacity'
             >
-              <Image
+              <img
                 src='/appstore.png'
                 alt='Download on App Store'
                 width={144}
@@ -40,7 +36,7 @@ function CTA({ dict }: CTAProps) {
               rel='noopener noreferrer'
               className='w-40 hover:opacity-80 transition-opacity'
             >
-              <Image
+              <img
                 src='/playstore.png'
                 alt='Get it on Google Play'
                 width={160}

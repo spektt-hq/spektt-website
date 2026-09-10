@@ -1,7 +1,5 @@
-'use client'
-
 import { useState, useRef, useEffect } from 'react'
-import { usePathname, useRouter } from 'next/navigation'
+import { useRouterState, useNavigate } from '@tanstack/react-router'
 import { type Locale, locales } from '@/dictionaries/locales'
 
 const localeLabels: Record<Locale, string> = {
@@ -27,8 +25,8 @@ interface LanguageSwitcherProps {
 export default function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
-  const pathname = usePathname()
-  const router = useRouter()
+  const pathname = useRouterState({ select: (s) => s.location.pathname })
+  const navigate = useNavigate()
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -42,10 +40,10 @@ export default function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
 
   function switchLocale(next: Locale) {
     setOpen(false)
-    // Replace current locale prefix with new one
+    // Replace the current locale prefix with the new one.
     const segments = pathname.split('/')
     segments[1] = next
-    router.push(segments.join('/') || `/${next}`)
+    navigate({ to: segments.join('/') || `/${next}` })
   }
 
   return (

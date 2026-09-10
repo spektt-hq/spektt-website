@@ -1,8 +1,4 @@
-'use client'
-
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { Link, useRouterState } from '@tanstack/react-router'
 import { FaXTwitter, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa6'
 import { type Locale } from '@/dictionaries/locales'
 
@@ -32,21 +28,15 @@ interface FooterProps {
 }
 
 function Footer({ dict, locale }: FooterProps) {
-  const router = useRouter()
-  const pathname = usePathname()
+  const pathname = useRouterState({ select: (s) => s.location.pathname })
 
+  const helpBase = `/${locale}/help`
   const helpLinks = [
-    {
-      href: `/${locale}/help#getting-started`,
-      label: dict.helpLinks.gettingStarted,
-    },
-    { href: `/${locale}/help#showdowns`, label: dict.helpLinks.showdowns },
-    { href: `/${locale}/help#clusters`, label: dict.helpLinks.clusters },
-    {
-      href: `/${locale}/help#subscriptions-pro`,
-      label: dict.helpLinks.proSubscription,
-    },
-    { href: `/${locale}/help#milestones`, label: dict.helpLinks.milestones },
+    { hash: 'getting-started', label: dict.helpLinks.gettingStarted },
+    { hash: 'showdowns', label: dict.helpLinks.showdowns },
+    { hash: 'clusters', label: dict.helpLinks.clusters },
+    { hash: 'subscriptions-pro', label: dict.helpLinks.proSubscription },
+    { hash: 'milestones', label: dict.helpLinks.milestones },
   ]
 
   const companyLinks = [
@@ -70,18 +60,15 @@ function Footer({ dict, locale }: FooterProps) {
         <div className='flex flex-col gap-8 flex-wrap md:justify-around md:flex-row lg:justify-between'>
           {/* App Logo */}
           <div className='flex flex-col gap-8'>
-            <div
-              className='w-32 cursor-pointer'
-              onClick={() => router.push(`/${locale}`)}
-            >
-              <Image
+            <Link to={`/${locale}`} className='w-32 cursor-pointer'>
+              <img
                 src='/icon.png'
                 alt='Spektt Logo'
                 width={128}
                 height={20}
                 className='object-contain'
               />
-            </div>
+            </Link>
 
             {/* Download app links */}
             <div className='flex flex-wrap gap-2 items-center'>
@@ -91,7 +78,7 @@ function Footer({ dict, locale }: FooterProps) {
                 rel='noopener noreferrer'
                 className='w-36 hover:opacity-80 transition-opacity'
               >
-                <Image
+                <img
                   src='/appstore.png'
                   alt='Download on App Store'
                   width={144}
@@ -104,7 +91,7 @@ function Footer({ dict, locale }: FooterProps) {
                 rel='noopener noreferrer'
                 className='w-40 hover:opacity-80 transition-opacity'
               >
-                <Image
+                <img
                   src='/playstore.png'
                   alt='Get it on Google Play'
                   width={160}
@@ -137,13 +124,10 @@ function Footer({ dict, locale }: FooterProps) {
             <div className='flex flex-col gap-3'>
               {helpLinks.map((link) => (
                 <Link
-                  key={link.href}
-                  href={link.href}
-                  className={
-                    pathname === link.href
-                      ? 'text-lightBlue font-bold'
-                      : 'text-textLighter font-regular hover:text-white transition-colors'
-                  }
+                  key={link.hash}
+                  to={helpBase}
+                  hash={link.hash}
+                  className='text-textLighter font-regular hover:text-white transition-colors'
                 >
                   {link.label}
                 </Link>
@@ -160,7 +144,7 @@ function Footer({ dict, locale }: FooterProps) {
               {companyLinks.map((link) => (
                 <Link
                   key={link.href}
-                  href={link.href}
+                  to={link.href}
                   className={
                     pathname === link.href
                       ? 'text-lightBlue font-bold'

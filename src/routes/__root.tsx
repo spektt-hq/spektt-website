@@ -4,7 +4,10 @@ import {
   createRootRoute,
   HeadContent,
   Scripts,
+  useRouterState,
 } from '@tanstack/react-router'
+import { locales, type Locale } from '@/dictionaries/locales'
+import NotFound from '@/components/NotFound'
 import '../styles/globals.css'
 
 // JSON-LD structured data — tells Google our site name and logo for search results.
@@ -63,6 +66,7 @@ export const Route = createRootRoute({
     ],
   }),
   component: RootComponent,
+  notFoundComponent: NotFound,
 })
 
 function RootComponent() {
@@ -74,8 +78,15 @@ function RootComponent() {
 }
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
+  // The locale is the first path segment (/$locale/...). Set <html lang/dir> from it so
+  // Arabic renders RTL without a client flash — router state is available during SSR.
+  const pathname = useRouterState({ select: (s) => s.location.pathname })
+  const seg = pathname.split('/')[1]
+  const locale = (locales.includes(seg as Locale) ? seg : 'en') as Locale
+  const dir = locale === 'ar' ? 'rtl' : 'ltr'
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={dir}>
       <head>
         <HeadContent />
       </head>

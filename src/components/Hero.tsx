@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import Image from 'next/image'
 import gsap from 'gsap'
 
 const imgGallery = [
@@ -115,7 +114,7 @@ function Hero({ sentences }: HeroProps) {
             rel='noopener noreferrer'
             className='w-36 hover:opacity-80 transition-opacity'
           >
-            <Image
+            <img
               src='/appstore.png'
               alt='Download on App Store'
               width={144}
@@ -128,7 +127,7 @@ function Hero({ sentences }: HeroProps) {
             rel='noopener noreferrer'
             className='w-40 hover:opacity-80 transition-opacity'
           >
-            <Image
+            <img
               src='/playstore.png'
               alt='Get it on Google Play'
               width={160}

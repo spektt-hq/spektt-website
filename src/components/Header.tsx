@@ -1,9 +1,5 @@
-'use client'
-
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { usePathname } from 'next/navigation'
+import { Link, useRouterState } from '@tanstack/react-router'
 import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiBars3 } from 'react-icons/hi2'
@@ -27,7 +23,7 @@ interface HeaderProps {
 
 function Header({ view, click, dict, locale }: HeaderProps) {
   const [show, setShow] = useState<boolean>(false)
-  const pathname = usePathname()
+  const pathname = useRouterState({ select: (s) => s.location.pathname })
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
@@ -65,14 +61,13 @@ function Header({ view, click, dict, locale }: HeaderProps) {
           {/* Logo — left column */}
           <div className='flex-1'>
             <div className='w-24'>
-              <Link href={`/${locale}`}>
-                <Image
+              <Link to={`/${locale}`}>
+                <img
                   className='object-contain'
                   src='/spektt_text_icon.png'
                   alt='Spektt Logo'
                   width={96}
                   height={28}
-                  priority
                 />
               </Link>
             </div>
@@ -83,7 +78,7 @@ function Header({ view, click, dict, locale }: HeaderProps) {
             {navLinks.map((link) => (
               <li key={link.href} className='nav-item'>
                 <Link
-                  href={link.href}
+                  to={link.href}
                   className='group relative pb-1 text-base font-regular transition-all duration-300'
                 >
                   {link.label}
@@ -121,7 +116,7 @@ function Header({ view, click, dict, locale }: HeaderProps) {
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className={
                       pathname === link.href
                         ? 'text-lightBlue font-bold'
