@@ -3,7 +3,7 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { getHelpDictionary } from '@/dictionaries/getHelpDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import HelpClient from '@/components/HelpClient'
+import HelpClient from '@/components/help-client'
 
 export const Route = createFileRoute('/$locale/help')({
   loader: async ({ params }) => {

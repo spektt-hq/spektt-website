@@ -1,5 +1,5 @@
 import type { TermsDictionary } from '@/dictionaries/getTermsDictionary'
-import DocToC from '@/components/DocToC'
+import DocToC from '@/components/doc-toc'
 
 export default function TermsContent({ d }: { d: TermsDictionary }) {
   const tocItems = d.toc.items.map((label: string, i: number) => ({

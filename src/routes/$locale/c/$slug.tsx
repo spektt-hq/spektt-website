@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { getDictionary } from '@/dictionaries/getDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import DeepLinkFallback from '@/components/DeepLinkFallback'
+import DeepLinkFallback from '@/components/deep-link-fallback'
 
 export const Route = createFileRoute('/$locale/c/$slug')({
   loader: async ({ params }) => {

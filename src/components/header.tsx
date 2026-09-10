@@ -3,7 +3,7 @@ import { Link, useRouterState } from '@tanstack/react-router'
 import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5'
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiBars3 } from 'react-icons/hi2'
-import LanguageSwitcher from './LanguageSwitcher'
+import LanguageSwitcher from './language-switcher'
 import { type Locale } from '@/dictionaries/locales'
 
 interface NavDict {

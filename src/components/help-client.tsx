@@ -15,7 +15,7 @@ import {
   FaChevronDown,
   FaMagnifyingGlass,
 } from 'react-icons/fa6'
-import { helpCategories, type HelpCategory } from './helpData'
+import { helpCategories, type HelpCategory } from './help-data'
 
 const categoryIcons: Record<string, React.ReactNode> = {
   'getting-started': <FaRocket />,

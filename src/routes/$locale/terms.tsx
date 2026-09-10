@@ -3,7 +3,7 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { getTermsDictionary } from '@/dictionaries/getTermsDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import TermsContent from '@/components/legal/TermsContent'
+import TermsContent from '@/components/legal/terms-content'
 
 export const Route = createFileRoute('/$locale/terms')({
   loader: async ({ params }) => {

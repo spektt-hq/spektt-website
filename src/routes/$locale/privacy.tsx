@@ -3,7 +3,7 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { getPrivacyDictionary } from '@/dictionaries/getPrivacyDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import PrivacyContent from '@/components/legal/PrivacyContent'
+import PrivacyContent from '@/components/legal/privacy-content'
 
 export const Route = createFileRoute('/$locale/privacy')({
   loader: async ({ params }) => {

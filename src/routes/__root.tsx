@@ -7,7 +7,7 @@ import {
   useRouterState,
 } from '@tanstack/react-router'
 import { locales, type Locale } from '@/dictionaries/locales'
-import NotFound from '@/components/NotFound'
+import NotFound from '@/components/not-found'
 import '../styles/globals.css'
 
 // JSON-LD structured data — tells Google our site name and logo for search results.

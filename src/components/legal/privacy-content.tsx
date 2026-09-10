@@ -1,5 +1,5 @@
 import type { PrivacyDictionary } from '@/dictionaries/getPrivacyDictionary'
-import DocToC from '@/components/DocToC'
+import DocToC from '@/components/doc-toc'
 
 export default function PrivacyContent({ d }: { d: PrivacyDictionary }) {
   const tocItems = d.toc.items.map((label: string, i: number) => ({

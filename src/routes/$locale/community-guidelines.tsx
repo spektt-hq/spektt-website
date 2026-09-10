@@ -3,7 +3,7 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { getGuidelinesDictionary } from '@/dictionaries/getGuidelinesDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import GuidelinesContent from '@/components/legal/GuidelinesContent'
+import GuidelinesContent from '@/components/legal/guidelines-content'
 
 export const Route = createFileRoute('/$locale/community-guidelines')({
   loader: async ({ params }) => {

@@ -3,8 +3,8 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { locales, type Locale } from '@/dictionaries/locales'
 import { detectLocale } from '@/lib/locale-server'
 import { Navbar, Footer, ScrollToTop } from '@/components'
-import PageTransition from '@/components/PageTransition'
-import NotFound from '@/components/NotFound'
+import PageTransition from '@/components/page-transition'
+import NotFound from '@/components/not-found'
 
 // The i18n layout route (Navbar/Footer + page transitions), replacing the old Next
 // `[locale]/layout.tsx` + `[locale]/template.tsx`.

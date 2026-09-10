@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import Header from './Header'
-import Backdrop from './Backdrop'
+import Header from './header'
+import Backdrop from './back-drop'
 import { type Locale } from '@/dictionaries/locales'
 
 interface NavDict {

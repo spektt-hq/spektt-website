@@ -55,3 +55,6 @@ Cre8ive-website-main/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# tanstack start build output
+/dist/

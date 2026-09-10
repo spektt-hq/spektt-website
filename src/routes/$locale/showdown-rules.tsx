@@ -3,7 +3,7 @@ import { getDictionary } from '@/dictionaries/getDictionary'
 import { getShowdownRulesDictionary } from '@/dictionaries/getShowdownRulesDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
-import ShowdownRulesContent from '@/components/legal/ShowdownRulesContent'
+import ShowdownRulesContent from '@/components/legal/showdown-rules-content'
 
 export const Route = createFileRoute('/$locale/showdown-rules')({
   loader: async ({ params }) => {

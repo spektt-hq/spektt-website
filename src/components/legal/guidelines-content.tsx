@@ -1,5 +1,5 @@
 import type { GuidelinesDictionary } from '@/dictionaries/getGuidelinesDictionary'
-import DocToC from '@/components/DocToC'
+import DocToC from '@/components/doc-toc'
 
 export default function GuidelinesContent({ d }: { d: GuidelinesDictionary }) {
   const tocItems = d.toc.items.map((label: string, i: number) => ({
