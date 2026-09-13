@@ -2,50 +2,61 @@
 
 ## Resuming a Session
 
-At the start of any new session on this website, say:
-> **"Read `C:\Users\USER\documents\spektt-website\spektt\CLAUDE.md` and let's work on the website"**
+Paths are **device-specific**. On the current laptop (Pixelpay, since 2026-09-11):
 
-This file has everything. One read and you're fully up to speed.
+- Website (this repo): `C:\Users\Pixelpay\videos\spektt-website\spektt-website`
+- Mobile app: `C:\Users\Pixelpay\videos\app\spektt-mobile-app`
+
+(The old laptop used `C:\Users\USER\documents\spektt-website\spektt` and
+`C:\Users\USER\Videos\app\spektt`.) Start a session with:
+> **"Read `CLAUDE.md` in the website repo and let's work on the website"**
 
 ---
 
-This is the **marketing and deep-link website** for the Spektt mobile app (`spektt.com`). It handles SEO, brand content, legal pages, app download redirects, and deep-link fallback pages (shown when the Spektt app is not installed and a user clicks a shared link).
+This is the **marketing and deep-link website** for the Spektt mobile app (`spektt.com`). It
+handles SEO, brand content, legal pages, app download redirects, and deep-link fallback
+pages (shown when the Spektt app is not installed and a user opens a shared link).
 
-Mobile app lives at: `C:\Users\USER\Videos\app\spektt`
+**Spektt is a GLOBAL platform for creatives.** Never frame it in copy as an app for Africa
+or for African/Nigerian creatives.
 
 ---
 
 ## Commands
 
 ```bash
-npm run dev          # http://localhost:3000
-npm run build        # production build
+npm run dev          # http://localhost:3000  (runs scripts/gen-seo.mjs first)
+npm run build        # production build        (runs scripts/gen-seo.mjs first)
+npm run preview      # serve the production build locally
 npm run translate    # auto-fill missing fr/es/pt/ar keys from en.json via MyMemory
 ```
 
-Deploy: push to `main` → Vercel auto-deploys.
+Deploy: push to `main` → Vercel auto-deploys. **A push to `main` is a production deploy.**
 
 ---
 
 ## Stack
 
-> **📋 PLANNED MIGRATION (noted 2026-09-10, not started):** this repo is planned to move off
-> Next.js onto **TanStack Start**, alongside building the admin dashboard
-> (`app/spektt/spektt-context/incoming-features/admin-dashboard-plan.md`) on the new stack.
-> Not scheduled yet — starts when work moves to the new laptop. Everything below still
-> describes the CURRENT, live Next.js 16 site — don't treat this note as the migration
-> having happened.
+**Migrated off Next.js 16 App Router to TanStack Start** (merge `88080b0`, 2026-09-10).
+Anything you remember about Next here — `src/app/`, `page.tsx`, `generateMetadata`,
+`proxy.ts`, `next.config.ts` — is GONE. `AGENTS.md` used to carry Next.js agent rules; it
+now just points here.
 
 | Layer | Tech |
 |-------|------|
-| Framework | Next.js 16, App Router |
-| Language | TypeScript strict |
-| Styling | Tailwind CSS v4 |
+| Framework | TanStack Start (`@tanstack/react-start`) + TanStack Router, file-based routes |
+| Build | Vite 8 (`vite.config.ts`) |
+| Server | Nitro 3 (`nitro/vite`) — emits `.vercel/output/` (Build Output API v3) |
+| UI | React 19 |
+| Language | TypeScript strict, `@/*` → `./src/*` |
+| Styling | Tailwind CSS v4 via `@tailwindcss/vite` (`src/styles/globals.css`) |
 | Animations | Framer Motion (page transitions), GSAP (Hero) |
 | Icons | react-icons |
-| i18n | JSON dictionaries, `[locale]` routing, 5 languages (EN/FR/ES/PT/AR), RTL Arabic |
-| Middleware | `src/proxy.ts` — Next.js 16 renamed middleware convention to `proxy.ts` |
+| i18n | JSON dictionaries, `$locale` routing, 5 languages (EN/FR/ES/PT/AR), RTL Arabic |
 | Deploy | Vercel — auto-deploys on push to `main` |
+
+⚠️ **`nitro()` in `vite.config.ts` is required.** Without it `vite build` produces only a
+bare handler Vercel has no route to, and every path 404s (commit `6891b6a`).
 
 ---
 
@@ -53,53 +64,70 @@ Deploy: push to `main` → Vercel auto-deploys.
 
 ```
 src/
-├── app/
-│   ├── layout.tsx                 # Root layout — JSON-LD, Smart Banner, OG meta
-│   ├── globals.css
-│   ├── robots.ts
-│   ├── sitemap.ts                 # All pages × 5 locales
-│   ├── icon.png                   # Favicon
-│   └── [locale]/
-│       ├── layout.tsx             # Locale layout (Navbar, Footer)
-│       ├── page.tsx               # Homepage
-│       ├── template.tsx           # Page transitions (Framer Motion)
-│       ├── not-found.tsx
-│       ├── about/page.tsx
-│       ├── contact/page.tsx
-│       ├── download/page.tsx      # App Store + Play Store download page
-│       ├── help/                  # Help centre (FAQ, accordion, search)
-│       ├── privacy/page.tsx
-│       ├── terms/page.tsx
-│       ├── showdown-rules/page.tsx
-│       ├── profile/[username]/page.tsx  # Deep link fallback — profiles
-│       ├── c/[slug]/page.tsx            # Deep link fallback — Clusters
-│       └── s/[slug]/page.tsx            # Deep link fallback — Showdowns
-├── components/                    # Navbar, Footer, Hero, Features, etc.
-├── dictionaries/                  # getDictionary, locales, type helpers
-└── proxy.ts                       # Middleware — locale detection + redirect
+├── router.tsx                     # Router; defaultNotFoundComponent = branded NotFound
+├── routes/
+│   ├── __root.tsx                 # <html lang/dir>, JSON-LD, Smart Banner, default meta
+│   ├── index.tsx                  # `/` → detectLocale() → redirect to /$locale
+│   └── $locale/
+│       ├── route.tsx              # Locale layout (Navbar, Footer, PageTransition) + the
+│       │                          #   redirect for locale-less paths (/about → /en/about)
+│       ├── index.tsx              # Homepage
+│       ├── about.tsx  contact.tsx  download.tsx  help.tsx
+│       ├── privacy.tsx  terms.tsx  showdown-rules.tsx  community-guidelines.tsx
+│       ├── profile/$username.tsx  # Deep link fallback — profiles
+│       ├── c/$slug.tsx            # Deep link fallback — Clusters
+│       ├── s/$slug.tsx            # Deep link fallback — Showdowns
+│       └── col/$slug.tsx          # Deep link fallback — Collections
+├── components/                    # kebab-case files; legal/*-content.tsx render legal pages
+├── dictionaries/                  # getDictionary + get{Privacy,Terms,Guidelines,Help,
+│                                  #   ShowdownRules}Dictionary, locales.ts
+├── lib/
+│   ├── locale-server.ts           # detectLocale server fn (cookie → Accept-Language → en)
+│   ├── pageHead.ts                # Per-route head: title, description, OG/Twitter,
+│   │                              #   canonical + hreflang
+│   └── seo.ts                     # buildAlternates() — canonical + hreflang URLs
+└── styles/globals.css
 messages/
-├── en.json                        # English (source of truth for short strings)
-├── fr.json  es.json  pt.json  ar.json
-└── help/, legal/                  # Long-form content — translate via Claude only
+├── en.json  fr.json  es.json  pt.json  ar.json   # short UI strings (en = source of truth)
+├── help/                                         # help centre, per language
+└── legal/  {privacy,terms,guidelines,showdown-rules}-{en,fr,es,pt,ar}.json
 public/
 ├── .well-known/
 │   ├── assetlinks.json            # Android App Links verification
 │   └── apple-app-site-association # iOS Universal Links (no file extension — intentional)
-├── spektt-new-favicon.png
-├── appstore.png / playstore.png
+├── sitemap.xml  robots.txt        # GENERATED by scripts/gen-seo.mjs — don't hand-edit
+├── spektt-new-favicon.png  appstore.png  playstore.png
 └── fonts/
 scripts/
-└── auto-translate.js              # Translates missing keys in en.json → fr/es/pt/ar
+├── gen-seo.mjs                    # writes public/sitemap.xml + robots.txt (predev/prebuild)
+└── auto-translate.js              # translates missing keys in en.json → fr/es/pt/ar
 ```
+
+---
+
+## How a page is built
+
+Each page is a file route with a `loader` (dictionaries) and a `head` built by `pageHead`:
+
+```ts
+export const Route = createFileRoute('/$locale/community-guidelines')({
+  loader: async ({ params }) => { /* getDictionary + page dictionary */ },
+  head: ({ params, loaderData }) =>
+    pageHead({ title, description, locale: params.locale as Locale, path: '/community-guidelines' }),
+  component: GuidelinesRoute,
+})
+```
+
+A new page needs: the route file, dictionary keys, a `pageHead` call (canonical + hreflang
+come free), and an entry in `PAGES` in `scripts/gen-seo.mjs` so it lands in the sitemap.
 
 ---
 
 ## Context Files
 
-The site-content blueprints (help, privacy, terms) live in the **mobile app repo**, not here —
-`C:\Users\USER\Videos\app\spektt\spektt-context\site-content\`. That's the single source of
-truth; a duplicate copy used to live in this repo's `spektt-website-context/site-content/` but
-was deleted (2026-07-30) after it went stale — always read the app repo's copy, never fork it.
+The site-content blueprints live in the **mobile app repo**, not here —
+`spektt-mobile-app\spektt-context\site-content\`. That's the single source of truth; never
+fork a copy into this repo.
 
 | File | Read when |
 |------|-----------|
@@ -118,93 +146,74 @@ User taps spektt.com/profile/kaycee
 ├── App installed → iOS Universal Link / Android App Link → opens app directly
 │
 └── App NOT installed → browser opens URL
-    ├── proxy.ts middleware redirects /profile/kaycee → /en/profile/kaycee
-    └── [locale]/profile/[username]/page.tsx renders
+    ├── routes/$locale/route.tsx sees "profile" isn't a locale → redirects to /en/profile/kaycee
+    └── routes/$locale/profile/$username.tsx renders
         Shows: logo + "@kaycee is on Spektt" + download buttons
 ```
 
 **Key files:**
-- `public/.well-known/assetlinks.json` — Android (SHA-256 of ALL THREE signing keys — see below)
+- `public/.well-known/assetlinks.json` — Android (SHA-256 of the signing keys — see below)
 - `public/.well-known/apple-app-site-association` — iOS (Team ID + Bundle ID)
-- `next.config.ts` — serves both `.well-known/` files with `Content-Type: application/json`
+- `vite.config.ts` — serves `/.well-known/**` as `application/json`: Nitro `routeRules` in
+  production (folded into `.vercel/output/config.json`; `vercel.json` headers are IGNORED
+  once that file exists — TanStack/router#4021) and a dev/preview middleware locally
 - Mobile app `app.config.js` — `associatedDomains` (iOS) + `intentFilters` (Android)
 
 **Slug URLs:** `/profile/{username}` · `/c/{clusterSlug}` · `/s/{showdownSlug}` · `/col/{collectionSlug}`
 
-These are also the app's OWN route segments as of 2026-08-28 — `(protected)/s/[slug]` etc.,
-renamed from `showdowns/clusters/collections` to match. Expo Router resolves an incoming
-link itself, and when the shapes disagreed it pushed an Unmatched Route under the correct
-screen. **Keep the two in sync: a new public path needs the same segment in the app.**
+These are also the app's OWN route segments as of 2026-08-28 — `(protected)/s/[slug]` etc.
+Expo Router resolves an incoming link itself, and when the shapes disagreed it pushed an
+Unmatched Route under the correct screen. **Keep the two in sync: a new public path needs
+the same segment in the app.**
 
 ### ⚠️ App Links: the fingerprint must match the INSTALLED app
 
 `assetlinks.json` holds an ARRAY of fingerprints, and Android verifies the certificate that
 signed the app on the device against it. A mismatch fails silently — `pm get-app-links`
-reports state `1024` and every link opens the browser instead of the app. That is exactly
-what happened on 2026-08-28: the file listed only the production keystore while the device
-ran a debug-signed build.
-
-**Before launch — add the PLAY signing fingerprint.** ✅ DONE 2026-09-07.
-
-Google Play App Signing re-signs the app with **its own** key, so a store install presents
-a certificate matching neither of the original two entries, and App Links broke for every
-real user. Measured on the internal-testing build: `pm get-app-links` reported signature
-`72:A7:6A:C0:…` against a file listing only `EB:83:…` and `FA:C6:…`, state `1024`.
-
-The file now carries THREE fingerprints, one per distribution channel:
+reports state `1024` and every link opens the browser instead of the app.
 
 | Fingerprint | Key | Covers |
 |---|---|---|
 | `72:A7:6A:C0:…` | Play app signing (Google's) | every Play install — real users |
 | `EB:83:13:C8:…` | Upload key (EAS-managed) | EAS-built APKs installed directly |
-| ~~`FA:C6:17:45:…`~~ | `android/app/debug.keystore` | **REMOVED 2026-09-08** — see below |
+| ~~`FA:C6:17:45:…`~~ | RN template `debug.keystore` | **REMOVED 2026-09-08** — public key, anyone could sign with it |
 
-Play's key is at Play Console → **Protected with Play → Play Store protection →
-Protect app signing key → Manage Play app signing**. That page also emits a ready-made
-Digital Asset Links snippet. ("Test and release → App integrity" now only redirects here.)
+Play's key is at Play Console → **Protected with Play → Play Store protection → Protect app
+signing key → Manage Play app signing**.
 
-### ✅ CLOSED 2026-09-08: the debug fingerprint is gone
+**The accepted cost:** the app's local release build is debug-signed, so a LOCAL release
+build does not verify spektt.com. Test deep links on an EAS build or a Play install. Do NOT
+re-add the debug fingerprint to make a local build work.
 
-`FA:C6:17:45:…` was the stock React Native template `debug.keystore` — valid-from 2013,
-public on GitHub, byte-identical in every RN project on earth. Publishing it let ANYONE
-sign an APK with it and claim spektt.com links. It was removed before open testing, the
-same day spec 23's Bunny key was rotated.
-
-**The cost, accepted knowingly:** the app repo's `android/app/build.gradle` has
-`release { signingConfig signingConfigs.debug }`, so a LOCAL `expo run:android --variant
-release` build is debug-signed and no longer verifies spektt.com. Deep linking must now
-be tested on an EAS build (`EB:83:…`) or a Play install (`72:A7:…`).
-
-Do NOT re-add the fingerprint to make a local build work — that re-opens the hole for
-every user. If local App Links testing is needed regularly, give the release variant its
-own keystore in the app repo instead.
-
-⚠️ Verification only re-runs on **install/update**. An existing install keeps its previous
-result, so reinstall — or force it with `pm verify-app-links --re-verify com.spektt.app`.
+⚠️ Verification only re-runs on **install/update** — reinstall, or force it with
+`pm verify-app-links --re-verify com.spektt.app`.
 
 ### ⚠️ www cannot verify — it redirects
 
-`www.spektt.com` 308-redirects to the apex, and **neither Android's assetlinks fetch nor
-Apple's AASA fetch follows redirects**. `www` was therefore removed from the app's
-`intentFilters` and `associatedDomains` on 2026-08-28 rather than left advertising a domain
-permanently stuck at state `1024`.
-
-Nothing generates www links — every `shareUrl` in the app is apex. To support www later it
-must **serve** `/.well-known/` directly (a real alias, not a redirect), which means the site
-is served on two hostnames and needs canonical tags.
+`www.spektt.com` 308-redirects to the apex, and neither Android's assetlinks fetch nor
+Apple's AASA fetch follows redirects, so `www` is not in the app's `intentFilters` /
+`associatedDomains`. Every `shareUrl` in the app is apex.
 
 ---
 
 ## i18n — How It Works
 
-All pages under `src/app/[locale]/`. `proxy.ts` detects locale and redirects:
-- `spektt.com/` → `spektt.com/en/` (or user's language from cookie/Accept-Language)
+All pages live under `src/routes/$locale/`. Locale detection is the `detectLocale` server
+function (`src/lib/locale-server.ts`): the `NEXT_LOCALE` cookie (a remembered manual switch —
+the name is a Next-era leftover, kept so existing cookies still work) wins, then
+`Accept-Language`, then `en`. It's called from:
+- `routes/index.tsx` — `spektt.com/` → `spektt.com/{locale}`
+- `routes/$locale/route.tsx` — any locale-less path → `/{locale}{path}`
+
+`__root.tsx` sets `<html lang dir>` from the first path segment during SSR, so Arabic
+renders RTL without a client flash.
 
 **Adding new short strings:**
-1. Add key to `messages/en.json` only
+1. Add the key to `messages/en.json` only
 2. Run `npm run translate` — auto-fills fr/es/pt/ar
 
-**Long-form content** (help, legal): edit the English file, then ask Claude to translate in-session.
+**Long-form content** (help, legal): edit the English file, then ask Claude to translate
+in-session.
 
 ---
 
@@ -214,23 +223,30 @@ All pages under `src/app/[locale]/`. `proxy.ts` detects locale and redirects:
 
 | App changes | Update on website | How |
 |-------------|-------------------|-----|
-| New feature (Clusters, DMs, etc.) | Add help articles to `messages/help/help-en.json` | Claude translates in-session |
-| New data collected / new integration | Update `messages/legal/privacy-en.json` + all 5 languages | Claude translates in-session |
-| Platform rules change | Update `messages/legal/terms-en.json` + all 5 languages | Claude translates in-session |
-| Showdown rules change | Update `messages/legal/showdown-rules-en.json` + all 5 languages | Claude translates in-session |
-| New website page or UI string | Add to `messages/en.json` | `npm run translate` |
+| New feature (Clusters, DMs, etc.) | Help articles in `messages/help/` | Claude translates in-session |
+| New data collected / new integration | `messages/legal/privacy-*.json` (all 5) | Claude translates in-session |
+| Platform rules change | `messages/legal/terms-*.json` (all 5) | Claude translates in-session |
+| Community rules change | `messages/legal/guidelines-*.json` (all 5) | Claude translates in-session |
+| Showdown rules change | `messages/legal/showdown-rules-*.json` (all 5) | Claude translates in-session |
+| New website page or UI string | `messages/en.json` | `npm run translate` |
 
-**Always update the blueprint first** before changing any legal/help JSON file.
+**Always update the blueprint first** (in the app repo) before changing any legal/help JSON.
+
+**Store-review dependencies:** Google Play and Apple link to `/en/privacy` (privacy policy)
+and `/en/community-guidelines` (Play's child-safety standards declaration). Never move,
+rename or break those two URLs.
 
 ---
 
 ## Hard Rules
 
 - **No hardcoded URLs** — App Store: `id6770248818` · Play Store: `#` until published
-- **All pages must have `generateMetadata`** — title, description, openGraph, twitter
+- **Every page sets `head` via `pageHead()`** — title, description, OG/Twitter, canonical, hreflang
 - **Never rename `.well-known/` files** — iOS/Android verification fails silently
-- **Never break `proxy.ts`** — it handles all locale redirects
-- **`apple-app-site-association` has no file extension** — required by Apple, served as JSON via `next.config.ts`
+- **Never remove `nitro()` or its `/.well-known/**` routeRules from `vite.config.ts`**
+- **Never break the locale redirects** in `routes/index.tsx` and `routes/$locale/route.tsx`
+- **`apple-app-site-association` has no file extension** — required by Apple
+- **Don't hand-edit `public/sitemap.xml` / `robots.txt`** — edit `scripts/gen-seo.mjs`
 
 ---
 
@@ -241,31 +257,36 @@ All pages under `src/app/[locale]/`. `proxy.ts` detects locale and redirects:
 - ✅ About, Contact, Download, Help (FAQ + search), Privacy, Terms, Showdown Rules, Community Guidelines
 
 ### Infrastructure
-- ✅ i18n — 5 languages, RTL Arabic, locale switcher, `npm run translate` script
-- ✅ `[locale]` routing + `proxy.ts` middleware
-- ✅ sitemap.ts, robots.ts, OG metadata, page transitions, nextjs-toploader
+- ✅ Migration Next.js 16 → TanStack Start (2026-09-10), live on spektt.com
+- ✅ i18n — 5 languages, RTL Arabic, locale switcher, `npm run translate`
+- ✅ sitemap.xml + robots.txt (generated), OG metadata, page transitions
+- ✅ Canonical + hreflang on every page (`pageHead` → `buildAlternates`)
 
 ### SEO & Deep Linking
-- ✅ JSON-LD — Organization + WebSite (Google logo in search)
+- ✅ JSON-LD — Organization + WebSite (in `__root.tsx`)
 - ✅ Smart Banner — `<meta name="apple-itunes-app">` (mobile Safari)
-- ✅ `assetlinks.json` + `apple-app-site-association` + `next.config.ts` headers
-- ✅ Deep link fallback pages — `/profile/[username]`, `/c/[slug]`, `/s/[slug]` (all 5 languages)
-- ✅ App Store links updated to real URL across Hero, Footer, CTA, Download, fallback pages
+- ✅ `.well-known` files served as `application/json` (Nitro routeRules)
+- ✅ Deep link fallback pages — `/profile/$username`, `/c/$slug`, `/s/$slug`, `/col/$slug`
+- ✅ App Store links use the real URL across Hero, Footer, CTA, Download, fallback pages
 
 ---
 
 ## In Progress
 
-_Nothing currently._
+- Play **child safety standards** declaration (2026-09-14): Play requires a published
+  standards page for social apps. `/en/community-guidelines` is the URL; it needs explicit
+  CSAE wording (child sexual abuse and exploitation, reporting to NCMEC / authorities, a
+  child-safety contact) — blueprint first, then `guidelines-*.json` in all 5 languages.
 
 ---
 
 ## Next Up
 
-1. **Play Store link** — replace `#` with real Google Play URL when Android app is published
+1. **Play Store link** — replace the `href='#'` placeholders (hero, footer, cta, download,
+   deep-link-fallback) with the real Google Play URL when the Android app is public
 2. **Help Centre redesign** — Photocrowd-style sidebar layout (spec: `help-section-blueprint.md`)
-3. **Canonical + hreflang tags** — so Google indexes `spektt.com` as root, not `spektt.com/en`
-4. **Dynamic OG for fallback pages** — fetch real user/cluster/showdown name once public Firestore read is available
+3. **Dynamic OG for fallback pages** — real user/cluster/showdown name once a public
+   Firestore read is available
 
 ---
 
@@ -273,18 +294,9 @@ _Nothing currently._
 
 | Issue | Status |
 |-------|--------|
-| Google homepage not at top of search | No canonical tag — fix: add `alternates.canonical` to homepage metadata |
-| Google site logo grey circle | JSON-LD added — Google re-crawl takes days/weeks |
-| Play Store links are `#` placeholder | Update when Android app is published |
-
----
-
-## Architecture Decisions
-
-- **`[locale]` routing** — locale always in URL → CDN-cacheable, no client-side hydration for locale
-- **JSON dictionaries** — no Lingui, no i18next. Plain JSON, type-safe via TypeScript inference
-- **`proxy.ts` as middleware** — Next.js 16 uses `proxy.ts` as the middleware file (renamed from `middleware.ts`)
-- **`.well-known/` in `public/`** — static files; `next.config.ts` sets `Content-Type: application/json` (required — default would be `text/plain` which breaks verification)
+| Play Store links are `#` placeholders | Update when Android app is published |
+| Google site logo grey circle | JSON-LD present — waits on Google re-crawl |
+| `npm install` reports 2 high-severity advisories | Not yet triaged (`npm audit`) |
 
 ---
 

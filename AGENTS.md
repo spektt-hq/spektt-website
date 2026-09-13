@@ -1,5 +1,5 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Agent rules
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+This site runs on **TanStack Start** (Vite 8 + Nitro 3), not Next.js — it was migrated on
+2026-09-10. Read `CLAUDE.md` in this folder before changing anything; it has the stack,
+structure, routing, i18n and deploy rules.
