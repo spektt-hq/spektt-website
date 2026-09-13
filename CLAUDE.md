@@ -274,9 +274,10 @@ rename or break those two URLs.
 ## In Progress
 
 - Play **child safety standards** declaration (2026-09-14): Play requires a published
-  standards page for social apps. `/en/community-guidelines` is the URL; it needs explicit
-  CSAE wording (child sexual abuse and exploitation, reporting to NCMEC / authorities, a
-  child-safety contact) — blueprint first, then `guidelines-*.json` in all 5 languages.
+  standards page for social apps; `/en/community-guidelines` is the URL. Explicit CSAE
+  wording added to §3 (CSAE/CSAM item, zero tolerance, reporting to NCMEC and law
+  enforcement) and a "Child safety concerns → team@spektt.com" row to §12, in all 5
+  languages. Live once pushed to `main`; then complete the declaration in Play Console.
 
 ---
 

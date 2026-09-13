@@ -1,7 +1,7 @@
 {
   "pageTitle": "Community Guidelines",
   "effectiveDate": "Effective Date: August 12th, 2026",
-  "lastUpdated": "Last Updated: August 12th, 2026",
+  "lastUpdated": "Last Updated: September 14th, 2026",
   "intro": "Spektt is built for creatives — photographers, videographers, 3D animators, sound engineers, and digital artists — to share real work and compete fairly. These guidelines exist so the platform stays worth posting to.",
   "appliesTo": "They apply everywhere on Spektt: uploads, Spotlights, comments, captions, profiles, Cluster posts, Showdown entries, and direct messages.",
   "ageNote": "You must be 16 or older to use Spektt. Direct messaging and Showdown entry are 18+.",
@@ -41,13 +41,14 @@
     "heading": "3. Keep it safe",
     "intro": "Not allowed anywhere on Spektt:",
     "items": [
+      "Child sexual abuse and exploitation (CSAE), including child sexual abuse material (CSAM), grooming, sextortion, or any sexualisation of minors",
       "Content that endangers or exploits minors, in any form",
       "Content that promotes or glorifies self-harm or suicide",
       "Real violence, gore, or disturbing imagery",
       "Explicit nudity or sexual material",
       "Promotion of illegal goods or services"
     ],
-    "priority": "Child safety and self-harm reports are treated as critical and reviewed first.",
+    "priority": "Child safety and self-harm reports are treated as critical and reviewed first. Spektt has zero tolerance for child sexual abuse and exploitation: we remove the content, permanently ban the accounts involved, and report child sexual abuse material to the National Center for Missing & Exploited Children (NCMEC) and the relevant law enforcement authorities. To raise a child-safety concern, report the content in the app and choose the child safety reason, or email team@spektt.com.",
     "support": "If you are struggling, please reach out to a local crisis line. We would rather you talk to someone than post about it."
   },
   "s4": {
@@ -140,6 +141,7 @@
     "tableHeadReason": "Reason",
     "tableHeadEmail": "Address",
     "tableRows": [
+      ["Child safety concerns", "team@spektt.com"],
       ["General support, account issues, appeals", "support@spektt.com"],
       ["Copyright and legal", "legal@spektt.com"],
       ["Showdown integrity", "showdowns@spektt.com"]

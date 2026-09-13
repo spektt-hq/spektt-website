@@ -1,7 +1,7 @@
 {
   "pageTitle": "Règles de la communauté",
   "effectiveDate": "Date d'entrée en vigueur : 12 août 2026",
-  "lastUpdated": "Dernière mise à jour : 12 août 2026",
+  "lastUpdated": "Dernière mise à jour : 14 septembre 2026",
   "intro": "Spektt est conçu pour les créatifs — photographes, vidéastes, animateurs 3D, ingénieurs du son et artistes numériques — afin de partager un vrai travail et de concourir loyalement. Ces règles existent pour que la plateforme reste un endroit où il vaut la peine de publier.",
   "appliesTo": "Elles s'appliquent partout sur Spektt : publications, Spotlights, commentaires, légendes, profils, publications de Clusters, participations aux Showdowns et messages privés.",
   "ageNote": "Vous devez avoir 16 ans ou plus pour utiliser Spektt. La messagerie privée et la participation aux Showdowns sont réservées aux 18 ans et plus.",
@@ -41,13 +41,14 @@
     "heading": "3. Gardez la plateforme sûre",
     "intro": "Interdit partout sur Spektt :",
     "items": [
+      "Les abus et l'exploitation sexuels d'enfants (CSAE), y compris les contenus d'abus sexuels sur enfants (CSAM), la manipulation (grooming), la sextorsion ou toute sexualisation de mineurs",
       "Tout contenu qui met en danger ou exploite des mineurs, sous quelque forme que ce soit",
       "Tout contenu qui encourage ou glorifie l'automutilation ou le suicide",
       "Violence réelle, images sanglantes ou perturbantes",
       "Nudité explicite ou contenu sexuel",
       "Promotion de biens ou de services illégaux"
     ],
-    "priority": "Les signalements liés à la sécurité des mineurs et à l'automutilation sont traités comme critiques et examinés en priorité.",
+    "priority": "Les signalements liés à la sécurité des mineurs et à l'automutilation sont traités comme critiques et examinés en priorité. Spektt applique une tolérance zéro envers les abus et l'exploitation sexuels d'enfants : nous supprimons le contenu, bannissons définitivement les comptes concernés et signalons les contenus d'abus sexuels sur enfants au National Center for Missing & Exploited Children (NCMEC) et aux autorités judiciaires compétentes. Pour signaler un problème de sécurité concernant un mineur, signalez le contenu dans l'application en choisissant le motif lié à la sécurité des mineurs, ou écrivez à team@spektt.com.",
     "support": "Si vous traversez une période difficile, contactez une ligne d'écoute locale. Nous préférons que vous parliez à quelqu'un plutôt que de publier à ce sujet."
   },
   "s4": {
@@ -140,6 +141,7 @@
     "tableHeadReason": "Motif",
     "tableHeadEmail": "Adresse",
     "tableRows": [
+      ["Sécurité des mineurs", "team@spektt.com"],
       ["Assistance générale, problèmes de compte, appels", "support@spektt.com"],
       ["Droit d'auteur et questions juridiques", "legal@spektt.com"],
       ["Intégrité des Showdowns", "showdowns@spektt.com"]

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Normas de la comunidad",
   "effectiveDate": "Fecha de entrada en vigor: 12 de agosto de 2026",
-  "lastUpdated": "Última actualización: 12 de agosto de 2026",
+  "lastUpdated": "Última actualización: 14 de septiembre de 2026",
   "intro": "Spektt está hecho para creativos — fotógrafos, videógrafos, animadores 3D, ingenieros de sonido y artistas digitales — para compartir trabajo real y competir con justicia. Estas normas existen para que la plataforma siga mereciendo tus publicaciones.",
   "appliesTo": "Se aplican en todo Spektt: publicaciones, Spotlights, comentarios, descripciones, perfiles, publicaciones de Clusters, participaciones en Showdowns y mensajes directos.",
   "ageNote": "Debes tener 16 años o más para usar Spektt. Los mensajes directos y la participación en Showdowns son solo para mayores de 18 años.",
@@ -41,13 +41,14 @@
     "heading": "3. Mantén la plataforma segura",
     "intro": "No se permite en ninguna parte de Spektt:",
     "items": [
+      "El abuso y la explotación sexual infantil (CSAE), incluido el material de abuso sexual infantil (CSAM), el grooming, la sextorsión o cualquier sexualización de menores",
       "Contenido que ponga en peligro o explote a menores, en cualquier forma",
       "Contenido que promueva o glorifique la autolesión o el suicidio",
       "Violencia real, imágenes sangrientas o perturbadoras",
       "Desnudos explícitos o material sexual",
       "Promoción de bienes o servicios ilegales"
     ],
-    "priority": "Los reportes sobre seguridad de menores y autolesiones se tratan como críticos y se revisan primero.",
+    "priority": "Los reportes sobre seguridad de menores y autolesiones se tratan como críticos y se revisan primero. Spektt tiene tolerancia cero con el abuso y la explotación sexual infantil: eliminamos el contenido, expulsamos de forma permanente las cuentas implicadas y denunciamos el material de abuso sexual infantil ante el National Center for Missing & Exploited Children (NCMEC) y las autoridades policiales competentes. Para comunicar un problema de seguridad infantil, reporta el contenido en la aplicación eligiendo el motivo de seguridad de menores, o escribe a team@spektt.com.",
     "support": "Si lo estás pasando mal, contacta con una línea de ayuda local. Preferimos que hables con alguien antes que publicarlo."
   },
   "s4": {
@@ -140,6 +141,7 @@
     "tableHeadReason": "Motivo",
     "tableHeadEmail": "Dirección",
     "tableRows": [
+      ["Seguridad de menores", "team@spektt.com"],
       ["Soporte general, problemas de cuenta, apelaciones", "support@spektt.com"],
       ["Derechos de autor y asuntos legales", "legal@spektt.com"],
       ["Integridad de los Showdowns", "showdowns@spektt.com"]
