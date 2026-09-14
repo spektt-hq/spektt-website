@@ -35,7 +35,7 @@
   "s2": {
     "heading": "2. Trata a las personas como personas",
     "body": "Nada de acoso, intimidación, amenazas ni contacto repetido no deseado. Nada de discurso de odio — contenido que promueva el odio por motivos de raza, religión, género o cualquier otra identidad. Ningún contenido dirigido contra la etnia, la religión, el género o el origen de una persona.",
-    "blocking": "Bloquear siempre está disponible: abre el perfil, abre el menú de tres puntos y elige Bloquear. Una persona bloqueada no puede ver tu contenido, comentar tus publicaciones ni enviarte mensajes."
+    "blocking": "Bloquear siempre está disponible: abre el perfil, abre el menú de opciones y elige Bloquear. Una persona bloqueada no puede ver tu contenido, comentar tus publicaciones ni enviarte mensajes."
   },
   "s3": {
     "heading": "3. Mantén la plataforma segura",
@@ -101,7 +101,7 @@
   },
   "s9": {
     "heading": "9. Cómo funcionan los reportes",
-    "intro": "Toca el menú de tres puntos en cualquier publicación, comentario, Showdown, participación o perfil y selecciona Reportar; después elige el motivo que mejor encaje. Los reportes los revisan personas reales, no solo sistemas automatizados.",
+    "intro": "Toca el menú de opciones en cualquier publicación, comentario, Showdown, participación o perfil y selecciona Reportar; después elige el motivo que mejor encaje. Los reportes los revisan personas reales, no solo sistemas automatizados.",
     "tableIntro": "Plazos de revisión según la gravedad:",
     "tableHeadSeverity": "Gravedad",
     "tableHeadExamples": "Ejemplos",

@@ -162,7 +162,7 @@ export const helpCategories: HelpCategory[] = [
       },
       {
         q: 'Can I edit or delete a post after publishing?',
-        a: `You can delete a post anytime: tap the three-dot menu on the post → Delete. Caption editing is also available via Edit Upload.`,
+        a: `You can delete a post anytime: tap the options menu on the post → Delete. Caption editing is also available via Edit Upload.`,
       },
       {
         q: 'Who can see my posts?',
@@ -292,7 +292,7 @@ export const helpCategories: HelpCategory[] = [
       },
       {
         q: 'How do I leave a Cluster?',
-        a: `Go to the Cluster page → three-dot menu → "Leave Cluster."`,
+        a: `Go to the Cluster page → options menu → "Leave Cluster."`,
       },
       {
         q: 'Can a Cluster be private or invite-only?',
@@ -401,7 +401,7 @@ export const helpCategories: HelpCategory[] = [
       },
       {
         q: 'Can I block someone from messaging me?',
-        a: `Yes. Go to their profile, tap the three-dot menu, and select "Block." Blocked users cannot send you messages or see your content.`,
+        a: `Yes. Go to their profile, tap the options menu, and select "Block." Blocked users cannot send you messages or see your content.`,
       },
       {
         q: "I'm receiving unwanted or harassing messages. What can I do?",
@@ -459,7 +459,7 @@ export const helpCategories: HelpCategory[] = [
       },
       {
         q: 'How do I report a user or content?',
-        a: `Tap the three-dot menu on any post, comment, Showdown entry, or profile and select "Report." Choose the reason that best describes the violation. Our moderation team reviews all reports.`,
+        a: `Tap the options menu on any post, comment, Showdown entry, or profile and select "Report." Choose the reason that best describes the violation. Our moderation team reviews all reports.`,
       },
       {
         q: 'How do I report a Showdown entry I believe is plagiarised?',
@@ -471,7 +471,7 @@ export const helpCategories: HelpCategory[] = [
       },
       {
         q: 'Can I block another user?',
-        a: `Yes. Go to their profile → three-dot menu → "Block." Blocked users cannot see your content, comment on your posts, or message you. Manage your blocked list in Settings → Privacy.`,
+        a: `Yes. Go to their profile → options menu → "Block." Blocked users cannot see your content, comment on your posts, or message you. Manage your blocked list in Settings → Privacy.`,
       },
       {
         q: 'My account was suspended. What do I do?',

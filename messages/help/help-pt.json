@@ -140,7 +140,7 @@
         },
         {
           "q": "Posso editar ou excluir uma publicação após publicá-la?",
-          "a": "Você pode excluir uma publicação a qualquer momento: toque no menu de três pontos da publicação → Delete. A edição de legenda também está disponível através de Edit Upload."
+          "a": "Você pode excluir uma publicação a qualquer momento: toque no menu de opções da publicação → Delete. A edição de legenda também está disponível através de Edit Upload."
         },
         {
           "q": "Quem pode ver minhas publicações?",
@@ -270,7 +270,7 @@
         },
         {
           "q": "Como saio de um Cluster?",
-          "a": "Vá para a página do Cluster → menu de três pontos → \"Leave Cluster.\""
+          "a": "Vá para a página do Cluster → menu de opções → \"Leave Cluster.\""
         },
         {
           "q": "Um Cluster pode ser privado ou apenas por convite?",
@@ -365,11 +365,11 @@
         },
         {
           "q": "Como excluo uma conversa?",
-          "a": "Abra a conversa, toque no menu ⋮ no canto superior direito e selecione «Excluir conversa», depois confirme. Ela será removida da sua Inbox — a outra pessoa não é notificada."
+          "a": "Abra a conversa, toque no menu de opções no canto superior direito e selecione «Excluir conversa», depois confirme. Ela será removida da sua Inbox — a outra pessoa não é notificada."
         },
         {
           "q": "Posso bloquear alguém de me enviar mensagens?",
-          "a": "Sim. Vá até o perfil da pessoa, toque no menu de três pontos e selecione \"Block.\" Usuários bloqueados não podem enviar mensagens para você nem ver seu conteúdo."
+          "a": "Sim. Vá até o perfil da pessoa, toque no menu de opções e selecione \"Block.\" Usuários bloqueados não podem enviar mensagens para você nem ver seu conteúdo."
         },
         {
           "q": "Estou recebendo mensagens indesejadas ou assédio. O que posso fazer?",
@@ -423,7 +423,7 @@
         },
         {
           "q": "Como denuncio um usuário ou conteúdo?",
-          "a": "Toque no menu de três pontos em qualquer publicação, comentário, entrada de Showdown ou perfil e selecione \"Report.\" Escolha o motivo que melhor descreve a violação. Nossa equipe de moderação revisa todas as denúncias."
+          "a": "Toque no menu de opções em qualquer publicação, comentário, entrada de Showdown ou perfil e selecione \"Report.\" Escolha o motivo que melhor descreve a violação. Nossa equipe de moderação revisa todas as denúncias."
         },
         {
           "q": "Como denuncio uma entrada de Showdown que acredito ser plagiada?",
@@ -435,7 +435,7 @@
         },
         {
           "q": "Posso bloquear outro usuário?",
-          "a": "Sim. Vá até o perfil da pessoa → menu de três pontos → \"Block.\" Usuários bloqueados não podem ver seu conteúdo, comentar em suas publicações ou enviar mensagens. Gerencie sua lista de bloqueados em Configurações → Usuários bloqueados."
+          "a": "Sim. Vá até o perfil da pessoa → menu de opções → \"Block.\" Usuários bloqueados não podem ver seu conteúdo, comentar em suas publicações ou enviar mensagens. Gerencie sua lista de bloqueados em Configurações → Usuários bloqueados."
         },
         {
           "q": "Minha conta foi suspensa. O que devo fazer?",

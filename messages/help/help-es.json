@@ -140,7 +140,7 @@
         },
         {
           "q": "¿Puedo editar o eliminar una publicación después de publicarla?",
-          "a": "Puedes eliminar una publicación en cualquier momento: toca el menú de tres puntos en la publicación → Delete. La edición de la descripción también está disponible mediante Edit Upload."
+          "a": "Puedes eliminar una publicación en cualquier momento: toca el menú de opciones en la publicación → Delete. La edición de la descripción también está disponible mediante Edit Upload."
         },
         {
           "q": "¿Quién puede ver mis publicaciones?",
@@ -270,7 +270,7 @@
         },
         {
           "q": "¿Cómo salgo de un Cluster?",
-          "a": "Ve a la página del Cluster → menú de tres puntos → \"Leave Cluster.\""
+          "a": "Ve a la página del Cluster → menú de opciones → \"Leave Cluster.\""
         },
         {
           "q": "¿Puede un Cluster ser privado o por invitación?",
@@ -365,11 +365,11 @@
         },
         {
           "q": "¿Cómo elimino una conversación?",
-          "a": "Abre la conversación, toca el menú ⋮ en la parte superior derecha y selecciona «Eliminar conversación», luego confirma. Se eliminará de tu bandeja de entrada — la otra persona no recibirá ninguna notificación."
+          "a": "Abre la conversación, toca el menú de opciones en la parte superior derecha y selecciona «Eliminar conversación», luego confirma. Se eliminará de tu bandeja de entrada — la otra persona no recibirá ninguna notificación."
         },
         {
           "q": "¿Puedo bloquear a alguien que me envía mensajes?",
-          "a": "Sí. Ve a su perfil, toca el menú de tres puntos y selecciona \"Block.\" Los usuarios bloqueados no pueden enviarte mensajes ni ver tu contenido."
+          "a": "Sí. Ve a su perfil, toca el menú de opciones y selecciona \"Block.\" Los usuarios bloqueados no pueden enviarte mensajes ni ver tu contenido."
         },
         {
           "q": "Recibo mensajes no deseados o de acoso. ¿Qué puedo hacer?",
@@ -423,7 +423,7 @@
         },
         {
           "q": "¿Cómo reporto a un usuario o contenido?",
-          "a": "Toca el menú de tres puntos en cualquier publicación, comentario, entrada de Showdown o perfil y selecciona \"Report.\" Elige la razón que mejor describa la violación. Nuestro equipo de moderación revisa todos los reportes."
+          "a": "Toca el menú de opciones en cualquier publicación, comentario, entrada de Showdown o perfil y selecciona \"Report.\" Elige la razón que mejor describa la violación. Nuestro equipo de moderación revisa todos los reportes."
         },
         {
           "q": "¿Cómo reporto una entrada de Showdown que creo que es plagio?",
@@ -435,7 +435,7 @@
         },
         {
           "q": "¿Puedo bloquear a otro usuario?",
-          "a": "Sí. Ve a su perfil → menú de tres puntos → \"Block.\" Los usuarios bloqueados no pueden ver tu contenido, comentar en tus publicaciones ni enviarte mensajes. Gestiona tu lista de bloqueados en Settings → Blocked Users."
+          "a": "Sí. Ve a su perfil → menú de opciones → \"Block.\" Los usuarios bloqueados no pueden ver tu contenido, comentar en tus publicaciones ni enviarte mensajes. Gestiona tu lista de bloqueados en Settings → Blocked Users."
         },
         {
           "q": "Mi cuenta fue suspendida. ¿Qué hago?",

@@ -35,7 +35,7 @@
   "s2": {
     "heading": "2. Treat people as people",
     "body": "No harassment, bullying, threats, or repeated unwanted contact. No hate speech — content that promotes hatred based on race, religion, gender, or any other identity. No content targeting someone's ethnicity, religion, gender, or background.",
-    "blocking": "Blocking is always available: go to the profile, open the three-dot menu, and choose Block. A blocked person cannot see your content, comment on your posts, or message you."
+    "blocking": "Blocking is always available: go to the profile, open the options menu, and choose Block. A blocked person cannot see your content, comment on your posts, or message you."
   },
   "s3": {
     "heading": "3. Keep it safe",
@@ -101,7 +101,7 @@
   },
   "s9": {
     "heading": "9. How reporting works",
-    "intro": "Tap the three-dot menu on any post, comment, Showdown, Showdown entry, or profile and select Report, then choose the reason that fits best. Reports are reviewed by real people, not only by automated systems.",
+    "intro": "Tap the options menu on any post, comment, Showdown, Showdown entry, or profile and select Report, then choose the reason that fits best. Reports are reviewed by real people, not only by automated systems.",
     "tableIntro": "How quickly we review, by severity:",
     "tableHeadSeverity": "Severity",
     "tableHeadExamples": "Examples",

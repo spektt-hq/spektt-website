@@ -35,7 +35,7 @@
   "s2": {
     "heading": "2. Traitez les autres comme des personnes",
     "body": "Pas de harcèlement, d'intimidation, de menaces ni de contacts répétés non désirés. Pas de discours haineux — aucun contenu qui promeut la haine fondée sur la race, la religion, le genre ou toute autre identité. Aucun contenu visant l'origine ethnique, la religion, le genre ou le milieu d'une personne.",
-    "blocking": "Le blocage est toujours disponible : ouvrez le profil, ouvrez le menu à trois points et choisissez Bloquer. Une personne bloquée ne peut plus voir votre contenu, commenter vos publications ni vous envoyer de messages."
+    "blocking": "Le blocage est toujours disponible : ouvrez le profil, ouvrez le menu d'options et choisissez Bloquer. Une personne bloquée ne peut plus voir votre contenu, commenter vos publications ni vous envoyer de messages."
   },
   "s3": {
     "heading": "3. Gardez la plateforme sûre",
@@ -101,7 +101,7 @@
   },
   "s9": {
     "heading": "9. Comment fonctionne le signalement",
-    "intro": "Appuyez sur le menu à trois points d'une publication, d'un commentaire, d'un Showdown, d'une participation ou d'un profil et sélectionnez Signaler, puis choisissez le motif le plus adapté. Les signalements sont examinés par de vraies personnes, et pas uniquement par des systèmes automatisés.",
+    "intro": "Appuyez sur le menu d'options d'une publication, d'un commentaire, d'un Showdown, d'une participation ou d'un profil et sélectionnez Signaler, puis choisissez le motif le plus adapté. Les signalements sont examinés par de vraies personnes, et pas uniquement par des systèmes automatisés.",
     "tableIntro": "Nos délais d'examen, par niveau de gravité :",
     "tableHeadSeverity": "Gravité",
     "tableHeadExamples": "Exemples",

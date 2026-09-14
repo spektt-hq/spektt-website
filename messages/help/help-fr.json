@@ -140,7 +140,7 @@
         },
         {
           "q": "Puis-je modifier ou supprimer une publication après sa mise en ligne ?",
-          "a": "Vous pouvez supprimer une publication à tout moment : appuyez sur le menu à trois points → Supprimer. La modification de la légende est également disponible via Edit Upload."
+          "a": "Vous pouvez supprimer une publication à tout moment : appuyez sur le menu d'options → Supprimer. La modification de la légende est également disponible via Edit Upload."
         },
         {
           "q": "Qui peut voir mes publications ?",
@@ -270,7 +270,7 @@
         },
         {
           "q": "Comment quitter un Cluster ?",
-          "a": "Allez sur la page du Cluster → menu à trois points → \"Leave Cluster.\""
+          "a": "Allez sur la page du Cluster → menu d'options → \"Leave Cluster.\""
         },
         {
           "q": "Un Cluster peut-il être privé ou sur invitation uniquement ?",
@@ -365,11 +365,11 @@
         },
         {
           "q": "Comment supprimer une conversation ?",
-          "a": "Ouvrez la conversation, appuyez sur le menu ⋮ en haut à droite, puis sélectionnez « Supprimer la conversation » et confirmez. Elle sera retirée de votre boîte de réception — l'autre personne n'est pas notifiée."
+          "a": "Ouvrez la conversation, appuyez sur le menu d'options en haut à droite, puis sélectionnez « Supprimer la conversation » et confirmez. Elle sera retirée de votre boîte de réception — l'autre personne n'est pas notifiée."
         },
         {
           "q": "Puis-je bloquer quelqu'un ?",
-          "a": "Oui. Allez sur son profil, appuyez sur le menu à trois points et sélectionnez \"Block.\" Les utilisateurs bloqués ne peuvent plus vous envoyer de messages ni voir votre contenu."
+          "a": "Oui. Allez sur son profil, appuyez sur le menu d'options et sélectionnez \"Block.\" Les utilisateurs bloqués ne peuvent plus vous envoyer de messages ni voir votre contenu."
         },
         {
           "q": "Je reçois des messages indésirables ou harcelants. Que faire ?",
@@ -423,7 +423,7 @@
         },
         {
           "q": "Comment signaler un utilisateur ou un contenu ?",
-          "a": "Appuyez sur le menu à trois points sur n’importe quelle publication, commentaire, participation à un Showdown ou profil, puis sélectionnez \"Report.\" Choisissez la raison correspondant le mieux à la violation. Notre équipe de modération examine tous les signalements."
+          "a": "Appuyez sur le menu d'options sur n’importe quelle publication, commentaire, participation à un Showdown ou profil, puis sélectionnez \"Report.\" Choisissez la raison correspondant le mieux à la violation. Notre équipe de modération examine tous les signalements."
         },
         {
           "q": "Comment signaler une participation à un Showdown que je pense plagiée ?",
@@ -435,7 +435,7 @@
         },
         {
           "q": "Puis-je bloquer un autre utilisateur ?",
-          "a": "Oui. Accédez à son profil → menu à trois points → \"Block.\" Les utilisateurs bloqués ne peuvent pas voir votre contenu, commenter vos publications ni vous envoyer de messages. Gérez votre liste de blocage dans Paramètres → Utilisateurs bloqués."
+          "a": "Oui. Accédez à son profil → menu d'options → \"Block.\" Les utilisateurs bloqués ne peuvent pas voir votre contenu, commenter vos publications ni vous envoyer de messages. Gérez votre liste de blocage dans Paramètres → Utilisateurs bloqués."
         },
         {
           "q": "Mon compte a été suspendu. Que dois-je faire ?",

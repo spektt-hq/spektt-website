@@ -35,7 +35,7 @@
   "s2": {
     "heading": "2. Trate as pessoas como pessoas",
     "body": "Nada de assédio, bullying, ameaças ou contacto repetido indesejado. Nada de discurso de ódio — conteúdo que promova ódio com base em raça, religião, género ou qualquer outra identidade. Nenhum conteúdo dirigido à etnia, religião, género ou origem de alguém.",
-    "blocking": "Bloquear está sempre disponível: abra o perfil, abra o menu de três pontos e escolha Bloquear. Uma pessoa bloqueada não pode ver o seu conteúdo, comentar nas suas publicações nem enviar-lhe mensagens."
+    "blocking": "Bloquear está sempre disponível: abra o perfil, abra o menu de opções e escolha Bloquear. Uma pessoa bloqueada não pode ver o seu conteúdo, comentar nas suas publicações nem enviar-lhe mensagens."
   },
   "s3": {
     "heading": "3. Mantenha a plataforma segura",
@@ -101,7 +101,7 @@
   },
   "s9": {
     "heading": "9. Como funcionam as denúncias",
-    "intro": "Toque no menu de três pontos em qualquer publicação, comentário, Showdown, participação ou perfil e selecione Denunciar; depois escolha o motivo mais adequado. As denúncias são analisadas por pessoas reais, não apenas por sistemas automáticos.",
+    "intro": "Toque no menu de opções em qualquer publicação, comentário, Showdown, participação ou perfil e selecione Denunciar; depois escolha o motivo mais adequado. As denúncias são analisadas por pessoas reais, não apenas por sistemas automáticos.",
     "tableIntro": "Prazos de análise, por gravidade:",
     "tableHeadSeverity": "Gravidade",
     "tableHeadExamples": "Exemplos",
