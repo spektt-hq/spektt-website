@@ -128,7 +128,7 @@
         },
         {
           "q": "Is there a file size, resolution, or length limit?",
-          "a": "Photos: up to 10MB, and a minimum resolution of 4 megapixels (roughly 2000×2000px or better) — very low-resolution images are rejected. Videos: maximum 2 minutes (the app compresses your video before upload). You'll see a clear error message if a file doesn't meet these limits before you submit."
+          "a": "Photos: up to 10MB. Images below 1 megapixel are rejected as too small; between 1 and 4 megapixels you'll see a note that the image may look soft, but you can still post it. Showdown entries hold a higher bar — they need at least 4 megapixels (roughly 2000×2000px or better), so screenshots and forwarded images usually can't be entered. Videos: maximum 2 minutes and 500MB (the app compresses your video before upload). You'll see a clear message if a file doesn't meet these limits before you submit."
         },
         {
           "q": "How do I upload a post?",

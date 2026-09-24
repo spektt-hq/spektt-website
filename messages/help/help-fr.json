@@ -128,7 +128,7 @@
         },
         {
           "q": "Y a-t-il une limite de taille de fichier, de résolution ou de durée ?",
-          "a": "Photos : jusqu'à 10 Mo, et une résolution minimale de 4 mégapixels (environ 2000×2000 px ou plus) — les images de très basse résolution sont rejetées. Vidéos : 2 minutes maximum (l'application compresse votre vidéo avant l'envoi). Vous verrez un message d'erreur clair si un fichier ne respecte pas ces limites avant de le soumettre."
+          "a": "Photos : jusqu'à 10 Mo. Les images de moins de 1 mégapixel sont refusées car trop petites ; entre 1 et 4 mégapixels, un message vous signale que l'image risque de manquer de netteté, mais vous pouvez quand même la publier. Les participations aux Showdowns exigent davantage : au moins 4 mégapixels (environ 2000×2000 px ou plus), de sorte que les captures d'écran et les images transférées ne peuvent généralement pas être soumises. Vidéos : 2 minutes et 500 Mo maximum (l'application compresse votre vidéo avant l'envoi). Un message clair s'affiche si un fichier ne respecte pas ces limites."
         },
         {
           "q": "Comment téléverser une publication ?",

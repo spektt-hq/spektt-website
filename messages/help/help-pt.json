@@ -128,7 +128,7 @@
         },
         {
           "q": "Existe limite de tamanho de arquivo, resolução ou duração?",
-          "a": "Fotos: até 10MB e resolução mínima de 4 megapixels (aproximadamente 2000×2000px ou superior) — imagens com resolução muito baixa são rejeitadas. Vídeos: máximo de 2 minutos (o app compacta seu vídeo antes do envio). Você verá uma mensagem de erro clara se um arquivo não atender a esses limites antes de enviar."
+          "a": "Fotos: até 10MB. Imagens com menos de 1 megapixel são rejeitadas por serem pequenas demais; entre 1 e 4 megapixels verá um aviso de que a imagem pode ficar pouco nítida, mas ainda assim pode publicá-la. As participações em Showdowns exigem mais: pelo menos 4 megapixels (aproximadamente 2000×2000px ou superior), pelo que capturas de ecrã e imagens reencaminhadas normalmente não podem ser submetidas. Vídeos: máximo de 2 minutos e 500MB (a app comprime o seu vídeo antes do envio). Verá uma mensagem clara se um ficheiro não cumprir estes limites antes de submeter."
         },
         {
           "q": "Como faço upload de uma publicação?",
