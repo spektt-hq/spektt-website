@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : July 30th, 2026",
+  "lastUpdated": "Dernière mise à jour : October 2nd, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -222,7 +222,7 @@
         "Player IDs ; contenu des notifications"
       ],
       [
-        "Resend",
+        "Amazon Web Services (SES)",
         "Livraison des e-mails transactionnels",
         "Adresse e-mail, codes OTP, contenu des alertes"
       ],
@@ -395,7 +395,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERTS INTERNATIONAUX DE DONNÉES",
-    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Le CDN de Cloudflare distribue les médias dans le monde entier. OneSignal, Resend, RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
+    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Le CDN de Cloudflare distribue les médias dans le monde entier. OneSignal, Amazon Web Services (SES), RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
     "p2": "En utilisant l’Application, vous consentez au transfert de vos informations vers ces serveurs. Lorsque la loi l’exige, nous mettons en œuvre des garanties appropriées pour ces transferts."
   },
   "s13": {

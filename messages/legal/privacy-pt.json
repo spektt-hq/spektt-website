@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: July 30th, 2026",
+  "lastUpdated": "Última Atualização: October 2nd, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -222,7 +222,7 @@
         "IDs de Jogador; conteúdo de notificação"
       ],
       [
-        "Resend",
+        "Amazon Web Services (SES)",
         "Entrega de e-mails transacionais",
         "Endereço de e-mail, códigos OTP, conteúdo de alertas"
       ],
@@ -395,7 +395,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERÊNCIAS INTERNACIONAIS DE DADOS",
-    "p1": "Spektt é operado pela Axlume Tech Limited na Nigéria. Seus dados são armazenados principalmente em servidores do Google Firebase / Firestore, que podem estar localizados nos Estados Unidos ou União Europeia. A CDN da Cloudflare distribui mídia globalmente. OneSignal, Resend, RevenueCat e Sentry também processam dados em servidores fora da Nigéria.",
+    "p1": "Spektt é operado pela Axlume Tech Limited na Nigéria. Seus dados são armazenados principalmente em servidores do Google Firebase / Firestore, que podem estar localizados nos Estados Unidos ou União Europeia. A CDN da Cloudflare distribui mídia globalmente. OneSignal, Amazon Web Services (SES), RevenueCat e Sentry também processam dados em servidores fora da Nigéria.",
     "p2": "Ao usar o App, você consente com a transferência de suas informações para esses servidores. Quando exigido por lei, implementamos salvaguardas apropriadas para tais transferências."
   },
   "s13": {

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: July 30th, 2026",
+  "lastUpdated": "Last Updated: October 2nd, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -222,7 +222,7 @@
         "Player IDs; notification content"
       ],
       [
-        "Resend",
+        "Amazon Web Services (SES)",
         "Transactional email delivery",
         "Email address, OTP codes, alert content"
       ],
@@ -395,7 +395,7 @@
   },
   "s12": {
     "heading": "12. INTERNATIONAL DATA TRANSFERS",
-    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare's CDN distributes media globally. OneSignal, Resend, RevenueCat, and Sentry also process data on servers outside Nigeria.",
+    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare's CDN distributes media globally. OneSignal, Amazon Web Services (SES), RevenueCat, and Sentry also process data on servers outside Nigeria.",
     "p2": "By using the App, you consent to the transfer of your information to these servers. Where required by law, we implement appropriate safeguards for such transfers."
   },
   "s13": {

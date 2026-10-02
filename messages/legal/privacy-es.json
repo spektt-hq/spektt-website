@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: July 30th, 2026",
+  "lastUpdated": "Última actualización: October 2nd, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -222,7 +222,7 @@
         "IDs de jugador; contenido de notificaciones"
       ],
       [
-        "Resend",
+        "Amazon Web Services (SES)",
         "Entrega de correos electrónicos transaccionales",
         "Dirección de correo electrónico, códigos OTP, contenido de alertas"
       ],
@@ -395,7 +395,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERENCIAS INTERNACIONALES DE DATOS",
-    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. El CDN de Cloudflare distribuye medios globalmente. OneSignal, Resend, RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
+    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. El CDN de Cloudflare distribuye medios globalmente. OneSignal, Amazon Web Services (SES), RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
     "p2": "Al usar la App, consientes la transferencia de tu información a estos servidores. Cuando lo exige la ley, implementamos las salvaguardas apropiadas para dichas transferencias."
   },
   "s13": {
