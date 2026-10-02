@@ -1,6 +1,7 @@
 import { Link, useRouterState } from '@tanstack/react-router'
 import { FaXTwitter, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa6'
 import { type Locale } from '@/dictionaries/locales'
+import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
 interface FooterDict {
   helpHeading: string
@@ -74,20 +75,21 @@ function Footer({ dict, locale }: FooterProps) {
             {/* Download app links */}
             <div className='flex flex-wrap gap-2 items-center'>
               <a
-                href='https://apps.apple.com/app/spektt/id6770248818'
+                href={IOS_URL}
                 target='_blank'
                 rel='noopener noreferrer'
+                title={IOS_LABEL}
                 className='w-36 hover:opacity-80 transition-opacity'
               >
                 <img
                   src='/appstore.png'
-                  alt='Download on App Store'
+                  alt={IOS_LABEL}
                   width={144}
                   height={48}
                 />
               </a>
               <a
-                href='#'
+                href={PLAY_STORE_URL}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='w-40 hover:opacity-80 transition-opacity'

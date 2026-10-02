@@ -5,6 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { HiBars3 } from 'react-icons/hi2'
 import LanguageSwitcher from './language-switcher'
 import { type Locale } from '@/dictionaries/locales'
+import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
 interface NavDict {
   home: string
@@ -142,12 +143,28 @@ function Header({ view, click, dict, locale }: HeaderProps) {
             </div>
 
             <div className='flex py-5 px-2 items-center justify-center gap-5'>
-              <button className='border rounded-4xl px-3 text-4xl border-white/30 text-white py-2'>
+              {/* These were <button>s with no handler — visible download affordances that
+                  did nothing. Now real links (2026-10-02, Android launch). */}
+              <a
+                href={PLAY_STORE_URL}
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Get it on Google Play'
+                aria-label='Get it on Google Play'
+                className='border rounded-4xl px-3 text-4xl border-white/30 text-white py-2 hover:opacity-80 transition-opacity'
+              >
                 <IoLogoGooglePlaystore />
-              </button>
-              <button className='border rounded-4xl px-3 text-4xl border-white/30 text-white py-2'>
+              </a>
+              <a
+                href={IOS_URL}
+                target='_blank'
+                rel='noopener noreferrer'
+                title={IOS_LABEL}
+                aria-label={IOS_LABEL}
+                className='border rounded-4xl px-3 text-4xl border-white/30 text-white py-2 hover:opacity-80 transition-opacity'
+              >
                 <IoLogoApple />
-              </button>
+              </a>
             </div>
           </div>
         </nav>

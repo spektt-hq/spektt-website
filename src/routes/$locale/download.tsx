@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { getDictionary } from '@/dictionaries/getDictionary'
 import { type Locale } from '@/dictionaries/locales'
 import { pageHead } from '@/lib/pageHead'
+import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
 export const Route = createFileRoute('/$locale/download')({
   loader: async ({ params }) => {
@@ -37,20 +38,21 @@ function DownloadRoute() {
 
       <div className='flex flex-wrap items-center justify-center gap-4'>
         <a
-          href='https://apps.apple.com/app/spektt/id6770248818'
+          href={IOS_URL}
           target='_blank'
           rel='noopener noreferrer'
+          title={IOS_LABEL}
           className='w-40 hover:opacity-80 transition-opacity'
         >
           <img
             src='/appstore.png'
-            alt='Download on App Store'
+            alt={IOS_LABEL}
             width={160}
             height={53}
           />
         </a>
         <a
-          href='#'
+          href={PLAY_STORE_URL}
           target='_blank'
           rel='noopener noreferrer'
           className='w-44 hover:opacity-80 transition-opacity'

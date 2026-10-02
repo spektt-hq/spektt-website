@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
+import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
 const imgGallery = [
   { id: 1, src: '/girl-on-horse.webp' },
@@ -107,20 +108,21 @@ function Hero({ sentences }: HeroProps) {
         {/* Download buttons */}
         <div className='flex flex-wrap items-center justify-center gap-4'>
           <a
-            href='https://apps.apple.com/app/spektt/id6770248818'
+            href={IOS_URL}
             target='_blank'
             rel='noopener noreferrer'
+            title={IOS_LABEL}
             className='w-36 hover:opacity-80 transition-opacity'
           >
             <img
               src='/appstore.png'
-              alt='Download on App Store'
+              alt={IOS_LABEL}
               width={144}
               height={48}
             />
           </a>
           <a
-            href='#'
+            href={PLAY_STORE_URL}
             target='_blank'
             rel='noopener noreferrer'
             className='w-40 hover:opacity-80 transition-opacity'

@@ -1,6 +1,11 @@
+import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
+
 // Shown when the Spektt app is NOT installed and a user opens a shared link. When the
 // app IS installed, iOS Universal Links / Android App Links open it directly and this
 // never renders. The Next site had four near-identical copies (c/col/s/profile).
+//
+// ⚠️ This is the highest-stakes place these links appear: every shared Spektt link that
+// reaches someone without the app lands HERE. A dead button here loses the install.
 export default function DeepLinkFallback({
   title,
   message,
@@ -25,20 +30,21 @@ export default function DeepLinkFallback({
 
       <div className='flex flex-wrap items-center justify-center gap-4'>
         <a
-          href='https://apps.apple.com/app/spektt/id6770248818'
+          href={IOS_URL}
           target='_blank'
           rel='noopener noreferrer'
+          title={IOS_LABEL}
           className='w-40 hover:opacity-80 transition-opacity'
         >
           <img
             src='/appstore.png'
-            alt='Download on App Store'
+            alt={IOS_LABEL}
             width={160}
             height={53}
           />
         </a>
         <a
-          href='#'
+          href={PLAY_STORE_URL}
           target='_blank'
           rel='noopener noreferrer'
           className='w-44 hover:opacity-80 transition-opacity'

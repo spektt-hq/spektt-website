@@ -240,7 +240,12 @@ rename or break those two URLs.
 
 ## Hard Rules
 
-- **No hardcoded URLs** — App Store: `id6770248818` · Play Store: `#` until published
+- 🔴 **Store links live ONLY in `src/lib/store-links.ts`** — never hardcode a store URL in a
+  component. They were previously copy-pasted across five files with Play left as a dead
+  `href='#'`, so "add the Play link" meant six edits and missing one. **One source now.**
+  ⚠️ **`IOS_LIVE` is the switch**: iOS buttons point at TestFlight until it flips to `true`.
+  Flip it when iOS is *released* on the App Store — Apple approval is NOT the trigger, because
+  the release is set to **Manual** and approval alone does not put it on sale.
 - **Every page sets `head` via `pageHead()`** — title, description, OG/Twitter, canonical, hreflang
 - **Never rename `.well-known/` files** — iOS/Android verification fails silently
 - **Never remove `nitro()` or its `/.well-known/**` routeRules from `vite.config.ts`**
@@ -267,7 +272,15 @@ rename or break those two URLs.
 - ✅ Smart Banner — `<meta name="apple-itunes-app">` (mobile Safari)
 - ✅ `.well-known` files served as `application/json` (Nitro routeRules)
 - ✅ Deep link fallback pages — `/profile/$username`, `/c/$slug`, `/s/$slug`, `/col/$slug`
-- ✅ App Store links use the real URL across Hero, Footer, CTA, Download, fallback pages
+- 🚀 **Google Play link LIVE — 2026-10-02.** Spektt shipped to production on Android
+  (`com.spektt.app`, build 8 / 1.0.0, 178 countries). All store links now resolve through
+  `src/lib/store-links.ts` across Hero, Footer, CTA, Download, the deep-link fallback **and the
+  mobile header** — whose two store icons were `<button>`s with no handler and did nothing.
+- ⚠️ **iOS points at TestFlight, not the App Store.** iOS 1.0 is still in App Review, so
+  `apps.apple.com/app/spektt/id6770248818` **404s for visitors** — it had been live on the site
+  in that state. `IOS_LIVE = false` serves the public TestFlight link instead, so iPhone
+  visitors get something installable. 🔴 **TestFlight builds EXPIRE** — build 8 was added
+  2026-09-27, so that link dies around **late December 2026** if review drags.
 
 ---
 
@@ -283,8 +296,9 @@ rename or break those two URLs.
 
 ## Next Up
 
-1. **Play Store link** — replace the `href='#'` placeholders (hero, footer, cta, download,
-   deep-link-fallback) with the real Google Play URL when the Android app is public
+1. 🔴 **Flip `IOS_LIVE` to `true`** in `src/lib/store-links.ts` the moment iOS 1.0 is
+   **released** on the App Store (after pressing Manual release — approval is not enough).
+   One line; it swaps every iOS button and label from TestFlight to the real listing.
 2. **Help Centre redesign** — Photocrowd-style sidebar layout (spec: `help-section-blueprint.md`)
 3. **Dynamic OG for fallback pages** — real user/cluster/showdown name once a public
    Firestore read is available
@@ -295,7 +309,8 @@ rename or break those two URLs.
 
 | Issue | Status |
 |-------|--------|
-| Play Store links are `#` placeholders | Update when Android app is published |
+| ~~Play Store links are `#` placeholders~~ | ✅ **RESOLVED 2026-10-02** — Android is live; all links go through `src/lib/store-links.ts` |
+| iOS buttons link to TestFlight, not the App Store | Expected while iOS 1.0 is in review. ⚠️ TestFlight build 8 **expires ~late Dec 2026** — if review is still dragging then, that link breaks silently. Flip `IOS_LIVE` on release |
 | Google site logo grey circle | JSON-LD present — waits on Google re-crawl |
 | `npm install` reports 2 high-severity advisories | Not yet triaged (`npm audit`) |
 
