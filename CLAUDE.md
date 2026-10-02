@@ -58,6 +58,25 @@ now just points here.
 ⚠️ **`nitro()` in `vite.config.ts` is required.** Without it `vite build` produces only a
 bare handler Vercel has no route to, and every path 404s (commit `6891b6a`).
 
+🔴 **Vercel BLOCKS deploys on a vulnerable TanStack Start — learned 2026-10-02.** A production
+deploy failed with *"Vulnerable TanStack Start package detected (@tanstack/react-start@1.168.51)"*
+— **nothing to do with the change being deployed**. It was **CVE-2026-102989** (published
+2026-09-30): unauthenticated **reflected XSS** in server-function responses, letting a crafted
+URL run attacker JavaScript with a visitor's access to the origin.
+
+**Fixed by upgrading to the versions the advisory names:**
+
+| Package | Patched |
+|---|---|
+| `@tanstack/react-start` | **1.168.60** |
+| `@tanstack/start-server-core` | **1.169.39** (transitive) |
+
+⚠️ **Never set `DANGEROUSLY_DEPLOY_VULNERABLE_TANSTACK_START_XSS=1`**, which the error offers.
+It ships the vulnerability to production to get past a gate that exists for a reason. Upgrade.
+
+**The generalisable bit:** a Vercel build failure naming a dependency is not necessarily about
+your commit. Read the error before assuming the change broke it.
+
 ---
 
 ## Directory Structure
@@ -312,7 +331,7 @@ rename or break those two URLs.
 | ~~Play Store links are `#` placeholders~~ | ✅ **RESOLVED 2026-10-02** — Android is live; all links go through `src/lib/store-links.ts` |
 | iOS buttons link to TestFlight, not the App Store | Expected while iOS 1.0 is in review. ⚠️ TestFlight build 8 **expires ~late Dec 2026** — if review is still dragging then, that link breaks silently. Flip `IOS_LIVE` on release |
 | Google site logo grey circle | JSON-LD present — waits on Google re-crawl |
-| `npm install` reports 2 high-severity advisories | Not yet triaged (`npm audit`) |
+| `npm install` reports 2 high-severity advisories | Not yet triaged (`npm audit`) — separate from the CVE below, which IS fixed |
 
 ---
 
