@@ -75,14 +75,7 @@ export default function ShowdownRulesContent({
           {/* 5 */}
           <section>
             <h2 className='privacy-policy-header text-2xl'>{d.s5.heading}</h2>
-            <p className='privacy-policy-text mt-5'>
-              {d.s5.p1Before}{' '}
-              <a href='mailto:support@spektt.com' className='text-lightBlue hover:underline'>
-                support@spektt.com
-              </a>{' '}
-              {d.s5.p1After}
-            </p>
-            <p className='privacy-policy-text mt-3'>{d.s5.p2}</p>
+            <p className='privacy-policy-text mt-5'>{d.s5.p1}</p>
             <p className='privacy-policy-text mt-3'>{d.s5.p3}</p>
           </section>
 

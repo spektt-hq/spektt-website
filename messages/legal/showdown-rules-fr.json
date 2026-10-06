@@ -42,10 +42,8 @@
     "limitText": "UNE (1) participation par personne par Concours, quel que soit le type de compte (Gratuit ou Pro). La soumission de plusieurs participations entraînera la disqualification de toutes les participations de ce compte."
   },
   "s5": {
-    "heading": "5. MÉTHODE ALTERNATIVE DE PARTICIPATION (MAP)",
-    "p1Before": "Aucun achat n'est nécessaire pour participer. Si vous ne pouvez pas participer via la Plateforme, vous pouvez demander un crédit de participation gratuite en envoyant un e-mail à",
-    "p1After": "avec l'objet : « PARTICIPATION GRATUITE — [Nom du Concours] ».",
-    "p2": "Les demandes de participation gratuite doivent être soumises avant la date limite. Un crédit de participation gratuite par personne par Concours. Nous répondrons dans les 48 heures. Les demandes soumises après la date limite ne seront pas honorées.",
+    "heading": "5. PARTICIPATION GRATUITE",
+    "p1": "La participation à tous les Concours est gratuite. Aucun achat, abonnement ni paiement d'aucune sorte n'est requis pour participer ou pour gagner.",
     "p3": "Un abonnement Spektt Pro offre des fonctionnalités supplémentaires, mais N’AUGMENTE PAS vos chances de gagner. Tous les participants — Gratuits et Pro — sont limités à une (1) participation par Concours et sont jugés selon les mêmes critères."
   },
   "s6": {

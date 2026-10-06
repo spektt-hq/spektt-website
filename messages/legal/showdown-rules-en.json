@@ -42,10 +42,8 @@
     "limitText": "ONE (1) entry per person per Contest, regardless of account type (Free or Pro). Submitting multiple entries will result in disqualification of all entries from that account."
   },
   "s5": {
-    "heading": "5. ALTERNATIVE METHOD OF ENTRY (AMOE)",
-    "p1Before": "No purchase is necessary to enter. If you are unable to enter through the Platform, you may request a free entry credit by emailing",
-    "p1After": "with the subject line: \"FREE ENTRY — [Contest Name]\".",
-    "p2": "Free entry requests must be submitted before the entry deadline. One free entry credit per person per Contest. We will respond within 48 hours. Requests submitted after the deadline will not be honoured.",
+    "heading": "5. FREE TO ENTER",
+    "p1": "Every Contest is free to enter. No purchase, subscription or payment of any kind is required to enter or to win.",
     "p3": "A Spektt Pro subscription provides additional features but does NOT increase your odds of winning. All entrants — Free and Pro — are limited to one (1) entry per Contest and are judged by the same criteria."
   },
   "s6": {
