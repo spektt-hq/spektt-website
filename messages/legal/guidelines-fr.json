@@ -1,7 +1,7 @@
 {
   "pageTitle": "Règles de la communauté",
   "effectiveDate": "Date d'entrée en vigueur : 12 août 2026",
-  "lastUpdated": "Dernière mise à jour : 14 septembre 2026",
+  "lastUpdated": "Dernière mise à jour : 6 octobre 2026",
   "intro": "Spektt est conçu pour les créatifs — photographes, vidéastes, animateurs 3D, ingénieurs du son et artistes numériques — afin de partager un vrai travail et de concourir loyalement. Ces règles existent pour que la plateforme reste un endroit où il vaut la peine de publier.",
   "appliesTo": "Elles s'appliquent partout sur Spektt : publications, Spotlights, commentaires, légendes, profils, publications de Clusters, participations aux Showdowns et messages privés.",
   "ageNote": "Vous devez avoir 16 ans ou plus pour utiliser Spektt. La messagerie privée et la participation aux Showdowns sont réservées aux 18 ans et plus.",
@@ -116,7 +116,7 @@
   },
   "s10": {
     "heading": "10. Ce qui se passe en cas d'infraction",
-    "intro": "Les conséquences dépendent de la gravité et des antécédents. Nous n'utilisons pas de compte d'avertissements fixe — les infractions graves mènent directement à une suspension.",
+    "intro": "Les conséquences dépendent de la gravité et des antécédents. Les infractions graves mènent directement à une suspension, et les infractions répétées s'accumulent : un troisième avertissement entraîne automatiquement la suspension de votre compte pendant 7 jours.",
     "items": [
       "Suppression du contenu — la publication, le commentaire ou la participation est retiré.",
       "Avertissement — un avertissement officiel que vous recevez dans l'application et par notification push. Les avertissements sont enregistrés sur votre compte et ne peuvent pas être désactivés dans les paramètres de notification, car un avertissement que vous ne voyez jamais ne change rien.",

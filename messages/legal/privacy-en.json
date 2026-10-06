@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: October 2nd, 2026",
+  "lastUpdated": "Last Updated: October 6th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -81,6 +81,16 @@
       "Spektt Pro subscription status, start and expiry dates",
       "Payment processing is handled entirely by Apple (App Store) or Google (Google Play) and RevenueCat. We never receive or store your card number or billing address."
     ],
+    "feedbackHeading": "Feedback & Support",
+    "feedbackItems": [
+      "Feedback and bug reports you submit through the App",
+      "Messages you send to us by email (support@spektt.com or legal@spektt.com)"
+    ],
+    "reportsHeading": "Reports & Appeals",
+    "reportsItems": [
+      "Reports you submit about other users, uploads, or Clusters, with the reason and any detail you add",
+      "Appeals you submit if your account is suspended"
+    ],
     "s2_2_heading": "2.2 Information We Collect Automatically",
     "locationHeading": "Location Data",
     "locationItems": [
@@ -94,11 +104,13 @@
     "gamificationHeading": "Gamification & Engagement Data",
     "gamificationItems": [
       "XP earned, current level, tier, earned badges",
-      "Weekly and monthly XP totals, total views, votes received and cast"
+      "Weekly and monthly XP totals, total views, votes received and cast",
+      "Counts of the views and votes your work received from other established accounts, and of the members your Cluster gained (used to award XP and badges)",
+      "Views, likes and comments your uploads receive"
     ],
     "notifHeading": "Push Notification Tokens",
     "notifItems": [
-      "OneSignal Player IDs (per device, for delivering push notifications). Removed immediately upon logout or account deletion."
+      "Push tokens (per device, for delivering push notifications): a Firebase Cloud Messaging token on Android and an Apple Push Notification service token on iOS. Devices still on the first version of the App use a OneSignal Player ID instead, until that version is retired. Removed immediately upon logout or account deletion."
     ],
     "crashHeading": "Error & Crash Data",
     "crashItems": [
@@ -137,8 +149,13 @@
         "Contract performance"
       ],
       [
-        "Fraud and vote manipulation prevention",
-        "Hashed IP, voting history, account activity",
+        "Determining Showdown eligibility by country",
+        "Country (ISO code)",
+        "Legal obligation"
+      ],
+      [
+        "Fraud and vote manipulation prevention, including deciding whether an account's views, votes and Cluster membership earn XP for others",
+        "Hashed IP, voting history, account activity, email-verification status, account age and status",
         "Legitimate interests"
       ],
       [
@@ -148,7 +165,7 @@
       ],
       [
         "Sending push notifications",
-        "Player IDs, notification preferences",
+        "Push tokens, notification preferences",
         "Consent (withdrawable in Settings)"
       ],
       [
@@ -162,6 +179,11 @@
         "Legitimate interests"
       ],
       [
+        "Subscription management",
+        "Subscription status, expiry date",
+        "Contract performance"
+      ],
+      [
         "Improving the App and fixing bugs",
         "Crash data (Sentry), usage data",
         "Legitimate interests"
@@ -169,6 +191,11 @@
       [
         "Complying with Nigerian financial and tax law",
         "Bank details, Tax ID",
+        "Legal obligation"
+      ],
+      [
+        "Complying with applicable data protection law (NDPA 2023)",
+        "Account data, age data",
         "Legal obligation"
       ]
     ],
@@ -217,9 +244,9 @@
         "Subscription status, expiry date, purchase date"
       ],
       [
-        "OneSignal",
+        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (first App version only, being retired)",
         "Push notification delivery",
-        "Player IDs; notification content"
+        "Push tokens; notification content"
       ],
       [
         "Amazon Web Services (SES)",
@@ -282,6 +309,7 @@
       "Judging: If you are assigned as a judge, your individual scores are private until results are announced.",
       "Results: Winner usernames and placements are publicly announced. Your bank details and Tax ID are never publicly disclosed.",
       "Prize claims: You have 14 days to submit your claim. A 10% withholding tax is deducted in line with Nigerian tax regulations. Cash prize payments are currently available to Nigerian bank account holders only.",
+      "Forfeiture: Unclaimed prizes are forfeited after 14 days. Forfeited prize records are retained for internal accounting.",
       "Retention: Prize payment details (bank info) are retained for the period required by Nigerian financial regulations after payment, regardless of account deletion."
     ]
   },
@@ -306,9 +334,9 @@
     "s9_3_heading": "9.3 Right to Deletion (Account Deletion)",
     "s9_3_body": "Delete your account at any time from Settings → Delete Account.",
     "s9_3_items": [
-      "Grace period: Your account is immediately locked and scheduled for permanent deletion in 30 days",
+      "Grace period: Your account is immediately locked and scheduled for permanent deletion in 30 days. Your uploads and contest entries stay visible until the deletion completes",
       "Cancellation window: Log back in within 30 days to cancel the deletion and restore your account",
-      "After 30 days: Profile info, uploads, DMs, and Cluster memberships are permanently deleted. Comments are anonymised. A minimal ghost record (user ID only, no PII) is retained solely to preserve audit log integrity."
+      "After 30 days: Profile info (name, username, email, avatar), uploads, DMs, Cluster memberships, saved entries, watch history and vote records are permanently deleted, and your username becomes available again. Comments are anonymised, and reports you filed stay on record without your name. A minimal account record is kept so awards and audit logs still resolve: your user ID, your creative role, and your XP, level, tier and badges. It holds no contact details, date of birth, location, IP address or device data. Likes and views you gave remain only as counts tied to that anonymous ID."
     ],
     "s9_4_heading": "9.4 Right to Opt Out",
     "s9_4_items": [
@@ -328,7 +356,7 @@
     "tableRows": [
       [
         "Account profile data",
-        "Until account deletion (permanently erased after 30-day grace period)"
+        "Until account deletion (profile details erased after the 30-day grace period; only a minimal, non-personal account record is kept — see Section 9.3)"
       ],
       [
         "Uploads (photos / videos)",
@@ -356,14 +384,18 @@
       ],
       [
         "Gamification data (XP, badges, level)",
-        "Retained until account deletion"
+        "Kept after account deletion on the minimal account record, so awards still resolve (Section 9.3)"
       ],
       [
         "Moderation logs and reports",
         "Retained indefinitely (audit trail integrity)"
       ],
       [
-        "Push notification tokens (OneSignal Player IDs)",
+        "Appeals",
+        "Retained indefinitely (audit trail)"
+      ],
+      [
+        "Push notification tokens",
         "Cleared immediately on logout or account deletion"
       ],
       [
@@ -372,7 +404,7 @@
       ],
       [
         "Hashed IP address",
-        "Retained for the duration of the account"
+        "Retained for the duration of the account; deleted with the account (Section 9.3)"
       ],
       [
         "Crash data (Sentry)",
@@ -386,8 +418,8 @@
     "items": [
       "All data is stored in Google Firestore with strict security rules — clients can only read and write data they are explicitly authorised to access",
       "Passwords are handled entirely by Firebase Authentication and are never stored in plain text by Spektt",
-      "API keys and credentials are stored as server-side environment variables and never exposed in the compiled App",
-      "Media files are served through Cloudflare's CDN with DDoS protection and encrypted delivery (HTTPS/TLS)",
+      "Secret keys and credentials (media, email, push and payment-webhook keys) are stored server-side and are never included in the App; the App contains only public, client-safe keys (such as its Firebase configuration and RevenueCat SDK key)",
+      "Media files are served through our CDNs — Cloudflare Images (photos) and Bunny.net Stream (video) — with DDoS protection and encrypted delivery (HTTPS/TLS)",
       "Admin and moderator actions are logged in an immutable audit trail in Firestore",
       "IP addresses used for fraud detection are stored only as SHA-256 hashes — the raw IP is never persisted"
     ],
@@ -395,7 +427,7 @@
   },
   "s12": {
     "heading": "12. INTERNATIONAL DATA TRANSFERS",
-    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare's CDN distributes media globally. OneSignal, Amazon Web Services (SES), RevenueCat, and Sentry also process data on servers outside Nigeria.",
+    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare (images) and Bunny.net (video) distribute media globally. Google and Apple (push notifications), OneSignal (first App version only), Amazon Web Services (SES), RevenueCat, and Sentry also process data on servers outside Nigeria.",
     "p2": "By using the App, you consent to the transfer of your information to these servers. Where required by law, we implement appropriate safeguards for such transfers."
   },
   "s13": {

@@ -40,20 +40,47 @@
   "features": {
     "heading": "Everything you need to grow",
     "items": [
-      { "header": "Showdowns", "desc": "Enter creative competitions, get judged by the community and expert panels, and win real cash prizes." },
-      { "header": "Clusters", "desc": "Join communities built around your creative niche — from street photography to 3D animation." },
-      { "header": "Feed", "desc": "Share your work with the world. Photos and videos, delivered fast to a global audience of creatives." },
-      { "header": "Pro", "desc": "Unlock priority visibility, unlimited uploads, and a tier-scaled XP boost with Spektt Pro." },
-      { "header": "Leaderboard", "desc": "Earn XP, climb the rankings, and see where you stand against the global creative community." },
-      { "header": "Direct Messages", "desc": "Connect and collaborate with other creatives directly through built-in DMs." }
+      {
+        "header": "Showdowns",
+        "desc": "Enter creative competitions, get judged by the community and expert panels, and win real cash prizes."
+      },
+      {
+        "header": "Clusters",
+        "desc": "Join communities built around your creative niche — from street photography to 3D animation."
+      },
+      {
+        "header": "Feed",
+        "desc": "Share your work with the world. Photos and videos, delivered fast to a global audience of creatives."
+      },
+      {
+        "header": "Pro",
+        "desc": "Unlock unlimited Spotlights and Collections, a Pro badge and a tier-scaled XP boost with Spektt Pro."
+      },
+      {
+        "header": "Leaderboard",
+        "desc": "Earn XP, climb the rankings, and see where you stand against the global creative community."
+      },
+      {
+        "header": "Direct Messages",
+        "desc": "Connect and collaborate with other creatives directly through built-in DMs."
+      }
     ]
   },
   "howItWorks": {
     "heading": "How it works",
     "steps": [
-      { "title": "Create your account", "desc": "Download Spektt, sign up in minutes, and pick your creative category — photography, videography, 3D animation, and more." },
-      { "title": "Upload your work", "desc": "Post photos and videos straight from your camera roll. Your work goes live on your profile and in the global feed instantly." },
-      { "title": "Compete and grow", "desc": "Enter Showdowns, earn XP, climb the leaderboard, win prizes, and get discovered by a global community of creatives." }
+      {
+        "title": "Create your account",
+        "desc": "Download Spektt, sign up in minutes, and pick your creative category — photography, videography, 3D animation, and more."
+      },
+      {
+        "title": "Upload your work",
+        "desc": "Post photos and videos straight from your camera roll. Your work goes live on your profile and in the global feed instantly."
+      },
+      {
+        "title": "Compete and grow",
+        "desc": "Enter Showdowns, earn XP, climb the leaderboard, win prizes, and get discovered by a global community of creatives."
+      }
     ]
   },
   "showdowns": {
@@ -93,10 +120,22 @@
     "helpNoteLink": "Help Centre",
     "helpNoteEnd": "first — most questions are answered there.",
     "channels": [
-      { "label": "General", "desc": "Partnerships, press, and everything else." },
-      { "label": "Support", "desc": "Account issues, bugs, and app feedback." },
-      { "label": "Legal", "desc": "Copyright, privacy, and legal enquiries." },
-      { "label": "Showdowns", "desc": "Hosting a Showdown or disputing a result." }
+      {
+        "label": "General",
+        "desc": "Partnerships, press, and everything else."
+      },
+      {
+        "label": "Support",
+        "desc": "Account issues, bugs, and app feedback."
+      },
+      {
+        "label": "Legal",
+        "desc": "Copyright, privacy, and legal enquiries."
+      },
+      {
+        "label": "Showdowns",
+        "desc": "Hosting a Showdown or disputing a result."
+      }
     ]
   },
   "download": {

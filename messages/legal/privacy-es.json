@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: October 2nd, 2026",
+  "lastUpdated": "Última actualización: October 6th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -81,6 +81,16 @@
       "Estado de suscripción de Spektt Pro, fechas de inicio y vencimiento",
       "El procesamiento de pagos es manejado completamente por Apple (App Store) o Google (Google Play) y RevenueCat. Nunca recibimos ni almacenamos tu número de tarjeta o dirección de facturación."
     ],
+    "feedbackHeading": "Comentarios y soporte",
+    "feedbackItems": [
+      "Los comentarios y reportes de errores que envías desde la App",
+      "Los mensajes que nos envías por correo (support@spektt.com o legal@spektt.com)"
+    ],
+    "reportsHeading": "Reportes y apelaciones",
+    "reportsItems": [
+      "Los reportes que envías sobre otros usuarios, publicaciones o Clusters, con el motivo y los detalles que añadas",
+      "Las apelaciones que envías si tu cuenta es suspendida"
+    ],
     "s2_2_heading": "2.2 Información que Recopilamos Automáticamente",
     "locationHeading": "Datos de Ubicación",
     "locationItems": [
@@ -94,11 +104,13 @@
     "gamificationHeading": "Datos de Gamificación y Participación",
     "gamificationItems": [
       "XP obtenido, nivel actual, rango, insignias obtenidas",
-      "Totales semanales y mensuales de XP, vistas totales, votos recibidos y emitidos"
+      "Totales semanales y mensuales de XP, vistas totales, votos recibidos y emitidos",
+      "El número de vistas y votos que tu trabajo recibió de otras cuentas establecidas, y de miembros que ganó tu Cluster (para otorgar XP e insignias)",
+      "Las vistas, los me gusta y los comentarios que reciben tus publicaciones"
     ],
     "notifHeading": "Tokens de Notificaciones Push",
     "notifItems": [
-      "IDs de jugador de OneSignal (por dispositivo, para entregar notificaciones push). Eliminados inmediatamente al cerrar sesión o eliminar la cuenta."
+      "Tokens push (por dispositivo, para enviar notificaciones push): un token de Firebase Cloud Messaging en Android y uno de Apple Push Notification service en iOS. Los dispositivos que aún usan la primera versión de la App usan un ID de OneSignal Player hasta que esa versión se retire. Se eliminan inmediatamente al cerrar sesión o eliminar la cuenta."
     ],
     "crashHeading": "Datos de Errores y Fallos",
     "crashItems": [
@@ -137,8 +149,13 @@
         "Ejecución de contrato"
       ],
       [
-        "Prevención de fraude y manipulación de votos",
-        "IP cifrada, historial de votos, actividad de cuenta",
+        "Determinar la elegibilidad para Showdowns según el país",
+        "País (código ISO)",
+        "Obligación legal"
+      ],
+      [
+        "Prevención de fraude y manipulación de votos, incluido decidir si las vistas, los votos y la membresía en Clusters de una cuenta otorgan XP a otros",
+        "IP cifrada, historial de votos, actividad de cuenta, estado de verificación del correo, antigüedad y estado de la cuenta",
         "Intereses legítimos"
       ],
       [
@@ -148,7 +165,7 @@
       ],
       [
         "Enviar notificaciones push",
-        "IDs de jugador, preferencias de notificación",
+        "Tokens push, preferencias de notificación",
         "Consentimiento (retirable en Configuración)"
       ],
       [
@@ -162,6 +179,11 @@
         "Intereses legítimos"
       ],
       [
+        "Gestión de suscripciones",
+        "Estado de la suscripción, fecha de vencimiento",
+        "Ejecución del contrato"
+      ],
+      [
         "Mejorar la App y corregir errores",
         "Datos de fallos (Sentry), datos de uso",
         "Intereses legítimos"
@@ -169,6 +191,11 @@
       [
         "Cumplir con la ley financiera y fiscal de Nigeria",
         "Datos bancarios, identificación fiscal",
+        "Obligación legal"
+      ],
+      [
+        "Cumplir la ley de protección de datos aplicable (NDPA 2023)",
+        "Datos de la cuenta, datos de edad",
         "Obligación legal"
       ]
     ],
@@ -217,9 +244,9 @@
         "Estado de suscripción, fecha de vencimiento, fecha de compra"
       ],
       [
-        "OneSignal",
+        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (solo la primera versión de la App, en retirada)",
         "Entrega de notificaciones push",
-        "IDs de jugador; contenido de notificaciones"
+        "Tokens push; contenido de las notificaciones"
       ],
       [
         "Amazon Web Services (SES)",
@@ -282,6 +309,7 @@
       "Juzgamiento: Si eres asignado como juez, tus puntuaciones individuales son privadas hasta que se anuncian los resultados.",
       "Resultados: Los nombres de usuario de los ganadores y posiciones se anuncian públicamente. Tus datos bancarios e identificación fiscal nunca se divulgan públicamente.",
       "Reclamación de premios: Tienes 14 días para enviar tu reclamación. Se deduce un impuesto de retención del 10% conforme a las regulaciones fiscales de Nigeria. Los pagos de premios en efectivo están disponibles actualmente solo para titulares de cuentas bancarias nigerianas.",
+      "Pérdida: los premios no reclamados se pierden a los 14 días. Los registros de premios perdidos se conservan para la contabilidad interna.",
       "Retención: Los detalles de pago de premios (información bancaria) se conservan durante el período requerido por las regulaciones financieras de Nigeria después del pago, independientemente de la eliminación de la cuenta."
     ]
   },
@@ -306,9 +334,9 @@
     "s9_3_heading": "9.3 Derecho de Eliminación (Eliminación de Cuenta)",
     "s9_3_body": "Elimina tu cuenta en cualquier momento desde Configuración → Eliminar Cuenta.",
     "s9_3_items": [
-      "Período de gracia: Tu cuenta se bloquea inmediatamente y se programa para eliminación permanente en 30 días",
+      "Período de gracia: tu cuenta se bloquea de inmediato y se programa para su eliminación definitiva en 30 días. Tus publicaciones y participaciones en concursos siguen visibles hasta que se completa la eliminación",
       "Ventana de cancelación: Vuelve a iniciar sesión dentro de 30 días para cancelar la eliminación y restaurar tu cuenta",
-      "Después de 30 días: La información de perfil, subidas, DMs y membresías de Cluster se eliminan permanentemente. Los comentarios se anonimizan. Se conserva un registro fantasma mínimo (solo ID de usuario, sin PII) únicamente para preservar la integridad del historial de auditoría."
+      "Después de 30 días: la información del perfil (nombre, nombre de usuario, correo electrónico, avatar), las publicaciones, los mensajes directos, las membresías de Clusters, las participaciones guardadas, el historial de visualización y los registros de votos se eliminan de forma definitiva, y tu nombre de usuario vuelve a estar disponible. Los comentarios se anonimizan, y los reportes que hiciste se conservan sin tu nombre. Se conserva un registro de cuenta mínimo para que los premios y los registros de auditoría sigan siendo coherentes: tu ID de usuario, tu rol creativo y tus XP, nivel, rango e insignias. No contiene datos de contacto, fecha de nacimiento, ubicación, dirección IP ni datos del dispositivo. Los «me gusta» y las visualizaciones que diste solo permanecen como recuentos vinculados a ese ID anónimo."
     ],
     "s9_4_heading": "9.4 Derecho a Excluirse",
     "s9_4_items": [
@@ -328,7 +356,7 @@
     "tableRows": [
       [
         "Datos de perfil de cuenta",
-        "Hasta la eliminación de la cuenta (eliminados permanentemente después del período de gracia de 30 días)"
+        "Hasta la eliminación de la cuenta (los datos del perfil se borran tras el período de gracia de 30 días; solo se conserva un registro de cuenta mínimo y no personal — ver la sección 9.3)"
       ],
       [
         "Subidas (fotos / videos)",
@@ -356,14 +384,18 @@
       ],
       [
         "Datos de gamificación (XP, insignias, nivel)",
-        "Conservados hasta la eliminación de la cuenta"
+        "Se conservan tras la eliminación de la cuenta en el registro de cuenta mínimo, para que los premios sigan siendo coherentes (sección 9.3)"
       ],
       [
         "Registros e informes de moderación",
         "Conservados indefinidamente (integridad del historial de auditoría)"
       ],
       [
-        "Tokens de notificaciones push (IDs de jugador de OneSignal)",
+        "Apelaciones",
+        "Conservadas indefinidamente (historial de auditoría)"
+      ],
+      [
+        "Tokens de notificaciones push",
         "Eliminados inmediatamente al cerrar sesión o eliminar la cuenta"
       ],
       [
@@ -372,7 +404,7 @@
       ],
       [
         "Dirección IP cifrada",
-        "Conservada durante la duración de la cuenta"
+        "Se conserva mientras exista la cuenta; se elimina con la cuenta (sección 9.3)"
       ],
       [
         "Datos de fallos (Sentry)",
@@ -386,8 +418,8 @@
     "items": [
       "Todos los datos se almacenan en Google Firestore con reglas de seguridad estrictas — los clientes solo pueden leer y escribir datos a los que estén explícitamente autorizados a acceder",
       "Las contraseñas son manejadas completamente por Firebase Authentication y nunca son almacenadas en texto plano por Spektt",
-      "Las claves API y credenciales se almacenan como variables de entorno del lado del servidor y nunca se exponen en la App compilada",
-      "Los archivos multimedia se sirven a través del CDN de Cloudflare con protección DDoS y entrega cifrada (HTTPS/TLS)",
+      "Las claves secretas y credenciales (claves de medios, correo, push y webhooks de pago) se almacenan en el servidor y nunca se incluyen en la App; la App solo contiene claves públicas pensadas para el cliente (como su configuración de Firebase y su clave SDK de RevenueCat)",
+      "Los archivos multimedia se sirven a través de nuestros CDN — Cloudflare Images (fotos) y Bunny.net Stream (vídeo) — con protección DDoS y entrega cifrada (HTTPS/TLS)",
       "Las acciones de administradores y moderadores se registran en un historial de auditoría inmutable en Firestore",
       "Las direcciones IP utilizadas para detección de fraude se almacenan solo como hashes SHA-256 — la IP sin procesar nunca se conserva"
     ],
@@ -395,7 +427,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERENCIAS INTERNACIONALES DE DATOS",
-    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. El CDN de Cloudflare distribuye medios globalmente. OneSignal, Amazon Web Services (SES), RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
+    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. Cloudflare (imágenes) y Bunny.net (vídeo) distribuyen los medios globalmente. Google y Apple (notificaciones push), OneSignal (solo la primera versión de la App), Amazon Web Services (SES), RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
     "p2": "Al usar la App, consientes la transferencia de tu información a estos servidores. Cuando lo exige la ley, implementamos las salvaguardas apropiadas para dichas transferencias."
   },
   "s13": {

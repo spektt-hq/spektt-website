@@ -13,7 +13,7 @@
         },
         {
           "q": "¿Es Spektt gratis para usar?",
-          "a": "Sí. Spektt es gratuito para descargar y usar. Puedes seguir a personas, publicar contenido, unirte a Clusters y participar en Showdowns gratis. Las cuentas gratuitas tienen un límite de subida — una vez lo alcances, tendrás que actualizar a Spektt Pro para seguir publicando. Pro también desbloquea funciones adicionales en toda la app. Consulta la sección de Suscripciones & Pro para más detalles."
+          "a": "Sí. Spektt es gratis de descargar y usar. Puedes seguir a personas, publicar todo lo que quieras, unirte a Clusters y participar en Showdowns gratis — no hay límite de publicaciones en ningún plan. Spektt Pro es opcional y añade funciones de curación y estatus. Consulta la sección Suscripciones y Pro para más detalles."
         },
         {
           "q": "¿Qué categorías creativas admite Spektt?",
@@ -42,7 +42,7 @@
       "articles": [
         {
           "q": "¿Qué hay en mi perfil de Spektt?",
-          "a": "Tu perfil muestra tu nombre visible, nombre de usuario, categoría creativa, ubicación y foto de perfil, junto con tu número de seguidores/seguidos y visualizaciones totales. Debajo hay pestañas para tu contenido: Spotlights, Uploads, Collections, Milestones, Awards y Bookmarks. Los visitantes de tu perfil pueden ver tus Spotlights, Uploads y Awards."
+          "a": "Tu perfil muestra tu nombre visible, nombre de usuario, categoría creativa, ubicación y foto de perfil, junto con tu número de seguidores/seguidos y visualizaciones totales. Debajo hay pestañas para tu contenido: Uploads, Spotlights, Awards, Collections, Milestones y Bookmarks. Los visitantes de tu perfil pueden ver tus Uploads, Spotlights y Awards; Milestones y Bookmarks solo los ves tú."
         },
         {
           "q": "¿Cómo edito mi perfil?",
@@ -54,7 +54,19 @@
         },
         {
           "q": "¿Qué son las Collections?",
-          "a": "Las Collections son conjuntos curados de tus publicaciones — como álbumes. Agrupa tu trabajo por tema, proyecto o estilo. Las cuentas gratuitas pueden tener un número limitado de Collections; actualiza a Spektt Pro para más. Las Collections son visibles solo en tu perfil — no se muestran a los visitantes."
+          "a": "Las Collections son conjuntos de publicaciones guardadas — como álbumes o tableros de inspiración. Guarda cualquier publicación (tuya o de otra persona) en una colección con nombre para organizar tu inspiración por tema, proyecto o estilo. Las Collections son públicas por defecto y tienen un enlace para compartir. Las cuentas gratuitas tienen un número limitado de Collections; pásate a Spektt Pro para tenerlas ilimitadas. Las Collections aparecen en tu propio perfil, en la pestaña Collections; los visitantes no ven esa pestaña, pero cualquiera con quien compartas el enlace puede abrir una colección pública."
+        },
+        {
+          "q": "¿Cómo creo una Collection?",
+          "a": "Toca el icono de marcador en cualquier publicación para abrir la hoja «Save to Collection». Toca el botón «+» para crear una nueva colección: ponle un nombre (hasta 50 caracteres) y toca Save. La publicación se añade automáticamente a tu nueva colección."
+        },
+        {
+          "q": "¿Cómo guardo una publicación en una Collection?",
+          "a": "Toca el icono de marcador en cualquier publicación. Se abre la hoja «Save to Collection»: activa o desactiva las colecciones que quieras y toca Save. El icono de marcador se rellena cuando la publicación está guardada en al menos una colección."
+        },
+        {
+          "q": "¿Puedo compartir una Collection?",
+          "a": "Sí. Cada colección pública tiene un enlace para compartir. Si alguien lo abre sin tener la app de Spektt, ve una página de vista previa con un enlace de descarga; si tiene la app, el enlace abre la colección directamente en ella."
         },
         {
           "q": "¿Qué son los Bookmarks?",
@@ -66,7 +78,7 @@
         },
         {
           "q": "¿Qué es la pestaña Milestones?",
-          "a": "La pestaña Milestones muestra tu progreso de XP y todas las 29 insignias en Spektt — tanto ganadas como no ganadas (con barras de progreso para que sepas qué tan cerca estás). En la parte superior verás tu nivel actual, nombre de tier, XP total y una barra de progreso al siguiente nivel. Toca \"See All\" para abrir la pantalla completa de Milestones. Milestones son visibles solo en tu perfil."
+          "a": "La pestaña Milestones muestra tu progreso de XP y todas las 38 insignias en Spektt — tanto ganadas como no ganadas (con barras de progreso para que sepas qué tan cerca estás). En la parte superior verás tu nivel actual, nombre de tier, XP total y una barra de progreso al siguiente nivel. Toca \"See All\" para abrir la pantalla completa de Milestones. Milestones son visibles solo en tu perfil."
         },
         {
           "q": "¿Cómo sigo a alguien?",
@@ -99,7 +111,7 @@
         },
         {
           "q": "¿Cómo elimino mi cuenta?",
-          "a": "Settings → Account → Delete Account. Esto inicia un período de gracia de 30 días — tu cuenta se desactiva pero no se elimina. Vuelve a iniciar sesión dentro de 30 días para restaurarla completamente. Después de 30 días, todos los datos se eliminan permanentemente y no se pueden recuperar."
+          "a": "Settings → Account → Delete Account. Esto inicia un período de gracia de 30 días — tu cuenta se desactiva pero no se elimina. Vuelve a iniciar sesión dentro de 30 días para restaurarla completamente. Después de 30 días, tu perfil, subidas, mensajes y membresías de Cluster se eliminan permanentemente y no se pueden recuperar; los comentarios se anonimizan y se conserva un registro de cuenta mínimo (consulta nuestra Política de Privacidad). Tus publicaciones siguen visibles durante esos 30 días."
         },
         {
           "q": "Olvidé mi contraseña. ¿Cómo la restablezco?",
@@ -132,7 +144,7 @@
         },
         {
           "q": "¿Cómo subo una publicación?",
-          "a": "Toca el botón \"+\" en la navegación inferior. Elige New Upload, luego selecciona el tipo de medio (imagen o video) desde tu galería. Añade una descripción, selecciona una categoría y opcionalmente etiqueta un Cluster. Toca \"New Upload\" para publicar."
+          "a": "Toca el botón \"+\" en la navegación inferior. Elige New Upload, luego selecciona el tipo de medio (imagen o video) desde tu galería. Añade una descripción y opcionalmente etiqueta un Cluster. Toca \"New Upload\" para publicar."
         },
         {
           "q": "¿Puedo subir varias fotos o videos en una sola publicación?",
@@ -181,7 +193,7 @@
         },
         {
           "q": "¿Cuál es el ciclo completo de un Showdown?",
-          "a": "Los Showdowns Pulse pasan por estas etapas:\n• Upcoming — Publicado pero las inscripciones aún no han comenzado.\n• Submission — Abierto para entradas. Envía tu trabajo antes de la fecha límite.\n• Voting — Inscripciones cerradas. La comunidad vota las entradas.\n• Ended — Votación completada. Clasificaciones finales publicadas. Se muestran las 15 mejores entradas.\n\nLos Showdowns Premium pasan por estas etapas:\n• Upcoming — Publicado, esperando la ventana de inscripción.\n• Submission — Abierto para entradas.\n• Voting — La comunidad vota las entradas.\n• Judging — Votación cerrada. Los jueces asignados califican cada entrada (0–10 por criterio).\n• Winners Announced — Se publican las puntuaciones finales combinadas. Los ganadores de premios en efectivo tienen 14 días para reclamar.\n• Ended — Ventana de reclamación cerrada. Showdown finalizado.\n\nEstados especiales (ambos tipos):\n• Cancelled — El Showdown fue cancelado antes de finalizar.\n• Insufficient Entries — No se alcanzó el mínimo de entradas (5 para Pulse, 10 para Premium). El Showdown se cierra sin resultado."
+          "a": "Los Showdowns Pulse pasan por estas etapas:\n• Upcoming — Publicado pero las inscripciones aún no han comenzado.\n• Submission — Abierto para entradas. Envía tu trabajo antes de la fecha límite.\n• Voting — Inscripciones cerradas. La comunidad vota las entradas.\n• Ended — Votación completada. Clasificaciones finales publicadas. Se muestran las 15 mejores entradas.\n\nLos Showdowns Premium pasan por estas etapas:\n• Upcoming — Publicado, esperando la ventana de inscripción.\n• Submission — Abierto para entradas.\n• Voting — La comunidad vota las entradas.\n• Judging — Votación cerrada. Los jueces asignados califican cada entrada (una puntuación de 0 a 100).\n• Winners Announced — Se publican las puntuaciones finales combinadas. Los ganadores de premios en efectivo tienen 14 días para reclamar.\n• Ended — Ventana de reclamación cerrada. Showdown finalizado.\n\nEstados especiales (ambos tipos):\n• Cancelled — El Showdown fue cancelado por el organizador o por Spektt antes de finalizar.\n• Insufficient Entries — No se alcanzó el mínimo de entradas (5 para Pulse, 10 para Premium). El Showdown se cierra sin resultado."
         },
         {
           "q": "¿Hay restricciones para participar?",
@@ -197,11 +209,11 @@
         },
         {
           "q": "¿Cómo se eligen los ganadores en un Showdown Pulse?",
-          "a": "Solo por votos de los fans. Cuando termina la votación:\n• Las entradas se ordenan por número de votos (de mayor a menor).\n• Si dos entradas tienen los mismos votos, la que tenga más vistas queda por encima.\n• Si también hay empate en vistas, la entrada enviada primero queda por encima.\n\nLas 15 mejores entradas se muestran en la clasificación final."
+          "a": "Solo por los votos del público. Al cerrarse la votación:\n• Las participaciones se ordenan por número de votos (de mayor a menor).\n• Si dos participaciones tienen los mismos votos, gana la que se envió antes.\n\nLas 15 primeras participaciones se muestran en la clasificación final."
         },
         {
           "q": "¿Cómo se eligen los ganadores en un Showdown Premium?",
-          "a": "En dos etapas:\n\nVoto de fans — La comunidad vota para determinar las 20 mejores entradas. Estas se convierten en finalistas para los jueces.\n\nEvaluación de jueces — Un panel de jueces expertos califica cada una de esas 20 entradas según criterios definidos (0–10 por criterio).\n\nLa clasificación final combina ambos: el voto de fans cuenta 60%, y las puntuaciones de jueces 40%. La entrada con la puntuación combinada más alta gana. Las 15 mejores se muestran en los resultados finales."
+          "a": "En dos etapas:\n\nVoto de fans — La comunidad vota para determinar las 20 mejores entradas. Estas se convierten en finalistas para los jueces.\n\nEvaluación de jueces — Un panel de jueces expertos da a cada una de esas 20 entradas una puntuación de 0 a 100.\n\nLa clasificación final combina ambos: el voto de fans cuenta 60%, y las puntuaciones de jueces 40%. La entrada con la puntuación combinada más alta gana. Las 15 mejores se muestran en los resultados finales."
         },
         {
           "q": "¿Qué premios puedo ganar?",
@@ -254,7 +266,7 @@
         },
         {
           "q": "¿Cómo creo un Cluster?",
-          "a": "Toca el botón \"+\" en la navegación inferior y selecciona \"New Cluster.\" Crear un Cluster requiere una suscripción Spektt Pro o alcanzar el nivel 51.\n\nSi no cumples ninguno de los requisitos, la opción aparecerá bloqueada — verás una insignia PRO. Cuando seas elegible, tócala para abrir el formulario: nombre del Cluster, descripción, categoría e imagen de portada. Una vez creado, serás automáticamente el administrador."
+          "a": "Toca el botón «+» de la navegación inferior y selecciona «Nuevo Cluster». Tu cuenta debe tener al menos 7 días, y las cuentas gratuitas necesitan antes al menos 4 publicaciones. Todo usuario de Spektt — gratuito o Pro — puede crear un Cluster; los usuarios de Spektt Pro pueden crear Clusters ilimitados y no tienen mínimo de publicaciones.\n\nSi aún no cumples algún requisito, la pantalla te indica cuál. Cuando cumplas los requisitos, completa el nombre, la descripción, la categoría y la imagen de portada del Cluster. Una vez creado, eres automáticamente su administrador."
         },
         {
           "q": "¿Qué puede hacer un administrador de Cluster?",
@@ -291,7 +303,7 @@
         },
         {
           "q": "¿Cómo se calcula mi rango?",
-          "a": "Tu rango se basa en tu XP total. Cuanto más activo y comprometido seas — publicar, recibir interacción, ganar Showdowns, obtener insignias — más alto será tu rango."
+          "a": "Tu posición depende de tu XP total, y la XP proviene de lo que otras personas dan a tu trabajo: clasificarte en Showdowns, los votos y las vistas de la comunidad, y el crecimiento de tu Cluster. Publicar más, dar me gusta o votar no sube tu posición por sí solo."
         },
         {
           "q": "¿Puedo filtrar el Leaderboard?",
@@ -303,7 +315,7 @@
         },
         {
           "q": "¿Puedo perder rango?",
-          "a": "Tu XP nunca disminuye, pero tu posición puede bajar si otros usuarios ganan XP más rápido que tú. Mantente activo para conservar tu posición."
+          "a": "Tu XP no baja (la única excepción es una participación en un Showdown descalificada — consulta «¿Puedo perder XP?»), pero tu posición relativa puede bajar si otros usuarios ganan XP más rápido que tú."
         }
       ]
     },
@@ -312,7 +324,7 @@
       "articles": [
         {
           "q": "¿Qué es Spektt Pro?",
-          "a": "Spektt Pro es nuestra suscripción opcional que desbloquea funciones premium: visibilidad prioritaria en los feeds, una insignia exclusiva de suscriptor Pro, subidas ilimitadas, Spotlights ilimitados y beneficios adicionales a medida que crecemos."
+          "a": "Spektt Pro es nuestra suscripción opcional. Desbloquea Spotlights y Colecciones ilimitados, creación ilimitada de Clusters, marcadores de showdowns y listas de participaciones guardadas ilimitados, una insignia exclusiva de suscriptor Pro y un aumento de XP escalonado según el nivel. Las publicaciones son ilimitadas para todos, con o sin Pro."
         },
         {
           "q": "¿Cuánto cuesta Spektt Pro?",
@@ -382,7 +394,7 @@
       "articles": [
         {
           "q": "¿Qué son las insignias?",
-          "a": "Las insignias son reconocimientos por logros y hitos en Spektt. Tenemos 29 insignias en categorías: hitos de publicación, posiciones en Showdown (1º/2º/3º), logros de tier, participación comunitaria y eventos especiales. Las insignias son permanentes una vez obtenidas."
+          "a": "Las insignias reconocen logros e hitos en Spektt. Hay 38 insignias en seis categorías: vistas, votos recibidos, votos emitidos, victorias en Showdowns, miembros de Cluster y niveles. Una vez conseguidas, son permanentes."
         },
         {
           "q": "¿Cómo veo mis insignias?",
@@ -394,11 +406,11 @@
         },
         {
           "q": "¿Cómo gano XP?",
-          "a": "El XP se gana en varias áreas:\n• Registro — bono único al crear tu cuenta\n• Visualizaciones — XP por hitos de vistas (100, 1K, 10K, 100K, 1M vistas)\n• Votar en Showdowns — XP por cada voto (hasta 20 votos diarios)\n• Participar en un Showdown — XP por enviar una entrada\n• Posicionar en un Showdown — el top 15 gana XP; el top 3 gana mucho más; el 1º lugar gana el máximo\n• Unirse a un Cluster — bono de XP al unirte\n• Crear un Cluster — bono de XP al crearlo\n• Crecimiento del Cluster — XP por hitos de miembros\n• Insignias — algunas otorgan XP al desbloquearse\n\nLos usuarios de Spektt Pro obtienen un multiplicador de XP potenciado que aumenta según el nivel — 1.25× en Newcomer y Emerging, 1.5× en Rising Star y Established, 1.75× en Verified, y 2× en Legendary."
+          "a": "La XP premia lo que la comunidad da a tu trabajo, no cuánto publicas. La ganas al:\n• Registrarte — un bono de bienvenida único\n• Participar en un Showdown — XP por enviar una participación\n• Clasificarte en un Showdown — el top 15 gana XP; el top 3 gana bastante más, el 1.er puesto lo máximo, y los ganadores de un Showdown Premium aún más\n• Recibir votos en tu participación — XP por cada voto que recibe. Como la votación es anónima, esta XP se suma cuando se publican los resultados del Showdown, no mientras la votación está abierta\n• Conseguir insignias de vistas y votos recibidos — alcanzar un hito (por ejemplo 100 vistas o 10 votos recibidos) desbloquea una insignia con un bono de XP\n• Hacer crecer tu Cluster — si creaste un Cluster, ganas XP cuando alcanza hitos de miembros (hasta un límite de por vida)\n\nNo ganas XP por publicar, dar me gusta, votar por otros, ni por unirte o crear un Cluster. Solo cuentan las vistas y los votos de cuentas establecidas (verificadas y con al menos una semana), y tus propias vistas y votos nunca cuentan, así que la XP no se puede falsear con cuentas extra.\n\nLos usuarios de Spektt Pro obtienen un multiplicador de XP que crece con el nivel: 1,25× en Newcomer y Emerging, 1,5× en Rising Star y Established, 1,75× en Verified y 2× en Legendary."
         },
         {
           "q": "¿Puedo perder XP?",
-          "a": "No. Tu XP solo puede aumentar. Tu posición en el Leaderboard puede cambiar, pero tu XP nunca disminuye."
+          "a": "Solo en un caso: si una de tus participaciones en un Showdown es descalificada, se retira la XP que ganó por votos (las insignias que ya conseguiste se mantienen). Por lo demás, tu XP nunca baja. Tu posición en la clasificación puede cambiar a medida que crece la comunidad."
         },
         {
           "q": "¿Las insignias expiran?",
@@ -406,11 +418,11 @@
         },
         {
           "q": "¿Hay insignias raras o exclusivas?",
-          "a": "Sí. Las insignias de ganadores de concursos y de tier son de prestigio — sin XP, solo reconocimiento. Las más raras se otorgan a ganadores de Showdowns y usuarios que alcanzan el nivel más alto (nivel 51+)."
+          "a": "Sí. Las insignias de victorias en Showdowns, de votos emitidos y de niveles — y las dos insignias de Cluster más altas — son solo de prestigio: sin XP, solo el reconocimiento. Las más raras son para los ganadores de Showdowns y quienes alcanzan el nivel más alto (nivel 51+)."
         },
         {
           "q": "¿Spektt Pro afecta mi XP o tier?",
-          "a": "Sí — Spektt Pro te da un multiplicador de XP potenciado que aumenta según tu nivel: 1.25× en Newcomer y Emerging, 1.5× en Rising Star y Established, 1.75× en Verified, y 2× en Legendary. Los tiers y niveles siguen basándose completamente en tu actividad, así que los usuarios Pro avanzan más rápido, pero el sistema es el mismo para todos."
+          "a": "Sí — Spektt Pro te da un multiplicador de XP potenciado que aumenta según tu nivel: 1.25× en Newcomer y Emerging, 1.5× en Rising Star y Established, 1.75× en Verified, y 2× en Legendary. El impulso multiplica la XP que ganas; nunca cambia quién gana un Showdown ni cómo se cuentan los votos. Los usuarios Pro avanzan más rápido, pero el sistema es el mismo para todos."
         }
       ]
     },

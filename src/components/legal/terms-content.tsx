@@ -279,6 +279,7 @@ export default function TermsContent({ d }: { d: TermsDictionary }) {
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s16.s16_1_heading}</h3>
             <p className='privacy-policy-text mt-3'>{d.s16.s16_1_body}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s16.s16_2_heading}</h3>
+            <p className='privacy-policy-text mt-3'>{d.s16.s16_2_intro}</p>
             <ul className='list-disc list-inside mt-2 space-y-1'>
               {d.s16.s16_2_items.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
             </ul>

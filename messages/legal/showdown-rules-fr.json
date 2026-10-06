@@ -1,6 +1,6 @@
 {
   "title": "Spektt Showdowns — Règlement Officiel des Concours",
-  "lastUpdated": "Dernière mise à jour : août 2026",
+  "lastUpdated": "Dernière mise à jour : octobre 2026",
   "intro1": "Le présent Règlement Officiel régit tous les concours et showdowns (« Concours ») organisés sur l'application mobile Spektt (« Plateforme »), exploitée par Spektt (« Spektt », « nous », « notre »), une société enregistrée selon les lois de la République Fédérale du Nigeria.",
   "intro2": "En soumettant une participation à tout Concours sur la Plateforme, vous (« Participant », « vous ») acceptez d'être lié(e) par ce Règlement Officiel, nos Conditions d'utilisation et notre Politique de confidentialité.",
   "noPurchase": "Aucun achat nécessaire pour participer ou gagner. Un achat n'augmente pas vos chances de gagner. Apple Inc. et Google LLC ne sont pas commanditaires des Concours et n'y sont impliqués d'aucune manière.",
@@ -15,7 +15,7 @@
   "s2": {
     "heading": "2. ÉLIGIBILITÉ",
     "p1": "Pour participer à tout Concours sur la Plateforme, vous devez :",
-    "a": "(a) Avoir au moins 18 ans au moment de la participation. L'âge est vérifié lors de la création du compte. Les utilisateurs identifiés comme mineurs (moins de 18 ans) sont automatiquement inéligibles pour participer aux Concours.",
+    "a": "(a) Avoir au moins 18 ans au moment de la participation. L'âge est vérifié lors de la création du compte. Les utilisateurs identifiés comme mineurs (moins de 18 ans) sont automatiquement inéligibles pour participer aux Concours. Lorsque la loi locale fixe un âge minimum plus élevé, c’est ce minimum qui s’applique (par exemple 19 ans en Alabama, en Arizona et au Nebraska, aux États-Unis, et 20 ans au Japon).",
     "b": "(b) Être un utilisateur inscrit de la Plateforme Spektt avec un compte complet et vérifié.",
     "c": "(c) Ne pas résider, ou être physiquement situé(e) dans, l'une des juridictions suivantes où les concours en ligne de cette nature sont interdits ou restreints par la loi :",
     "restricted": [
@@ -25,7 +25,7 @@
     ],
     "d": "(d) Ne pas être un employé, dirigeant, directeur, agent ou membre de la famille immédiate (conjoint, parent, frère/sœur, enfant) ou membre du foyer de Spektt, de ses filiales, affiliés ou de tout sponsor de prix.",
     "e": "(e) Ne pas avoir été suspendu(e) ou banni(e) de la Plateforme Spektt au moment de la participation.",
-    "f": "(f) Pour les Concours Premium uniquement : résider et être physiquement situé dans l'un des pays suivants — Nigéria, Ghana, Kenya, Afrique du Sud, Sénégal, Côte d'Ivoire, Cameroun, Tanzanie, Ouganda ou Rwanda. Les Concours Pulse sont ouverts dans le monde entier, sous réserve du point (c) ci-dessus.",
+    "f": "(f) Pour les Concours Premium uniquement : résider et être physiquement situé au Nigeria, et détenir un compte bancaire nigérian pour recevoir tout prix. Les Concours Pulse sont ouverts dans le monde entier, sous réserve du point (c) ci-dessus.",
     "void": "Nul là où la loi l'interdit. Spektt se réserve le droit de vérifier l'éligibilité à tout moment et de disqualifier toute participation ne répondant pas à ces exigences."
   },
   "s3": {
@@ -43,10 +43,10 @@
   },
   "s5": {
     "heading": "5. MÉTHODE ALTERNATIVE DE PARTICIPATION (MAP)",
-    "p1Before": "Aucun achat n'est nécessaire pour participer. Les utilisateurs gratuits ayant atteint leur limite de téléchargement peuvent demander un crédit de participation gratuite en envoyant un e-mail à",
+    "p1Before": "Aucun achat n'est nécessaire pour participer. Si vous ne pouvez pas participer via la Plateforme, vous pouvez demander un crédit de participation gratuite en envoyant un e-mail à",
     "p1After": "avec l'objet : « PARTICIPATION GRATUITE — [Nom du Concours] ».",
     "p2": "Les demandes de participation gratuite doivent être soumises avant la date limite. Un crédit de participation gratuite par personne par Concours. Nous répondrons dans les 48 heures. Les demandes soumises après la date limite ne seront pas honorées.",
-    "p3": "Un abonnement Spektt Pro offre des téléchargements et fonctionnalités supplémentaires, mais N'AUGMENTE PAS vos chances de gagner. Tous les participants — Gratuits et Pro — sont limités à une (1) participation par Concours et sont jugés selon les mêmes critères."
+    "p3": "Un abonnement Spektt Pro offre des fonctionnalités supplémentaires, mais N’AUGMENTE PAS vos chances de gagner. Tous les participants — Gratuits et Pro — sont limités à une (1) participation par Concours et sont jugés selon les mêmes critères."
   },
   "s6": {
     "heading": "6. EXIGENCES DE PARTICIPATION ET NORMES DE CONTENU",
@@ -69,7 +69,7 @@
     "combinedText": "Une combinaison pondérée des votes communautaires et des notes des juges, avec la pondération indiquée dans l'annonce du Concours.",
     "twoStageLabel": "(d) Concours Premium en deux étapes",
     "twoStageText": "Dans les Concours Premium, le vote de la communauté détermine d'abord les vingt (20) participations les plus votées. Seules ces vingt participations sont évaluées par les juges. Les participations classées au-delà de la vingtième place ne sont pas évaluées et ne peuvent pas être primées.",
-    "tie": "En cas d'égalité, la participation soumise en premier l'emporte.",
+    "tie": "En cas d’égalité dans un Concours Premium, la participation ayant reçu le plus de votes de la communauté est mieux classée ; toute égalité restante, dans tout Concours, est remportée par la participation soumise en premier.",
     "odds": "Les chances de gagner dépendent du nombre total de participations éligibles reçues."
   },
   "s8": {
@@ -98,8 +98,8 @@
     "heading": "10. CONFORMITÉ FISCALE (CONCOURS PREMIUM)",
     "nigeriaLabel": "(a) Nigeria :",
     "nigeriaText": "Les prix en espèces sont soumis à la retenue à la source conformément à la législation fiscale nigériane. Spektt retiendra 10 % du montant brut du prix et le reversera au Service fédéral des impôts (FIRS) au nom du gagnant. Les gagnants recevront un prix net (montant brut moins 10 % de retenue). Un certificat de conformité fiscale sera délivré au gagnant sur demande.",
-    "intlLabel": "(b) Gagnants internationaux :",
-    "intlText": "Les gagnants en dehors du Nigeria sont seuls responsables de la déclaration et du paiement de tous les impôts applicables dans leur juridiction. En acceptant un prix, vous confirmez que vous comprenez et acceptez cette responsabilité.",
+    "intlLabel": "(b) Versement des prix :",
+    "intlText": "Les prix en espèces sont versés uniquement sur des comptes bancaires nigérians (NUBAN à 10 chiffres). Les gagnants restent responsables de toute autre obligation fiscale qui les concerne personnellement.",
     "request": "(c) Spektt se réserve le droit de demander un numéro d'identification fiscale (TIN), un numéro d'identification nationale (NIN) ou un document équivalent avant de libérer tout prix en espèces."
   },
   "s11": {

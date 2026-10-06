@@ -1,7 +1,7 @@
 {
   "pageTitle": "Terms and Conditions",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: July 30th, 2026",
+  "lastUpdated": "Last Updated: October 6th, 2026",
   "intro": "These Terms and Conditions (\"Terms\") govern your use of the Spektt mobile application and website at spektt.com (\"Platform\", \"Service\", \"App\"), operated by Axlume Tech Limited (\"Spektt\", \"we\", \"us\", \"our\"), a company registered under the Corporate Affairs Commission (CAC) of the Federal Republic of Nigeria. By creating an account or using the Service, you agree to these Terms in full. If you do not agree, you must stop using the Service and delete your account.",
   "toc": {
     "title": "Table of Contents",
@@ -48,7 +48,7 @@
     "s2_1_heading": "2.1 Minimum Age",
     "s2_1_body": "You must be at least 16 years old to use Spektt. By creating an account, you confirm that you meet this requirement. If you are under 16, you must not use the Service.",
     "s2_2_heading": "2.2 Minors (Under 18)",
-    "s2_2_body": "Users under 18 are considered minors on Spektt. Minors may use the platform with parental or guardian consent. The parent or guardian accepts responsibility for the minor's use of the Service.",
+    "s2_2_body": "Users under 18 are considered minors on Spektt. A minor may use the platform only if their parent or guardian permits it and accepts responsibility for their use of the Service; by creating an account, a minor confirms that this is the case.",
     "tableHeadFeature": "Feature",
     "tableHeadAge": "Minimum Age",
     "tableRows": [
@@ -98,7 +98,7 @@
     "s4_2_heading": "4.2 Content Ownership",
     "s4_2_body": "You retain full copyright ownership of all Visual Content and Public Communications you upload. Spektt does not claim ownership of your content.",
     "s4_3_heading": "4.3 License You Grant Spektt (Public Content)",
-    "s4_3_body": "By uploading Visual Content or posting Public Communications to Spektt, you grant Axlume Tech Limited a non-exclusive, worldwide, royalty-free license to use, reproduce, display, distribute, and promote that content for the purpose of operating and marketing the Service. This license applies to your public content only, does not apply to Private Messages (see Section 7.3), and terminates when you delete content or your account, subject to reasonable technical propagation delays and legal retention obligations.",
+    "s4_3_body": "By uploading Visual Content or posting Public Communications to Spektt, you grant Axlume Tech Limited a non-exclusive, worldwide, royalty-free license to use, reproduce, display, distribute, and promote that content for the purpose of operating and marketing the Service. This license applies to your public content only, does not apply to Private Messages (see Section 7.3), and terminates when you delete content or your account, subject to reasonable technical propagation delays and legal retention obligations. It does not entitle you to additional compensation beyond any prizes or features explicitly offered by Spektt.",
     "s4_4_heading": "4.4 Your Warranties",
     "s4_4_intro": "By uploading content you warrant that:",
     "s4_4_items": [
@@ -107,8 +107,8 @@
       "You have obtained any required model or property releases",
       "The content complies with these Terms and our Community Guidelines"
     ],
-    "s4_5_heading": "4.5 Upload Limits by Tier",
-    "s4_5_body": "Upload limits vary by your XP tier and Pro status. Free account limits increase as you level up through tiers (Newcomer, Emerging, Rising Star, Established, Verified, Legendary). Spektt Pro users receive significantly higher limits. Current limits are shown in the App. Spektt reserves the right to adjust limits at any time."
+    "s4_5_heading": "4.5 Uploads",
+    "s4_5_body": "There is no limit on how much you can upload, on any plan. To protect the Platform, Spektt may restrict automated or bulk uploading that looks like abuse; this never affects normal use."
   },
   "s5": {
     "heading": "5. PROHIBITED CONDUCT",
@@ -132,7 +132,7 @@
       "Attempt to access another user's account or private data",
       "Reverse engineer, modify, or exploit the Service software",
       "Scrape, data-mine, or systematically extract content without permission",
-      "Attempt to circumvent security features, upload limits, or age restrictions"
+      "Attempt to circumvent security features or age restrictions"
     ],
     "messaging_heading": "Messaging violations",
     "messaging_items": [
@@ -153,7 +153,7 @@
   "s6": {
     "heading": "6. SHOWDOWNS",
     "s6_1_heading": "6.1 Two Types of Showdowns",
-    "s6_1_body": "Spektt hosts two types of creative competitions: Pulse Showdowns — 100% fan-voted with XP and badge prizes; and Premium Showdowns — two-stage judging combining fan votes (50%) and expert judge scores (50%), with real cash prizes paid to a Nigerian bank account.",
+    "s6_1_body": "Spektt hosts two types of creative competitions: Pulse Showdowns — 100% fan-voted with XP and badge prizes; and Premium Showdowns — two-stage judging combining fan votes (60%) and expert judge scores (40%), with real cash prizes paid to a Nigerian bank account.",
     "s6_2_heading": "6.2 Showdown Eligibility",
     "s6_2_body": "To enter any Showdown you must be 18 or older, not be located in Qatar, UAE, or Saudi Arabia, and not be assigned as a judge for that Showdown. For Premium Showdowns (cash prizes), you must additionally be a Nigerian bank account holder.",
     "s6_3_heading": "6.3 Entry Rules",
@@ -173,8 +173,8 @@
       "Vote manipulation results in immediate disqualification and account action"
     ],
     "s6_6_heading": "6.6 Winner Determination",
-    "s6_6_pulse": "Pulse: Entries ranked by vote count. Ties broken by views, then submission time. Top 15 displayed.",
-    "s6_6_premium": "Premium: Judges score the top 20 fan-voted entries (0–10 per criterion). Final Score = (Normalised Vote Score × 60%) + (Average Judge Score × 40%). Top 15 displayed.",
+    "s6_6_pulse": "Pulse: Entries ranked by vote count. Ties broken by submission time (earlier submission ranks higher). Top 15 displayed.",
+    "s6_6_premium": "Premium: Judges score the top 20 fan-voted entries (each judge gives every entry a score from 0 to 100). Final Score = (Normalised Vote Score × 60%) + (Average Judge Score × 40%). Top 15 displayed. Ties are broken by fan votes, then by submission time (earlier submission ranks higher).",
     "s6_7_heading": "6.7 Judging Decisions",
     "s6_7_body": "Judge scores and decisions are final. Spektt does not interfere with individual judge scoring. Genuine rules violations (vote manipulation, plagiarised entry, ineligible participant) may be reported via the in-app report function or showdowns@spektt.com. Disagreement with scores or community votes is not grounds for a dispute.",
     "s6_8_heading": "6.8 Prizes — Pulse Showdowns",
@@ -182,11 +182,13 @@
     "s6_9_heading": "6.9 Prizes — Premium Showdowns (Cash)",
     "s6_9_intro": "Cash prizes are awarded to 1st, 2nd, and 3rd place. Prize amounts are shown on the Showdown detail page.",
     "s6_9_items": [
+      "You will be notified when results are announced",
       "You have 14 days from the announcement to submit your claim",
       "You must provide your bank name, account number, and account name. Tax ID optional but recommended",
       "A 10% withholding tax is deducted in accordance with Nigerian tax law",
       "Prizes are paid to Nigerian bank accounts only (10-digit NUBAN format)",
-      "If you do not claim within 14 days, your prize is permanently forfeited — no exceptions"
+      "If you do not claim within 14 days, your prize is permanently forfeited — no exceptions",
+      "Spektt is not responsible for payment failures caused by inaccurate bank details provided by the winner"
     ],
     "s6_10_heading": "6.10 Insufficient Entries",
     "s6_10_body": "If a Showdown does not reach the minimum entries (5 for Pulse, 10 for Premium) by the close of the submission window, it closes without a result and no prizes are awarded.",
@@ -209,7 +211,7 @@
   "s8": {
     "heading": "8. DIRECT MESSAGING",
     "s8_1_heading": "8.1 Message Request System",
-    "s8_1_body": "To begin a conversation, you must send a message request. The recipient may accept or decline. Full conversation is only possible once your request is accepted.",
+    "s8_1_body": "To begin a conversation, you must send a message request. The recipient may accept or decline. Full conversation is only possible once your request is accepted. You may send only one message as part of the request.",
     "s8_2_heading": "8.2 Declined Requests",
     "s8_2_body": "If your request is declined, you may not contact that user again for 30 days through any means on the platform. Circumventing this via alternative accounts is a violation and may result in permanent account termination.",
     "s8_3_heading": "8.3 Accepted Conversations",
@@ -230,7 +232,7 @@
     "s8_6_heading": "8.6 Message Deletion",
     "s8_6_body": "Deleted messages are replaced with \"This message was deleted\" for both participants and permanently purged from our servers within 30 days. Deleting a conversation removes it from your view immediately and permanently deletes it from our servers within 30 days.",
     "s8_7_heading": "8.7 Account Termination and Messages",
-    "s8_7_body": "Upon account deletion, your conversations are removed from your view immediately. Messages from banned accounts may be retained as evidence in ongoing moderation investigations."
+    "s8_7_body": "Upon account deletion, your conversations are removed from your view immediately. Messages from banned accounts may be retained as evidence in ongoing moderation investigations. When the deletion completes after the 30-day grace period, your conversations — and every message in them — are permanently deleted for both participants."
   },
   "s9": {
     "heading": "9. CHILD PROTECTION AND CSAM",
@@ -243,7 +245,7 @@
     "s10_1_heading": "10.1 What Clusters Are",
     "s10_1_body": "Clusters are themed creative communities on Spektt with their own feed, Showdowns, and moderation. All Clusters are open — any user can find and join them.",
     "s10_2_heading": "10.2 Creating a Cluster",
-    "s10_2_body": "Creating a Cluster requires a Spektt Pro subscription or reaching level 51 (Legendary tier). By creating a Cluster, you become its admin and accept responsibility for moderating it in accordance with these Terms.",
+    "s10_2_body": "Any user may create a Cluster once their account is at least 7 days old; free accounts must also have uploaded at least 4 pieces of work. Free accounts can create up to their account's Cluster-creation limit; Spektt Pro accounts can create unlimited Clusters. By creating a Cluster, you become its admin and accept responsibility for moderating it in accordance with these Terms.",
     "s10_3_heading": "10.3 Cluster Admin Responsibilities",
     "s10_3_body": "As a Cluster admin you may: run Cluster Showdowns, remove posts, ban or suspend members, appoint moderators, pin posts, archive the Cluster, and transfer admin rights. Spektt reserves the right to intervene in any Cluster for platform-wide violations regardless of Cluster-level moderation.",
     "s10_4_heading": "10.4 Admin Inactivity",
@@ -261,14 +263,14 @@
     "s12_1_heading": "12.1 Nature of Gamification Features",
     "s12_1_body": "XP, levels, tiers, badges, and Leaderboard positions have no monetary value and cannot be exchanged for cash, transferred, or taken off the platform.",
     "s12_2_heading": "12.2 Earning XP",
-    "s12_2_body": "XP is earned through platform activity including signups, content views, likes received, Showdown votes cast, Showdown entries, placements, joining Clusters, creating Clusters, and growing Cluster membership. Spektt Pro users earn a boosted XP multiplier that scales with tier — 1.25× at Newcomer and Emerging, 1.5× at Rising Star and Established, 1.75× at Verified, and 2× at Legendary.",
+    "s12_2_body": "XP rewards what the community gives your work: entering and placing in Showdowns, votes your Showdown entries receive (added when results are published), view and vote milestones, and the growth of a Cluster you created. Posting, liking, voting and joining or creating a Cluster earn no XP. Only established accounts generate XP for others, and your own views and votes never count. Spektt may introduce other ways to earn XP over time. Spektt Pro users earn a boosted XP multiplier that scales with tier — 1.25× at Newcomer and Emerging, 1.5× at Rising Star and Established, 1.75× at Verified, and 2× at Legendary.",
     "s12_3_heading": "12.3 Spektt's Rights Over Gamification",
-    "s12_3_body": "Spektt reserves the right to adjust XP values, badge criteria, tier thresholds, Leaderboard methodology, or any other aspect of the gamification system at any time without notice or compensation. Accumulated XP and earned badges will not be retroactively removed except in cases of account violation."
+    "s12_3_body": "Spektt reserves the right to adjust XP values, badge criteria, tier thresholds, Leaderboard methodology, or any other aspect of the gamification system at any time without notice or compensation. Accumulated XP and earned badges will not be retroactively removed except in cases of account violation. A disqualified Showdown entry loses the XP it earned from votes."
   },
   "s13": {
     "heading": "13. SPEKTT PRO SUBSCRIPTION",
     "s13_1_heading": "13.1 What Spektt Pro Is",
-    "s13_1_body": "Spektt Pro is an optional paid subscription that unlocks higher upload limits, additional Spotlights and Collections, a Pro badge, a tier-scaled XP boost (see Section 12.2), and other benefits. Current pricing is shown in the App.",
+    "s13_1_body": "Spektt Pro is an optional paid subscription that unlocks unlimited Spotlights and Collections, unlimited Cluster creation, unlimited showdown bookmarks and entry shortlists, a Pro badge, a tier-scaled XP boost (see Section 12.2), and other benefits. Uploads are unlimited on every plan. Current pricing is shown in the App.",
     "s13_2_heading": "13.2 How Payments Work",
     "s13_2_body": "All payments are processed entirely by Apple (App Store) or Google (Google Play). Spektt does not receive or store your payment card details.",
     "s13_3_heading": "13.3 Subscription Renewal",
@@ -308,6 +310,7 @@
     "s16_1_heading": "16.1 Service Provided \"As Is\"",
     "s16_1_body": "The Service is provided \"AS IS\" and \"AS AVAILABLE.\" Spektt makes no warranties — express or implied — including warranties of merchantability, fitness for a particular purpose, or non-infringement.",
     "s16_2_heading": "16.2 What We Are Not Liable For",
+    "s16_2_intro": "To the maximum extent permitted by applicable law, Spektt is not liable for:",
     "s16_2_items": [
       "Errors or interruptions in the Service",
       "Content posted by other users",
@@ -339,7 +342,7 @@
   "s18": {
     "heading": "18. ACCOUNT TERMINATION",
     "s18_1_heading": "18.1 Termination by You",
-    "s18_1_body": "You may delete your account at any time from Settings → Delete Account. Deletion initiates a 30-day grace period during which your account is locked but not permanently erased. After 30 days, permanent deletion begins.",
+    "s18_1_body": "You may delete your account at any time from Settings → Delete Account. Deletion initiates a 30-day grace period during which your account is locked but not permanently erased. After 30 days, permanent deletion begins. You may cancel the deletion within those 30 days by logging back in.",
     "s18_2_heading": "18.2 Termination by Spektt",
     "s18_2_body": "We may suspend or permanently terminate your account if you violate these Terms, engage in fraud or abuse, or if we determine your presence is harmful to other users or the community. In serious cases (CSAM, threats, coordinated manipulation), termination is immediate and permanent without notice.",
     "s18_3_heading": "18.3 Effects of Termination",
@@ -348,9 +351,9 @@
   "s19": {
     "heading": "19. GENERAL TERMS",
     "s19_1_heading": "19.1 Modifications to Terms",
-    "s19_1_body": "We may update these Terms at any time. When we make material changes, we will update the \"Last Updated\" date, post the revised Terms at spektt.com/terms, and where required by law, notify you via in-app notification or email.",
+    "s19_1_body": "We may update these Terms at any time. When we make material changes, we will update the \"Last Updated\" date, post the revised Terms at spektt.com/terms, and where required by law, notify you via in-app notification or email. Continued use of the Service after the updated Terms are posted constitutes your acceptance of the changes.",
     "s19_2_heading": "19.2 Governing Law",
-    "s19_2_body": "These Terms are governed by the laws of the Federal Republic of Nigeria. Disputes shall be subject to the exclusive jurisdiction of the Nigerian courts.",
+    "s19_2_body": "These Terms are governed by the laws of the Federal Republic of Nigeria. Disputes shall be subject to the exclusive jurisdiction of the Nigerian courts. This applies unless otherwise required by applicable law.",
     "s19_3_heading": "19.3 Severability",
     "s19_3_body": "If any provision is held invalid or unenforceable, the remaining provisions continue in full force and effect.",
     "s19_4_heading": "19.4 No Waiver",

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : October 2nd, 2026",
+  "lastUpdated": "Dernière mise à jour : October 6th, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -81,6 +81,16 @@
       "Statut de l’abonnement Spektt Pro, dates de début et d’expiration",
       "Le traitement des paiements est entièrement géré par Apple (App Store) ou Google (Google Play) et RevenueCat. Nous ne recevons ni ne stockons jamais votre numéro de carte ou votre adresse de facturation."
     ],
+    "feedbackHeading": "Retours et assistance",
+    "feedbackItems": [
+      "Les retours et rapports de bugs que vous envoyez via l’App",
+      "Les messages que vous nous envoyez par e-mail (support@spektt.com ou legal@spektt.com)"
+    ],
+    "reportsHeading": "Signalements et recours",
+    "reportsItems": [
+      "Les signalements que vous faites sur d’autres utilisateurs, publications ou Clusters, avec le motif et les détails ajoutés",
+      "Les recours que vous déposez si votre compte est suspendu"
+    ],
     "s2_2_heading": "2.2 Informations que nous collectons automatiquement",
     "locationHeading": "Données de localisation",
     "locationItems": [
@@ -94,11 +104,13 @@
     "gamificationHeading": "Données de gamification et d’engagement",
     "gamificationItems": [
       "XP gagnés, niveau actuel, palier, badges obtenus",
-      "Totaux hebdomadaires et mensuels de XP, nombre total de vues, votes reçus et attribués"
+      "Totaux hebdomadaires et mensuels de XP, nombre total de vues, votes reçus et attribués",
+      "Le nombre de vues et de votes reçus par votre travail de la part d’autres comptes établis, et de membres gagnés par votre Cluster (pour attribuer l’XP et les badges)",
+      "Les vues, mentions J’aime et commentaires reçus par vos publications"
     ],
     "notifHeading": "Jetons de notification push",
     "notifItems": [
-      "Identifiants OneSignal Player (par appareil, pour l’envoi de notifications push). Supprimés immédiatement lors de la déconnexion ou de la suppression du compte."
+      "Jetons push (par appareil, pour l’envoi de notifications push) : un jeton Firebase Cloud Messaging sur Android et un jeton Apple Push Notification service sur iOS. Les appareils encore sur la première version de l’App utilisent un identifiant OneSignal Player jusqu’au retrait de cette version. Supprimés immédiatement lors de la déconnexion ou de la suppression du compte."
     ],
     "crashHeading": "Données d’erreurs et de plantages",
     "crashItems": [
@@ -137,8 +149,13 @@
         "Exécution du contrat"
       ],
       [
-        "Prévention de la fraude et de la manipulation des votes",
-        "IP hachée, historique de vote, activité du compte",
+        "Déterminer l’éligibilité aux Showdowns selon le pays",
+        "Pays (code ISO)",
+        "Obligation légale"
+      ],
+      [
+        "Prévention de la fraude et de la manipulation des votes, y compris déterminer si les vues, votes et adhésions à un Cluster d’un compte rapportent de l’XP aux autres",
+        "IP hachée, historique de vote, activité du compte, statut de vérification de l’e-mail, ancienneté et statut du compte",
         "Intérêts légitimes"
       ],
       [
@@ -148,7 +165,7 @@
       ],
       [
         "Envoi de notifications push",
-        "Player IDs, préférences de notification",
+        "Jetons push, préférences de notification",
         "Consentement (retirable dans les Paramètres)"
       ],
       [
@@ -162,6 +179,11 @@
         "Intérêts légitimes"
       ],
       [
+        "Gestion des abonnements",
+        "Statut de l’abonnement, date d’expiration",
+        "Exécution du contrat"
+      ],
+      [
         "Amélioration de l’Application et correction des bugs",
         "Données de plantage (Sentry), données d’utilisation",
         "Intérêts légitimes"
@@ -169,6 +191,11 @@
       [
         "Conformité avec les lois financières et fiscales nigérianes",
         "Coordonnées bancaires, identifiant fiscal",
+        "Obligation légale"
+      ],
+      [
+        "Respecter la législation applicable sur la protection des données (NDPA 2023)",
+        "Données de compte, données d’âge",
         "Obligation légale"
       ]
     ],
@@ -217,9 +244,9 @@
         "Statut de l’abonnement, date d’expiration, date d’achat"
       ],
       [
-        "OneSignal",
+        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (première version de l’App uniquement, en cours de retrait)",
         "Livraison des notifications push",
-        "Player IDs ; contenu des notifications"
+        "Jetons push ; contenu des notifications"
       ],
       [
         "Amazon Web Services (SES)",
@@ -282,6 +309,7 @@
       "Jugement : si vous êtes désigné comme juge, vos scores individuels restent privés jusqu’à l’annonce des résultats.",
       "Résultats : les noms d’utilisateur des gagnants et les classements sont annoncés publiquement. Vos coordonnées bancaires et votre identifiant fiscal ne sont jamais divulgués publiquement.",
       "Réclamation des prix : vous disposez de 14 jours pour soumettre votre réclamation. Une retenue fiscale de 10 % est déduite conformément aux réglementations fiscales nigérianes. Les paiements des prix en espèces sont actuellement disponibles uniquement pour les titulaires de comptes bancaires nigérians.",
+      "Renonciation : les prix non réclamés sont perdus après 14 jours. Les dossiers des prix perdus sont conservés pour la comptabilité interne.",
       "Conservation : les détails de paiement des prix (informations bancaires) sont conservés pendant la période requise par les réglementations financières nigérianes après le paiement, indépendamment de la suppression du compte."
     ]
   },
@@ -306,9 +334,9 @@
     "s9_3_heading": "9.3 Droit à la suppression (suppression du compte)",
     "s9_3_body": "Supprimez votre compte à tout moment depuis Paramètres → Supprimer le compte.",
     "s9_3_items": [
-      "Période de grâce : votre compte est immédiatement verrouillé et programmé pour une suppression définitive dans 30 jours",
+      "Période de grâce : votre compte est immédiatement verrouillé et programmé pour une suppression définitive dans 30 jours. Vos publications et participations aux concours restent visibles jusqu'à la fin de la suppression",
       "Fenêtre d’annulation : reconnectez-vous dans les 30 jours pour annuler la suppression et restaurer votre compte",
-      "Après 30 jours : les informations de profil, téléchargements, DMs et adhésions aux Clusters sont définitivement supprimés. Les commentaires sont anonymisés. Un enregistrement fantôme minimal (ID utilisateur uniquement, sans PII) est conservé uniquement pour préserver l’intégrité des journaux d’audit."
+      "Après 30 jours : les informations de profil (nom, nom d'utilisateur, e-mail, avatar), les publications, les messages privés, les adhésions aux Clusters, les participations enregistrées, l'historique de visionnage et les enregistrements de votes sont définitivement supprimés, et votre nom d'utilisateur redevient disponible. Les commentaires sont anonymisés, et les signalements que vous avez effectués restent enregistrés sans votre nom. Un enregistrement de compte minimal est conservé pour que les récompenses et les journaux d'audit restent cohérents : votre identifiant utilisateur, votre rôle créatif, ainsi que vos XP, niveau, palier et badges. Il ne contient aucune coordonnée, date de naissance, localisation, adresse IP ni donnée d'appareil. Les « J'aime » et vues que vous avez donnés ne subsistent que sous forme de compteurs liés à cet identifiant anonyme."
     ],
     "s9_4_heading": "9.4 Droit de retrait",
     "s9_4_items": [
@@ -328,7 +356,7 @@
     "tableRows": [
       [
         "Données de profil du compte",
-        "Jusqu’à la suppression du compte (effacées définitivement après la période de grâce de 30 jours)"
+        "Jusqu'à la suppression du compte (informations de profil effacées après la période de grâce de 30 jours ; seul un enregistrement de compte minimal et non personnel est conservé — voir la section 9.3)"
       ],
       [
         "Téléchargements (photos / vidéos)",
@@ -356,14 +384,18 @@
       ],
       [
         "Données de gamification (XP, badges, niveau)",
-        "Conservées jusqu’à la suppression du compte"
+        "Conservées après la suppression du compte sur l'enregistrement de compte minimal, pour que les récompenses restent cohérentes (section 9.3)"
       ],
       [
         "Journaux et rapports de modération",
         "Conservés indéfiniment (intégrité de la piste d’audit)"
       ],
       [
-        "Jetons de notification push (OneSignal Player IDs)",
+        "Recours",
+        "Conservés indéfiniment (piste d’audit)"
+      ],
+      [
+        "Jetons de notification push",
         "Supprimés immédiatement lors de la déconnexion ou de la suppression du compte"
       ],
       [
@@ -372,7 +404,7 @@
       ],
       [
         "Adresse IP hachée",
-        "Conservée pendant toute la durée du compte"
+        "Conservée pendant la durée du compte ; supprimée avec le compte (section 9.3)"
       ],
       [
         "Données de plantage (Sentry)",
@@ -386,8 +418,8 @@
     "items": [
       "Toutes les données sont stockées dans Google Firestore avec des règles de sécurité strictes — les clients ne peuvent lire et écrire que les données auxquelles ils sont explicitement autorisés à accéder",
       "Les mots de passe sont entièrement gérés par Firebase Authentication et ne sont jamais stockés en texte brut par Spektt",
-      "Les clés API et identifiants sont stockés comme variables d’environnement côté serveur et ne sont jamais exposés dans l’Application compilée",
-      "Les fichiers multimédias sont diffusés via le CDN de Cloudflare avec protection DDoS et livraison chiffrée (HTTPS/TLS)",
+      "Les clés secrètes et identifiants (clés médias, e-mail, push et webhooks de paiement) sont stockés côté serveur et ne sont jamais inclus dans l’App ; l’App ne contient que des clés publiques conçues pour les clients (comme sa configuration Firebase et sa clé SDK RevenueCat)",
+      "Les fichiers multimédias sont diffusés via nos CDN — Cloudflare Images (photos) et Bunny.net Stream (vidéo) — avec protection DDoS et livraison chiffrée (HTTPS/TLS)",
       "Les actions des administrateurs et modérateurs sont enregistrées dans une piste d’audit immuable dans Firestore",
       "Les adresses IP utilisées pour la détection de fraude sont stockées uniquement sous forme de hachages SHA-256 — l’IP brute n’est jamais conservée"
     ],
@@ -395,7 +427,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERTS INTERNATIONAUX DE DONNÉES",
-    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Le CDN de Cloudflare distribue les médias dans le monde entier. OneSignal, Amazon Web Services (SES), RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
+    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Cloudflare (images) et Bunny.net (vidéo) distribuent les médias dans le monde entier. Google et Apple (notifications push), OneSignal (première version de l’App uniquement), Amazon Web Services (SES), RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
     "p2": "En utilisant l’Application, vous consentez au transfert de vos informations vers ces serveurs. Lorsque la loi l’exige, nous mettons en œuvre des garanties appropriées pour ces transferts."
   },
   "s13": {

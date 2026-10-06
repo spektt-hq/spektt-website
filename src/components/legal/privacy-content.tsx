@@ -72,6 +72,16 @@ export default function PrivacyContent({ d }: { d: PrivacyDictionary }) {
               {d.s2.subsItems.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
             </ul>
 
+            <p className='privacy-policy-text mt-4 font-medium text-white'>{d.s2.feedbackHeading}</p>
+            <ul className='list-disc list-inside mt-1 space-y-1'>
+              {d.s2.feedbackItems.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
+            </ul>
+
+            <p className='privacy-policy-text mt-4 font-medium text-white'>{d.s2.reportsHeading}</p>
+            <ul className='list-disc list-inside mt-1 space-y-1'>
+              {d.s2.reportsItems.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
+            </ul>
+
             <h3 className='privacy-policy-header text-xl mt-6'>{d.s2.s2_2_heading}</h3>
 
             <p className='privacy-policy-text mt-3 font-medium text-white'>{d.s2.locationHeading}</p>

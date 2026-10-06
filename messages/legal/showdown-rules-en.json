@@ -1,6 +1,6 @@
 {
   "title": "Spektt Showdowns — Official Contest Rules",
-  "lastUpdated": "Last Updated: August 2026",
+  "lastUpdated": "Last Updated: October 2026",
   "intro1": "These Official Rules govern all contests and showdowns (\"Contests\") hosted on the Spektt mobile application (\"Platform\"), operated by Spektt (\"Spektt\", \"we\", \"us\", \"our\"), a company registered under the laws of the Federal Republic of Nigeria.",
   "intro2": "By submitting an entry to any Contest on the Platform, you (\"Entrant\", \"you\") agree to be bound by these Official Rules and our Terms of Service and Privacy Policy.",
   "noPurchase": "No purchase necessary to enter or win. A purchase does not increase your odds of winning. Apple Inc. and Google LLC are not sponsors of any Contest and are not involved in any Contest in any way.",
@@ -15,7 +15,7 @@
   "s2": {
     "heading": "2. ELIGIBILITY",
     "p1": "To enter any Contest on the Platform, you must:",
-    "a": "(a) Be at least 18 years of age at the time of entry. Age is verified at account creation. Users identified as minors (under 18) are automatically ineligible to enter Contests.",
+    "a": "(a) Be at least 18 years of age at the time of entry. Age is verified at account creation. Users identified as minors (under 18) are automatically ineligible to enter Contests. Where local law sets a higher minimum, that minimum applies (for example 19 in Alabama, Arizona and Nebraska, USA, and 20 in Japan).",
     "b": "(b) Be a registered user of the Spektt Platform with a complete, verified account.",
     "c": "(c) Not be a resident of, or physically located in, any of the following jurisdictions where online contests of this nature are prohibited or restricted by law:",
     "restricted": [
@@ -25,7 +25,7 @@
     ],
     "d": "(d) Not be an employee, officer, director, agent, or immediate family member (spouse, parent, sibling, child) or household member of Spektt, its affiliates, subsidiaries, or any prize sponsor.",
     "e": "(e) Not have been suspended or banned from the Spektt Platform at the time of entry.",
-    "f": "(f) For Premium Contests only: be resident in, and physically located in, one of the following countries — Nigeria, Ghana, Kenya, South Africa, Senegal, Côte d'Ivoire, Cameroon, Tanzania, Uganda, or Rwanda. Pulse Contests are open globally, subject to (c) above.",
+    "f": "(f) For Premium Contests only: be resident in, and physically located in, Nigeria, and hold a Nigerian bank account to receive any prize. Pulse Contests are open globally, subject to (c) above.",
     "void": "Void where prohibited by law. Spektt reserves the right to verify eligibility at any time and disqualify any entry that does not meet these requirements."
   },
   "s3": {
@@ -43,10 +43,10 @@
   },
   "s5": {
     "heading": "5. ALTERNATIVE METHOD OF ENTRY (AMOE)",
-    "p1Before": "No purchase is necessary to enter. Free users who have reached their upload limit may request a free entry credit by emailing",
+    "p1Before": "No purchase is necessary to enter. If you are unable to enter through the Platform, you may request a free entry credit by emailing",
     "p1After": "with the subject line: \"FREE ENTRY — [Contest Name]\".",
     "p2": "Free entry requests must be submitted before the entry deadline. One free entry credit per person per Contest. We will respond within 48 hours. Requests submitted after the deadline will not be honoured.",
-    "p3": "A Spektt Pro subscription provides additional uploads and features but does NOT increase your odds of winning. All entrants — Free and Pro — are limited to one (1) entry per Contest and are judged by the same criteria."
+    "p3": "A Spektt Pro subscription provides additional features but does NOT increase your odds of winning. All entrants — Free and Pro — are limited to one (1) entry per Contest and are judged by the same criteria."
   },
   "s6": {
     "heading": "6. ENTRY REQUIREMENTS AND CONTENT STANDARDS",
@@ -69,7 +69,7 @@
     "combinedText": "A weighted combination of community votes and judge scores, with the weighting stated in the Contest listing.",
     "twoStageLabel": "(d) Two-Stage Premium Contests",
     "twoStageText": "In Premium Contests, community voting first determines the twenty (20) highest-voted entries. Only those twenty entries are scored by judges. Entries placing outside the top twenty are not judged and cannot place.",
-    "tie": "In the event of a tie, the entry submitted earliest wins.",
+    "tie": "In the event of a tie in a Premium Contest, the entry with more community votes ranks higher; any remaining tie, in any Contest, goes to the entry submitted earliest.",
     "odds": "Odds of winning depend on the total number of eligible entries received."
   },
   "s8": {
@@ -98,8 +98,8 @@
     "heading": "10. TAX COMPLIANCE (PREMIUM CONTESTS)",
     "nigeriaLabel": "(a) Nigeria:",
     "nigeriaText": "Cash prizes are subject to withholding tax in accordance with Nigerian tax law. Spektt will withhold 10% of the gross prize amount and remit it to the Federal Inland Revenue Service (FIRS) on behalf of the winner. Winners will receive a net prize (gross amount less 10% withholding). A Tax Clearance Certificate will be issued to the winner upon request.",
-    "intlLabel": "(b) International winners:",
-    "intlText": "Winners outside Nigeria are solely responsible for reporting and paying all taxes applicable in their jurisdiction. By accepting a prize, you confirm that you understand and accept this responsibility.",
+    "intlLabel": "(b) Where prizes are paid:",
+    "intlText": "Cash prizes are paid only to Nigerian bank accounts (10-digit NUBAN). Winners remain responsible for any other tax obligations that apply to them personally.",
     "request": "(c) Spektt reserves the right to request a Tax Identification Number (TIN), National Identification Number (NIN), or equivalent document before releasing any cash prize."
   },
   "s11": {

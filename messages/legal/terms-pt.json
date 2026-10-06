@@ -1,7 +1,7 @@
 {
   "pageTitle": "Termos e Condições",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: July 30th, 2026",
+  "lastUpdated": "Última Atualização: October 6th, 2026",
   "intro": "Estes Termos e Condições (\"Termos\") regem o uso do aplicativo móvel e site Spektt em spektt.com (\"Plataforma\", \"Serviço\", \"App\"), operado pela Axlume Tech Limited (\"Spektt\", \"nós\", \"nos\", \"nosso\"), uma empresa registrada na Corporate Affairs Commission (CAC) da República Federal da Nigéria. Ao criar uma conta ou usar o Serviço, você concorda integralmente com estes Termos. Se não concordar, deve parar de usar o Serviço e excluir sua conta.",
   "toc": {
     "title": "Índice",
@@ -48,7 +48,7 @@
     "s2_1_heading": "2.1 Idade Mínima",
     "s2_1_body": "Você deve ter pelo menos 16 anos para usar o Spektt. Ao criar uma conta, você confirma que atende a este requisito. Se tiver menos de 16 anos, não deve usar o Serviço.",
     "s2_2_heading": "2.2 Menores de Idade (Menores de 18)",
-    "s2_2_body": "Usuários menores de 18 anos são considerados menores de idade no Spektt. Menores podem usar a plataforma com consentimento dos pais ou responsáveis. O pai, mãe ou responsável aceita a responsabilidade pelo uso do Serviço pelo menor.",
+    "s2_2_body": "Usuários menores de 18 anos são considerados menores de idade no Spektt. Um menor só pode usar a plataforma se seus pais ou responsáveis permitirem e aceitarem a responsabilidade pelo uso do Serviço; ao criar uma conta, o menor confirma que isso ocorre.",
     "tableHeadFeature": "Recurso",
     "tableHeadAge": "Idade Mínima",
     "tableRows": [
@@ -98,7 +98,7 @@
     "s4_2_heading": "4.2 Propriedade do Conteúdo",
     "s4_2_body": "Você mantém total propriedade dos direitos autorais de todo Conteúdo Visual e Comunicações Públicas que enviar. Spektt não reivindica propriedade sobre seu conteúdo.",
     "s4_3_heading": "4.3 Licença que Você Concede ao Spektt (Conteúdo Público)",
-    "s4_3_body": "Ao enviar Conteúdo Visual ou publicar Comunicações Públicas no Spektt, você concede à Axlume Tech Limited uma licença não exclusiva, mundial e livre de royalties para usar, reproduzir, exibir, distribuir e promover esse conteúdo com o propósito de operar e comercializar o Serviço. Esta licença se aplica apenas ao seu conteúdo público, não se aplica a Mensagens Privadas (veja a Seção 7.3) e termina quando você exclui o conteúdo ou sua conta, sujeita a atrasos técnicos razoáveis de propagação e obrigações legais de retenção.",
+    "s4_3_body": "Ao enviar Conteúdo Visual ou publicar Comunicações Públicas no Spektt, você concede à Axlume Tech Limited uma licença não exclusiva, mundial e livre de royalties para usar, reproduzir, exibir, distribuir e promover esse conteúdo com o propósito de operar e comercializar o Serviço. Esta licença se aplica apenas ao seu conteúdo público, não se aplica a Mensagens Privadas (veja a Seção 7.3) e termina quando você exclui o conteúdo ou sua conta, sujeita a atrasos técnicos razoáveis de propagação e obrigações legais de retenção. Ela não lhe dá direito a nenhuma compensação adicional além dos prêmios ou recursos oferecidos expressamente pelo Spektt.",
     "s4_4_heading": "4.4 Suas Garantias",
     "s4_4_intro": "Ao enviar conteúdo, você garante que:",
     "s4_4_items": [
@@ -107,8 +107,8 @@
       "Você obteve quaisquer autorizações necessárias de modelos ou propriedades",
       "O conteúdo está em conformidade com estes Termos e nossas Diretrizes da Comunidade"
     ],
-    "s4_5_heading": "4.5 Limites de Upload por Nível",
-    "s4_5_body": "Os limites de upload variam de acordo com seu nível de XP e status Pro. Os limites de contas gratuitas aumentam à medida que você sobe de nível pelos tiers (Newcomer, Emerging, Rising Star, Established, Verified, Legendary). Usuários Spektt Pro recebem limites significativamente maiores. Os limites atuais são mostrados no App. Spektt reserva-se o direito de ajustar os limites a qualquer momento."
+    "s4_5_heading": "4.5 Envios",
+    "s4_5_body": "Não há limite para quanto você pode enviar, em nenhum plano. Para proteger a Plataforma, a Spektt pode restringir envios automatizados ou em massa que pareçam abusivos; isso nunca afeta o uso normal."
   },
   "s5": {
     "heading": "5. CONDUTA PROIBIDA",
@@ -132,7 +132,7 @@
       "Tentar acessar a conta ou dados privados de outro usuário",
       "Fazer engenharia reversa, modificar ou explorar o software do Serviço",
       "Raspar, minerar dados ou extrair sistematicamente conteúdo sem permissão",
-      "Tentar contornar recursos de segurança, limites de upload ou restrições de idade"
+      "Tentar contornar recursos de segurança ou restrições de idade"
     ],
     "messaging_heading": "Violações em mensagens",
     "messaging_items": [
@@ -153,7 +153,7 @@
   "s6": {
     "heading": "6. SHOWDOWNS",
     "s6_1_heading": "6.1 Dois Tipos de Showdowns",
-    "s6_1_body": "Spektt hospeda dois tipos de competições criativas: Pulse Showdowns — 100% votados pelos fãs com prêmios de XP e distintivos; e Premium Showdowns — julgamento em duas etapas combinando votos dos fãs (50%) e pontuações de jurados especialistas (50%), com prêmios reais em dinheiro pagos para uma conta bancária nigeriana.",
+    "s6_1_body": "Spektt hospeda dois tipos de competições criativas: Pulse Showdowns — 100% votados pelos fãs com prêmios de XP e distintivos; e Premium Showdowns — julgamento em duas etapas combinando votos dos fãs (60%) e pontuações de jurados especialistas (40%), com prêmios reais em dinheiro pagos para uma conta bancária nigeriana.",
     "s6_2_heading": "6.2 Elegibilidade para Showdown",
     "s6_2_body": "Para participar de qualquer Showdown, você deve ter 18 anos ou mais, não estar localizado no Catar, Emirados Árabes Unidos ou Arábia Saudita, e não estar designado como jurado desse Showdown. Para Premium Showdowns (prêmios em dinheiro), você também deve ser titular de uma conta bancária nigeriana.",
     "s6_3_heading": "6.3 Regras de Participação",
@@ -173,8 +173,8 @@
       "Manipulação de votos resulta em desqualificação imediata e ação na conta"
     ],
     "s6_6_heading": "6.6 Determinação do Vencedor",
-    "s6_6_pulse": "Pulse: Participações classificadas por contagem de votos. Empates são decididos por visualizações e depois pelo horário de envio. Top 15 exibidos.",
-    "s6_6_premium": "Premium: Jurados pontuam as 20 participações mais votadas pelos fãs (0–10 por critério). Pontuação Final = (Pontuação de Votos Normalizada × 60%) + (Média das Pontuações dos Jurados × 40%). Top 15 exibidos.",
+    "s6_6_pulse": "Pulse: as entradas são classificadas pelo número de votos. Empates são decididos pelo horário de envio (a enviada primeiro fica à frente). As 15 primeiras são exibidas.",
+    "s6_6_premium": "Premium: Jurados pontuam as 20 participações mais votadas pelos fãs (cada jurado dá a cada participação uma nota de 0 a 100). Pontuação Final = (Pontuação de Votos Normalizada × 60%) + (Média das Pontuações dos Jurados × 40%). Top 15 exibidos. Empates são decididos pelos votos dos fãs e, depois, pelo horário de envio (a enviada primeiro fica à frente).",
     "s6_7_heading": "6.7 Decisões dos Jurados",
     "s6_7_body": "As pontuações e decisões dos jurados são finais. Spektt não interfere na pontuação individual dos jurados. Violações genuínas das regras (manipulação de votos, participação plagiada, participante inelegível) podem ser reportadas através da função de denúncia no app ou pelo email showdowns@spektt.com. Discordância com pontuações ou votos da comunidade não constitui motivo para disputa.",
     "s6_8_heading": "6.8 Prêmios — Pulse Showdowns",
@@ -182,11 +182,13 @@
     "s6_9_heading": "6.9 Prêmios — Premium Showdowns (Dinheiro)",
     "s6_9_intro": "Prêmios em dinheiro são concedidos ao 1º, 2º e 3º lugar. Os valores dos prêmios são mostrados na página de detalhes do Showdown.",
     "s6_9_items": [
+      "Você será notificado quando os resultados forem anunciados",
       "Você tem 14 dias a partir do anúncio para enviar sua solicitação",
       "Você deve fornecer o nome do banco, número da conta e nome da conta. Tax ID é opcional, mas recomendado",
       "Um imposto retido na fonte de 10% é deduzido de acordo com a legislação tributária nigeriana",
       "Os prêmios são pagos apenas para contas bancárias nigerianas (formato NUBAN de 10 dígitos)",
-      "Se você não reivindicar dentro de 14 dias, seu prêmio será permanentemente perdido — sem exceções"
+      "Se você não reivindicar dentro de 14 dias, seu prêmio será permanentemente perdido — sem exceções",
+      "O Spektt não é responsável por falhas de pagamento causadas por dados bancários incorretos fornecidos pelo vencedor"
     ],
     "s6_10_heading": "6.10 Participações Insuficientes",
     "s6_10_body": "Se um Showdown não atingir o número mínimo de participações (5 para Pulse, 10 para Premium) até o fechamento da janela de envio, ele será encerrado sem resultado e nenhum prêmio será concedido.",
@@ -209,7 +211,7 @@
   "s8": {
     "heading": "8. MENSAGENS DIRETAS",
     "s8_1_heading": "8.1 Sistema de Solicitação de Mensagem",
-    "s8_1_body": "Para iniciar uma conversa, você deve enviar uma solicitação de mensagem. O destinatário pode aceitar ou recusar. A conversa completa só é possível após sua solicitação ser aceita.",
+    "s8_1_body": "Para iniciar uma conversa, você deve enviar uma solicitação de mensagem. O destinatário pode aceitar ou recusar. A conversa completa só é possível após sua solicitação ser aceita. Você só pode enviar uma mensagem como parte da solicitação.",
     "s8_2_heading": "8.2 Solicitações Recusadas",
     "s8_2_body": "Se sua solicitação for recusada, você não poderá contatar esse usuário novamente por 30 dias através de qualquer meio na plataforma. Contornar isso usando contas alternativas é uma violação e pode resultar em encerramento permanente da conta.",
     "s8_3_heading": "8.3 Conversas Aceitas",
@@ -230,7 +232,7 @@
     "s8_6_heading": "8.6 Exclusão de Mensagens",
     "s8_6_body": "Mensagens excluídas são substituídas por \"This message was deleted\" para ambos os participantes e permanentemente removidas de nossos servidores dentro de 30 dias. Excluir uma conversa a remove imediatamente da sua visualização e a exclui permanentemente de nossos servidores dentro de 30 dias.",
     "s8_7_heading": "8.7 Encerramento de Conta e Mensagens",
-    "s8_7_body": "Após a exclusão da conta, suas conversas são removidas imediatamente da sua visualização. Mensagens de contas banidas podem ser mantidas como evidência em investigações contínuas de moderação."
+    "s8_7_body": "Após a exclusão da conta, suas conversas são removidas imediatamente da sua visualização. Mensagens de contas banidas podem ser mantidas como evidência em investigações contínuas de moderação. Quando a exclusão é concluída após o período de carência de 30 dias, suas conversas — e todas as mensagens nelas — são excluídas permanentemente para os dois participantes."
   },
   "s9": {
     "heading": "9. PROTEÇÃO INFANTIL E CSAM",
@@ -243,7 +245,7 @@
     "s10_1_heading": "10.1 O Que São Clusters",
     "s10_1_body": "Clusters são comunidades criativas temáticas no Spektt com seu próprio feed, Showdowns e moderação. Todos os Clusters são abertos — qualquer usuário pode encontrá-los e participar.",
     "s10_2_heading": "10.2 Criando um Cluster",
-    "s10_2_body": "Criar um Cluster requer uma assinatura Spektt Pro ou atingir o nível 51 (tier Legendary). Ao criar um Cluster, você se torna seu administrador e aceita a responsabilidade de moderá-lo de acordo com estes Termos.",
+    "s10_2_body": "Qualquer usuário pode criar um Cluster quando a conta tiver pelo menos 7 dias; contas gratuitas também precisam ter enviado pelo menos 4 trabalhos. Contas gratuitas podem criar Clusters até o limite da conta; contas Spektt Pro podem criar Clusters ilimitados. Ao criar um Cluster, você se torna o administrador dele e aceita a responsabilidade de moderá-lo de acordo com estes Termos.",
     "s10_3_heading": "10.3 Responsabilidades do Administrador do Cluster",
     "s10_3_body": "Como administrador de um Cluster, você pode: realizar Cluster Showdowns, remover publicações, banir ou suspender membros, nomear moderadores, fixar publicações, arquivar o Cluster e transferir direitos de administrador. Spektt reserva-se o direito de intervir em qualquer Cluster por violações em toda a plataforma, independentemente da moderação em nível de Cluster.",
     "s10_4_heading": "10.4 Inatividade do Administrador",
@@ -261,14 +263,14 @@
     "s12_1_heading": "12.1 Natureza dos Recursos de Gamificação",
     "s12_1_body": "XP, níveis, tiers, distintivos e posições no Leaderboard não têm valor monetário e não podem ser trocados por dinheiro, transferidos ou retirados da plataforma.",
     "s12_2_heading": "12.2 Ganhando XP",
-    "s12_2_body": "XP é ganho através de atividades na plataforma, incluindo registros, visualizações de conteúdo, curtidas recebidas, votos em Showdowns, participações em Showdowns, classificações, participação em Clusters, criação de Clusters e crescimento da quantidade de membros do Cluster. Usuários Spektt Pro ganham um multiplicador de XP turbinado que aumenta por nível — 1,25× em Newcomer e Emerging, 1,5× em Rising Star e Established, 1,75× em Verified, e 2× em Legendary.",
+    "s12_2_body": "O XP recompensa o que a comunidade dá ao seu trabalho: participar e conseguir colocações em Showdowns, os votos que suas entradas recebem (somados quando os resultados são publicados), marcos de visualizações e votos, e o crescimento de um Cluster que você criou. Publicar, curtir, votar e entrar ou criar um Cluster não geram XP. Só contas estabelecidas geram XP para outras pessoas, e suas próprias visualizações e votos nunca contam. O Spektt pode introduzir outras formas de ganhar XP ao longo do tempo. Usuários do Spektt Pro recebem um multiplicador de XP que aumenta com o tier — 1,25× em Newcomer e Emerging, 1,5× em Rising Star e Established, 1,75× em Verified e 2× em Legendary.",
     "s12_3_heading": "12.3 Direitos do Spektt Sobre a Gamificação",
-    "s12_3_body": "Spektt reserva-se o direito de ajustar valores de XP, critérios de distintivos, limites de tiers, metodologia do Leaderboard ou qualquer outro aspecto do sistema de gamificação a qualquer momento, sem aviso prévio ou compensação. XP acumulado e distintivos conquistados não serão removidos retroativamente, exceto em casos de violação da conta."
+    "s12_3_body": "Spektt reserva-se o direito de ajustar valores de XP, critérios de distintivos, limites de tiers, metodologia do Leaderboard ou qualquer outro aspecto do sistema de gamificação a qualquer momento, sem aviso prévio ou compensação. XP acumulado e distintivos conquistados não serão removidos retroativamente, exceto em casos de violação da conta. Uma entrada de Showdown desqualificada perde o XP que ganhou com votos."
   },
   "s13": {
     "heading": "13. ASSINATURA SPEKTT PRO",
     "s13_1_heading": "13.1 O Que é o Spektt Pro",
-    "s13_1_body": "Spektt Pro é uma assinatura paga opcional que desbloqueia limites maiores de upload, Spotlights e Collections adicionais, um distintivo Pro, um aumento de XP escalonado por nível (veja a Seção 12.2) e outros benefícios. Os preços atuais são exibidos no App.",
+    "s13_1_body": "O Spektt Pro é uma assinatura paga opcional que desbloqueia Spotlights e Coleções ilimitados, criação ilimitada de Clusters, favoritos de showdowns e listas de participações salvas ilimitados, um emblema Pro, um bônus de XP escalonado por patamar (consulte a Seção 12.2) e outros benefícios. Os envios são ilimitados em todos os planos. Os preços atuais são exibidos no App.",
     "s13_2_heading": "13.2 Como Funcionam os Pagamentos",
     "s13_2_body": "Todos os pagamentos são processados integralmente pela Apple (App Store) ou Google (Google Play). Spektt não recebe nem armazena os detalhes do seu cartão de pagamento.",
     "s13_3_heading": "13.3 Renovação da Assinatura",
@@ -308,6 +310,7 @@
     "s16_1_heading": "16.1 Serviço Fornecido \"Como Está\"",
     "s16_1_body": "O Serviço é fornecido \"COMO ESTÁ\" e \"CONFORME DISPONÍVEL.\" Spektt não oferece garantias — expressas ou implícitas — incluindo garantias de comercialização, adequação a uma finalidade específica ou não violação.",
     "s16_2_heading": "16.2 Pelo Que Não Somos Responsáveis",
+    "s16_2_intro": "Na máxima extensão permitida pela lei aplicável, o Spektt não é responsável por:",
     "s16_2_items": [
       "Erros ou interrupções no Serviço",
       "Conteúdo publicado por outros usuários",
@@ -339,7 +342,7 @@
   "s18": {
     "heading": "18. ENCERRAMENTO DE CONTA",
     "s18_1_heading": "18.1 Encerramento por Você",
-    "s18_1_body": "Você pode excluir sua conta a qualquer momento em Configurações → Excluir Conta. A exclusão inicia um período de carência de 30 dias durante o qual sua conta fica bloqueada, mas não permanentemente apagada. Após 30 dias, a exclusão permanente começa.",
+    "s18_1_body": "Você pode excluir sua conta a qualquer momento em Configurações → Excluir Conta. A exclusão inicia um período de carência de 30 dias durante o qual sua conta fica bloqueada, mas não permanentemente apagada. Após 30 dias, a exclusão permanente começa. Você pode cancelar a exclusão dentro desses 30 dias fazendo login novamente.",
     "s18_2_heading": "18.2 Encerramento pelo Spektt",
     "s18_2_body": "Podemos suspender ou encerrar permanentemente sua conta se você violar estes Termos, se envolver em fraude ou abuso, ou se determinarmos que sua presença é prejudicial para outros usuários ou para a comunidade. Em casos graves (CSAM, ameaças, manipulação coordenada), o encerramento é imediato e permanente sem aviso prévio.",
     "s18_3_heading": "18.3 Efeitos do Encerramento",
@@ -348,9 +351,9 @@
   "s19": {
     "heading": "19. TERMOS GERAIS",
     "s19_1_heading": "19.1 Modificações nos Termos",
-    "s19_1_body": "Podemos atualizar estes Termos a qualquer momento. Quando fizermos alterações relevantes, atualizaremos a data de \"Última Atualização\", publicaremos os Termos revisados em spektt.com/terms e, quando exigido por lei, notificaremos você via notificação no app ou email.",
+    "s19_1_body": "Podemos atualizar estes Termos a qualquer momento. Quando fizermos alterações relevantes, atualizaremos a data de \"Última Atualização\", publicaremos os Termos revisados em spektt.com/terms e, quando exigido por lei, notificaremos você via notificação no app ou email. O uso contínuo do Serviço após a publicação dos Termos atualizados constitui sua aceitação das alterações.",
     "s19_2_heading": "19.2 Lei Aplicável",
-    "s19_2_body": "Estes Termos são regidos pelas leis da República Federal da Nigéria. Disputas estarão sujeitas à jurisdição exclusiva dos tribunais nigerianos.",
+    "s19_2_body": "Estes Termos são regidos pelas leis da República Federal da Nigéria. Disputas estarão sujeitas à jurisdição exclusiva dos tribunais nigerianos. Isso se aplica salvo disposição em contrário da lei aplicável.",
     "s19_3_heading": "19.3 Divisibilidade",
     "s19_3_body": "Se qualquer disposição for considerada inválida ou inexequível, as disposições restantes continuarão em pleno vigor e efeito.",
     "s19_4_heading": "19.4 Não Renúncia",
