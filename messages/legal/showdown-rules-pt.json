@@ -1,7 +1,7 @@
 {
   "title": "Spektt Showdowns — Regras Oficiais do Concurso",
   "lastUpdated": "Última atualização: outubro de 2026",
-  "intro1": "Estas Regras Oficiais regem todos os concursos e showdowns («Concursos») realizados no aplicativo móvel Spektt («Plataforma»), operado pela Spektt («Spektt», «nós», «nos», «nosso»), uma empresa registrada sob as leis da República Federal da Nigéria.",
+  "intro1": "Estas Regras Oficiais regem todos os concursos e showdowns («Concursos») realizados no aplicativo móvel Spektt («Plataforma»), operado e patrocinado pela Axlume Tech Limited («Spektt», o «Patrocinador», «nós», «nos», «nosso»), uma empresa registrada na Corporate Affairs Commission (CAC) da República Federal da Nigéria. O Patrocinador financia e paga todos os prêmios dos Concursos.",
   "intro2": "Ao enviar uma participação em qualquer Concurso na Plataforma, você («Participante», «você») concorda em estar vinculado a estas Regras Oficiais, aos nossos Termos de Serviço e à nossa Política de Privacidade.",
   "noPurchase": "Não é necessária nenhuma compra para participar ou ganhar. Uma compra não aumenta suas chances de ganhar. A Apple Inc. e a Google LLC não são patrocinadoras de nenhum Concurso e não estão envolvidas neles de forma alguma.",
   "s1": {
@@ -66,7 +66,7 @@
     "judgeLabel": "(b) Pontuação dos juízes",
     "judgeText": "Juízes selecionados avaliam as participações com base em critérios definidos (p. ex. criatividade, qualidade técnica, alinhamento com o tema). As pontuações dos juízes são definitivas.",
     "combinedLabel": "(c) Combinado",
-    "combinedText": "Uma combinação ponderada de votos comunitários e pontuações de juízes, com a ponderação indicada no anúncio do Concurso.",
+    "combinedText": "Nos Concursos Premium, a pontuação final de cada participação avaliada é composta em 60% pelos votos da comunidade e em 40% pelos juízes: Pontuação final = (votos da participação ÷ o maior número de votos de qualquer participação × 60) + (pontuação média dos juízes, de 0 a 100, × 0,4). Esta ponderação é fixa e é a mesma em todos os Concursos Premium.",
     "twoStageLabel": "(d) Concursos Premium em duas etapas",
     "twoStageText": "Nos Concursos Premium, a votação da comunidade determina primeiro as vinte (20) entradas mais votadas. Somente essas vinte entradas são pontuadas pelos jurados. As entradas fora das vinte primeiras não são avaliadas e não podem ser premiadas.",
     "tie": "Em caso de empate em um Concurso Premium, a participação com mais votos da comunidade fica à frente; qualquer empate restante, em qualquer Concurso, é vencido pela participação enviada primeiro.",

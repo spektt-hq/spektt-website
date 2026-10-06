@@ -1,7 +1,7 @@
 {
   "title": "Spektt Showdowns — Official Contest Rules",
   "lastUpdated": "Last Updated: October 2026",
-  "intro1": "These Official Rules govern all contests and showdowns (\"Contests\") hosted on the Spektt mobile application (\"Platform\"), operated by Spektt (\"Spektt\", \"we\", \"us\", \"our\"), a company registered under the laws of the Federal Republic of Nigeria.",
+  "intro1": "These Official Rules govern all contests and showdowns (\"Contests\") hosted on the Spektt mobile application (\"Platform\"), operated and sponsored by Axlume Tech Limited (\"Spektt\", the \"Sponsor\", \"we\", \"us\", \"our\"), a company registered with the Corporate Affairs Commission (CAC) of the Federal Republic of Nigeria. The Sponsor funds and pays all Contest prizes.",
   "intro2": "By submitting an entry to any Contest on the Platform, you (\"Entrant\", \"you\") agree to be bound by these Official Rules and our Terms of Service and Privacy Policy.",
   "noPurchase": "No purchase necessary to enter or win. A purchase does not increase your odds of winning. Apple Inc. and Google LLC are not sponsors of any Contest and are not involved in any Contest in any way.",
   "s1": {
@@ -66,7 +66,7 @@
     "judgeLabel": "(b) Judge Scoring",
     "judgeText": "Selected judges score entries on stated criteria (e.g. creativity, technical quality, theme alignment). Judge scores are final.",
     "combinedLabel": "(c) Combined",
-    "combinedText": "A weighted combination of community votes and judge scores, with the weighting stated in the Contest listing.",
+    "combinedText": "In Premium Contests, each judged entry's final score is 60% community votes and 40% judges: Final Score = (the entry's votes ÷ the highest vote count of any entry × 60) + (the average judge score, out of 100, × 0.4). This weighting is fixed and is the same in every Premium Contest.",
     "twoStageLabel": "(d) Two-Stage Premium Contests",
     "twoStageText": "In Premium Contests, community voting first determines the twenty (20) highest-voted entries. Only those twenty entries are scored by judges. Entries placing outside the top twenty are not judged and cannot place.",
     "tie": "In the event of a tie in a Premium Contest, the entry with more community votes ranks higher; any remaining tie, in any Contest, goes to the entry submitted earliest.",
