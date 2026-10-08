@@ -1,7 +1,7 @@
 {
   "pageTitle": "Conditions Générales",
   "effectiveDate": "Date d'entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : October 6th, 2026",
+  "lastUpdated": "Dernière mise à jour : October 8th, 2026",
   "intro": "Les présentes Conditions Générales (\"Conditions\") régissent votre utilisation de l'application mobile et du site web Spektt à l'adresse spektt.com (\"Plateforme\", \"Service\", \"Application\"), exploités par Axlume Tech Limited (\"Spektt\", \"nous\", \"notre\", \"nos\"), une société enregistrée auprès de la Corporate Affairs Commission (CAC) de la République fédérale du Nigeria. En créant un compte ou en utilisant le Service, vous acceptez pleinement les présentes Conditions. Si vous n'acceptez pas ces Conditions, vous devez cesser d'utiliser le Service et supprimer votre compte.",
   "toc": {
     "title": "Table des matières",
@@ -168,7 +168,7 @@
     "s6_5_heading": "6.5 Votes",
     "s6_5_items": [
       "Chaque utilisateur Spektt enregistré peut voter une fois par Showdown",
-      "Vous pouvez voter dans plusieurs Showdowns, jusqu'à une limite quotidienne de 20 votes au total",
+      "Vous pouvez voter dans plusieurs Showdowns ; seuls les votes des comptes à l'e-mail vérifié comptent pour un résultat",
       "Le nombre de votes est masqué jusqu'à la fin du Showdown",
       "Toute manipulation de votes entraîne une disqualification immédiate et des sanctions sur le compte"
     ],

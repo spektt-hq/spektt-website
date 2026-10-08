@@ -1,7 +1,7 @@
 {
   "pageTitle": "Terms and Conditions",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: October 6th, 2026",
+  "lastUpdated": "Last Updated: October 8th, 2026",
   "intro": "These Terms and Conditions (\"Terms\") govern your use of the Spektt mobile application and website at spektt.com (\"Platform\", \"Service\", \"App\"), operated by Axlume Tech Limited (\"Spektt\", \"we\", \"us\", \"our\"), a company registered under the Corporate Affairs Commission (CAC) of the Federal Republic of Nigeria. By creating an account or using the Service, you agree to these Terms in full. If you do not agree, you must stop using the Service and delete your account.",
   "toc": {
     "title": "Table of Contents",
@@ -168,7 +168,7 @@
     "s6_5_heading": "6.5 Voting",
     "s6_5_items": [
       "Each registered Spektt user may cast one vote per Showdown",
-      "You may vote in multiple Showdowns, up to a daily cap of 20 votes across all Showdowns",
+      "You may vote in multiple Showdowns; only votes from accounts with a verified email count toward a result",
       "Vote counts are hidden until the Showdown ends",
       "Vote manipulation results in immediate disqualification and account action"
     ],

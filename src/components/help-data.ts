@@ -257,7 +257,7 @@ This prevents entries from creators with large followings from always appearing 
       },
       {
         q: 'How does voting work?',
-        a: `During the Voting stage, any registered Spektt user can vote — including people who didn't enter the Showdown. You get one vote per Showdown — choose the entry you think deserves to win. You can vote in multiple Showdowns, up to a daily cap of 20 votes total across all Showdowns.
+        a: `During the Voting stage, any registered Spektt user can vote — including people who didn't enter the Showdown. You get one vote per Showdown — choose the entry you think deserves to win. You can vote in multiple Showdowns. Only votes from accounts with a verified email count toward the result.
 
 Vote counts are hidden while voting is live — you won't see how many votes any entry has until the Showdown ends. This keeps voting honest and prevents momentum bias.`,
       },

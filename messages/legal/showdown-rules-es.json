@@ -60,7 +60,7 @@
     "heading": "7. EVALUACIÓN Y SELECCIÓN DE GANADORES",
     "p1": "Los ganadores se determinan por uno o más de los siguientes métodos, según se especifique en cada anuncio de Concurso:",
     "communityLabel": "(a) Votación comunitaria",
-    "communityText": "Los usuarios registrados de Spektt emiten un voto por Concurso. Los votos se registran y verifican. La manipulación de votos, la actividad de bots o la votación coordinada inauténtica resultará en la descalificación inmediata de la participación beneficiada y la suspensión de las cuentas infractoras. Cada usuario registrado puede emitir un máximo de veinte (20) votos por día en el conjunto de los Concursos.",
+    "communityText": "Los usuarios registrados de Spektt emiten un voto por Concurso. Los votos se registran y verifican. La manipulación de votos, la actividad de bots o la votación coordinada inauténtica resultará en la descalificación inmediata de la participación beneficiada y la suspensión de las cuentas infractoras. Solo cuentan para el resultado los votos de cuentas con una dirección de correo electrónico verificada y en regla (no suspendidas ni bloqueadas).",
     "judgeLabel": "(b) Puntuación de jueces",
     "judgeText": "Los jueces seleccionados puntúan las participaciones según criterios establecidos (p. ej. creatividad, calidad técnica, alineación con el tema). Las puntuaciones de los jueces son definitivas.",
     "combinedLabel": "(c) Combinado",

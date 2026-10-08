@@ -205,7 +205,7 @@
         },
         {
           "q": "¿Cómo funciona la votación?",
-          "a": "Durante la etapa de Voting, cualquier usuario registrado de Spektt puede votar — incluso personas que no participaron en el Showdown. Tienes un voto por Showdown — elige la entrada que crees que debe ganar. Puedes votar en múltiples Showdowns, hasta un límite diario de 20 votos en total.\n\nLos conteos de votos están ocultos mientras la votación está activa — no verás cuántos votos tiene cada entrada hasta que termine el Showdown. Esto mantiene la votación honesta y evita el sesgo de popularidad."
+          "a": "Durante la etapa de Voting, cualquier usuario registrado de Spektt puede votar — incluso personas que no participaron en el Showdown. Tienes un voto por Showdown — elige la entrada que crees que debe ganar. Puedes votar en múltiples Showdowns. Solo cuentan para el resultado los votos de cuentas con correo electrónico verificado.\n\nLos conteos de votos están ocultos mientras la votación está activa — no verás cuántos votos tiene cada entrada hasta que termine el Showdown. Esto mantiene la votación honesta y evita el sesgo de popularidad."
         },
         {
           "q": "¿Cómo se eligen los ganadores en un Showdown Pulse?",

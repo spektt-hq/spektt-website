@@ -60,7 +60,7 @@
     "heading": "7. JUDGING AND WINNER SELECTION",
     "p1": "Winners are determined by one or more of the following methods, as specified in each Contest listing:",
     "communityLabel": "(a) Community Voting",
-    "communityText": "Registered Spektt users cast one vote per Contest. Votes are recorded and verified. Vote manipulation, bot activity, or coordinated inauthentic voting will result in immediate disqualification of the benefitting entry and suspension of the offending accounts. Each registered user may cast a maximum of twenty (20) votes per day across all Contests.",
+    "communityText": "Registered Spektt users cast one vote per Contest. Votes are recorded and verified. Vote manipulation, bot activity, or coordinated inauthentic voting will result in immediate disqualification of the benefitting entry and suspension of the offending accounts. Only votes from accounts with a verified email address that are in good standing (not suspended or banned) count toward the result.",
     "judgeLabel": "(b) Judge Scoring",
     "judgeText": "Selected judges score entries on stated criteria (e.g. creativity, technical quality, theme alignment). Judge scores are final.",
     "combinedLabel": "(c) Combined",
