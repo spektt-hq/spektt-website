@@ -145,7 +145,7 @@ For translated sentences that contain a hardcoded `<a>` tag or `<strong>` span m
 
 | Branch | Purpose |
 |--------|---------|
-| `main` | Production — Vercel deploys from here. Only merge when code is ready to go live. |
+| `main` | Production — Cloudflare deploys from here. Only merge when code is ready to go live. |
 | `dev` | Active development — all day-to-day work happens here. |
 
 **Never push directly to `main` during active development.** Work on `dev`, test it, then merge to `main` to deploy.

@@ -6,8 +6,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // `apple-app-site-association` has no extension, so Vite serves it with no Content-Type.
 // Apple's AASA fetch requires `application/json` — a mismatch fails Universal Link
-// verification SILENTLY. In production Vercel handles this via vercel.json headers; this
-// keeps `npm run dev` / `npm run preview` consistent so local curl checks are meaningful.
+// verification SILENTLY. In production the Nitro routeRules below become Cloudflare's
+// `_headers` file; this keeps `npm run dev` / `npm run preview` consistent so local curl
+// checks are meaningful.
 function wellKnownJson(): Plugin {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fix = (req: any, res: any, next: () => void) => {
@@ -40,16 +41,19 @@ export default defineConfig({
     wellKnownJson(),
     tailwindcss(),
     tanstackStart(),
-    // Compiles the SSR handler into a deployable server bundle. On Vercel this
-    // emits `.vercel/output/` (Build Output API v3), which Vercel's zero-config
-    // detection serves as a Function — without it `vite build` only produces a
-    // bare srvx handler that Vercel has no route to, so every path 404s.
+    // Compiles the SSR handler into a Cloudflare Worker (`.output/server/index.mjs`)
+    // plus static assets (`.output/public/`), and writes the wrangler config that
+    // `npx wrangler deploy` reads. Static files are served free and never invoke the
+    // Worker; only page HTML does.
     //
     // `.well-known` files must be served as `application/json` for Universal Link
-    // / App Links verification. Nitro folds these routeRules into the generated
-    // `.vercel/output/config.json`; `vercel.json` headers are ignored once that
-    // file exists (TanStack/router#4021).
+    // / App Links verification. Nitro turns these routeRules into
+    // `.output/public/_headers`, which Cloudflare applies to the static files.
     nitro({
+      preset: 'cloudflare-module',
+      // The Worker's name in the Cloudflare dashboard — fixed, so every deploy updates
+      // the same Worker (Nitro would otherwise derive one from the git remote).
+      cloudflare: { wrangler: { name: 'spektt-website' } },
       routeRules: {
         '/.well-known/**': {
           headers: {

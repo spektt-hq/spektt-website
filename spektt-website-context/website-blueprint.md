@@ -21,11 +21,11 @@ The website does **not** replicate app functionality. No login, no feed, no uplo
 
 | Item | Choice |
 |------|--------|
-| Framework | Next.js 16.2.6 (App Router) |
+| Framework | TanStack Start (Vite 8 + Nitro 3) |
 | Styling | Tailwind CSS v4 with `@theme` directive |
 | Language | TypeScript |
-| Hosting | Vercel |
-| Domain | `spektt.com` (Namecheap → Vercel DNS) |
+| Hosting | Cloudflare Workers (`spektt-website`) |
+| Domain | `spektt.com` (registrar Namecheap, DNS on Cloudflare) |
 | Repo | `github.com/spektt-hq/spektt-website` |
 | Deploy | Auto-deploy on push to `main` |
 | Animations | GSAP (Hero), Framer Motion (page transitions) |

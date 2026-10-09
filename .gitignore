@@ -46,8 +46,8 @@ yarn-error.log*
 
 
 
-# vercel
-.vercel
+# wrangler (Cloudflare) local state
+.wrangler
 
 # old source (not part of this repo)
 Cre8ive-website-main/

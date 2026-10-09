@@ -31,7 +31,8 @@ npm run preview      # serve the production build locally
 npm run translate    # auto-fill missing fr/es/pt/ar keys from en.json via MyMemory
 ```
 
-Deploy: push to `main` → Vercel auto-deploys. **A push to `main` is a production deploy.**
+Deploy: push to `main` → Cloudflare Workers Builds deploys the `spektt-website` Worker. **A push to `main` is a
+production deploy.** Manual deploy (same result): `npm run build && npx wrangler deploy`.
 
 ---
 
@@ -46,19 +47,19 @@ now just points here.
 |-------|------|
 | Framework | TanStack Start (`@tanstack/react-start`) + TanStack Router, file-based routes |
 | Build | Vite 8 (`vite.config.ts`) |
-| Server | Nitro 3 (`nitro/vite`) — emits `.vercel/output/` (Build Output API v3) |
+| Server | Nitro 3 (`nitro/vite`), preset `cloudflare-module` — a Worker in `.output/server/`, static files in `.output/public/` |
 | UI | React 19 |
 | Language | TypeScript strict, `@/*` → `./src/*` |
 | Styling | Tailwind CSS v4 via `@tailwindcss/vite` (`src/styles/globals.css`) |
 | Animations | Framer Motion (page transitions), GSAP (Hero) |
 | Icons | react-icons |
 | i18n | JSON dictionaries, `$locale` routing, 5 languages (EN/FR/ES/PT/AR), RTL Arabic |
-| Deploy | Vercel — auto-deploys on push to `main` |
+| Deploy | Cloudflare Workers (`spektt-website`), auto-deploys on push to `main`. DNS is on Cloudflare too |
 
 ⚠️ **`nitro()` in `vite.config.ts` is required.** Without it `vite build` produces only a
-bare handler Vercel has no route to, and every path 404s (commit `6891b6a`).
+bare handler with no Worker wrapped around it, and every path 404s (commit `6891b6a`).
 
-🔴 **Vercel BLOCKS deploys on a vulnerable TanStack Start — learned 2026-10-02.** A production
+🔴 **A vulnerable TanStack Start once blocked deploys — learned 2026-10-02.** A production
 deploy failed with *"Vulnerable TanStack Start package detected (@tanstack/react-start@1.168.51)"*
 — **nothing to do with the change being deployed**. It was **CVE-2026-102989** (published
 2026-09-30): unauthenticated **reflected XSS** in server-function responses, letting a crafted
@@ -74,7 +75,7 @@ URL run attacker JavaScript with a visitor's access to the origin.
 ⚠️ **Never set `DANGEROUSLY_DEPLOY_VULNERABLE_TANSTACK_START_XSS=1`**, which the error offers.
 It ships the vulnerability to production to get past a gate that exists for a reason. Upgrade.
 
-**The generalisable bit:** a Vercel build failure naming a dependency is not necessarily about
+**The generalisable bit:** a build failure naming a dependency is not necessarily about
 your commit. Read the error before assuming the change broke it.
 
 ---
@@ -174,8 +175,8 @@ User taps spektt.com/profile/kaycee
 - `public/.well-known/assetlinks.json` — Android (SHA-256 of the signing keys — see below)
 - `public/.well-known/apple-app-site-association` — iOS (Team ID + Bundle ID)
 - `vite.config.ts` — serves `/.well-known/**` as `application/json`: Nitro `routeRules` in
-  production (folded into `.vercel/output/config.json`; `vercel.json` headers are IGNORED
-  once that file exists — TanStack/router#4021) and a dev/preview middleware locally
+  production (written to `.output/public/_headers`, which Cloudflare applies to static files) and a
+  dev/preview middleware locally
 - Mobile app `app.config.js` — `associatedDomains` (iOS) + `intentFilters` (Android)
 
 **Slug URLs:** `/profile/{username}` · `/c/{clusterSlug}` · `/s/{showdownSlug}` · `/col/{collectionSlug}`

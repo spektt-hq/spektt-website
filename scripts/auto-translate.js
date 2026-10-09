@@ -173,7 +173,7 @@ async function main() {
   }
 
   console.log('─'.repeat(60))
-  console.log('Done. Review the changes, then push to trigger Vercel deploy.\n')
+  console.log('Done. Review the changes, then push to `main` to deploy.\n')
   console.log('For help/ and legal/ content changes, ask Claude to translate in-session.')
 }
 
