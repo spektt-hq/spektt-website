@@ -10,9 +10,8 @@ export const PLAY_STORE_URL =
   'https://play.google.com/store/apps/details?id=com.spektt.app'
 
 /**
- * ⚠️ NOT live yet — iOS 1.0 is still in App Review as of 2026-10-02 (re-review after two
- * metadata rejections on 09-30). Until Apple approves AND the release is manually pressed,
- * this URL 404s for visitors. That is why `IOS_LIVE` exists rather than linking it directly.
+ * 🚀 iOS 1.0 approved and released (manual release pressed) 2026-10-09. `IOS_LIVE` still
+ * gates every button on it, so a future listing outage is one flag, not five components.
  */
 export const APP_STORE_URL = 'https://apps.apple.com/app/spektt/id6770248818'
 
@@ -32,7 +31,7 @@ export const TESTFLIGHT_URL = 'https://testflight.apple.com/join/Mrn7ng37'
  * Apple approval alone is NOT enough: the release is set to "Manually release this version",
  * so approval does not put it on sale. Flip this after pressing that button, not before.
  */
-export const IOS_LIVE = false
+export const IOS_LIVE = true
 
 /** What the iOS buttons should point at right now. */
 export const IOS_URL = IOS_LIVE ? APP_STORE_URL : TESTFLIGHT_URL
