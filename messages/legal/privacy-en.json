@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: October 6th, 2026",
+  "lastUpdated": "Last Updated: October 11th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -99,7 +99,9 @@
     ],
     "deviceHeading": "Device & Technical Data",
     "deviceItems": [
-      "Device type, operating system, OS version, app version, language preference"
+      "Device type, operating system, OS version, app version, language preference",
+      "Genuine-app check: your phone asks Google Play Integrity (Android) or Apple DeviceCheck (iOS) to confirm that requests come from the genuine Spektt app on a real device. We receive only that verdict — not your contacts, files or other personal data.",
+      "Banned-device protection: on Android we store a SHA-256 hash of your device's Android ID (unique to Spektt on that device; it resets on a factory reset), linked to the accounts used on that device (the most recent five), and count new accounts per device per day (at most three). On iOS we store no device identifier — Apple keeps a small flag for Spektt on the device (DeviceCheck). If an account is permanently banned for a serious violation of our Community Guidelines, the devices it was used on can no longer be used with Spektt; the ban is lifted if an appeal succeeds."
     ],
     "gamificationHeading": "Gamification & Engagement Data",
     "gamificationItems": [
@@ -154,8 +156,8 @@
         "Legal obligation"
       ],
       [
-        "Fraud and vote manipulation prevention, including deciding whether an account's views, votes and Cluster membership earn XP for others",
-        "Hashed IP, voting history, account activity, email-verification status, account age and status",
+        "Fraud and vote manipulation prevention, including deciding whether an account's views, votes and Cluster membership earn XP for others; confirming the genuine App, stopping permanently banned users from returning and limiting fake accounts",
+        "Hashed IP, voting history, account activity, email-verification status, account age and status; device integrity verdicts, hashed Android ID, DeviceCheck flag (iOS)",
         "Legitimate interests"
       ],
       [
@@ -264,6 +266,11 @@
         "Your device's public IP at time of request"
       ],
       [
+        "Google Play Integrity · Apple DeviceCheck",
+        "Confirming the genuine App on a real device; the banned-device flag (iOS)",
+        "A one-time integrity token from your device; on iOS, two bits Apple keeps for Spektt on the device"
+      ],
+      [
         "Apple / Google",
         "Payment processing for Spektt Pro",
         "Subscription purchase data (Spektt never receives card data)"
@@ -336,7 +343,7 @@
     "s9_3_items": [
       "Grace period: Your account is immediately locked and scheduled for permanent deletion in 30 days. Your uploads and contest entries stay visible until the deletion completes",
       "Cancellation window: Log back in within 30 days to cancel the deletion and restore your account",
-      "After 30 days: Profile info (name, username, email, avatar), uploads, DMs, Cluster memberships, saved entries, watch history and vote records are permanently deleted, and your username becomes available again. Comments are anonymised, and reports you filed stay on record without your name. A minimal account record is kept so awards and audit logs still resolve: your user ID, your creative role, and your XP, level, tier and badges. It holds no contact details, date of birth, location, IP address or device data. Likes and views you gave remain only as counts tied to that anonymous ID."
+      "After 30 days: Profile info (name, username, email, avatar), uploads, DMs, Cluster memberships, saved entries, watch history and vote records are permanently deleted, and your username becomes available again. Comments are anonymised, and reports you filed stay on record without your name. A minimal account record is kept so awards and audit logs still resolve: your user ID, your creative role, and your XP, level, tier and badges. It holds no contact details, date of birth, location, IP address or device data. Likes and views you gave remain only as counts tied to that anonymous ID. The device links of a deleted account are deleted too — except that if the account was permanently banned, the ban on its devices stays in force (the hashed Android ID, the banned account's ID and the reason), so deleting an account is not a way around a ban."
     ],
     "s9_4_heading": "9.4 Right to Opt Out",
     "s9_4_items": [
@@ -403,8 +410,8 @@
         "Purged 30 days after the request was declined"
       ],
       [
-        "Hashed IP address",
-        "Retained for the duration of the account; deleted with the account (Section 9.3)"
+        "Hashed IP address; hashed device identifier (Android) and device links",
+        "Retained for the duration of the account; deleted with the account (Section 9.3). A device ban record is kept until the ban is lifted on appeal"
       ],
       [
         "Crash data (Sentry)",

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: October 6th, 2026",
+  "lastUpdated": "Última Atualização: October 11th, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -99,7 +99,9 @@
     ],
     "deviceHeading": "Dados do Dispositivo e Técnicos",
     "deviceItems": [
-      "Tipo de dispositivo, sistema operacional, versão do SO, versão do aplicativo, preferência de idioma"
+      "Tipo de dispositivo, sistema operacional, versão do SO, versão do aplicativo, preferência de idioma",
+      "Verificação do app autêntico: seu telefone pede ao Google Play Integrity (Android) ou ao Apple DeviceCheck (iOS) que confirme que as solicitações vêm do app autêntico do Spektt em um dispositivo real. Recebemos apenas esse veredito — não seus contatos, arquivos ou outros dados pessoais.",
+      "Proteção contra dispositivos banidos: no Android armazenamos um hash SHA-256 do Android ID do seu dispositivo (exclusivo do Spektt nesse dispositivo; ele é redefinido em uma restauração de fábrica), vinculado às contas usadas nesse dispositivo (as cinco mais recentes), e contamos as novas contas por dispositivo por dia (no máximo três). No iOS não armazenamos nenhum identificador do dispositivo — a Apple guarda um pequeno indicador para o Spektt no dispositivo (DeviceCheck). Se uma conta for banida permanentemente por uma violação grave das nossas Diretrizes da Comunidade, os dispositivos em que ela foi usada não poderão mais ser usados com o Spektt; o banimento é suspenso se um recurso for aceito."
     ],
     "gamificationHeading": "Dados de Gamificação e Engajamento",
     "gamificationItems": [
@@ -154,8 +156,8 @@
         "Obrigação legal"
       ],
       [
-        "Prevenção de fraude e manipulação de votos, incluindo decidir se as visualizações, os votos e a participação em Clusters de uma conta geram XP para outras pessoas",
-        "IP com hash, histórico de votação, atividade da conta, status de verificação do e-mail, idade e status da conta",
+        "Prevenção de fraude e manipulação de votos, incluindo decidir se as visualizações, os votos e a participação em Clusters de uma conta geram XP para outras pessoas; confirmar o app autêntico, impedir o retorno de usuários banidos permanentemente e limitar contas falsas",
+        "IP com hash, histórico de votação, atividade da conta, status de verificação do e-mail, idade e status da conta; vereditos de integridade do dispositivo, Android ID com hash, indicador DeviceCheck (iOS)",
         "Interesses legítimos"
       ],
       [
@@ -264,6 +266,11 @@
         "IP público do seu dispositivo no momento da solicitação"
       ],
       [
+        "Google Play Integrity · Apple DeviceCheck",
+        "Confirmar o app autêntico em um dispositivo real; o indicador de dispositivo banido (iOS)",
+        "Um token de integridade de uso único do seu dispositivo; no iOS, dois bits que a Apple guarda para o Spektt no dispositivo"
+      ],
+      [
         "Apple / Google",
         "Processamento de pagamento para Spektt Pro",
         "Dados de compra de assinatura (Spektt nunca recebe dados de cartão)"
@@ -336,7 +343,7 @@
     "s9_3_items": [
       "Período de carência: sua conta é bloqueada imediatamente e programada para exclusão definitiva em 30 dias. Seus envios e participações em concursos continuam visíveis até a exclusão ser concluída",
       "Janela de cancelamento: Faça login novamente dentro de 30 dias para cancelar a exclusão e restaurar sua conta",
-      "Após 30 dias: as informações do perfil (nome, nome de usuário, e-mail, avatar), os envios, as mensagens diretas, as participações em Clusters, as participações salvas, o histórico de visualização e os registros de votos são excluídos definitivamente, e seu nome de usuário volta a ficar disponível. Os comentários são anonimizados, e as denúncias que você fez permanecem registradas sem o seu nome. Um registro mínimo da conta é mantido para que prêmios e registros de auditoria continuem coerentes: seu ID de usuário, sua função criativa e seus XP, nível, patamar e emblemas. Ele não contém dados de contato, data de nascimento, localização, endereço IP nem dados do dispositivo. As curtidas e visualizações que você deu permanecem apenas como contagens ligadas a esse ID anônimo."
+      "Após 30 dias: as informações do perfil (nome, nome de usuário, e-mail, avatar), os envios, as mensagens diretas, as participações em Clusters, as participações salvas, o histórico de visualização e os registros de votos são excluídos definitivamente, e seu nome de usuário volta a ficar disponível. Os comentários são anonimizados, e as denúncias que você fez permanecem registradas sem o seu nome. Um registro mínimo da conta é mantido para que prêmios e registros de auditoria continuem coerentes: seu ID de usuário, sua função criativa e seus XP, nível, patamar e emblemas. Ele não contém dados de contato, data de nascimento, localização, endereço IP nem dados do dispositivo. As curtidas e visualizações que você deu permanecem apenas como contagens ligadas a esse ID anônimo. Os vínculos de dispositivo de uma conta excluída também são excluídos — exceto que, se a conta foi banida permanentemente, o banimento dos seus dispositivos continua valendo (o Android ID com hash, o ID da conta banida e o motivo), para que excluir uma conta não seja uma forma de contornar um banimento."
     ],
     "s9_4_heading": "9.4 Direito de Cancelamento",
     "s9_4_items": [
@@ -403,8 +410,8 @@
         "Removidos 30 dias após a recusa da solicitação"
       ],
       [
-        "Endereço IP com hash",
-        "Mantido enquanto a conta existir; excluído junto com a conta (Seção 9.3)"
+        "Endereço IP com hash; identificador de dispositivo com hash (Android) e vínculos de dispositivo",
+        "Mantidos enquanto a conta existir; excluídos com a conta (Seção 9.3). Um registro de banimento de dispositivo é mantido até que o banimento seja suspenso após recurso"
       ],
       [
         "Dados de falhas (Sentry)",

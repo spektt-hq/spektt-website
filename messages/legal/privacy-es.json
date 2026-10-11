@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: October 6th, 2026",
+  "lastUpdated": "Última actualización: October 11th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -99,7 +99,9 @@
     ],
     "deviceHeading": "Datos del Dispositivo y Técnicos",
     "deviceItems": [
-      "Tipo de dispositivo, sistema operativo, versión del SO, versión de la app, preferencia de idioma"
+      "Tipo de dispositivo, sistema operativo, versión del SO, versión de la app, preferencia de idioma",
+      "Comprobación de la app auténtica: tu teléfono pide a Google Play Integrity (Android) o a Apple DeviceCheck (iOS) que confirme que las solicitudes provienen de la app auténtica de Spektt en un dispositivo real. Solo recibimos ese veredicto, no tus contactos, archivos ni otros datos personales.",
+      "Protección contra dispositivos bloqueados: en Android guardamos un hash SHA-256 del Android ID de tu dispositivo (exclusivo de Spektt en ese dispositivo; se restablece con un restablecimiento de fábrica), vinculado a las cuentas usadas en ese dispositivo (las cinco más recientes), y contamos las cuentas nuevas por dispositivo y por día (como máximo tres). En iOS no guardamos ningún identificador del dispositivo: Apple guarda un pequeño indicador para Spektt en el dispositivo (DeviceCheck). Si una cuenta se bloquea de forma permanente por una infracción grave de nuestras Normas de la comunidad, los dispositivos en los que se usó ya no pueden usarse con Spektt; el bloqueo se levanta si una apelación prospera."
     ],
     "gamificationHeading": "Datos de Gamificación y Participación",
     "gamificationItems": [
@@ -154,8 +156,8 @@
         "Obligación legal"
       ],
       [
-        "Prevención de fraude y manipulación de votos, incluido decidir si las vistas, los votos y la membresía en Clusters de una cuenta otorgan XP a otros",
-        "IP cifrada, historial de votos, actividad de cuenta, estado de verificación del correo, antigüedad y estado de la cuenta",
+        "Prevención de fraude y manipulación de votos, incluido decidir si las vistas, los votos y la membresía en Clusters de una cuenta otorgan XP a otros; confirmar la app auténtica, impedir que vuelvan los usuarios bloqueados de forma permanente y limitar las cuentas falsas",
+        "IP cifrada, historial de votos, actividad de cuenta, estado de verificación del correo, antigüedad y estado de la cuenta; veredictos de integridad del dispositivo, Android ID cifrado con hash, indicador DeviceCheck (iOS)",
         "Intereses legítimos"
       ],
       [
@@ -264,6 +266,11 @@
         "IP pública de tu dispositivo al momento de la solicitud"
       ],
       [
+        "Google Play Integrity · Apple DeviceCheck",
+        "Confirmar la app auténtica en un dispositivo real; el indicador de dispositivo bloqueado (iOS)",
+        "Un token de integridad de un solo uso desde tu dispositivo; en iOS, dos bits que Apple guarda para Spektt en el dispositivo"
+      ],
+      [
         "Apple / Google",
         "Procesamiento de pagos para Spektt Pro",
         "Datos de compra de suscripción (Spektt nunca recibe datos de tarjeta)"
@@ -336,7 +343,7 @@
     "s9_3_items": [
       "Período de gracia: tu cuenta se bloquea de inmediato y se programa para su eliminación definitiva en 30 días. Tus publicaciones y participaciones en concursos siguen visibles hasta que se completa la eliminación",
       "Ventana de cancelación: Vuelve a iniciar sesión dentro de 30 días para cancelar la eliminación y restaurar tu cuenta",
-      "Después de 30 días: la información del perfil (nombre, nombre de usuario, correo electrónico, avatar), las publicaciones, los mensajes directos, las membresías de Clusters, las participaciones guardadas, el historial de visualización y los registros de votos se eliminan de forma definitiva, y tu nombre de usuario vuelve a estar disponible. Los comentarios se anonimizan, y los reportes que hiciste se conservan sin tu nombre. Se conserva un registro de cuenta mínimo para que los premios y los registros de auditoría sigan siendo coherentes: tu ID de usuario, tu rol creativo y tus XP, nivel, rango e insignias. No contiene datos de contacto, fecha de nacimiento, ubicación, dirección IP ni datos del dispositivo. Los «me gusta» y las visualizaciones que diste solo permanecen como recuentos vinculados a ese ID anónimo."
+      "Después de 30 días: la información del perfil (nombre, nombre de usuario, correo electrónico, avatar), las publicaciones, los mensajes directos, las membresías de Clusters, las participaciones guardadas, el historial de visualización y los registros de votos se eliminan de forma definitiva, y tu nombre de usuario vuelve a estar disponible. Los comentarios se anonimizan, y los reportes que hiciste se conservan sin tu nombre. Se conserva un registro de cuenta mínimo para que los premios y los registros de auditoría sigan siendo coherentes: tu ID de usuario, tu rol creativo y tus XP, nivel, rango e insignias. No contiene datos de contacto, fecha de nacimiento, ubicación, dirección IP ni datos del dispositivo. Los «me gusta» y las visualizaciones que diste solo permanecen como recuentos vinculados a ese ID anónimo. Los vínculos de dispositivo de una cuenta eliminada también se eliminan, salvo que, si la cuenta fue bloqueada de forma permanente, el bloqueo de sus dispositivos sigue vigente (el Android ID cifrado con hash, el ID de la cuenta bloqueada y el motivo), para que eliminar una cuenta no sirva para eludir un bloqueo."
     ],
     "s9_4_heading": "9.4 Derecho a Excluirse",
     "s9_4_items": [
@@ -403,8 +410,8 @@
         "Eliminados 30 días después de que la solicitud fue rechazada"
       ],
       [
-        "Dirección IP cifrada",
-        "Se conserva mientras exista la cuenta; se elimina con la cuenta (sección 9.3)"
+        "Dirección IP cifrada; identificador de dispositivo cifrado con hash (Android) y vínculos de dispositivo",
+        "Se conservan mientras exista la cuenta; se eliminan con la cuenta (Sección 9.3). Un registro de bloqueo de dispositivo se conserva hasta que el bloqueo se levanta tras una apelación"
       ],
       [
         "Datos de fallos (Sentry)",

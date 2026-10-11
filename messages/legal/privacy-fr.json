@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : October 6th, 2026",
+  "lastUpdated": "Dernière mise à jour : October 11th, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -99,7 +99,9 @@
     ],
     "deviceHeading": "Appareil et données techniques",
     "deviceItems": [
-      "Type d’appareil, système d’exploitation, version du système d’exploitation, version de l’application, préférence linguistique"
+      "Type d’appareil, système d’exploitation, version du système d’exploitation, version de l’application, préférence linguistique",
+      "Vérification de l'application authentique : votre téléphone demande à Google Play Integrity (Android) ou à Apple DeviceCheck (iOS) de confirmer que les requêtes proviennent de l'application Spektt authentique sur un appareil réel. Nous ne recevons que ce verdict — pas vos contacts, vos fichiers ni d'autres données personnelles.",
+      "Protection contre les appareils bannis : sur Android, nous conservons un hachage SHA-256 de l'Android ID de votre appareil (propre à Spektt sur cet appareil ; il est réinitialisé lors d'une réinitialisation d'usine), associé aux comptes utilisés sur cet appareil (les cinq plus récents), et nous comptons les nouveaux comptes créés par appareil et par jour (trois au maximum). Sur iOS, nous ne conservons aucun identifiant d'appareil — Apple conserve un petit indicateur pour Spektt sur l'appareil (DeviceCheck). Si un compte est banni définitivement pour une violation grave de nos Règles de la communauté, les appareils sur lesquels il a été utilisé ne peuvent plus être utilisés avec Spektt ; le bannissement est levé si un recours aboutit."
     ],
     "gamificationHeading": "Données de gamification et d’engagement",
     "gamificationItems": [
@@ -154,8 +156,8 @@
         "Obligation légale"
       ],
       [
-        "Prévention de la fraude et de la manipulation des votes, y compris déterminer si les vues, votes et adhésions à un Cluster d’un compte rapportent de l’XP aux autres",
-        "IP hachée, historique de vote, activité du compte, statut de vérification de l’e-mail, ancienneté et statut du compte",
+        "Prévention de la fraude et de la manipulation des votes, y compris déterminer si les vues, votes et adhésions à un Cluster d’un compte rapportent de l’XP aux autres ; confirmer l'application authentique, empêcher le retour des utilisateurs bannis définitivement et limiter les faux comptes",
+        "IP hachée, historique de vote, activité du compte, statut de vérification de l’e-mail, ancienneté et statut du compte ; verdicts d'intégrité de l'appareil, Android ID haché, indicateur DeviceCheck (iOS)",
         "Intérêts légitimes"
       ],
       [
@@ -264,6 +266,11 @@
         "IP publique de votre appareil au moment de la requête"
       ],
       [
+        "Google Play Integrity · Apple DeviceCheck",
+        "Confirmer l'application authentique sur un appareil réel ; l'indicateur d'appareil banni (iOS)",
+        "Un jeton d'intégrité à usage unique provenant de votre appareil ; sur iOS, deux bits qu'Apple conserve pour Spektt sur l'appareil"
+      ],
+      [
         "Apple / Google",
         "Traitement des paiements pour Spektt Pro",
         "Données d’achat d’abonnement (Spektt ne reçoit jamais les données de carte)"
@@ -336,7 +343,7 @@
     "s9_3_items": [
       "Période de grâce : votre compte est immédiatement verrouillé et programmé pour une suppression définitive dans 30 jours. Vos publications et participations aux concours restent visibles jusqu'à la fin de la suppression",
       "Fenêtre d’annulation : reconnectez-vous dans les 30 jours pour annuler la suppression et restaurer votre compte",
-      "Après 30 jours : les informations de profil (nom, nom d'utilisateur, e-mail, avatar), les publications, les messages privés, les adhésions aux Clusters, les participations enregistrées, l'historique de visionnage et les enregistrements de votes sont définitivement supprimés, et votre nom d'utilisateur redevient disponible. Les commentaires sont anonymisés, et les signalements que vous avez effectués restent enregistrés sans votre nom. Un enregistrement de compte minimal est conservé pour que les récompenses et les journaux d'audit restent cohérents : votre identifiant utilisateur, votre rôle créatif, ainsi que vos XP, niveau, palier et badges. Il ne contient aucune coordonnée, date de naissance, localisation, adresse IP ni donnée d'appareil. Les « J'aime » et vues que vous avez donnés ne subsistent que sous forme de compteurs liés à cet identifiant anonyme."
+      "Après 30 jours : les informations de profil (nom, nom d'utilisateur, e-mail, avatar), les publications, les messages privés, les adhésions aux Clusters, les participations enregistrées, l'historique de visionnage et les enregistrements de votes sont définitivement supprimés, et votre nom d'utilisateur redevient disponible. Les commentaires sont anonymisés, et les signalements que vous avez effectués restent enregistrés sans votre nom. Un enregistrement de compte minimal est conservé pour que les récompenses et les journaux d'audit restent cohérents : votre identifiant utilisateur, votre rôle créatif, ainsi que vos XP, niveau, palier et badges. Il ne contient aucune coordonnée, date de naissance, localisation, adresse IP ni donnée d'appareil. Les « J'aime » et vues que vous avez donnés ne subsistent que sous forme de compteurs liés à cet identifiant anonyme. Les liens d'appareil d'un compte supprimé sont également supprimés — sauf si le compte a été banni définitivement : le bannissement de ses appareils reste alors en vigueur (l'Android ID haché, l'identifiant du compte banni et le motif), afin que la suppression d'un compte ne permette pas de contourner un bannissement."
     ],
     "s9_4_heading": "9.4 Droit de retrait",
     "s9_4_items": [
@@ -403,8 +410,8 @@
         "Supprimées 30 jours après le refus de la demande"
       ],
       [
-        "Adresse IP hachée",
-        "Conservée pendant la durée du compte ; supprimée avec le compte (section 9.3)"
+        "Adresse IP hachée ; identifiant d'appareil haché (Android) et liens d'appareil",
+        "Conservés pendant toute la durée du compte ; supprimés avec le compte (Section 9.3). Un enregistrement de bannissement d'appareil est conservé jusqu'à la levée du bannissement sur recours"
       ],
       [
         "Données de plantage (Sentry)",
