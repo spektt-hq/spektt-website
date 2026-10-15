@@ -2,19 +2,11 @@ import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
-const imgGallery = [
-  { id: 1, src: '/girl-on-horse.webp' },
-  { id: 2, src: '/black-gril.webp' },
-  { id: 3, src: '/eggs.webp' },
-]
-
 interface HeroProps {
   sentences: string[]
 }
 
 function Hero({ sentences }: HeroProps) {
-  const getRandomIdx = () => Math.floor(Math.random() * imgGallery.length)
-  const [randomIdx, setRandomIdx] = useState(0)
   const [mounted, setMounted] = useState(false)
 
   const containerRef = useRef<HTMLDivElement>(null)
@@ -24,7 +16,6 @@ function Hero({ sentences }: HeroProps) {
   const sentence4Ref = useRef<HTMLParagraphElement>(null)
 
   useEffect(() => {
-    setRandomIdx(getRandomIdx())
     setMounted(true)
   }, [])
 
@@ -66,16 +57,14 @@ function Hero({ sentences }: HeroProps) {
     <div
       className='relative flex flex-col items-center justify-center w-full h-screen text-white transition-colors duration-500'
       ref={containerRef}
+      // Pure CSS: no background photo to download or swap after hydration (the old random
+      // hero images were ~1.7 MB and flashed from the dark fill to a photo).
       style={{
-        backgroundImage: mounted ? `url(${imgGallery[randomIdx].src})` : 'none',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
         backgroundColor: '#0e2439',
+        backgroundImage:
+          'radial-gradient(ellipse at 50% 35%, #17426a 0%, #0e2439 55%, #08141f 100%)',
       }}
     >
-      {/* Dark overlay for text readability */}
-      <div className='absolute inset-0 bg-black/55' />
-
       <div className='relative z-10 container text-center flex flex-col items-center gap-6'>
         {/* Rotating text */}
         <div className='relative flex items-center justify-center h-28 md:h-40 lg:h-52 w-full px-4'>

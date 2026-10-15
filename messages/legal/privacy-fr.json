@@ -112,7 +112,7 @@
     ],
     "notifHeading": "Jetons de notification push",
     "notifItems": [
-      "Jetons push (par appareil, pour l’envoi de notifications push) : un jeton Firebase Cloud Messaging sur Android et un jeton Apple Push Notification service sur iOS. Les appareils encore sur la première version de l’App utilisent un identifiant OneSignal Player jusqu’au retrait de cette version. Supprimés immédiatement lors de la déconnexion ou de la suppression du compte."
+      "Jetons push (par appareil, pour l’envoi de notifications push) : un jeton Firebase Cloud Messaging sur Android et un jeton Apple Push Notification service sur iOS. Supprimés immédiatement lors de la déconnexion ou de la suppression du compte."
     ],
     "crashHeading": "Données d’erreurs et de plantages",
     "crashItems": [
@@ -246,7 +246,7 @@
         "Statut de l’abonnement, date d’expiration, date d’achat"
       ],
       [
-        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (première version de l’App uniquement, en cours de retrait)",
+        "Google Firebase Cloud Messaging · Apple Push Notification service",
         "Livraison des notifications push",
         "Jetons push ; contenu des notifications"
       ],
@@ -434,7 +434,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERTS INTERNATIONAUX DE DONNÉES",
-    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Cloudflare (images) et Bunny.net (vidéo) distribuent les médias dans le monde entier. Google et Apple (notifications push), OneSignal (première version de l’App uniquement), Amazon Web Services (SES), RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
+    "p1": "Spektt est exploité par Axlume Tech Limited au Nigeria. Vos données sont principalement stockées sur les serveurs Google Firebase / Firestore, qui peuvent être situés aux États-Unis ou dans l’Union européenne. Cloudflare (images) et Bunny.net (vidéo) distribuent les médias dans le monde entier. Google et Apple (notifications push), Amazon Web Services (SES), RevenueCat et Sentry traitent également des données sur des serveurs situés en dehors du Nigeria.",
     "p2": "En utilisant l’Application, vous consentez au transfert de vos informations vers ces serveurs. Lorsque la loi l’exige, nous mettons en œuvre des garanties appropriées pour ces transferts."
   },
   "s13": {

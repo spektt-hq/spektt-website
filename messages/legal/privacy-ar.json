@@ -112,7 +112,7 @@
     ],
     "notifHeading": "رموز إشعارات الدفع",
     "notifItems": [
-      "رموز الإشعارات الفورية (لكل جهاز، لتوصيل الإشعارات): رمز Firebase Cloud Messaging على Android ورمز Apple Push Notification service على iOS. تستخدم الأجهزة التي لا تزال على الإصدار الأول من التطبيق معرّف OneSignal Player حتى إيقاف ذلك الإصدار. تتم إزالتها فورًا عند تسجيل الخروج أو حذف الحساب."
+      "رموز الإشعارات الفورية (لكل جهاز، لتوصيل الإشعارات): رمز Firebase Cloud Messaging على Android ورمز Apple Push Notification service على iOS. تتم إزالتها فورًا عند تسجيل الخروج أو حذف الحساب."
     ],
     "crashHeading": "بيانات الأخطاء والأعطال",
     "crashItems": [
@@ -246,7 +246,7 @@
         "حالة الاشتراك، تاريخ الانتهاء، تاريخ الشراء"
       ],
       [
-        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (الإصدار الأول من التطبيق فقط، قيد الإيقاف)",
+        "Google Firebase Cloud Messaging · Apple Push Notification service",
         "توصيل الإشعارات الفورية",
         "رموز الإشعارات الفورية؛ محتوى الإشعارات"
       ],
@@ -434,7 +434,7 @@
   },
   "s12": {
     "heading": "12. نقل البيانات الدولي",
-    "p1": "يتم تشغيل Spektt بواسطة Axlume Tech Limited في نيجيريا. يتم تخزين بياناتك بشكل أساسي على خوادم Google Firebase / Firestore، والتي قد تكون موجودة في الولايات المتحدة أو الاتحاد الأوروبي. تقوم Cloudflare (الصور) وBunny.net (الفيديو) بتوزيع الوسائط عالميًا. كما تقوم Google وApple (الإشعارات الفورية)، وOneSignal (الإصدار الأول من التطبيق فقط) و Amazon Web Services (SES) و RevenueCat و Sentry بمعالجة البيانات على خوادم خارج نيجيريا.",
+    "p1": "يتم تشغيل Spektt بواسطة Axlume Tech Limited في نيجيريا. يتم تخزين بياناتك بشكل أساسي على خوادم Google Firebase / Firestore، والتي قد تكون موجودة في الولايات المتحدة أو الاتحاد الأوروبي. تقوم Cloudflare (الصور) وBunny.net (الفيديو) بتوزيع الوسائط عالميًا. كما تقوم Google وApple (الإشعارات الفورية)، و Amazon Web Services (SES) و RevenueCat و Sentry بمعالجة البيانات على خوادم خارج نيجيريا.",
     "p2": "باستخدام التطبيق، فإنك توافق على نقل معلوماتك إلى هذه الخوادم. وحيثما يقتضي القانون، نقوم بتنفيذ ضمانات مناسبة لمثل هذه التحويلات."
   },
   "s13": {

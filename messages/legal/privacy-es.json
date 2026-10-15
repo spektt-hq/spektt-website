@@ -112,7 +112,7 @@
     ],
     "notifHeading": "Tokens de Notificaciones Push",
     "notifItems": [
-      "Tokens push (por dispositivo, para enviar notificaciones push): un token de Firebase Cloud Messaging en Android y uno de Apple Push Notification service en iOS. Los dispositivos que aún usan la primera versión de la App usan un ID de OneSignal Player hasta que esa versión se retire. Se eliminan inmediatamente al cerrar sesión o eliminar la cuenta."
+      "Tokens push (por dispositivo, para enviar notificaciones push): un token de Firebase Cloud Messaging en Android y uno de Apple Push Notification service en iOS. Se eliminan inmediatamente al cerrar sesión o eliminar la cuenta."
     ],
     "crashHeading": "Datos de Errores y Fallos",
     "crashItems": [
@@ -246,7 +246,7 @@
         "Estado de suscripción, fecha de vencimiento, fecha de compra"
       ],
       [
-        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (solo la primera versión de la App, en retirada)",
+        "Google Firebase Cloud Messaging · Apple Push Notification service",
         "Entrega de notificaciones push",
         "Tokens push; contenido de las notificaciones"
       ],
@@ -434,7 +434,7 @@
   },
   "s12": {
     "heading": "12. TRANSFERENCIAS INTERNACIONALES DE DATOS",
-    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. Cloudflare (imágenes) y Bunny.net (vídeo) distribuyen los medios globalmente. Google y Apple (notificaciones push), OneSignal (solo la primera versión de la App), Amazon Web Services (SES), RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
+    "p1": "Spektt es operado por Axlume Tech Limited en Nigeria. Tus datos se almacenan principalmente en servidores de Google Firebase / Firestore, que pueden estar ubicados en Estados Unidos o la Unión Europea. Cloudflare (imágenes) y Bunny.net (vídeo) distribuyen los medios globalmente. Google y Apple (notificaciones push), Amazon Web Services (SES), RevenueCat y Sentry también procesan datos en servidores fuera de Nigeria.",
     "p2": "Al usar la App, consientes la transferencia de tu información a estos servidores. Cuando lo exige la ley, implementamos las salvaguardas apropiadas para dichas transferencias."
   },
   "s13": {

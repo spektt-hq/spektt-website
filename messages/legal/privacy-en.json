@@ -112,7 +112,7 @@
     ],
     "notifHeading": "Push Notification Tokens",
     "notifItems": [
-      "Push tokens (per device, for delivering push notifications): a Firebase Cloud Messaging token on Android and an Apple Push Notification service token on iOS. Devices still on the first version of the App use a OneSignal Player ID instead, until that version is retired. Removed immediately upon logout or account deletion."
+      "Push tokens (per device, for delivering push notifications): a Firebase Cloud Messaging token on Android and an Apple Push Notification service token on iOS. Removed immediately upon logout or account deletion."
     ],
     "crashHeading": "Error & Crash Data",
     "crashItems": [
@@ -246,7 +246,7 @@
         "Subscription status, expiry date, purchase date"
       ],
       [
-        "Google Firebase Cloud Messaging · Apple Push Notification service · OneSignal (first App version only, being retired)",
+        "Google Firebase Cloud Messaging · Apple Push Notification service",
         "Push notification delivery",
         "Push tokens; notification content"
       ],
@@ -434,7 +434,7 @@
   },
   "s12": {
     "heading": "12. INTERNATIONAL DATA TRANSFERS",
-    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare (images) and Bunny.net (video) distribute media globally. Google and Apple (push notifications), OneSignal (first App version only), Amazon Web Services (SES), RevenueCat, and Sentry also process data on servers outside Nigeria.",
+    "p1": "Spektt is operated by Axlume Tech Limited in Nigeria. Your data is primarily stored on Google Firebase / Firestore servers, which may be located in the United States or European Union. Cloudflare (images) and Bunny.net (video) distribute media globally. Google and Apple (push notifications), Amazon Web Services (SES), RevenueCat, and Sentry also process data on servers outside Nigeria.",
     "p2": "By using the App, you consent to the transfer of your information to these servers. Where required by law, we implement appropriate safeguards for such transfers."
   },
   "s13": {

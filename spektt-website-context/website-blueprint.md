@@ -43,7 +43,7 @@ All pages live under `src/app/[locale]/`. The middleware proxy redirects bare pa
 The landing page. First impression for anyone who hears about Spektt.
 
 **Sections (top to bottom):**
-1. **Hero** — GSAP rotating text animation, two background images with overlay, App Store + Google Play buttons
+1. **Hero** — GSAP rotating text animation, a pure-CSS gradient background (no photos), App Store + Google Play buttons
 2. **What is Spektt?** — Short description of the platform (`bg-dark`)
 3. **Features** — 6 cards: Showdowns, Clusters, Feed, Pro, Leaderboard, DMs (`bg-warmBlue`)
 4. **How it works** — 3 numbered steps: Create account → Upload your work → Compete & grow (`bg-dark`)
@@ -351,9 +351,7 @@ public/
 ├── spektt_text_icon.png      ← "Spektt" wordmark — used in Header navbar only
 ├── spektt-new-favicon.png    ← Square app icon — used as OG/Twitter image across all pages
 ├── appstore.png              ← App Store download button
-├── playstore.png             ← Google Play download button
-├── girl-on-horse.webp        ← Hero background image 1
-└── black-gril.webp           ← Hero background image 2
+└── playstore.png             ← Google Play download button
 ```
 
 ---
