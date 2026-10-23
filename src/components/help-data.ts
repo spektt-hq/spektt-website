@@ -523,7 +523,7 @@ Your current tier is displayed on your profile.`,
 • Badges for views and votes received — reaching a milestone (for example 100 views, or 10 votes received) unlocks a badge with an XP bonus
 • Growing your Cluster — if you created a Cluster, you earn XP as it reaches member milestones (up to a lifetime limit)
 
-You don't earn XP for posting, liking, voting for others, or joining or creating a Cluster. Views and votes only count from established accounts (verified, at least a week old), and your own views and votes never count — so XP can't be faked with extra accounts.
+You don't earn XP for posting, liking, voting for others, or joining or creating a Cluster. Views and votes only count from accounts with a verified email that are in good standing, and your own views and votes never count — so XP can't be faked with extra accounts.
 
 Spektt Pro users earn a boosted XP multiplier that scales with tier — 1.25× at Newcomer and Emerging, 1.5× at Rising Star and Established, 1.75× at Verified, and 2× at Legendary.`,
       },

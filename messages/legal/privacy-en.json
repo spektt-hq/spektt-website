@@ -107,7 +107,7 @@
     "gamificationItems": [
       "XP earned, current level, tier, earned badges",
       "Weekly and monthly XP totals, total views, votes received and cast",
-      "Counts of the views and votes your work received from other established accounts, and of the members your Cluster gained (used to award XP and badges)",
+      "Counts of the views and votes your work received from other accounts with a verified email that are in good standing, and of the members your Cluster gained (used to award XP and badges)",
       "Views, likes and comments your uploads receive"
     ],
     "notifHeading": "Push Notification Tokens",

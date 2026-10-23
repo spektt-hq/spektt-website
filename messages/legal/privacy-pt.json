@@ -107,7 +107,7 @@
     "gamificationItems": [
       "XP ganho, nível atual, categoria, badges conquistados",
       "Totais semanais e mensais de XP, total de visualizações, votos recebidos e dados",
-      "O número de visualizações e votos que seu trabalho recebeu de outras contas estabelecidas, e de membros que seu Cluster ganhou (usado para conceder XP e badges)",
+      "O número de visualizações e votos que seu trabalho recebeu de outras contas com e-mail verificado e em situação regular, e de membros que seu Cluster ganhou (usado para conceder XP e badges)",
       "Visualizações, curtidas e comentários que seus uploads recebem"
     ],
     "notifHeading": "Tokens de Notificação Push",

@@ -107,7 +107,7 @@
     "gamificationItems": [
       "XP obtenido, nivel actual, rango, insignias obtenidas",
       "Totales semanales y mensuales de XP, vistas totales, votos recibidos y emitidos",
-      "El número de vistas y votos que tu trabajo recibió de otras cuentas establecidas, y de miembros que ganó tu Cluster (para otorgar XP e insignias)",
+      "El número de vistas y votos que tu trabajo recibió de otras cuentas con el correo verificado y en regla, y de miembros que ganó tu Cluster (para otorgar XP e insignias)",
       "Las vistas, los me gusta y los comentarios que reciben tus publicaciones"
     ],
     "notifHeading": "Tokens de Notificaciones Push",

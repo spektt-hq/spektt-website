@@ -107,7 +107,7 @@
     "gamificationItems": [
       "XP gagnés, niveau actuel, palier, badges obtenus",
       "Totaux hebdomadaires et mensuels de XP, nombre total de vues, votes reçus et attribués",
-      "Le nombre de vues et de votes reçus par votre travail de la part d’autres comptes établis, et de membres gagnés par votre Cluster (pour attribuer l’XP et les badges)",
+      "Le nombre de vues et de votes reçus par votre travail de la part d’autres comptes dont l’e-mail est vérifié et qui sont en règle, et de membres gagnés par votre Cluster (pour attribuer l’XP et les badges)",
       "Les vues, mentions J’aime et commentaires reçus par vos publications"
     ],
     "notifHeading": "Jetons de notification push",
