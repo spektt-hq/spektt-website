@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : October 11th, 2026",
+  "lastUpdated": "Dernière mise à jour : November 2nd, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -343,7 +343,7 @@
     "s9_3_items": [
       "Période de grâce : votre compte est immédiatement verrouillé et programmé pour une suppression définitive dans 30 jours. Vos publications et participations aux concours restent visibles jusqu'à la fin de la suppression",
       "Fenêtre d’annulation : reconnectez-vous dans les 30 jours pour annuler la suppression et restaurer votre compte",
-      "Après 30 jours : les informations de profil (nom, nom d'utilisateur, e-mail, avatar), les publications, les messages privés, les adhésions aux Clusters, les participations enregistrées, l'historique de visionnage et les enregistrements de votes sont définitivement supprimés, et votre nom d'utilisateur redevient disponible. Les commentaires sont anonymisés, et les signalements que vous avez effectués restent enregistrés sans votre nom. Un enregistrement de compte minimal est conservé pour que les récompenses et les journaux d'audit restent cohérents : votre identifiant utilisateur, votre rôle créatif, ainsi que vos XP, niveau, palier et badges. Il ne contient aucune coordonnée, date de naissance, localisation, adresse IP ni donnée d'appareil. Les « J'aime » et vues que vous avez donnés ne subsistent que sous forme de compteurs liés à cet identifiant anonyme. Les liens d'appareil d'un compte supprimé sont également supprimés — sauf si le compte a été banni définitivement : le bannissement de ses appareils reste alors en vigueur (l'Android ID haché, l'identifiant du compte banni et le motif), afin que la suppression d'un compte ne permette pas de contourner un bannissement."
+      "Après 30 jours : les informations de profil (nom, nom d'utilisateur, e-mail, avatar), les publications, les messages privés, les adhésions aux Clusters, les participations enregistrées, l'historique de visionnage et les enregistrements de votes sont définitivement supprimés, et votre nom d'utilisateur redevient disponible. Les commentaires sont anonymisés, et les signalements que vous avez effectués restent enregistrés sans votre nom. Un enregistrement de compte minimal est conservé pour que les récompenses et les journaux d'audit restent cohérents : votre identifiant utilisateur, votre rôle créatif, ainsi que vos XP, niveau, palier et badges. Il ne contient aucune coordonnée, date de naissance, localisation, adresse IP ni donnée d'appareil. Les « J'aime » et vues que vous avez donnés ne subsistent que sous forme de compteurs liés à cet identifiant anonyme. Les liens d'appareil d'un compte supprimé sont également supprimés — sauf si le compte a été banni définitivement : le bannissement de ses appareils reste alors en vigueur (l'Android ID haché, l'identifiant du compte banni et le motif), afin que la suppression d'un compte ne permette pas de contourner un bannissement. Le fichier de votre photo de profil est également supprimé. Vos participations aux Showdowns dont les résultats ne sont pas encore connus sont retirées ; une participation à un Showdown dont les résultats ont déjà été décidés reste dans l'historique public de ce concours, affichée comme « Deleted User », sans nom, nom d'utilisateur ni photo, et l'œuvre qu'elle présente est conservée."
     ],
     "s9_4_heading": "9.4 Droit de retrait",
     "s9_4_items": [
@@ -367,7 +367,7 @@
       ],
       [
         "Téléchargements (photos / vidéos)",
-        "Jusqu’à leur suppression par vous ou lors de la suppression du compte"
+        "Jusqu’à leur suppression par vous ou lors de la suppression du compte — sauf une œuvre d'un Showdown dont les résultats sont déjà décidés, conservée anonymisée dans l'historique de ce concours (section 9.3)"
       ],
       [
         "Commentaires",

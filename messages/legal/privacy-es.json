@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: October 11th, 2026",
+  "lastUpdated": "Última actualización: November 2nd, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -343,7 +343,7 @@
     "s9_3_items": [
       "Período de gracia: tu cuenta se bloquea de inmediato y se programa para su eliminación definitiva en 30 días. Tus publicaciones y participaciones en concursos siguen visibles hasta que se completa la eliminación",
       "Ventana de cancelación: Vuelve a iniciar sesión dentro de 30 días para cancelar la eliminación y restaurar tu cuenta",
-      "Después de 30 días: la información del perfil (nombre, nombre de usuario, correo electrónico, avatar), las publicaciones, los mensajes directos, las membresías de Clusters, las participaciones guardadas, el historial de visualización y los registros de votos se eliminan de forma definitiva, y tu nombre de usuario vuelve a estar disponible. Los comentarios se anonimizan, y los reportes que hiciste se conservan sin tu nombre. Se conserva un registro de cuenta mínimo para que los premios y los registros de auditoría sigan siendo coherentes: tu ID de usuario, tu rol creativo y tus XP, nivel, rango e insignias. No contiene datos de contacto, fecha de nacimiento, ubicación, dirección IP ni datos del dispositivo. Los «me gusta» y las visualizaciones que diste solo permanecen como recuentos vinculados a ese ID anónimo. Los vínculos de dispositivo de una cuenta eliminada también se eliminan, salvo que, si la cuenta fue bloqueada de forma permanente, el bloqueo de sus dispositivos sigue vigente (el Android ID cifrado con hash, el ID de la cuenta bloqueada y el motivo), para que eliminar una cuenta no sirva para eludir un bloqueo."
+      "Después de 30 días: la información del perfil (nombre, nombre de usuario, correo electrónico, avatar), las publicaciones, los mensajes directos, las membresías de Clusters, las participaciones guardadas, el historial de visualización y los registros de votos se eliminan de forma definitiva, y tu nombre de usuario vuelve a estar disponible. Los comentarios se anonimizan, y los reportes que hiciste se conservan sin tu nombre. Se conserva un registro de cuenta mínimo para que los premios y los registros de auditoría sigan siendo coherentes: tu ID de usuario, tu rol creativo y tus XP, nivel, rango e insignias. No contiene datos de contacto, fecha de nacimiento, ubicación, dirección IP ni datos del dispositivo. Los «me gusta» y las visualizaciones que diste solo permanecen como recuentos vinculados a ese ID anónimo. Los vínculos de dispositivo de una cuenta eliminada también se eliminan, salvo que, si la cuenta fue bloqueada de forma permanente, el bloqueo de sus dispositivos sigue vigente (el Android ID cifrado con hash, el ID de la cuenta bloqueada y el motivo), para que eliminar una cuenta no sirva para eludir un bloqueo. El archivo de tu foto de perfil también se elimina. Tus participaciones en Showdowns que aún no tienen resultados se retiran; una participación en un Showdown cuyos resultados ya se decidieron permanece en el registro público de ese concurso, mostrada como «Deleted User», sin nombre, nombre de usuario ni foto, y la obra que muestra se conserva."
     ],
     "s9_4_heading": "9.4 Derecho a Excluirse",
     "s9_4_items": [
@@ -367,7 +367,7 @@
       ],
       [
         "Subidas (fotos / videos)",
-        "Hasta que los elimines o al eliminar la cuenta"
+        "Hasta que los elimines o al eliminar la cuenta — salvo una obra de un Showdown ya decidido, que se conserva anonimizada en el registro de ese concurso (sección 9.3)"
       ],
       [
         "Comentarios",

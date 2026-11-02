@@ -117,7 +117,7 @@ Once verified, you'll go through a short onboarding: enter your date of birth, s
     articles: [
       {
         q: 'How do I change my email address or password?',
-        a: `Go to Settings → Account. You can update your email address and password from there. Any email change requires OTP verification.`,
+        a: `Go to Settings → Account. You can update your email address and password from there. Any email change requires OTP verification, and you can change your email once every 7 days.`,
       },
       {
         q: 'How do I change the app language?',
@@ -129,11 +129,11 @@ Once verified, you'll go through a short onboarding: enter your date of birth, s
       },
       {
         q: 'How do I delete my account?',
-        a: `Settings → Account → Delete Account. This starts a 30-day grace period — your account is deactivated but not erased. Log back in within 30 days to fully restore it. After 30 days, your profile, uploads, messages and Cluster memberships are permanently deleted and cannot be recovered; comments are anonymised, and a minimal account record is kept (see our Privacy Policy). Your uploads stay visible during the 30 days.`,
+        a: `Settings → Account → Delete Account. This starts a 30-day grace period — your account is deactivated but not erased. Log back in within 30 days to fully restore it. After 30 days, your profile, uploads, messages and Cluster memberships are permanently deleted and cannot be recovered; comments are anonymised, and a minimal account record is kept (see our Privacy Policy). Your profile photo is deleted too. Entries in Showdowns that haven't reached results are withdrawn; an entry in a Showdown that was already decided stays in its results as "Deleted User", with no name or photo. Your uploads stay visible during the 30 days.`,
       },
       {
         q: 'I forgot my password. How do I reset it?',
-        a: `On the login screen, tap "Forgot Password." Enter your email address — we'll send a one-time verification code (OTP) to your inbox. Enter the code on the next screen, then set your new password. Check your spam folder if the code doesn't arrive within a few minutes. The code expires after 10 minutes.`,
+        a: `On the login screen, tap "Forgot Password." Enter your email address — we'll send a one-time verification code (OTP) to your inbox. Enter the code on the next screen, then set your new password. Check your spam folder if the code doesn't arrive within a few minutes. The code expires after 15 minutes.`,
       },
       {
         q: 'How do I log out?',
@@ -289,7 +289,7 @@ Premium — Cash prizes for 1st, 2nd, and 3rd place. The prize amounts are shown
         q: 'How do I claim my cash prize in a Premium Showdown?',
         a: `When a Premium Showdown reaches Winners Announced status, you'll receive a notification if you placed in the top 3. You have 14 days from that notification to submit your claim. You'll be prompted to enter your bank name, account number, and account name. A Tax ID is optional but recommended.
 
-A 10% withholding tax applies to all cash prizes in line with Nigerian tax regulations — this is shown clearly before you confirm your claim. If you do not claim within 14 days, your prize is forfeited and cannot be recovered.`,
+A 10% withholding tax applies to all cash prizes in line with Nigerian tax regulations — it is deducted from the prize before payment, so you receive the net amount. If you do not claim within 14 days, your prize is forfeited and cannot be recovered.`,
       },
       {
         q: 'Can I enter a Showdown inside a Cluster?',
@@ -578,11 +578,11 @@ Violations may result in content removal, account suspension, or permanent ban.`
       },
       {
         q: 'Can I block another user?',
-        a: `Yes. Go to their profile → options menu → "Block." Blocked users cannot see your content, comment on your posts, or message you. Manage your blocked list in Settings → Blocked Users.`,
+        a: `Yes. Go to their profile → options menu → "Block." Blocked users cannot see your content, comment on your posts, message you, or follow you. Manage your blocked list in Settings → Blocked Users.`,
       },
       {
         q: 'My account was suspended. What do I do?',
-        a: `You'll see a suspension screen explaining why when you try to log in. From that screen you can submit an in-app appeal — you get up to 2 appeal attempts per suspension, and a second attempt only unlocks if the first is declined. You can also contact support@spektt.com with your username if you'd rather reach us directly.`,
+        a: `You'll see a suspension screen explaining why when you try to log in. A timed suspension lifts automatically within about 10 minutes of its end time. From that screen you can submit an in-app appeal — you get up to 2 appeal attempts per suspension, and a second attempt only unlocks if the first is declined. You can also contact support@spektt.com with your username if you'd rather reach us directly.`,
       },
       {
         q: 'I think my account was hacked. What should I do?',

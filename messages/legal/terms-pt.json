@@ -85,7 +85,7 @@
     "s3_1_heading": "3.1 Criação de Conta",
     "s3_1_body": "Para usar o Spektt, você deve se registrar com um nome completo válido, nome de usuário, endereço de email e senha. Todas as informações devem ser precisas e mantidas atualizadas.",
     "s3_2_heading": "3.2 Nome de Usuário e Identidade",
-    "s3_2_body": "Você não pode usar o nome ou endereço de email de outra pessoa sem permissão. Os nomes de usuário não devem ser ofensivos, vulgares ou destinados a se passar por outra pessoa ou marca.",
+    "s3_2_body": "Você não pode usar o nome ou endereço de email de outra pessoa sem permissão. Os nomes de usuário e de exibição não devem ser ofensivos, vulgares ou destinados a se passar por outra pessoa, uma marca ou o próprio Spektt.",
     "s3_3_heading": "3.3 Segurança da Conta",
     "s3_3_body": "Você é responsável por manter a confidencialidade de sua senha e por toda atividade que ocorrer em sua conta. Notifique-nos imediatamente em support@spektt.com se suspeitar de acesso não autorizado à sua conta.",
     "s3_4_heading": "3.4 Uma Conta por Pessoa",

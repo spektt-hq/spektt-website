@@ -96,7 +96,7 @@
       ["No discrimination", "Content or comments targeting ethnicity, religion, gender, or background will not be tolerated"],
       ["Follow Spektt guidelines", "Our platform-wide rules always apply inside every Cluster"]
     ],
-    "screening": "Cluster names and descriptions are screened. Names that promote hate, extremism, illegal activity, sexual exploitation of minors, or violence are blocked at creation. Names using protected brands require verification.",
+    "screening": "Cluster names and descriptions are screened. Names that promote hate, extremism, illegal activity, sexual exploitation of minors, or violence are blocked at creation. Names using a protected brand, or posing as Spektt, are not allowed — at creation or when renaming.",
     "moderators": "Cluster admins can appoint moderators once the Cluster is large enough. Moderators accept a separate set of moderator guidelines before they can act, and their powers are limited — a moderator cannot delete content that does not break the rules."
   },
   "s9": {

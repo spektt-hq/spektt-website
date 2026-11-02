@@ -99,7 +99,7 @@
       "articles": [
         {
           "q": "Comment modifier mon adresse e-mail ou mon mot de passe ?",
-          "a": "Allez dans Paramètres → Compte. Vous pouvez y mettre à jour votre adresse e-mail et votre mot de passe. Toute modification d'e-mail nécessite une vérification OTP."
+          "a": "Allez dans Paramètres → Compte. Vous pouvez y mettre à jour votre adresse e-mail et votre mot de passe. Toute modification d'e-mail nécessite une vérification OTP, et vous pouvez changer d'e-mail une fois tous les 7 jours."
         },
         {
           "q": "Comment changer la langue de l'application ?",
@@ -111,11 +111,11 @@
         },
         {
           "q": "Comment supprimer mon compte ?",
-          "a": "Paramètres → Compte → Supprimer le compte. Cela lance une période de grâce de 30 jours — votre compte est désactivé mais pas supprimé. Reconnectez-vous dans les 30 jours pour le restaurer complètement. Après 30 jours, votre profil, vos téléchargements, vos messages et vos adhésions aux Clusters sont définitivement supprimés et irréversibles ; les commentaires sont anonymisés et un enregistrement de compte minimal est conservé (voir notre Politique de confidentialité). Vos publications restent visibles pendant ces 30 jours."
+          "a": "Paramètres → Compte → Supprimer le compte. Cela lance une période de grâce de 30 jours — votre compte est désactivé mais pas supprimé. Reconnectez-vous dans les 30 jours pour le restaurer complètement. Après 30 jours, votre profil, vos téléchargements, vos messages et vos adhésions aux Clusters sont définitivement supprimés et irréversibles ; les commentaires sont anonymisés et un enregistrement de compte minimal est conservé (voir notre Politique de confidentialité). Votre photo de profil est également supprimée. Vos participations aux Showdowns dont les résultats ne sont pas encore connus sont retirées ; une participation à un Showdown déjà décidé reste dans ses résultats sous le nom « Deleted User », sans nom ni photo. Vos publications restent visibles pendant ces 30 jours."
         },
         {
           "q": "J'ai oublié mon mot de passe. Comment le réinitialiser ?",
-          "a": "Sur l'écran de connexion, appuyez sur \"Forgot Password.\" Entrez votre adresse e-mail — nous vous enverrons un code de vérification unique (OTP) dans votre boîte de réception. Saisissez le code à l'écran suivant, puis définissez votre nouveau mot de passe. Vérifiez votre dossier spam si le code n'arrive pas dans quelques minutes. Le code expire après 10 minutes."
+          "a": "Sur l'écran de connexion, appuyez sur \"Forgot Password.\" Entrez votre adresse e-mail — nous vous enverrons un code de vérification unique (OTP) dans votre boîte de réception. Saisissez le code à l'écran suivant, puis définissez votre nouveau mot de passe. Vérifiez votre dossier spam si le code n'arrive pas dans quelques minutes. Le code expire après 15 minutes."
         },
         {
           "q": "Comment me déconnecter ?",
@@ -447,11 +447,11 @@
         },
         {
           "q": "Puis-je bloquer un autre utilisateur ?",
-          "a": "Oui. Accédez à son profil → menu d'options → \"Block.\" Les utilisateurs bloqués ne peuvent pas voir votre contenu, commenter vos publications ni vous envoyer de messages. Gérez votre liste de blocage dans Paramètres → Utilisateurs bloqués."
+          "a": "Oui. Accédez à son profil → menu d'options → \"Block.\" Les utilisateurs bloqués ne peuvent pas voir votre contenu, commenter vos publications, vous envoyer de messages ni vous suivre. Gérez votre liste de blocage dans Paramètres → Utilisateurs bloqués."
         },
         {
           "q": "Mon compte a été suspendu. Que dois-je faire ?",
-          "a": "Vous verrez un écran de suspension expliquant la raison lorsque vous tenterez de vous connecter. Depuis cet écran, vous pouvez soumettre un recours directement dans l'application — vous disposez de 2 tentatives de recours par suspension, la seconde n'étant débloquée que si la première est refusée. Vous pouvez aussi contacter support@spektt.com avec votre nom d'utilisateur si vous préférez nous joindre directement."
+          "a": "Vous verrez un écran de suspension expliquant la raison lorsque vous tenterez de vous connecter. Une suspension temporaire est levée automatiquement dans les 10 minutes environ suivant son échéance. Depuis cet écran, vous pouvez soumettre un recours directement dans l'application — vous disposez de 2 tentatives de recours par suspension, la seconde n'étant débloquée que si la première est refusée. Vous pouvez aussi contacter support@spektt.com avec votre nom d'utilisateur si vous préférez nous joindre directement."
         },
         {
           "q": "Je pense que mon compte a été piraté. Que dois-je faire ?",

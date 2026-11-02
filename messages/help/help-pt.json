@@ -99,7 +99,7 @@
       "articles": [
         {
           "q": "Como altero meu endereço de e-mail ou senha?",
-          "a": "Vá para Configurações → Conta. Você pode atualizar seu endereço de e-mail e senha por lá. Qualquer alteração de e-mail requer verificação por OTP."
+          "a": "Vá para Configurações → Conta. Você pode atualizar seu endereço de e-mail e senha por lá. Qualquer alteração de e-mail requer verificação por OTP, e você pode alterar seu e-mail uma vez a cada 7 dias."
         },
         {
           "q": "Como altero o idioma do aplicativo?",
@@ -111,11 +111,11 @@
         },
         {
           "q": "Como excluo minha conta?",
-          "a": "Configurações → Conta → Excluir Conta. Isso inicia um período de carência de 30 dias — sua conta é desativada, mas não apagada. Faça login novamente dentro de 30 dias para restaurá-la totalmente. Após 30 dias, seu perfil, uploads, mensagens e associações em Cluster serão permanentemente excluídos e não poderão ser recuperados; os comentários são anonimizados e um registro de conta mínimo é mantido (veja nossa Política de Privacidade). Seus envios continuam visíveis durante esses 30 dias."
+          "a": "Configurações → Conta → Excluir Conta. Isso inicia um período de carência de 30 dias — sua conta é desativada, mas não apagada. Faça login novamente dentro de 30 dias para restaurá-la totalmente. Após 30 dias, seu perfil, uploads, mensagens e associações em Cluster serão permanentemente excluídos e não poderão ser recuperados; os comentários são anonimizados e um registro de conta mínimo é mantido (veja nossa Política de Privacidade). Sua foto de perfil também é excluída. Suas participações em Showdowns que ainda não têm resultado são retiradas; uma participação em um Showdown já decidido permanece nos resultados como \"Deleted User\", sem nome nem foto. Seus envios continuam visíveis durante esses 30 dias."
         },
         {
           "q": "Esqueci minha senha. Como redefino?",
-          "a": "Na tela de login, toque em \"Forgot Password.\" Insira seu endereço de e-mail — enviaremos um código de verificação único (OTP) para sua caixa de entrada. Insira o código na próxima tela e depois defina sua nova senha. Verifique sua pasta de spam se o código não chegar em alguns minutos. O código expira após 10 minutos."
+          "a": "Na tela de login, toque em \"Forgot Password.\" Insira seu endereço de e-mail — enviaremos um código de verificação único (OTP) para sua caixa de entrada. Insira o código na próxima tela e depois defina sua nova senha. Verifique sua pasta de spam se o código não chegar em alguns minutos. O código expira após 15 minutos."
         },
         {
           "q": "Como faço logout?",
@@ -221,7 +221,7 @@
         },
         {
           "q": "Como reivindico meu prêmio em dinheiro em um Premium Showdown?",
-          "a": "Quando um Premium Showdown atingir o status Winners Announced, você receberá uma notificação se ficar entre os 3 primeiros. Você terá 14 dias a partir dessa notificação para enviar sua reivindicação. Será solicitado que você insira o nome do banco, número da conta e nome da conta. Um Tax ID é opcional, mas recomendado.\n\nUm imposto retido na fonte de 10% se aplica a todos os prêmios em dinheiro de acordo com as regulamentações fiscais nigerianas — isso é exibido claramente antes de você confirmar sua reivindicação. Se você não reivindicar dentro de 14 dias, seu prêmio será perdido e não poderá ser recuperado."
+          "a": "Quando um Premium Showdown atingir o status Winners Announced, você receberá uma notificação se ficar entre os 3 primeiros. Você terá 14 dias a partir dessa notificação para enviar sua reivindicação. Será solicitado que você insira o nome do banco, número da conta e nome da conta. Um Tax ID é opcional, mas recomendado.\n\nUm imposto retido na fonte de 10% se aplica a todos os prêmios em dinheiro de acordo com as regulamentações fiscais nigerianas — ele é descontado do prêmio antes do pagamento, então você recebe o valor líquido. Se você não reivindicar dentro de 14 dias, seu prêmio será perdido e não poderá ser recuperado."
         },
         {
           "q": "Posso participar de um Showdown dentro de um Cluster?",
@@ -447,11 +447,11 @@
         },
         {
           "q": "Posso bloquear outro usuário?",
-          "a": "Sim. Vá até o perfil da pessoa → menu de opções → \"Block.\" Usuários bloqueados não podem ver seu conteúdo, comentar em suas publicações ou enviar mensagens. Gerencie sua lista de bloqueados em Configurações → Usuários bloqueados."
+          "a": "Sim. Vá até o perfil da pessoa → menu de opções → \"Block.\" Usuários bloqueados não podem ver seu conteúdo, comentar em suas publicações, enviar mensagens ou seguir você. Gerencie sua lista de bloqueados em Configurações → Usuários bloqueados."
         },
         {
           "q": "Minha conta foi suspensa. O que devo fazer?",
-          "a": "Você verá uma tela de suspensão explicando o motivo ao tentar fazer login. Nessa tela você pode enviar um recurso diretamente pelo app — você tem até 2 tentativas de recurso por suspensão, e a segunda só é liberada se a primeira for recusada. Você também pode entrar em contato com support@spektt.com com seu nome de usuário se preferir falar diretamente conosco."
+          "a": "Você verá uma tela de suspensão explicando o motivo ao tentar fazer login. Uma suspensão temporária é suspensa automaticamente cerca de 10 minutos após o fim do prazo. Nessa tela você pode enviar um recurso diretamente pelo app — você tem até 2 tentativas de recurso por suspensão, e a segunda só é liberada se a primeira for recusada. Você também pode entrar em contato com support@spektt.com com seu nome de usuário se preferir falar diretamente conosco."
         },
         {
           "q": "Acho que minha conta foi hackeada. O que devo fazer?",

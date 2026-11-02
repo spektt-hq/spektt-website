@@ -96,7 +96,7 @@
       ["Pas de discrimination", "Les contenus ou commentaires visant l'origine ethnique, la religion, le genre ou le milieu ne seront pas tolérés"],
       ["Respectez les règles de Spektt", "Nos règles générales s'appliquent toujours à l'intérieur de chaque Cluster"]
     ],
-    "screening": "Les noms et descriptions des Clusters sont contrôlés. Les noms qui promeuvent la haine, l'extrémisme, des activités illégales, l'exploitation sexuelle de mineurs ou la violence sont bloqués dès la création. Les noms utilisant des marques protégées nécessitent une vérification.",
+    "screening": "Les noms et descriptions des Clusters sont contrôlés. Les noms qui promeuvent la haine, l'extrémisme, des activités illégales, l'exploitation sexuelle de mineurs ou la violence sont bloqués dès la création. Les noms utilisant une marque protégée, ou se faisant passer pour Spektt, ne sont pas autorisés — à la création comme lors d'un renommage.",
     "moderators": "Les administrateurs de Cluster peuvent nommer des modérateurs une fois que le Cluster est suffisamment grand. Les modérateurs acceptent des règles de modération distinctes avant de pouvoir agir, et leurs pouvoirs sont limités — un modérateur ne peut pas supprimer un contenu qui n'enfreint pas les règles."
   },
   "s9": {

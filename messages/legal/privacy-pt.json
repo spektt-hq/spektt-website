@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: October 11th, 2026",
+  "lastUpdated": "Última Atualização: November 2nd, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -343,7 +343,7 @@
     "s9_3_items": [
       "Período de carência: sua conta é bloqueada imediatamente e programada para exclusão definitiva em 30 dias. Seus envios e participações em concursos continuam visíveis até a exclusão ser concluída",
       "Janela de cancelamento: Faça login novamente dentro de 30 dias para cancelar a exclusão e restaurar sua conta",
-      "Após 30 dias: as informações do perfil (nome, nome de usuário, e-mail, avatar), os envios, as mensagens diretas, as participações em Clusters, as participações salvas, o histórico de visualização e os registros de votos são excluídos definitivamente, e seu nome de usuário volta a ficar disponível. Os comentários são anonimizados, e as denúncias que você fez permanecem registradas sem o seu nome. Um registro mínimo da conta é mantido para que prêmios e registros de auditoria continuem coerentes: seu ID de usuário, sua função criativa e seus XP, nível, patamar e emblemas. Ele não contém dados de contato, data de nascimento, localização, endereço IP nem dados do dispositivo. As curtidas e visualizações que você deu permanecem apenas como contagens ligadas a esse ID anônimo. Os vínculos de dispositivo de uma conta excluída também são excluídos — exceto que, se a conta foi banida permanentemente, o banimento dos seus dispositivos continua valendo (o Android ID com hash, o ID da conta banida e o motivo), para que excluir uma conta não seja uma forma de contornar um banimento."
+      "Após 30 dias: as informações do perfil (nome, nome de usuário, e-mail, avatar), os envios, as mensagens diretas, as participações em Clusters, as participações salvas, o histórico de visualização e os registros de votos são excluídos definitivamente, e seu nome de usuário volta a ficar disponível. Os comentários são anonimizados, e as denúncias que você fez permanecem registradas sem o seu nome. Um registro mínimo da conta é mantido para que prêmios e registros de auditoria continuem coerentes: seu ID de usuário, sua função criativa e seus XP, nível, patamar e emblemas. Ele não contém dados de contato, data de nascimento, localização, endereço IP nem dados do dispositivo. As curtidas e visualizações que você deu permanecem apenas como contagens ligadas a esse ID anônimo. Os vínculos de dispositivo de uma conta excluída também são excluídos — exceto que, se a conta foi banida permanentemente, o banimento dos seus dispositivos continua valendo (o Android ID com hash, o ID da conta banida e o motivo), para que excluir uma conta não seja uma forma de contornar um banimento. O arquivo da sua foto de perfil também é excluído. Suas participações em Showdowns que ainda não têm resultado são retiradas; uma participação em um Showdown cujos resultados já foram decididos permanece no registro público desse concurso, exibida como \"Deleted User\", sem nome, nome de usuário ou foto, e o trabalho exibido é mantido."
     ],
     "s9_4_heading": "9.4 Direito de Cancelamento",
     "s9_4_items": [
@@ -367,7 +367,7 @@
       ],
       [
         "Uploads (fotos / vídeos)",
-        "Até serem excluídos por você ou após exclusão da conta"
+        "Até serem excluídos por você ou após exclusão da conta — exceto um trabalho em um Showdown já decidido, mantido de forma anônima no registro desse concurso (Seção 9.3)"
       ],
       [
         "Comentários",

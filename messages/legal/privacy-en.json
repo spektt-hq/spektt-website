@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: October 11th, 2026",
+  "lastUpdated": "Last Updated: November 2nd, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -343,7 +343,7 @@
     "s9_3_items": [
       "Grace period: Your account is immediately locked and scheduled for permanent deletion in 30 days. Your uploads and contest entries stay visible until the deletion completes",
       "Cancellation window: Log back in within 30 days to cancel the deletion and restore your account",
-      "After 30 days: Profile info (name, username, email, avatar), uploads, DMs, Cluster memberships, saved entries, watch history and vote records are permanently deleted, and your username becomes available again. Comments are anonymised, and reports you filed stay on record without your name. A minimal account record is kept so awards and audit logs still resolve: your user ID, your creative role, and your XP, level, tier and badges. It holds no contact details, date of birth, location, IP address or device data. Likes and views you gave remain only as counts tied to that anonymous ID. The device links of a deleted account are deleted too — except that if the account was permanently banned, the ban on its devices stays in force (the hashed Android ID, the banned account's ID and the reason), so deleting an account is not a way around a ban."
+      "After 30 days: Profile info (name, username, email, avatar), uploads, DMs, Cluster memberships, saved entries, watch history and vote records are permanently deleted, and your username becomes available again. Comments are anonymised, and reports you filed stay on record without your name. A minimal account record is kept so awards and audit logs still resolve: your user ID, your creative role, and your XP, level, tier and badges. It holds no contact details, date of birth, location, IP address or device data. Likes and views you gave remain only as counts tied to that anonymous ID. The device links of a deleted account are deleted too — except that if the account was permanently banned, the ban on its devices stays in force (the hashed Android ID, the banned account's ID and the reason), so deleting an account is not a way around a ban. Your profile photo file is deleted too. Entries in Showdowns that have not reached results are withdrawn; an entry in a Showdown whose results were already decided stays in that contest's public record, shown as \"Deleted User\" with no name, username or photo, and the work it shows is kept."
     ],
     "s9_4_heading": "9.4 Right to Opt Out",
     "s9_4_items": [
@@ -367,7 +367,7 @@
       ],
       [
         "Uploads (photos / videos)",
-        "Until deleted by you, or on account deletion"
+        "Until deleted by you, or on account deletion — except a work in a Showdown already decided, kept anonymised in that contest's record (Section 9.3)"
       ],
       [
         "Comments",
