@@ -225,7 +225,7 @@
         },
         {
           "q": "Puis-je participer à un Showdown dans un Cluster ?",
-          "a": "Oui — si vous êtes membre de ce Cluster. Les Showdowns de Cluster suivent les mêmes règles que les Showdowns globaux mais sont limités aux membres du Cluster. Les récompenses apparaissent dans votre onglet Awards avec le nom du Cluster."
+          "a": "Oui — si vous êtes membre de ce Cluster. Les Showdowns de Cluster sont des Showdowns Pulse — votés par la communauté, avec XP et badges mais sans prix en argent — et suivent les mêmes règles que les Showdowns Pulse globaux, limités aux membres du Cluster. Les récompenses apparaissent dans votre onglet Awards avec le nom du Cluster."
         },
         {
           "q": "Que se passe-t-il si un Showdown n'a pas assez de participations ?",
@@ -270,7 +270,7 @@
         },
         {
           "q": "Que peut faire un administrateur de Cluster ?",
-          "a": "En tant qu’administrateur de Cluster, vous pouvez :\n• Organiser des Showdowns de Cluster (Pulse et Premium)\n• Supprimer les publications qui violent les règles du Cluster\n• Bannir des membres du Cluster\n• Suspendre temporairement des membres\n• Nommer des modérateurs pour gérer la communauté\n• Épingler des publications en haut du fil du Cluster\n• Archiver le Cluster\n• Transférer les droits d’administrateur à un autre membre"
+          "a": "En tant qu’administrateur de Cluster, vous pouvez :\n• Organiser des Showdowns de Cluster (Pulse)\n• Supprimer les publications qui violent les règles du Cluster\n• Bannir des membres du Cluster\n• Suspendre temporairement des membres\n• Nommer des modérateurs pour gérer la communauté\n• Épingler des publications en haut du fil du Cluster\n• Archiver le Cluster\n• Transférer les droits d’administrateur à un autre membre"
         },
         {
           "q": "Un Cluster peut-il organiser plusieurs Showdowns en même temps ?",

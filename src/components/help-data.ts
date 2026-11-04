@@ -293,7 +293,7 @@ A 10% withholding tax applies to all cash prizes in line with Nigerian tax regul
       },
       {
         q: 'Can I enter a Showdown inside a Cluster?',
-        a: `Yes — if you're a member of that Cluster. Cluster Showdowns follow the same Pulse and Premium rules as global Showdowns but are scoped to that Cluster's members. A Cluster Showdown award appears in your Awards tab with the Cluster's name alongside the medal.`,
+        a: `Yes — if you're a member of that Cluster. Cluster Showdowns are Pulse Showdowns — community-voted, with XP and badges but no cash prize — and follow the same rules as global Pulse Showdowns, scoped to that Cluster's members. A Cluster Showdown award appears in your Awards tab with the Cluster's name alongside the medal.`,
       },
       {
         q: 'What happens if a Showdown doesn\'t get enough entries?',
@@ -356,7 +356,7 @@ If a requirement isn't met yet, the screen shows which one. Once you're eligible
       {
         q: 'What can a Cluster admin do?',
         a: `As a Cluster admin you can:
-• Run Cluster Showdowns (Pulse and Premium)
+• Run Cluster Showdowns (Pulse)
 • Remove posts that violate the Cluster rules
 • Ban members from the Cluster
 • Temporarily suspend members
