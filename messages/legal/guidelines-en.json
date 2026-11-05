@@ -48,7 +48,7 @@
       "Explicit nudity or sexual material",
       "Promotion of illegal goods or services"
     ],
-    "priority": "Child safety and self-harm reports are treated as critical and reviewed first. Spektt has zero tolerance for child sexual abuse and exploitation: we remove the content, permanently ban the accounts involved, and report child sexual abuse material to the National Center for Missing & Exploited Children (NCMEC) and the relevant law enforcement authorities. To raise a child-safety concern, report the content in the app and choose the child safety reason, or email team@spektt.com.",
+    "priority": "Child safety and self-harm reports are treated as critical and reviewed first. Spektt has zero tolerance for child sexual abuse and exploitation: we remove the content, permanently ban the accounts involved, and report child sexual abuse material to the National Center for Missing & Exploited Children (NCMEC) and the relevant law enforcement authorities. To raise a child-safety concern, report the content in the app and choose the child safety reason, or email safety@spektt.com.",
     "support": "If you are struggling, please reach out to a local crisis line. We would rather you talk to someone than post about it."
   },
   "s4": {
@@ -141,7 +141,7 @@
     "tableHeadReason": "Reason",
     "tableHeadEmail": "Address",
     "tableRows": [
-      ["Child safety concerns", "team@spektt.com"],
+      ["Child safety concerns", "safety@spektt.com"],
       ["General support, account issues, appeals", "support@spektt.com"],
       ["Copyright and legal", "legal@spektt.com"],
       ["Showdown integrity", "showdowns@spektt.com"]

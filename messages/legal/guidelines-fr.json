@@ -48,7 +48,7 @@
       "Nudité explicite ou contenu sexuel",
       "Promotion de biens ou de services illégaux"
     ],
-    "priority": "Les signalements liés à la sécurité des mineurs et à l'automutilation sont traités comme critiques et examinés en priorité. Spektt applique une tolérance zéro envers les abus et l'exploitation sexuels d'enfants : nous supprimons le contenu, bannissons définitivement les comptes concernés et signalons les contenus d'abus sexuels sur enfants au National Center for Missing & Exploited Children (NCMEC) et aux autorités judiciaires compétentes. Pour signaler un problème de sécurité concernant un mineur, signalez le contenu dans l'application en choisissant le motif lié à la sécurité des mineurs, ou écrivez à team@spektt.com.",
+    "priority": "Les signalements liés à la sécurité des mineurs et à l'automutilation sont traités comme critiques et examinés en priorité. Spektt applique une tolérance zéro envers les abus et l'exploitation sexuels d'enfants : nous supprimons le contenu, bannissons définitivement les comptes concernés et signalons les contenus d'abus sexuels sur enfants au National Center for Missing & Exploited Children (NCMEC) et aux autorités judiciaires compétentes. Pour signaler un problème de sécurité concernant un mineur, signalez le contenu dans l'application en choisissant le motif lié à la sécurité des mineurs, ou écrivez à safety@spektt.com.",
     "support": "Si vous traversez une période difficile, contactez une ligne d'écoute locale. Nous préférons que vous parliez à quelqu'un plutôt que de publier à ce sujet."
   },
   "s4": {
@@ -141,7 +141,7 @@
     "tableHeadReason": "Motif",
     "tableHeadEmail": "Adresse",
     "tableRows": [
-      ["Sécurité des mineurs", "team@spektt.com"],
+      ["Sécurité des mineurs", "safety@spektt.com"],
       ["Assistance générale, problèmes de compte, appels", "support@spektt.com"],
       ["Droit d'auteur et questions juridiques", "legal@spektt.com"],
       ["Intégrité des Showdowns", "showdowns@spektt.com"]

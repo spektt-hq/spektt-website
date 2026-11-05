@@ -48,7 +48,7 @@
       "Desnudos explícitos o material sexual",
       "Promoción de bienes o servicios ilegales"
     ],
-    "priority": "Los reportes sobre seguridad de menores y autolesiones se tratan como críticos y se revisan primero. Spektt tiene tolerancia cero con el abuso y la explotación sexual infantil: eliminamos el contenido, expulsamos de forma permanente las cuentas implicadas y denunciamos el material de abuso sexual infantil ante el National Center for Missing & Exploited Children (NCMEC) y las autoridades policiales competentes. Para comunicar un problema de seguridad infantil, reporta el contenido en la aplicación eligiendo el motivo de seguridad de menores, o escribe a team@spektt.com.",
+    "priority": "Los reportes sobre seguridad de menores y autolesiones se tratan como críticos y se revisan primero. Spektt tiene tolerancia cero con el abuso y la explotación sexual infantil: eliminamos el contenido, expulsamos de forma permanente las cuentas implicadas y denunciamos el material de abuso sexual infantil ante el National Center for Missing & Exploited Children (NCMEC) y las autoridades policiales competentes. Para comunicar un problema de seguridad infantil, reporta el contenido en la aplicación eligiendo el motivo de seguridad de menores, o escribe a safety@spektt.com.",
     "support": "Si lo estás pasando mal, contacta con una línea de ayuda local. Preferimos que hables con alguien antes que publicarlo."
   },
   "s4": {
@@ -141,7 +141,7 @@
     "tableHeadReason": "Motivo",
     "tableHeadEmail": "Dirección",
     "tableRows": [
-      ["Seguridad de menores", "team@spektt.com"],
+      ["Seguridad de menores", "safety@spektt.com"],
       ["Soporte general, problemas de cuenta, apelaciones", "support@spektt.com"],
       ["Derechos de autor y asuntos legales", "legal@spektt.com"],
       ["Integridad de los Showdowns", "showdowns@spektt.com"]
