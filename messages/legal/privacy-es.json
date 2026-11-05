@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: November 2nd, 2026",
+  "lastUpdated": "Última actualización: November 5th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -94,7 +94,7 @@
     "s2_2_heading": "2.2 Información que Recopilamos Automáticamente",
     "locationHeading": "Datos de Ubicación",
     "locationItems": [
-      "Coordenadas GPS precisas recopiladas durante el registro (con tu permiso), geocodificadas inversamente en ciudad/región/país. Las coordenadas sin procesar no se almacenan.",
+      "La ubicación aproximada de tu dispositivo, recopilada una sola vez durante el registro con tu permiso y convertida en ciudad, región y país. No solicitamos tu ubicación precisa y las coordenadas sin procesar no se almacenan.",
       "Dirección IP pública — almacenada solo como un hash SHA-256 para detección de fraude y prevención de manipulación de votos. La IP sin procesar nunca se almacena."
     ],
     "deviceHeading": "Datos del Dispositivo y Técnicos",
@@ -117,6 +117,13 @@
     "crashHeading": "Datos de Errores y Fallos",
     "crashItems": [
       "Los informes de fallos enviados a Sentry incluyen tipo de error, rastreo de pila, versión de la app y sistema operativo del dispositivo. No incluyen tu nombre, correo electrónico ni contenido de mensajes."
+    ],
+    "safetyHeading": "Controles Automáticos de Seguridad",
+    "safetyItems": [
+      "Cada foto que subes se revisa automáticamente al llegar: desnudos y violencia explícita (Google Cloud Vision), códigos QR y comparación con un índice de huellas digitales que detecta copias del trabajo de otras personas. Las fotos y la imagen de portada de cada video también se comparan con material conocido de abuso sexual infantil (Arachnid Shield, operado por el Centro Canadiense de Protección Infantil).",
+      "El texto público —pies de foto, descripciones, etiquetas, comentarios, nombres de perfil y textos de Clusters y Showdowns— se revisa con el servicio de moderación de OpenAI para detectar contenido dañino. Los mensajes privados nunca se envían a OpenAI ni a ningún otro tercero.",
+      "Todo el texto, incluidos los mensajes privados, se revisa en los propios servidores de Spektt en busca de patrones de estafa, como números de teléfono, solicitudes de pago o compra de votos. Guardamos solo un registro de que un patrón coincidió, no el texto del mensaje, y ninguna persona lee tus mensajes salvo que uno sea reportado.",
+      "Estos controles ayudan a nuestros moderadores, y la decisión la toma una persona, con una excepción: una coincidencia con material conocido de abuso sexual infantil se elimina de inmediato, la cuenta se bloquea de forma permanente y el caso se reporta a las autoridades competentes, como exige la ley."
     ]
   },
   "s3": {
@@ -166,6 +173,11 @@
         "Obligación legal + Intereses legítimos"
       ],
       [
+        "Controles automáticos de seguridad en publicaciones y textos",
+        "Fotos subidas e imágenes de portada de videos, texto público, texto de mensajes (solo patrones de estafa)",
+        "Obligación legal + Intereses legítimos"
+      ],
+      [
         "Enviar notificaciones push",
         "Tokens push, preferencias de notificación",
         "Consentimiento (retirable en Configuración)"
@@ -204,10 +216,10 @@
     "notDoLabel": "Lo que NO hacemos:",
     "notDoItems": [
       "No vendemos tus datos personales a terceros",
-      "No leemos, escaneamos ni analizamos el contenido de mensajes privados para publicidad o aprendizaje automático",
+      "No leemos, escaneamos ni analizamos mensajes privados para publicidad o aprendizaje automático. Nuestros servidores revisan el texto de los mensajes solo en busca de patrones de estafa, y ninguna persona lo lee salvo que sea reportado",
       "No utilizamos tus mensajes privados para entrenar algoritmos ni personalizar tu feed",
       "No compartimos los detalles de pago de tus premios más allá de lo requerido por la ley nigeriana",
-      "No retenemos coordenadas GPS sin procesar — la ubicación se captura una vez durante el registro, se geocodifica y luego las coordenadas sin procesar se descartan"
+      "No solicitamos tu ubicación precisa ni conservamos coordenadas sin procesar: la ubicación se captura una sola vez durante el registro y se convierte en ciudad, región y país"
     ]
   },
   "s4": {
@@ -271,6 +283,21 @@
         "Un token de integridad de un solo uso desde tu dispositivo; en iOS, dos bits que Apple guarda para Spektt en el dispositivo"
       ],
       [
+        "Arachnid Shield (Centro Canadiense de Protección Infantil)",
+        "Detección de material conocido de abuso sexual infantil",
+        "Cada foto que subes y la imagen de portada de cada video"
+      ],
+      [
+        "Google Cloud Vision",
+        "Detección de desnudos y violencia explícita",
+        "Fotos que subes"
+      ],
+      [
+        "OpenAI",
+        "Moderación de texto público",
+        "Pies de foto, descripciones, etiquetas, comentarios, nombres de perfil, textos de Clusters y Showdowns (nunca mensajes privados)"
+      ],
+      [
         "Apple / Google",
         "Procesamiento de pagos para Spektt Pro",
         "Datos de compra de suscripción (Spektt nunca recibe datos de tarjeta)"
@@ -293,7 +320,7 @@
       "Acciones de bloqueo y reporte realizadas dentro de las conversaciones"
     ],
     "s5_3_heading": "5.3 Quién Puede Leer tus Mensajes",
-    "s5_3_body": "Tus mensajes son accesibles solo para ti y el otro participante, y para moderadores de seguridad autorizados de Spektt únicamente cuando un mensaje ha sido reportado. No leemos ni escaneamos proactivamente las conversaciones privadas.",
+    "s5_3_body": "Tus mensajes son accesibles solo para ti y el otro participante, y para moderadores de seguridad autorizados de Spektt únicamente cuando un mensaje ha sido reportado. Para protegerte de estafas, nuestros servidores revisan automáticamente el texto de los mensajes en busca de patrones como números de teléfono, solicitudes de pago o compra de votos. Esta revisión se ejecuta en los propios servidores de Spektt, el texto nunca se envía a terceros y solo guardamos un registro de que un patrón coincidió, no el mensaje.",
     "s5_4_heading": "5.4 Vistas Previas de Notificaciones Push",
     "s5_4_body": "Desactivar \"Mensajes\" en la Configuración de Notificaciones de la app (Configuración → Notificaciones) desactiva por completo las notificaciones push de mensajes — incluida la vista previa — en lugar de solo ocultar el texto de la vista previa. También puedes gestionar la visibilidad del contenido de las notificaciones (por ejemplo, ocultarlo en la pantalla de bloqueo) a través de la configuración de notificaciones a nivel del sistema operativo de tu dispositivo.",
     "s5_5_heading": "5.5 Protección Anti-Spam",

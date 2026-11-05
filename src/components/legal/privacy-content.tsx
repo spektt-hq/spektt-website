@@ -108,6 +108,11 @@ export default function PrivacyContent({ d }: { d: PrivacyDictionary }) {
             <ul className='list-disc list-inside mt-1 space-y-1'>
               {d.s2.crashItems.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
             </ul>
+
+            <p className='privacy-policy-text mt-4 font-medium text-white'>{d.s2.safetyHeading}</p>
+            <ul className='list-disc list-inside mt-1 space-y-1'>
+              {d.s2.safetyItems.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
+            </ul>
           </section>
 
           {/* 3. How We Use Your Information */}

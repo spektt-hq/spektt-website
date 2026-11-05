@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: November 2nd, 2026",
+  "lastUpdated": "Last Updated: November 5th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -94,7 +94,7 @@
     "s2_2_heading": "2.2 Information We Collect Automatically",
     "locationHeading": "Location Data",
     "locationItems": [
-      "Precise GPS coordinates collected during onboarding (with your permission), reverse-geocoded into a city/region/country. Raw coordinates are not stored.",
+      "Your device's approximate location, collected once during onboarding with your permission and turned into a city, region and country. We do not request precise location, and the raw coordinates are not stored.",
       "Public IP address — stored only as a SHA-256 hash for fraud detection and vote manipulation prevention. The raw IP is never stored."
     ],
     "deviceHeading": "Device & Technical Data",
@@ -117,6 +117,13 @@
     "crashHeading": "Error & Crash Data",
     "crashItems": [
       "Crash reports sent to Sentry include error type, stack trace, app version, and device OS. They do not include your name, email, or message content."
+    ],
+    "safetyHeading": "Automated Safety Checks",
+    "safetyItems": [
+      "Every photo you upload is checked automatically when it arrives: for nudity and graphic violence (Google Cloud Vision), for QR codes, and against a fingerprint index that detects copies of other people's work. Photos and the cover image of every video are also checked against known child sexual abuse material (Arachnid Shield, run by the Canadian Centre for Child Protection).",
+      "Public text — captions, descriptions, tags, comments, profile names, and Cluster and Showdown text — is checked by OpenAI's moderation service for harmful content. Private messages are never sent to OpenAI or any other third party.",
+      "All text, including private messages, is checked on Spektt's own servers for scam patterns such as phone numbers, payment requests and vote-buying. We keep a record that a pattern matched, not the message text, and no person reads your messages unless one is reported.",
+      "These checks help our moderators, and a person makes the decision, with one exception: a match against known child sexual abuse material is removed at once, the account is permanently banned, and the case is reported to the relevant authorities as the law requires."
     ]
   },
   "s3": {
@@ -166,6 +173,11 @@
         "Legal obligation + Legitimate interests"
       ],
       [
+        "Automated safety checks on uploads and text",
+        "Uploaded photos and video cover images, public text, message text (scam patterns only)",
+        "Legal obligation + Legitimate interests"
+      ],
+      [
         "Sending push notifications",
         "Push tokens, notification preferences",
         "Consent (withdrawable in Settings)"
@@ -204,10 +216,10 @@
     "notDoLabel": "What we do NOT do:",
     "notDoItems": [
       "We do not sell your personal data to any third party",
-      "We do not read, scan, or analyse private message content for advertising or machine learning",
+      "We do not read, scan, or analyse private messages for advertising or machine learning. Our servers check message text only for scam patterns, and no person reads it unless it is reported",
       "We do not use your private messages to train algorithms or personalise your feed",
       "We do not share your prize payment details beyond what is required by Nigerian law",
-      "We do not retain raw GPS coordinates — location is captured once during onboarding, geocoded, and the raw coordinates discarded"
+      "We do not request precise location or retain raw coordinates — location is captured once during onboarding and turned into a city, region and country"
     ]
   },
   "s4": {
@@ -271,6 +283,21 @@
         "A one-time integrity token from your device; on iOS, two bits Apple keeps for Spektt on the device"
       ],
       [
+        "Arachnid Shield (Canadian Centre for Child Protection)",
+        "Detecting known child sexual abuse material",
+        "Every photo you upload and the cover image of every video"
+      ],
+      [
+        "Google Cloud Vision",
+        "Detecting nudity and graphic violence",
+        "Photos you upload"
+      ],
+      [
+        "OpenAI",
+        "Moderating public text",
+        "Captions, descriptions, tags, comments, profile names, Cluster and Showdown text (never private messages)"
+      ],
+      [
         "Apple / Google",
         "Payment processing for Spektt Pro",
         "Subscription purchase data (Spektt never receives card data)"
@@ -293,7 +320,7 @@
       "Block and report actions taken within conversations"
     ],
     "s5_3_heading": "5.3 Who Can Read Your Messages",
-    "s5_3_body": "Your messages are accessible only to you and the other participant, and to authorised Spektt safety moderators only when a message has been reported. We do not proactively read or scan private conversations.",
+    "s5_3_body": "Your messages are accessible only to you and the other participant, and to authorised Spektt safety moderators only when a message has been reported. To protect you from scams, our servers automatically check message text for patterns such as phone numbers, payment requests and vote-buying. This check runs on Spektt's own servers, the text is never sent to a third party, and we keep only a record that a pattern matched — not the message.",
     "s5_4_heading": "5.4 Push Notification Previews",
     "s5_4_body": "Turning off \"Messages\" in the App's Notification Settings (Settings → Notifications) disables message push notifications entirely — including the preview — rather than just hiding the preview text. You can also manage notification content visibility (e.g. hiding it on your lock screen) through your device's OS-level notification settings.",
     "s5_5_heading": "5.5 Anti-Spam Protection",
