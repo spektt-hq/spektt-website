@@ -50,7 +50,7 @@ function Footer({ dict, locale }: FooterProps) {
   const resolve = (to: string) => `/${locale}${to.slice('/$locale'.length)}`
 
   const socialLinks = [
-    { href: 'https://x.com/spektt', icon: FaXTwitter },
+    { href: 'https://x.com/spekttapp', icon: FaXTwitter },
     { href: 'https://facebook.com/spektt', icon: FaFacebook },
     { href: 'https://instagram.com/spektt', icon: FaInstagram },
     { href: 'https://tiktok.com/@spektt', icon: FaTiktok },

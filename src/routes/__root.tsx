@@ -17,7 +17,7 @@ const organizationJsonLd = {
   name: 'Spektt',
   url: 'https://spektt.com',
   logo: 'https://spektt.com/spektt-new-favicon.png',
-  sameAs: ['https://spektt.com', 'https://www.youtube.com/channel/UCq7VqvVW8j1ybYdaqk07BYw'],
+  sameAs: ['https://spektt.com', 'https://www.youtube.com/channel/UCq7VqvVW8j1ybYdaqk07BYw', 'https://x.com/spekttapp'],
 }
 
 const websiteJsonLd = {
