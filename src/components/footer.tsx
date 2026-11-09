@@ -1,5 +1,6 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import { FaXTwitter, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa6'
+// Instagram and TikTok come back with their icons once those accounts exist (owner, 2026-11-09).
+import { FaXTwitter, FaYoutube } from 'react-icons/fa6'
 import { type Locale } from '@/dictionaries/locales'
 import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
@@ -51,8 +52,9 @@ function Footer({ dict, locale }: FooterProps) {
 
   const socialLinks = [
     { href: 'https://x.com/spekttapp', icon: FaXTwitter },
-    { href: 'https://instagram.com/spektt', icon: FaInstagram },
-    { href: 'https://tiktok.com/@spektt', icon: FaTiktok },
+    // Not ours yet — restore with the real handles (and FaInstagram / FaTiktok in the import).
+    // { href: 'https://instagram.com/spektt', icon: FaInstagram },
+    // { href: 'https://tiktok.com/@spektt', icon: FaTiktok },
     { href: 'https://www.youtube.com/channel/UCq7VqvVW8j1ybYdaqk07BYw', icon: FaYoutube },
   ]
 
