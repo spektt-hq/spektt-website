@@ -1,5 +1,5 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import { FaXTwitter, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa6'
+import { FaXTwitter, FaFacebook, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa6'
 import { type Locale } from '@/dictionaries/locales'
 import { IOS_LABEL, IOS_URL, PLAY_STORE_URL } from '@/lib/store-links'
 
@@ -54,6 +54,7 @@ function Footer({ dict, locale }: FooterProps) {
     { href: 'https://facebook.com/spektt', icon: FaFacebook },
     { href: 'https://instagram.com/spektt', icon: FaInstagram },
     { href: 'https://tiktok.com/@spektt', icon: FaTiktok },
+    { href: 'https://www.youtube.com/channel/UCq7VqvVW8j1ybYdaqk07BYw', icon: FaYoutube },
   ]
 
   return (
