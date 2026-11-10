@@ -1,6 +1,6 @@
 {
   "title": "Spektt Showdowns — Official Contest Rules",
-  "lastUpdated": "Last Updated: October 2026",
+  "lastUpdated": "Last Updated: November 2026",
   "intro1": "These Official Rules govern all contests and showdowns (\"Contests\") hosted on the Spektt mobile application (\"Platform\"), operated and sponsored by Axlume Tech Limited (\"Spektt\", the \"Sponsor\", \"we\", \"us\", \"our\"), a company registered with the Corporate Affairs Commission (CAC) of the Federal Republic of Nigeria. The Sponsor funds and pays all Contest prizes.",
   "intro2": "By submitting an entry to any Contest on the Platform, you (\"Entrant\", \"you\") agree to be bound by these Official Rules and our Terms of Service and Privacy Policy.",
   "noPurchase": "No purchase necessary to enter or win. A purchase does not increase your odds of winning. Apple Inc. and Google LLC are not sponsors of any Contest and are not involved in any Contest in any way.",
@@ -85,12 +85,12 @@
   },
   "s9": {
     "heading": "9. WINNER NOTIFICATION AND PRIZE CLAIM (PREMIUM CONTESTS)",
-    "a": "(a) Winners will be announced on the Platform and notified via in-app notification and the email address registered to their account within 48 hours of the judging period closing.",
+    "a": "(a) Winners will be announced on the Platform and notified by in-app notification and at the email address registered to their account when the results are announced.",
     "bBefore": "(b) Winners have",
     "bDays": "FOURTEEN (14) CALENDAR DAYS",
     "bAfter": "from the date of notification to respond and provide the required information (full legal name, bank account details, tax identification — see Section 10).",
-    "c": "(c) Failure to respond within 14 days, failure to provide the required documentation, or ineligibility of the winner will result in the prize being forfeited. Spektt may, at its sole discretion, offer the prize to the next highest-placed eligible entrant, but is under no obligation to do so.",
-    "d": "(d) Forfeited and unclaimed prizes remain the property of the Sponsor. Spektt may, at its discretion, donate a forfeited prize to a registered charity."
+    "c": "(c) Failure to respond within 14 days, failure to provide the required documentation, or ineligibility of the winner will result in the prize being forfeited. A forfeited prize passes to the highest-placed eligible entrant who has not received a prize in that Contest, who then has SEVEN (7) CALENDAR DAYS from notification to claim it. A prize passes on at most twice.",
+    "d": "(d) A prize that is still unclaimed after passing on twice, or for which no eligible entrant remains, is not awarded."
   },
   "s10": {
     "heading": "10. TAX COMPLIANCE (PREMIUM CONTESTS)",
@@ -154,6 +154,6 @@
     "emailLabel": "Email:",
     "websiteLabel": "Website:",
     "copyright": "© 2026 Axlume Tech Limited. All rights reserved.",
-    "updated": "Last Updated: August 2026"
+    "updated": "Last Updated: November 2026"
   }
 }

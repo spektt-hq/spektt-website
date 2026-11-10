@@ -1,6 +1,6 @@
 {
   "title": "Spektt Showdowns — Reglas Oficiales del Concurso",
-  "lastUpdated": "Última actualización: octubre de 2026",
+  "lastUpdated": "Última actualización: noviembre de 2026",
   "intro1": "Estas Reglas Oficiales rigen todos los concursos y showdowns («Concursos») organizados en la aplicación móvil Spektt («Plataforma»), operada y patrocinada por Axlume Tech Limited («Spektt», el «Patrocinador», «nosotros», «nos», «nuestro»), una empresa registrada ante la Corporate Affairs Commission (CAC) de la República Federal de Nigeria. El Patrocinador financia y paga todos los premios de los Concursos.",
   "intro2": "Al enviar una participación a cualquier Concurso en la Plataforma, usted («Participante», «usted») acepta estar sujeto a estas Reglas Oficiales, nuestros Términos de Servicio y nuestra Política de Privacidad.",
   "noPurchase": "No es necesario realizar una compra para participar o ganar. Una compra no aumenta sus probabilidades de ganar. Apple Inc. y Google LLC no son patrocinadores de ningún Concurso ni participan en ellos de ninguna manera.",
@@ -85,12 +85,12 @@
   },
   "s9": {
     "heading": "9. NOTIFICACIÓN DE GANADORES Y RECLAMACIÓN DE PREMIOS (CONCURSOS PREMIUM)",
-    "a": "(a) Los ganadores serán anunciados en la Plataforma y notificados mediante notificación en la aplicación y la dirección de correo electrónico registrada en su cuenta dentro de las 48 horas posteriores al cierre del período de evaluación.",
+    "a": "(a) Los ganadores serán anunciados en la Plataforma y notificados mediante notificación en la aplicación y en la dirección de correo electrónico registrada en su cuenta en el momento en que se anuncien los resultados.",
     "bBefore": "(b) Los ganadores tienen",
     "bDays": "CATORCE (14) DÍAS CALENDARIO",
     "bAfter": "desde la fecha de notificación para responder y proporcionar la información requerida (nombre legal completo, datos bancarios, identificación fiscal — ver Sección 10).",
-    "c": "(c) No responder en un plazo de 14 días, no aportar la documentación requerida o la inelegibilidad del ganador supondrá la pérdida del premio. Spektt podrá, a su entera discreción, ofrecer el premio al siguiente participante elegible mejor clasificado, sin estar obligado a hacerlo.",
-    "d": "(d) Los premios perdidos o no reclamados seguirán siendo propiedad del Patrocinador. Spektt podrá, a su discreción, donar un premio perdido a una organización benéfica registrada."
+    "c": "(c) No responder en un plazo de 14 días, no aportar la documentación requerida o la inelegibilidad del ganador supondrá la pérdida del premio. Un premio perdido pasa al participante elegible mejor clasificado que no haya recibido un premio en ese Concurso, quien dispondrá de SIETE (7) DÍAS NATURALES desde la notificación para reclamarlo. Un premio pasa como máximo dos veces.",
+    "d": "(d) Un premio que siga sin reclamarse tras pasar dos veces, o para el que no quede ningún participante elegible, no se otorga."
   },
   "s10": {
     "heading": "10. CUMPLIMIENTO FISCAL (CONCURSOS PREMIUM)",
@@ -154,6 +154,6 @@
     "emailLabel": "Correo electrónico:",
     "websiteLabel": "Sitio web:",
     "copyright": "© 2026 Axlume Tech Limited. Todos los derechos reservados.",
-    "updated": "Última actualización: agosto de 2026"
+    "updated": "Última actualización: noviembre de 2026"
   }
 }
