@@ -90,7 +90,8 @@
     "bDays": "QUATORZE (14) DIAS CORRIDOS",
     "bAfter": "a partir da data de notificação para responder e fornecer as informações necessárias (nome legal completo, dados bancários, identificação fiscal — ver Seção 10).",
     "c": "(c) A falta de resposta no prazo de 14 dias, a não apresentação da documentação exigida ou a inelegibilidade do vencedor resultarão na perda do prêmio. Um prêmio perdido passa ao participante elegível mais bem classificado que não tenha recebido prêmio nesse Concurso, que terá SETE (7) DIAS CORRIDOS a partir da notificação para reivindicá-lo. Um prêmio é repassado no máximo duas vezes.",
-    "d": "(d) Um prêmio que continue não reivindicado após ser repassado duas vezes, ou para o qual não reste nenhum participante elegível, não é concedido."
+    "d": "(d) Um prêmio que continue não reivindicado após ser repassado duas vezes, ou para o qual não reste nenhum participante elegível, não é concedido.",
+    "e": "(e) Quando você envia uma reivindicação de prêmio, a Spektt verifica o país de onde vem sua conexão com a internet para confirmar sua elegibilidade conforme a Seção 2. Apenas o país é guardado, nunca seu endereço IP nem sua localização precisa."
   },
   "s10": {
     "heading": "10. CONFORMIDADE FISCAL (CONCURSOS PREMIUM)",

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: November 5th, 2026",
+  "lastUpdated": "Last Updated: November 10th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -95,7 +95,8 @@
     "locationHeading": "Location Data",
     "locationItems": [
       "Your device's approximate location, collected once during onboarding with your permission and turned into a city, region and country. We do not request precise location, and the raw coordinates are not stored.",
-      "Public IP address — stored only as a SHA-256 hash for fraud detection and vote manipulation prevention. The raw IP is never stored."
+      "Public IP address — stored only as a SHA-256 hash for fraud detection and vote manipulation prevention. The raw IP is never stored.",
+      "The country your internet connection comes from, checked only when you claim a cash prize, to confirm you are eligible. It is looked up on our own servers from your public IP address; we keep the country and never store the IP."
     ],
     "deviceHeading": "Device & Technical Data",
     "deviceItems": [
@@ -159,7 +160,7 @@
       ],
       [
         "Determining Showdown eligibility by country",
-        "Country (ISO code)",
+        "Country (ISO code); when you claim a cash prize, the country of your connection",
         "Legal obligation"
       ],
       [
@@ -219,7 +220,7 @@
       "We do not read, scan, or analyse private messages for advertising or machine learning. Our servers check message text only for scam patterns, and no person reads it unless it is reported",
       "We do not use your private messages to train algorithms or personalise your feed",
       "We do not share your prize payment details beyond what is required by Nigerian law",
-      "We do not request precise location or retain raw coordinates — location is captured once during onboarding and turned into a city, region and country"
+      "We do not request precise location or retain raw coordinates — location is captured once during onboarding and turned into a city, region and country. The only other check is when you claim a cash prize: we look up the country of your connection and keep only the country"
     ]
   },
   "s4": {
@@ -276,6 +277,11 @@
         "ipify.org",
         "Public IP lookup (fraud detection)",
         "Your device's public IP at time of request"
+      ],
+      [
+        "DB-IP (db-ip.com)",
+        "IP-to-country database, used only when a winner claims a cash prize (IP geolocation by DB-IP, CC BY 4.0)",
+        "None: the lookup runs on our own servers and nothing is sent to DB-IP"
       ],
       [
         "Google Play Integrity · Apple DeviceCheck",
@@ -343,7 +349,7 @@
       "Judging: If you are assigned as a judge, your individual scores are private until results are announced.",
       "Results: Winner usernames and placements are publicly announced. Your bank details and Tax ID are never publicly disclosed.",
       "Prize claims: You have 14 days to submit your claim. A 10% withholding tax is deducted in line with Nigerian tax regulations. Cash prize payments are currently available to Nigerian bank account holders only.",
-      "Forfeiture: Unclaimed prizes are forfeited after 14 days. Forfeited prize records are retained for internal accounting.",
+      "Unclaimed prizes: a prize not claimed within 14 days passes to the next eligible entrant (at most twice); a prize nobody claims is not awarded. Records of unclaimed prizes are retained for internal accounting.",
       "Retention: Prize payment details (bank info) are retained for the period required by Nigerian financial regulations after payment, regardless of account deletion."
     ]
   },

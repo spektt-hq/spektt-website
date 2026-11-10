@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : November 5th, 2026",
+  "lastUpdated": "Dernière mise à jour : November 10th, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -95,7 +95,8 @@
     "locationHeading": "Données de localisation",
     "locationItems": [
       "La position approximative de votre appareil, collectée une seule fois lors de l’intégration avec votre autorisation et convertie en ville, région et pays. Nous ne demandons pas votre position précise et les coordonnées brutes ne sont pas conservées.",
-      "Adresse IP publique — conservée uniquement sous forme de hachage SHA-256 pour la détection de fraude et la prévention de manipulation des votes. L’IP brute n’est jamais stockée."
+      "Adresse IP publique — conservée uniquement sous forme de hachage SHA-256 pour la détection de fraude et la prévention de manipulation des votes. L’IP brute n’est jamais stockée.",
+      "Le pays d’où provient votre connexion internet, vérifié uniquement lorsque vous réclamez un prix en espèces, afin de confirmer votre éligibilité. Il est déterminé sur nos propres serveurs à partir de votre adresse IP publique ; nous ne conservons que le pays, jamais l’adresse IP."
     ],
     "deviceHeading": "Appareil et données techniques",
     "deviceItems": [
@@ -159,7 +160,7 @@
       ],
       [
         "Déterminer l’éligibilité aux Showdowns selon le pays",
-        "Pays (code ISO)",
+        "Pays (code ISO) ; lors d’une réclamation de prix en espèces, le pays de votre connexion",
         "Obligation légale"
       ],
       [
@@ -219,7 +220,7 @@
       "Nous ne lisons, n’analysons ni ne scannons les messages privés à des fins publicitaires ou d’apprentissage automatique. Nos serveurs vérifient le texte des messages uniquement pour détecter des schémas d’arnaque, et personne ne le lit sauf en cas de signalement",
       "Nous n’utilisons pas vos messages privés pour entraîner des algorithmes ou personnaliser votre fil d’actualité",
       "Nous ne partageons pas vos détails de paiement de prix au-delà de ce qui est requis par la loi nigériane",
-      "Nous ne demandons pas votre position précise et ne conservons pas les coordonnées brutes — la position est capturée une seule fois lors de l’intégration et convertie en ville, région et pays"
+      "Nous ne demandons pas votre position précise et ne conservons pas les coordonnées brutes — la position est capturée une seule fois lors de l’intégration et convertie en ville, région et pays. La seule autre vérification a lieu lorsque vous réclamez un prix en espèces : nous déterminons le pays de votre connexion et ne conservons que ce pays"
     ]
   },
   "s4": {
@@ -276,6 +277,11 @@
         "ipify.org",
         "Recherche d’IP publique (détection de fraude)",
         "IP publique de votre appareil au moment de la requête"
+      ],
+      [
+        "DB-IP (db-ip.com)",
+        "Base de données IP-pays, utilisée uniquement lorsqu’un gagnant réclame un prix en espèces (géolocalisation IP par DB-IP, CC BY 4.0)",
+        "Aucune : la recherche s’effectue sur nos propres serveurs et rien n’est envoyé à DB-IP"
       ],
       [
         "Google Play Integrity · Apple DeviceCheck",
@@ -343,7 +349,7 @@
       "Jugement : si vous êtes désigné comme juge, vos scores individuels restent privés jusqu’à l’annonce des résultats.",
       "Résultats : les noms d’utilisateur des gagnants et les classements sont annoncés publiquement. Vos coordonnées bancaires et votre identifiant fiscal ne sont jamais divulgués publiquement.",
       "Réclamation des prix : vous disposez de 14 jours pour soumettre votre réclamation. Une retenue fiscale de 10 % est déduite conformément aux réglementations fiscales nigérianes. Les paiements des prix en espèces sont actuellement disponibles uniquement pour les titulaires de comptes bancaires nigérians.",
-      "Renonciation : les prix non réclamés sont perdus après 14 jours. Les dossiers des prix perdus sont conservés pour la comptabilité interne.",
+      "Prix non réclamés : un prix non réclamé dans les 14 jours est transmis au participant éligible suivant (deux fois au maximum) ; un prix que personne ne réclame n’est pas attribué. Les dossiers des prix non réclamés sont conservés pour la comptabilité interne.",
       "Conservation : les détails de paiement des prix (informations bancaires) sont conservés pendant la période requise par les réglementations financières nigérianes après le paiement, indépendamment de la suppression du compte."
     ]
   },

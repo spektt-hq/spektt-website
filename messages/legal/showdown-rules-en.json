@@ -90,7 +90,8 @@
     "bDays": "FOURTEEN (14) CALENDAR DAYS",
     "bAfter": "from the date of notification to respond and provide the required information (full legal name, bank account details, tax identification — see Section 10).",
     "c": "(c) Failure to respond within 14 days, failure to provide the required documentation, or ineligibility of the winner will result in the prize being forfeited. A forfeited prize passes to the highest-placed eligible entrant who has not received a prize in that Contest, who then has SEVEN (7) CALENDAR DAYS from notification to claim it. A prize passes on at most twice.",
-    "d": "(d) A prize that is still unclaimed after passing on twice, or for which no eligible entrant remains, is not awarded."
+    "d": "(d) A prize that is still unclaimed after passing on twice, or for which no eligible entrant remains, is not awarded.",
+    "e": "(e) When you submit a prize claim, Spektt checks the country your internet connection comes from to confirm your eligibility under Section 2. Only the country is kept, never your IP address or precise location."
   },
   "s10": {
     "heading": "10. TAX COMPLIANCE (PREMIUM CONTESTS)",

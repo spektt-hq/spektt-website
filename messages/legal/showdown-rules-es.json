@@ -90,7 +90,8 @@
     "bDays": "CATORCE (14) DÍAS CALENDARIO",
     "bAfter": "desde la fecha de notificación para responder y proporcionar la información requerida (nombre legal completo, datos bancarios, identificación fiscal — ver Sección 10).",
     "c": "(c) No responder en un plazo de 14 días, no aportar la documentación requerida o la inelegibilidad del ganador supondrá la pérdida del premio. Un premio perdido pasa al participante elegible mejor clasificado que no haya recibido un premio en ese Concurso, quien dispondrá de SIETE (7) DÍAS NATURALES desde la notificación para reclamarlo. Un premio pasa como máximo dos veces.",
-    "d": "(d) Un premio que siga sin reclamarse tras pasar dos veces, o para el que no quede ningún participante elegible, no se otorga."
+    "d": "(d) Un premio que siga sin reclamarse tras pasar dos veces, o para el que no quede ningún participante elegible, no se otorga.",
+    "e": "(e) Cuando envías una reclamación de premio, Spektt comprueba el país desde el que se conecta tu internet para confirmar tu elegibilidad según la Sección 2. Solo se conserva el país, nunca tu dirección IP ni tu ubicación precisa."
   },
   "s10": {
     "heading": "10. CUMPLIMIENTO FISCAL (CONCURSOS PREMIUM)",

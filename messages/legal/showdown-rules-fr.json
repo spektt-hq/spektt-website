@@ -90,7 +90,8 @@
     "bDays": "QUATORZE (14) JOURS CALENDAIRES",
     "bAfter": "à compter de la date de notification pour répondre et fournir les informations requises (nom légal complet, coordonnées bancaires, identification fiscale — voir Section 10).",
     "c": "(c) L'absence de réponse dans un délai de 14 jours, le défaut de fourniture des documents requis ou l'inéligibilité du gagnant entraînent la perte du prix. Un prix perdu revient au participant éligible le mieux classé n'ayant pas reçu de prix dans ce Concours, qui dispose alors de SEPT (7) JOURS CALENDAIRES à compter de la notification pour le réclamer. Un prix est transmis au maximum deux fois.",
-    "d": "(d) Un prix toujours non réclamé après avoir été transmis deux fois, ou pour lequel il ne reste aucun participant éligible, n'est pas attribué."
+    "d": "(d) Un prix toujours non réclamé après avoir été transmis deux fois, ou pour lequel il ne reste aucun participant éligible, n'est pas attribué.",
+    "e": "(e) Lorsque vous soumettez une réclamation de prix, Spektt vérifie le pays d'où provient votre connexion internet afin de confirmer votre éligibilité au titre de la Section 2. Seul le pays est conservé, jamais votre adresse IP ni votre position précise."
   },
   "s10": {
     "heading": "10. CONFORMITÉ FISCALE (CONCOURS PREMIUM)",

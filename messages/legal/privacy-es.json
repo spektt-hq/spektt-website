@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: November 5th, 2026",
+  "lastUpdated": "Última actualización: November 10th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -95,7 +95,8 @@
     "locationHeading": "Datos de Ubicación",
     "locationItems": [
       "La ubicación aproximada de tu dispositivo, recopilada una sola vez durante el registro con tu permiso y convertida en ciudad, región y país. No solicitamos tu ubicación precisa y las coordenadas sin procesar no se almacenan.",
-      "Dirección IP pública — almacenada solo como un hash SHA-256 para detección de fraude y prevención de manipulación de votos. La IP sin procesar nunca se almacena."
+      "Dirección IP pública — almacenada solo como un hash SHA-256 para detección de fraude y prevención de manipulación de votos. La IP sin procesar nunca se almacena.",
+      "El país desde el que se conecta tu internet, comprobado solo cuando reclamas un premio en efectivo, para confirmar que cumples los requisitos. Se determina en nuestros propios servidores a partir de tu dirección IP pública; conservamos solo el país y nunca almacenamos la IP."
     ],
     "deviceHeading": "Datos del Dispositivo y Técnicos",
     "deviceItems": [
@@ -159,7 +160,7 @@
       ],
       [
         "Determinar la elegibilidad para Showdowns según el país",
-        "País (código ISO)",
+        "País (código ISO); al reclamar un premio en efectivo, el país de tu conexión",
         "Obligación legal"
       ],
       [
@@ -219,7 +220,7 @@
       "No leemos, escaneamos ni analizamos mensajes privados para publicidad o aprendizaje automático. Nuestros servidores revisan el texto de los mensajes solo en busca de patrones de estafa, y ninguna persona lo lee salvo que sea reportado",
       "No utilizamos tus mensajes privados para entrenar algoritmos ni personalizar tu feed",
       "No compartimos los detalles de pago de tus premios más allá de lo requerido por la ley nigeriana",
-      "No solicitamos tu ubicación precisa ni conservamos coordenadas sin procesar: la ubicación se captura una sola vez durante el registro y se convierte en ciudad, región y país"
+      "No solicitamos tu ubicación precisa ni conservamos coordenadas sin procesar: la ubicación se captura una sola vez durante el registro y se convierte en ciudad, región y país. La única otra comprobación es cuando reclamas un premio en efectivo: determinamos el país de tu conexión y conservamos solo ese país"
     ]
   },
   "s4": {
@@ -276,6 +277,11 @@
         "ipify.org",
         "Consulta de IP pública (detección de fraude)",
         "IP pública de tu dispositivo al momento de la solicitud"
+      ],
+      [
+        "DB-IP (db-ip.com)",
+        "Base de datos de IP a país, usada solo cuando un ganador reclama un premio en efectivo (geolocalización IP de DB-IP, CC BY 4.0)",
+        "Ninguno: la consulta se hace en nuestros propios servidores y no se envía nada a DB-IP"
       ],
       [
         "Google Play Integrity · Apple DeviceCheck",
@@ -343,7 +349,7 @@
       "Juzgamiento: Si eres asignado como juez, tus puntuaciones individuales son privadas hasta que se anuncian los resultados.",
       "Resultados: Los nombres de usuario de los ganadores y posiciones se anuncian públicamente. Tus datos bancarios e identificación fiscal nunca se divulgan públicamente.",
       "Reclamación de premios: Tienes 14 días para enviar tu reclamación. Se deduce un impuesto de retención del 10% conforme a las regulaciones fiscales de Nigeria. Los pagos de premios en efectivo están disponibles actualmente solo para titulares de cuentas bancarias nigerianas.",
-      "Pérdida: los premios no reclamados se pierden a los 14 días. Los registros de premios perdidos se conservan para la contabilidad interna.",
+      "Premios no reclamados: un premio que no se reclama en 14 días pasa al siguiente participante elegible (como máximo dos veces); un premio que nadie reclama no se otorga. Los registros de premios no reclamados se conservan para la contabilidad interna.",
       "Retención: Los detalles de pago de premios (información bancaria) se conservan durante el período requerido por las regulaciones financieras de Nigeria después del pago, independientemente de la eliminación de la cuenta."
     ]
   },

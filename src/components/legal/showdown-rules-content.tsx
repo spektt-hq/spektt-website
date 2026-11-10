@@ -139,6 +139,7 @@ export default function ShowdownRulesContent({
             </p>
             <p className='privacy-policy-text mt-3'>{d.s9.c}</p>
             <p className='privacy-policy-text mt-3'>{d.s9.d}</p>
+            <p className='privacy-policy-text mt-3'>{d.s9.e}</p>
           </section>
 
           {/* 10 */}
