@@ -1,7 +1,7 @@
 {
   "pageTitle": "Normas de la comunidad",
   "effectiveDate": "Fecha de entrada en vigor: 12 de agosto de 2026",
-  "lastUpdated": "Última actualización: 6 de octubre de 2026",
+  "lastUpdated": "Última actualización: 13 de noviembre de 2026",
   "intro": "Spektt está hecho para creativos — fotógrafos, videógrafos, animadores 3D, ingenieros de sonido y artistas digitales — para compartir trabajo real y competir con justicia. Estas normas existen para que la plataforma siga mereciendo tus publicaciones.",
   "appliesTo": "Se aplican en todo Spektt: publicaciones, Spotlights, comentarios, descripciones, perfiles, publicaciones de Clusters, participaciones en Showdowns y mensajes directos.",
   "ageNote": "Debes tener 16 años o más para usar Spektt. Los mensajes directos y la participación en Showdowns son solo para mayores de 18 años.",
@@ -119,8 +119,8 @@
     "intro": "Las consecuencias dependen de la gravedad y del historial. Las infracciones graves pasan directamente a la suspensión, y las repetidas se acumulan: un tercer aviso suspende automáticamente tu cuenta durante 7 días.",
     "items": [
       "Eliminación del contenido — la publicación, el comentario o la participación se retira.",
-      "Aviso — un aviso formal que recibes en la aplicación y como notificación push. Los avisos quedan registrados en tu cuenta y no se pueden desactivar en los ajustes de notificaciones, porque un aviso que nunca ves no cambia nada.",
-      "Suspensión — 7 días, 14 días, 30 días o permanente. Una suspensión temporal se levanta automáticamente al expirar. Mientras dure, no puedes usar la aplicación.",
+      "Aviso — un aviso formal que recibes en la aplicación, como notificación push y por correo electrónico, indicando cuál de tus tres avisos es. Los avisos quedan registrados en tu cuenta y no se pueden desactivar en los ajustes de notificaciones, porque un aviso que nunca ves no cambia nada.",
+      "Suspensión — 7 días, 14 días, 30 días o permanente. Una suspensión temporal se levanta automáticamente al expirar. Mientras dure, no puedes usar la aplicación. Te escribimos por correo cuando empieza una suspensión (el motivo y cuándo termina) y otra vez cuando termina.",
       "Expulsión permanente — para las infracciones más graves o las repetidas."
     ],
     "clusterNote": "Aparte de esto, un administrador o moderador de Cluster puede retirar tu publicación de su Cluster o expulsarte de él, sin que ello afecte a tu cuenta de Spektt."
