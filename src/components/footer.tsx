@@ -17,6 +17,7 @@ interface FooterDict {
   companyLinks: {
     terms: string
     guidelines: string
+    featured: string
     privacy: string
     contact: string
     download: string
@@ -43,6 +44,7 @@ function Footer({ dict, locale }: FooterProps) {
   const companyLinks = [
     { to: '/$locale/terms', label: dict.companyLinks.terms },
     { to: '/$locale/community-guidelines', label: dict.companyLinks.guidelines },
+    { to: '/$locale/featured-creators', label: dict.companyLinks.featured },
     { to: '/$locale/privacy', label: dict.companyLinks.privacy },
     { to: '/$locale/contact', label: dict.companyLinks.contact },
     { to: '/$locale/download', label: dict.companyLinks.download },

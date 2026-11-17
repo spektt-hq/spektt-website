@@ -21,7 +21,8 @@
       "guidelines": "Règles de la communauté",
       "privacy": "Politique de confidentialité",
       "contact": "Nous contacter",
-      "download": "Télécharger l'application"
+      "download": "Télécharger l'application",
+      "featured": "Créateurs à la une"
     },
     "copyright": "Axlume Tech Limited. Tous droits réservés."
   },
@@ -206,6 +207,10 @@
     "showdownRules": {
       "title": "Règles des Showdowns — Spektt",
       "description": "Les règles officielles régissant tous les Showdowns sur la plateforme Spektt."
+    },
+    "featured": {
+      "title": "Comment Spektt met en avant les créateurs — Spektt",
+      "description": "Sur qui Spektt écrit, pourquoi, et comment fonctionnent le consentement, les nominations et les retraits."
     }
   },
   "fallback": {
@@ -214,5 +219,58 @@
     "showdownMessage": "Consultez ce Showdown dans l'application Spektt.",
     "collectionMessage": "Affichez cette collection dans l'application Spektt.",
     "articleMessage": "Lisez cet article dans l'application Spektt."
+  },
+  "featured": {
+    "title": "Comment Spektt met en avant les créateurs",
+    "intro": "Spektt publie de courts articles sur les créatifs de la plateforme : leur façon de travailler, ce qu'ils ont créé, ce qu'ils ont appris. Vous les trouverez dans la section Articles de l'onglet Explorer. Cette page explique qui est mis en avant, pourquoi, et à quoi vous attendre.",
+    "whyTitle": "Pourquoi quelqu'un est mis en avant",
+    "whyIntro": "Chaque article sur un créateur indique la raison en haut, en une ligne. Il y a quatre raisons, et nous n'utilisons qu'une raison que nous pouvons prouver :",
+    "reasons": [
+      {
+        "name": "Classement dans un showdown",
+        "text": "vous avez terminé 1er, 2e ou 3e d'un showdown. Nous vérifions les résultats officiels avant de publier."
+      },
+      {
+        "name": "Étape franchie",
+        "text": "vous avez atteint un niveau sur Spektt. Nous vérifions votre niveau avant de publier."
+      },
+      {
+        "name": "Choisi par l'équipe Spektt",
+        "text": "notre équipe a retenu votre travail parce qu'il s'est démarqué. C'est ainsi que la plupart des nouveaux créateurs sont mis en avant."
+      },
+      {
+        "name": "Proposé par les membres",
+        "text": "des membres de Spektt nous ont demandé d'écrire sur vous."
+      }
+    ],
+    "whoTitle": "Qui peut être mis en avant",
+    "who": [
+      "Toute personne sur Spektt, dans n'importe quel pays et n'importe quel métier : photographie, vidéographie, animation 3D, ingénierie du son, art numérique.",
+      "Votre compte doit être en règle : ni suspendu, ni banni, ni en cours de suppression.",
+      "Le travail que nous montrons doit être votre propre travail original.",
+      "Les comptes de marques et d'entreprises ne sont pas mis en avant dans ces articles."
+    ],
+    "notTitle": "Ce qui empêche d'être mis en avant",
+    "not": [
+      "Un travail copié, ou que vous n'avez pas le droit de partager.",
+      "Des manquements récents à nos Règles de la communauté, comme des avertissements ou des contenus supprimés.",
+      "Avoir été mis en avant au cours des 30 derniers jours : nous espaçons les articles pour que la lumière tourne."
+    ],
+    "consentTitle": "Votre consentement d'abord",
+    "consentIntro": "Nous ne mettons jamais personne en avant sans demander. Avant la publication d'un article sur vous, vous acceptez :",
+    "consent": [
+      "le texte qui vous concerne,",
+      "chaque image de votre travail que nous montrons,",
+      "chaque citation de vous que nous utilisons."
+    ],
+    "consentAfter": "Si quelque chose change avant la publication, nous vous redemandons. Personne ne paie pour être mis en avant, et Spektt n'accepte aucun paiement pour ces articles : ce ne sont pas des publicités.",
+    "disclosure": "Si l'auteur vous connaît personnellement, l'article le précise dans une courte note au-dessus du texte.",
+    "liveTitle": "Quand votre article est publié",
+    "live": "Vous recevez une notification dans l'application : « Vous apparaissez dans un article de Spektt ». L'article affiche votre nom, un lien vers votre profil et un bouton S'abonner. Les lecteurs peuvent le commenter, et nos outils habituels de signalement et de blocage s'appliquent à ces commentaires.",
+    "nominateTitle": "Proposer quelqu'un",
+    "nominate": "Vous connaissez un créateur dont le travail mérite un article ? Dites-le-nous via la {contact} ou à {email} : son @nom d'utilisateur et une phrase expliquant pourquoi. Nous lisons chaque proposition, mais nous ne pouvons pas écrire sur tout le monde.",
+    "contactLink": "page de contact",
+    "withdrawTitle": "Vous avez changé d'avis ?",
+    "withdraw": "Vous pouvez vous retirer à tout moment. Écrivez à {email} depuis l'adresse de votre compte Spektt en précisant l'article. Dès réception, nous retirons l'article ou les passages qui vous concernent."
   }
 }

@@ -21,7 +21,8 @@
       "guidelines": "Community Guidelines",
       "privacy": "Privacy Policy",
       "contact": "Contact Us",
-      "download": "Download the App"
+      "download": "Download the App",
+      "featured": "Featured Creators"
     },
     "copyright": "Axlume Tech Limited. All rights reserved."
   },
@@ -206,6 +207,10 @@
     "showdownRules": {
       "title": "Showdown Rules — Spektt",
       "description": "The official contest rules governing all Showdowns on the Spektt platform."
+    },
+    "featured": {
+      "title": "How Spektt Features Creators — Spektt",
+      "description": "Who Spektt writes about, why, and how consent, nominations and withdrawals work."
     }
   },
   "fallback": {
@@ -214,5 +219,58 @@
     "showdownMessage": "View this Showdown in the Spektt app.",
     "collectionMessage": "View this Collection in the Spektt app.",
     "articleMessage": "Read this article in the Spektt app."
+  },
+  "featured": {
+    "title": "How Spektt features creators",
+    "intro": "Spektt writes short articles about creatives on the platform: how they work, what they made, what they learned. You'll find them in the Articles section of the Explore tab. This page explains who gets featured, why, and what you can expect.",
+    "whyTitle": "Why someone is featured",
+    "whyIntro": "Every article about a creator says why at the top, in one line. There are four reasons, and we only use a reason we can show:",
+    "reasons": [
+      {
+        "name": "Showdown placement",
+        "text": "you placed 1st, 2nd or 3rd in a showdown. We check the official results before publishing."
+      },
+      {
+        "name": "Milestone",
+        "text": "you reached a level on Spektt. We check your level before publishing."
+      },
+      {
+        "name": "Chosen by the Spektt team",
+        "text": "our team picked your work because it stood out. This is how most new creators are featured."
+      },
+      {
+        "name": "Nominated by members",
+        "text": "people on Spektt asked us to write about you."
+      }
+    ],
+    "whoTitle": "Who can be featured",
+    "who": [
+      "Anyone on Spektt, in any country and any craft: photography, videography, 3D animation, sound engineering, digital art.",
+      "Your account must be in good standing: not suspended, banned or being deleted.",
+      "The work we show must be your own original work.",
+      "Brand and company accounts aren't featured in these articles."
+    ],
+    "notTitle": "What keeps someone from being featured",
+    "not": [
+      "Work that is copied, or that isn't yours to share.",
+      "Recent breaks of our Community Guidelines, such as warnings or removed content.",
+      "Being featured in the last 30 days: we space features out so the spotlight moves around."
+    ],
+    "consentTitle": "Your consent comes first",
+    "consentIntro": "We never feature anyone without asking. Before an article about you is published, you agree to:",
+    "consent": [
+      "the text about you,",
+      "every image of your work we show,",
+      "every quote we use from you."
+    ],
+    "consentAfter": "If anything changes before it goes out, we ask again. Nobody pays to be featured, and Spektt doesn't take payment for these articles: they aren't ads.",
+    "disclosure": "If the writer knows you personally, the article says so, in a short note above the story.",
+    "liveTitle": "When your article goes live",
+    "live": "You get a notification in the app: \"You're featured in a Spektt article\". The article shows your name, a link to your profile and a Follow button. Readers can comment on it, and our usual reporting and blocking tools apply to those comments.",
+    "nominateTitle": "Nominate someone",
+    "nominate": "Know a creator whose work deserves a story? Tell us through the {contact} or at {email}: their @username and a line on why. We read every nomination; we can't write about everyone.",
+    "contactLink": "contact page",
+    "withdrawTitle": "Changed your mind?",
+    "withdraw": "You can withdraw at any time. Email {email} from the address on your Spektt account and say which article. As soon as we get it, we take the article down, or remove the parts about you."
   }
 }

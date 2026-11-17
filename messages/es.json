@@ -21,7 +21,8 @@
       "guidelines": "Normas de la comunidad",
       "privacy": "Política de privacidad",
       "contact": "Contáctanos",
-      "download": "Descargar la aplicación"
+      "download": "Descargar la aplicación",
+      "featured": "Creadores destacados"
     },
     "copyright": "Axlume Tech Limited. Todos los derechos reservados."
   },
@@ -206,6 +207,10 @@
     "showdownRules": {
       "title": "Reglas de los Showdowns — Spektt",
       "description": "Las reglas oficiales que rigen todos los Showdowns en la plataforma Spektt."
+    },
+    "featured": {
+      "title": "Cómo Spektt destaca a los creadores — Spektt",
+      "description": "Sobre quién escribe Spektt, por qué y cómo funcionan el consentimiento, las nominaciones y las retiradas."
     }
   },
   "fallback": {
@@ -214,5 +219,58 @@
     "showdownMessage": "Ver este Showdown en la aplicación Spektt.",
     "collectionMessage": "Ver esta colección en la aplicación Spektt.",
     "articleMessage": "Lee este artículo en la aplicación Spektt."
+  },
+  "featured": {
+    "title": "Cómo Spektt destaca a los creadores",
+    "intro": "Spektt escribe artículos breves sobre los creativos de la plataforma: cómo trabajan, qué han creado y qué han aprendido. Los encontrarás en la sección Artículos de la pestaña Explorar. Esta página explica a quién destacamos, por qué y qué puedes esperar.",
+    "whyTitle": "Por qué se destaca a alguien",
+    "whyIntro": "Cada artículo sobre un creador indica el motivo arriba, en una línea. Hay cuatro motivos, y solo usamos uno que podamos demostrar:",
+    "reasons": [
+      {
+        "name": "Puesto en un showdown",
+        "text": "quedaste 1.º, 2.º o 3.º en un showdown. Comprobamos los resultados oficiales antes de publicar."
+      },
+      {
+        "name": "Hito",
+        "text": "alcanzaste un nivel en Spektt. Comprobamos tu nivel antes de publicar."
+      },
+      {
+        "name": "Elegido por el equipo de Spektt",
+        "text": "nuestro equipo eligió tu trabajo porque destacó. Así se destaca a la mayoría de los creadores nuevos."
+      },
+      {
+        "name": "Nominado por miembros",
+        "text": "personas de Spektt nos pidieron que escribiéramos sobre ti."
+      }
+    ],
+    "whoTitle": "A quién podemos destacar",
+    "who": [
+      "A cualquier persona en Spektt, de cualquier país y cualquier oficio: fotografía, videografía, animación 3D, ingeniería de sonido, arte digital.",
+      "Tu cuenta debe estar en regla: ni suspendida, ni bloqueada, ni en proceso de eliminación.",
+      "El trabajo que mostramos debe ser tuyo y original.",
+      "Las cuentas de marcas y empresas no aparecen en estos artículos."
+    ],
+    "notTitle": "Qué impide que te destaquemos",
+    "not": [
+      "Trabajo copiado, o que no tienes derecho a compartir.",
+      "Incumplimientos recientes de nuestras Normas de la comunidad, como advertencias o contenido eliminado.",
+      "Haber sido destacado en los últimos 30 días: espaciamos los artículos para que el foco vaya cambiando."
+    ],
+    "consentTitle": "Tu consentimiento es lo primero",
+    "consentIntro": "Nunca destacamos a nadie sin preguntar. Antes de publicar un artículo sobre ti, aceptas:",
+    "consent": [
+      "el texto sobre ti,",
+      "cada imagen de tu trabajo que mostramos,",
+      "cada cita tuya que usamos."
+    ],
+    "consentAfter": "Si algo cambia antes de publicarse, te volvemos a preguntar. Nadie paga por aparecer, y Spektt no acepta pagos por estos artículos: no son anuncios.",
+    "disclosure": "Si quien escribe te conoce personalmente, el artículo lo indica en una nota breve sobre el texto.",
+    "liveTitle": "Cuando se publica tu artículo",
+    "live": "Recibes una notificación en la app: «Apareces en un artículo de Spektt». El artículo muestra tu nombre, un enlace a tu perfil y un botón Seguir. Los lectores pueden comentarlo, y nuestras herramientas habituales de denuncia y bloqueo se aplican a esos comentarios.",
+    "nominateTitle": "Nomina a alguien",
+    "nominate": "¿Conoces a un creador cuyo trabajo merece una historia? Cuéntanoslo en la {contact} o en {email}: su @usuario y una frase sobre por qué. Leemos todas las nominaciones, aunque no podemos escribir sobre todo el mundo.",
+    "contactLink": "página de contacto",
+    "withdrawTitle": "¿Has cambiado de opinión?",
+    "withdraw": "Puedes retirarte en cualquier momento. Escribe a {email} desde la dirección de tu cuenta de Spektt e indica qué artículo. En cuanto lo recibimos, retiramos el artículo o quitamos las partes sobre ti."
   }
 }

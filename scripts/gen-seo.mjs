@@ -11,6 +11,7 @@ const LOCALES = ['en', 'fr', 'es', 'pt', 'ar']
 const PAGES = [
   { path: '', changefreq: 'monthly', priority: '1.0' },
   { path: '/about', changefreq: 'monthly', priority: '0.8' },
+  { path: '/featured-creators', changefreq: 'monthly', priority: '0.6' },
   { path: '/help', changefreq: 'weekly', priority: '0.9' },
   { path: '/download', changefreq: 'yearly', priority: '0.7' },
   { path: '/contact', changefreq: 'yearly', priority: '0.5' },
