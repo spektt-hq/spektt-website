@@ -212,6 +212,7 @@
     "profileMessage": "Consultez ce profil dans l'application Spektt.",
     "clusterMessage": "Consultez ce Cluster dans l'application Spektt.",
     "showdownMessage": "Consultez ce Showdown dans l'application Spektt.",
-    "collectionMessage": "Affichez cette collection dans l'application Spektt."
+    "collectionMessage": "Affichez cette collection dans l'application Spektt.",
+    "articleMessage": "Lisez cet article dans l'application Spektt."
   }
 }
