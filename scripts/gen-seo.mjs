@@ -19,6 +19,7 @@ const PAGES = [
   { path: '/terms', changefreq: 'yearly', priority: '0.3' },
   { path: '/community-guidelines', changefreq: 'yearly', priority: '0.4' },
   { path: '/showdown-rules', changefreq: 'yearly', priority: '0.3' },
+  { path: '/brand-terms', changefreq: 'yearly', priority: '0.3' },
 ]
 
 const publicDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'public')

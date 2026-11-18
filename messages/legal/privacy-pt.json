@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: November 10th, 2026",
+  "lastUpdated": "Última Atualização: November 18th, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. QUEM SOMOS",
-    "body": "Spektt é uma plataforma de comunidade criativa criada para fotógrafos, videomakers, animadores 3D, engenheiros de som, artistas digitais e outros criativos.",
+    "body": "Spektt é uma plataforma de comunidade criativa criada para fotógrafos, videomakers, animadores 3D, engenheiros de som, artistas digitais e outros criativos, e para as marcas que patrocinam os seus Showdowns.",
     "legalEntity": "Entidade Legal: Axlume Tech Limited",
     "registration": "Registro: Corporate Affairs Commission (CAC), República Federal da Nigéria",
     "contactLabel": "Contato:",
@@ -69,6 +69,13 @@
       "Clusters que você cria ou aos quais se junta, sua função e data de entrada",
       "Publicações que você faz dentro de um Cluster",
       "Ações de moderação que você realiza como administrador ou moderador (banimentos, suspensões, remoções de conteúdo)"
+    ],
+    "brandHeading": "Contas de marca (empresas que patrocinam Showdowns; quem solicita deve ter 18 anos ou mais)",
+    "brandItems": [
+      "Nome da marca, logotipo, site, setor e texto “Sobre”, exibidos publicamente na página da marca",
+      "Um e-mail profissional no domínio do site da marca e o nome completo de quem solicita: privados, vistos apenas pelo solicitante e pela equipe da Spektt",
+      "Um código de 6 dígitos que enviamos a esse endereço para confirmá-lo (guardado apenas como hash; apagado após o uso ou junto com a conta)",
+      "Verificações: a data de registro do domínio do site (em registros públicos de domínios), se o nome é parecido com o de uma marca conhecida e, se uma pessoa analisar, a decisão e o motivo informado à marca"
     ],
     "dmHeading": "Mensagens Diretas",
     "dmItems": [
@@ -142,6 +149,11 @@
         "Verificar sua idade para elegibilidade ao Showdown",
         "Data de nascimento",
         "Execução de contrato + Obrigação legal"
+      ],
+      [
+        "Verificar contas de marca e evitar falsificação de identidade",
+        "E-mail profissional, nome do solicitante, nome da marca, domínio do site e sua data de registro",
+        "Interesses legítimos + Execução de contrato"
       ],
       [
         "Fornecer o feed e descoberta de conteúdo",
@@ -266,7 +278,12 @@
       [
         "Amazon Web Services (SES)",
         "Entrega de e-mails transacionais",
-        "Endereço de e-mail, códigos OTP, conteúdo de alertas"
+        "Endereço de e-mail, códigos OTP, conteúdo de alertas, códigos de verificação de marcas"
+      ],
+      [
+        "Registros públicos de domínios (RDAP, via IANA e rdap.org)",
+        "Consultar quando o domínio do site de uma marca foi registrado",
+        "Apenas o nome de domínio, nenhum dado pessoal"
       ],
       [
         "Sentry",
@@ -395,6 +412,10 @@
     "tableHeadPeriod": "Período de Retenção",
     "tableRows": [
       [
+        "Pedido de conta de marca (e-mail profissional, nome do solicitante, verificações, decisão da equipe)",
+        "Até a exclusão da conta; a decisão da equipe também fica no registro de moderação"
+      ],
+      [
         "Dados de perfil da conta",
         "Até a exclusão da conta (dados do perfil apagados após o período de carência de 30 dias; apenas um registro de conta mínimo e não pessoal é mantido — veja a Seção 9.3)"
       ],
@@ -501,6 +522,10 @@
       ],
       [
         "Prevenir fraude e manipulação de votos",
+        "Interesses legítimos"
+      ],
+      [
+        "Verificação de contas de marca (controles contra falsificação)",
         "Interesses legítimos"
       ],
       [

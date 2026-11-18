@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: November 10th, 2026",
+  "lastUpdated": "Última actualización: November 18th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. QUIÉNES SOMOS",
-    "body": "Spektt es una plataforma comunitaria creativa diseñada para fotógrafos, videógrafos, animadores 3D, ingenieros de sonido, artistas digitales y otros creativos.",
+    "body": "Spektt es una plataforma comunitaria creativa diseñada para fotógrafos, videógrafos, animadores 3D, ingenieros de sonido, artistas digitales y otros creativos, y para las marcas que patrocinan sus Showdowns.",
     "legalEntity": "Entidad Legal: Axlume Tech Limited",
     "registration": "Registro: Corporate Affairs Commission (CAC), República Federal de Nigeria",
     "contactLabel": "Contacto:",
@@ -69,6 +69,13 @@
       "Clusters que creas o a los que te unes, tu rol y fecha de ingreso",
       "Publicaciones que haces dentro de un Cluster",
       "Acciones de moderación que realizas como administrador o moderador (prohibiciones, suspensiones, eliminación de contenido)"
+    ],
+    "brandHeading": "Cuentas de marca (empresas que patrocinan Showdowns; quien la solicita debe tener 18 años o más)",
+    "brandItems": [
+      "Nombre de la marca, logotipo, sitio web, sector y texto «Acerca de», visibles públicamente en la página de la marca",
+      "Un correo de trabajo en el dominio del sitio web de la marca y el nombre completo de quien la solicita: privados, solo los ven el solicitante y el equipo de Spektt",
+      "Un código de 6 dígitos que enviamos a esa dirección para confirmarla (guardado solo como hash; se borra al usarse o con la cuenta)",
+      "Comprobaciones: la fecha de registro del dominio del sitio web (de los registros públicos de dominios), si el nombre se parece al de una marca conocida y, si una persona la revisa, su decisión y el motivo comunicado a la marca"
     ],
     "dmHeading": "Mensajes Directos",
     "dmItems": [
@@ -142,6 +149,11 @@
         "Verificar tu edad para elegibilidad en Showdown",
         "Fecha de nacimiento",
         "Ejecución de contrato + Obligación legal"
+      ],
+      [
+        "Verificar cuentas de marca y evitar suplantaciones",
+        "Correo de trabajo, nombre del solicitante, nombre de la marca, dominio del sitio web y su fecha de registro",
+        "Intereses legítimos + Ejecución de contrato"
       ],
       [
         "Entregar el feed y descubrimiento de contenido",
@@ -266,7 +278,12 @@
       [
         "Amazon Web Services (SES)",
         "Entrega de correos electrónicos transaccionales",
-        "Dirección de correo electrónico, códigos OTP, contenido de alertas"
+        "Dirección de correo electrónico, códigos OTP, contenido de alertas, códigos de verificación de marcas"
+      ],
+      [
+        "Registros públicos de dominios (RDAP, a través de IANA y rdap.org)",
+        "Consultar cuándo se registró el dominio del sitio web de una marca",
+        "Solo el nombre de dominio, ningún dato personal"
       ],
       [
         "Sentry",
@@ -395,6 +412,10 @@
     "tableHeadPeriod": "Período de Retención",
     "tableRows": [
       [
+        "Solicitud de cuenta de marca (correo de trabajo, nombre del solicitante, comprobaciones, decisión del equipo)",
+        "Hasta que se elimina la cuenta; la decisión del equipo también queda en el registro de moderación"
+      ],
+      [
         "Datos de perfil de cuenta",
         "Hasta la eliminación de la cuenta (los datos del perfil se borran tras el período de gracia de 30 días; solo se conserva un registro de cuenta mínimo y no personal — ver la sección 9.3)"
       ],
@@ -501,6 +522,10 @@
       ],
       [
         "Prevenir fraude y manipulación de votos",
+        "Intereses legítimos"
+      ],
+      [
+        "Verificación de cuentas de marca (controles contra suplantación)",
         "Intereses legítimos"
       ],
       [

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: November 10th, 2026",
+  "lastUpdated": "Last Updated: November 18th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. WHO WE ARE",
-    "body": "Spektt is a creative community platform built for photographers, videographers, 3D animators, sound engineers, digital artists, and other creatives.",
+    "body": "Spektt is a creative community platform built for photographers, videographers, 3D animators, sound engineers, digital artists, and other creatives, and for the brands that sponsor their Showdowns.",
     "legalEntity": "Legal Entity: Axlume Tech Limited",
     "registration": "Registration: Corporate Affairs Commission (CAC), Federal Republic of Nigeria",
     "contactLabel": "Contact:",
@@ -69,6 +69,13 @@
       "Clusters you create or join, your role, and join date",
       "Posts you make within a Cluster",
       "Moderation actions you take as an admin or moderator (bans, suspensions, content removals)"
+    ],
+    "brandHeading": "Brand Accounts (companies that sponsor Showdowns; the applicant must be 18 or over)",
+    "brandItems": [
+      "Brand name, logo, website, industry and \"About\" text, shown publicly on the brand's page",
+      "A work email at the brand's own website domain, and the applicant's full name: private, seen only by the applicant and by Spektt staff",
+      "A 6-digit code we email to that address to confirm it (stored only as a hash; deleted once used, or with the account)",
+      "Verification checks: when the website's domain was registered (from public domain registries), whether the name is close to a well-known brand, and, if a person reviews it, their decision and the reason given to the brand"
     ],
     "dmHeading": "Direct Messages",
     "dmItems": [
@@ -142,6 +149,11 @@
         "Verifying your age for Showdown eligibility",
         "Date of birth",
         "Contract performance + Legal obligation"
+      ],
+      [
+        "Verifying brand accounts and preventing impersonation",
+        "Work email, applicant's name, brand name, website domain and its registration date",
+        "Legitimate interests + Contract performance"
       ],
       [
         "Delivering the feed and content discovery",
@@ -266,7 +278,12 @@
       [
         "Amazon Web Services (SES)",
         "Transactional email delivery",
-        "Email address, OTP codes, alert content"
+        "Email address, OTP codes, alert content, brand verification codes"
+      ],
+      [
+        "Public domain registries (RDAP, through IANA and rdap.org)",
+        "Looking up when a brand's website domain was registered",
+        "The domain name only, no personal data"
       ],
       [
         "Sentry",
@@ -395,6 +412,10 @@
     "tableHeadPeriod": "Retention Period",
     "tableRows": [
       [
+        "Brand application (work email, applicant's name, checks, a staff decision)",
+        "Until the account is deleted; a staff decision is also kept in the moderation log"
+      ],
+      [
         "Account profile data",
         "Until account deletion (profile details erased after the 30-day grace period; only a minimal, non-personal account record is kept — see Section 9.3)"
       ],
@@ -501,6 +522,10 @@
       ],
       [
         "Preventing fraud and vote manipulation",
+        "Legitimate interests"
+      ],
+      [
+        "Verifying brand accounts (impersonation checks)",
         "Legitimate interests"
       ],
       [

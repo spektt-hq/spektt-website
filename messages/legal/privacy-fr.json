@@ -1,7 +1,7 @@
 {
   "pageTitle": "Politique de confidentialité",
   "effectiveDate": "Date d’entrée en vigueur : July 30th, 2026",
-  "lastUpdated": "Dernière mise à jour : November 10th, 2026",
+  "lastUpdated": "Dernière mise à jour : November 18th, 2026",
   "intro": "Spektt (\"nous\", \"notre\" ou \"nos\") est exploité par Axlume Tech Limited, une société enregistrée en République fédérale du Nigeria. Nous nous engageons à protéger votre vie privée. Cette Politique de confidentialité explique quelles informations personnelles nous collectons, comment nous les utilisons, avec qui nous les partageons et vos droits concernant vos données lorsque vous utilisez l’application mobile Spektt (\"Application\") et les services associés sur spektt.com. En créant un compte ou en utilisant l’Application, vous acceptez la collecte et l’utilisation de vos informations comme décrit ici.",
   "toc": {
     "title": "Table des matières",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. QUI NOUS SOMMES",
-    "body": "Spektt est une plateforme communautaire créative conçue pour les photographes, vidéastes, animateurs 3D, ingénieurs du son, artistes numériques et autres créatifs.",
+    "body": "Spektt est une plateforme communautaire créative conçue pour les photographes, vidéastes, animateurs 3D, ingénieurs du son, artistes numériques et autres créatifs, ainsi que pour les marques qui sponsorisent leurs Showdowns.",
     "legalEntity": "Entité légale : Axlume Tech Limited",
     "registration": "Enregistrement : Corporate Affairs Commission (CAC), République fédérale du Nigeria",
     "contactLabel": "Contact :",
@@ -69,6 +69,13 @@
       "Les Clusters que vous créez ou rejoignez, votre rôle et votre date d’adhésion",
       "Les publications que vous effectuez dans un Cluster",
       "Les actions de modération que vous effectuez en tant qu’administrateur ou modérateur (bannissements, suspensions, suppressions de contenu)"
+    ],
+    "brandHeading": "Comptes de marque (entreprises qui sponsorisent des Showdowns ; le demandeur doit avoir 18 ans ou plus)",
+    "brandItems": [
+      "Nom de la marque, logo, site web, secteur et texte « À propos », affichés publiquement sur la page de la marque",
+      "Une adresse e-mail professionnelle sur le domaine du site de la marque, et le nom complet du demandeur : privés, visibles uniquement par le demandeur et par l'équipe Spektt",
+      "Un code à 6 chiffres envoyé à cette adresse pour la confirmer (conservé uniquement sous forme de hachage ; supprimé après usage ou avec le compte)",
+      "Contrôles de vérification : la date d'enregistrement du domaine du site (registres publics de noms de domaine), la proximité du nom avec une marque connue et, si une personne examine la demande, sa décision et le motif communiqué à la marque"
     ],
     "dmHeading": "Messages directs",
     "dmItems": [
@@ -142,6 +149,11 @@
         "Vérification de votre âge pour l’éligibilité aux Showdown",
         "Date de naissance",
         "Exécution du contrat + Obligation légale"
+      ],
+      [
+        "Vérifier les comptes de marque et empêcher l'usurpation d'identité",
+        "E-mail professionnel, nom du demandeur, nom de la marque, domaine du site et sa date d'enregistrement",
+        "Intérêts légitimes + Exécution du contrat"
       ],
       [
         "Fourniture du fil d’actualité et découverte de contenu",
@@ -266,7 +278,12 @@
       [
         "Amazon Web Services (SES)",
         "Livraison des e-mails transactionnels",
-        "Adresse e-mail, codes OTP, contenu des alertes"
+        "Adresse e-mail, codes OTP, contenu des alertes, codes de vérification des marques"
+      ],
+      [
+        "Registres publics de noms de domaine (RDAP, via l'IANA et rdap.org)",
+        "Connaître la date d'enregistrement du domaine du site d'une marque",
+        "Le nom de domaine uniquement, aucune donnée personnelle"
       ],
       [
         "Sentry",
@@ -395,6 +412,10 @@
     "tableHeadPeriod": "Période de conservation",
     "tableRows": [
       [
+        "Demande de compte de marque (e-mail professionnel, nom du demandeur, contrôles, décision de l'équipe)",
+        "Jusqu'à la suppression du compte ; une décision de l'équipe est aussi conservée dans le journal de modération"
+      ],
+      [
         "Données de profil du compte",
         "Jusqu'à la suppression du compte (informations de profil effacées après la période de grâce de 30 jours ; seul un enregistrement de compte minimal et non personnel est conservé — voir la section 9.3)"
       ],
@@ -501,6 +522,10 @@
       ],
       [
         "Prévention de la fraude et de la manipulation des votes",
+        "Intérêts légitimes"
+      ],
+      [
+        "Vérification des comptes de marque (contrôles anti-usurpation)",
         "Intérêts légitimes"
       ],
       [
