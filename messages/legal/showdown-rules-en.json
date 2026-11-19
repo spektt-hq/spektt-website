@@ -10,7 +10,7 @@
     "pulseLabel": "(a) Pulse Contests",
     "pulseText": "Community showdowns open to all registered users. Prizes consist of digital badges, XP points, medals, and platform recognition. No cash prizes are awarded.",
     "premiumLabel": "(b) Premium Contests",
-    "premiumText": "Showdowns with cash prize pools. Premium Contests will state the exact prize amounts and specific eligibility requirements in the Contest listing on the Platform."
+    "premiumText": "Showdowns with cash prize pools. Premium Contests will state the exact prize amounts and specific eligibility requirements in the Contest listing on the Platform. A Premium Contest may be presented by a verified brand (a \"Presented Contest\"): the brand funds the prizes and appears as its presenting partner, while Spektt remains the Sponsor and runs it under these Rules. The brand does not choose the judges or the winners. A Contest may also be held in a Cluster (a \"Cluster Contest\"): only members who joined the Cluster before submissions opened may enter or vote, and in a Presented Cluster Contest the Cluster's admin and moderators may not enter."
   },
   "s2": {
     "heading": "2. ELIGIBILITY",
@@ -23,7 +23,7 @@
       "United Arab Emirates (UAE)",
       "Kingdom of Saudi Arabia"
     ],
-    "d": "(d) Not be an employee, officer, director, agent, or immediate family member (spouse, parent, sibling, child) or household member of Spektt, its affiliates, subsidiaries, or any prize sponsor.",
+    "d": "(d) Not be an employee, officer, director, agent, or immediate family member (spouse, parent, sibling, child) or household member of Spektt, its affiliates, subsidiaries, or any prize sponsor. This includes the brand presenting a Presented Contest.",
     "e": "(e) Not have been suspended or banned from the Spektt Platform at the time of entry.",
     "f": "(f) For Premium Contests only: be resident in, and physically located in, Nigeria, and hold a Nigerian bank account to receive any prize. Pulse Contests are open globally, subject to (c) above.",
     "void": "Void where prohibited by law. Spektt reserves the right to verify eligibility at any time and disqualify any entry that does not meet these requirements."
@@ -90,7 +90,7 @@
     "bDays": "FOURTEEN (14) CALENDAR DAYS",
     "bAfter": "from the date of notification to respond and provide the required information (full legal name, bank account details, tax identification — see Section 10).",
     "c": "(c) Failure to respond within 14 days, failure to provide the required documentation, or ineligibility of the winner will result in the prize being forfeited. A forfeited prize passes to the highest-placed eligible entrant who has not received a prize in that Contest, who then has SEVEN (7) CALENDAR DAYS from notification to claim it. A prize passes on at most twice.",
-    "d": "(d) A prize that is still unclaimed after passing on twice, or for which no eligible entrant remains, is not awarded.",
+    "d": "(d) A prize that is still unclaimed after passing on twice, or for which no eligible entrant remains, is not awarded. In a Presented Contest, it goes back to the presenting brand.",
     "e": "(e) When you submit a prize claim, Spektt checks the country your internet connection comes from to confirm your eligibility under Section 2. Only the country is kept, never your IP address or precise location."
   },
   "s10": {
@@ -103,7 +103,7 @@
   },
   "s11": {
     "heading": "11. ENTRY LICENCE",
-    "p1": "By submitting an entry, you grant Spektt a non-exclusive, royalty-free, worldwide licence to display, reproduce, and promote your entry on the Platform, on our website, and in our marketing materials for the purpose of promoting the Contest and the Platform. You retain full ownership of your work."
+    "p1": "By submitting an entry, you grant Spektt a non-exclusive, royalty-free, worldwide licence to display, reproduce, and promote your entry on the Platform, on our website, and in our marketing materials for the purpose of promoting the Contest and the Platform. You retain full ownership of your work. In a Presented Contest, the presenting brand receives no licence to your entry; any use must be agreed with you directly."
   },
   "s12": {
     "heading": "12. DISQUALIFICATION",
@@ -141,7 +141,7 @@
     "heading": "16. PRIVACY",
     "p1Before": "Information collected from entrants is used solely for Contest administration and prize fulfilment, and is handled in accordance with our",
     "p1Link": "Privacy Policy",
-    "p1After": "."
+    "p1After": ". In a Presented Contest, the presenting brand sees only totals (entries, views, votes after the results, and how many entrants come from each city), never your name or your vote."
   },
   "s17": {
     "heading": "17. LIMITATION OF LIABILITY",

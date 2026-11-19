@@ -10,7 +10,7 @@
     "pulseLabel": "(a) Concours Pulse",
     "pulseText": "Showdowns communautaires ouverts à tous les utilisateurs inscrits. Les prix consistent en badges numériques, points XP, médailles et reconnaissance sur la plateforme. Aucun prix en espèces n'est attribué.",
     "premiumLabel": "(b) Concours Premium",
-    "premiumText": "Showdowns avec des pools de prix en espèces. Les Concours Premium indiqueront les montants exacts des prix et les conditions d'éligibilité spécifiques dans l'annonce du Concours sur la Plateforme."
+    "premiumText": "Showdowns avec des pools de prix en espèces. Les Concours Premium indiqueront les montants exacts des prix et les conditions d'éligibilité spécifiques dans l'annonce du Concours sur la Plateforme. Un Concours Premium peut être présenté par une marque vérifiée (un « Concours présenté ») : la marque finance les prix et apparaît comme partenaire présentateur, tandis que Spektt reste l'Organisateur et le gère selon le présent Règlement. La marque ne choisit ni les juges ni les gagnants. Un Concours peut aussi se tenir dans un Cluster (un « Concours de Cluster ») : seuls les membres ayant rejoint le Cluster avant l'ouverture des participations peuvent participer ou voter, et dans un Concours de Cluster présenté, l'administrateur et les modérateurs du Cluster ne peuvent pas participer."
   },
   "s2": {
     "heading": "2. ÉLIGIBILITÉ",
@@ -23,7 +23,7 @@
       "Émirats arabes unis (EAU)",
       "Royaume d'Arabie saoudite"
     ],
-    "d": "(d) Ne pas être un employé, dirigeant, directeur, agent ou membre de la famille immédiate (conjoint, parent, frère/sœur, enfant) ou membre du foyer de Spektt, de ses filiales, affiliés ou de tout sponsor de prix.",
+    "d": "(d) Ne pas être un employé, dirigeant, directeur, agent ou membre de la famille immédiate (conjoint, parent, frère/sœur, enfant) ou membre du foyer de Spektt, de ses filiales, affiliés ou de tout sponsor de prix. Cela inclut la marque qui présente un Concours présenté.",
     "e": "(e) Ne pas avoir été suspendu(e) ou banni(e) de la Plateforme Spektt au moment de la participation.",
     "f": "(f) Pour les Concours Premium uniquement : résider et être physiquement situé au Nigeria, et détenir un compte bancaire nigérian pour recevoir tout prix. Les Concours Pulse sont ouverts dans le monde entier, sous réserve du point (c) ci-dessus.",
     "void": "Nul là où la loi l'interdit. Spektt se réserve le droit de vérifier l'éligibilité à tout moment et de disqualifier toute participation ne répondant pas à ces exigences."
@@ -90,7 +90,7 @@
     "bDays": "QUATORZE (14) JOURS CALENDAIRES",
     "bAfter": "à compter de la date de notification pour répondre et fournir les informations requises (nom légal complet, coordonnées bancaires, identification fiscale — voir Section 10).",
     "c": "(c) L'absence de réponse dans un délai de 14 jours, le défaut de fourniture des documents requis ou l'inéligibilité du gagnant entraînent la perte du prix. Un prix perdu revient au participant éligible le mieux classé n'ayant pas reçu de prix dans ce Concours, qui dispose alors de SEPT (7) JOURS CALENDAIRES à compter de la notification pour le réclamer. Un prix est transmis au maximum deux fois.",
-    "d": "(d) Un prix toujours non réclamé après avoir été transmis deux fois, ou pour lequel il ne reste aucun participant éligible, n'est pas attribué.",
+    "d": "(d) Un prix toujours non réclamé après avoir été transmis deux fois, ou pour lequel il ne reste aucun participant éligible, n'est pas attribué. Dans un Concours présenté, il revient à la marque qui le présente.",
     "e": "(e) Lorsque vous soumettez une réclamation de prix, Spektt vérifie le pays d'où provient votre connexion internet afin de confirmer votre éligibilité au titre de la Section 2. Seul le pays est conservé, jamais votre adresse IP ni votre position précise."
   },
   "s10": {
@@ -103,7 +103,7 @@
   },
   "s11": {
     "heading": "11. LICENCE DE PARTICIPATION",
-    "p1": "En soumettant une participation, vous accordez à Spektt une licence non exclusive, sans redevance et mondiale pour afficher, reproduire et promouvoir votre participation sur la Plateforme, notre site web et dans nos supports marketing dans le but de promouvoir le Concours et la Plateforme. Vous conservez la pleine propriété de votre œuvre."
+    "p1": "En soumettant une participation, vous accordez à Spektt une licence non exclusive, sans redevance et mondiale pour afficher, reproduire et promouvoir votre participation sur la Plateforme, notre site web et dans nos supports marketing dans le but de promouvoir le Concours et la Plateforme. Vous conservez la pleine propriété de votre œuvre. Dans un Concours présenté, la marque qui le présente ne reçoit aucune licence sur votre participation ; toute utilisation doit être convenue directement avec vous."
   },
   "s12": {
     "heading": "12. DISQUALIFICATION",
@@ -141,7 +141,7 @@
     "heading": "16. CONFIDENTIALITÉ",
     "p1Before": "Les informations collectées auprès des participants sont utilisées uniquement pour l'administration des Concours et la remise des prix, et sont traitées conformément à notre",
     "p1Link": "Politique de confidentialité",
-    "p1After": "."
+    "p1After": ". Dans un Concours présenté, la marque qui le présente ne voit que des totaux (participations, vues, votes après les résultats et nombre de participants par ville), jamais votre nom ni votre vote."
   },
   "s17": {
     "heading": "17. LIMITATION DE RESPONSABILITÉ",
