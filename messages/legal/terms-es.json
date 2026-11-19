@@ -1,7 +1,7 @@
 {
   "pageTitle": "Términos y Condiciones",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: October 8th, 2026",
+  "lastUpdated": "Última actualización: November 19th, 2026",
   "intro": "Estos Términos y Condiciones (\"Términos\") regulan su uso de la aplicación móvil y el sitio web de Spektt en spektt.com (\"Plataforma\", \"Servicio\", \"App\"), operados por Axlume Tech Limited (\"Spektt\", \"nosotros\", \"nos\", \"nuestro\"), una empresa registrada bajo la Corporate Affairs Commission (CAC) de la República Federal de Nigeria. Al crear una cuenta o utilizar el Servicio, usted acepta estos Términos en su totalidad. Si no está de acuerdo, debe dejar de utilizar el Servicio y eliminar su cuenta.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -46,37 +46,9 @@
   "s2": {
     "heading": "2. ELEGIBILIDAD Y RESTRICCIONES DE EDAD",
     "s2_1_heading": "2.1 Edad Mínima",
-    "s2_1_body": "Debe tener al menos 16 años para usar Spektt. Al crear una cuenta, usted confirma que cumple con este requisito. Si tiene menos de 16 años, no debe utilizar el Servicio.",
-    "s2_2_heading": "2.2 Menores de Edad (Menores de 18)",
-    "s2_2_body": "Los usuarios menores de 18 años son considerados menores de edad en Spektt. Un menor solo puede utilizar la plataforma si su padre, madre o tutor legal lo permite y acepta la responsabilidad por su uso del Servicio; al crear una cuenta, el menor confirma que así es.",
-    "tableHeadFeature": "Función",
-    "tableHeadAge": "Edad Mínima",
-    "tableRows": [
-      [
-        "Creación de cuenta, feed, cargas y perfiles",
-        "16+"
-      ],
-      [
-        "Clusters",
-        "16+"
-      ],
-      [
-        "Mensajería Directa",
-        "18+ (los menores tienen bloqueado el envío y la recepción de mensajes directos)"
-      ],
-      [
-        "Participación en Showdown (de cualquier tipo)",
-        "18+ (los menores no pueden participar en ningún Showdown)"
-      ],
-      [
-        "Suscripción Spektt Pro",
-        "16+ (Apple/Google gestionan la verificación de edad durante la compra)"
-      ],
-      [
-        "Premios en efectivo de Premium Showdown",
-        "18+ y titular de una cuenta bancaria nigeriana"
-      ]
-    ],
+    "s2_1_body": "Spektt es solo para adultos. Debes tener al menos 18 años para usar Spektt. Al crear una cuenta, confirmas que cumples este requisito. Si tienes menos de 18 años, no debes usar el Servicio.",
+    "s2_2_heading": "2.2 Cuentas de menores de 18 años",
+    "s2_2_body": "Si sabemos que una cuenta pertenece a alguien menor de 18 años, la cerramos y eliminamos sus datos (consulta nuestra Política de Privacidad). Todas las funciones —mensajería, Clusters, Showdowns y Spektt Pro— son solo para adultos; los premios en efectivo de los Showdowns Premium además requieren una cuenta bancaria nigeriana.",
     "s2_3_heading": "2.3 Información Precisa",
     "s2_3_body": "Debe proporcionar información precisa al crear su cuenta, incluida su fecha de nacimiento real. Proporcionar una fecha de nacimiento falsa para eludir las restricciones de edad constituye una violación de estos Términos y puede resultar en la terminación permanente de la cuenta."
   },

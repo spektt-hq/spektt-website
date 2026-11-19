@@ -197,7 +197,7 @@
         },
         {
           "q": "¿Hay restricciones para participar?",
-          "a": "Sí. Se aplican dos tipos de restricciones:\n\nEdad — Los usuarios marcados como menores no pueden participar en ningún Showdown.\n\nGeografía — Los usuarios en Qatar, UAE y Arabia Saudita no pueden participar en ningún Showdown. Los Showdowns Premium (con premios en efectivo) actualmente están abiertos solo a participantes en Nigeria — los pagos se realizan a cuentas bancarias nigerianas. Si tu región está restringida, verás un aviso en la página del Showdown.\n\nLos jueces no pueden participar en los Showdowns que tienen asignados para juzgar."
+          "a": "Sí. Se aplican dos tipos de restricciones:\n\nEdad — Los Showdowns, como todo Spektt, son solo para adultos de 18 años o más.\n\nGeografía — Los usuarios en Qatar, UAE y Arabia Saudita no pueden participar en ningún Showdown. Los Showdowns Premium (con premios en efectivo) actualmente están abiertos solo a participantes en Nigeria — los pagos se realizan a cuentas bancarias nigerianas. Si tu región está restringida, verás un aviso en la página del Showdown.\n\nLos jueces no pueden participar en los Showdowns que tienen asignados para juzgar."
         },
         {
           "q": "¿El orden de las entradas es aleatorio? ¿Por qué veo entradas en un orden diferente al de mi amigo?",

@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidad",
   "effectiveDate": "Fecha de entrada en vigor: July 30th, 2026",
-  "lastUpdated": "Última actualización: November 10th, 2026",
+  "lastUpdated": "Última actualización: November 19th, 2026",
   "intro": "Spektt (\"nosotros\", \"nuestro\" o \"nos\") es operado por Axlume Tech Limited, una empresa registrada en la República Federal de Nigeria. Estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica qué información personal recopilamos, cómo la usamos, con quién la compartimos y tus derechos con respecto a tus datos cuando utilizas la aplicación móvil Spektt (\"App\") y los servicios relacionados en spektt.com. Al crear una cuenta o utilizar la App, aceptas la recopilación y el uso de tu información tal como se describe aquí.",
   "toc": {
     "title": "Tabla de Contenidos",
@@ -333,8 +333,8 @@
     "s5_5_body": "Un usuario cuya solicitud de mensaje rechaces no podrá contactarte nuevamente durante 30 días. Este registro se elimina automáticamente después del período de espera de 30 días. Los usuarios bloqueados no pueden enviarte mensajes en absoluto.",
     "s5_6_heading": "5.6 Eliminación de Mensajes",
     "s5_6_body": "Los mensajes eliminados se reemplazan con \"This message was deleted\" para ambos participantes y se eliminan permanentemente de nuestros servidores dentro de 30 días. Las conversaciones eliminadas se quitan de tu vista inmediatamente y se eliminan dentro de 30 días.",
-    "s5_7_heading": "5.7 Usuarios Menores de Edad",
-    "s5_7_body": "Los usuarios identificados como menores tienen acceso restringido a la mensajería directa. La determinación de edad se basa en la fecha de nacimiento ingresada durante la configuración de la cuenta."
+    "s5_7_heading": "5.7 Edad",
+    "s5_7_body": "Como el resto de Spektt, la mensajería es solo para adultos (consulta la sección 8). La edad se basa en la fecha de nacimiento ingresada al configurar la cuenta."
   },
   "s6": {
     "heading": "6. CLUSTERS (GRUPOS COMUNITARIOS)",
@@ -355,14 +355,9 @@
   },
   "s8": {
     "heading": "8. PRIVACIDAD DE LOS MENORES",
-    "p1": "Spektt está destinado a usuarios de 16 años o más. No recopilamos conscientemente información personal de niños menores de 16 años. Si tomamos conocimiento de que un niño menor de 16 años ha creado una cuenta, eliminaremos esa cuenta y sus datos asociados de inmediato.",
-    "p2": "Para usuarios de 16–17 años (menores), se aplican restricciones adicionales:",
-    "items": [
-      "Los menores no pueden participar en ningún Showdown (Pulse o Premium)",
-      "La mensajería directa está restringida para usuarios menores",
-      "La participación en premios en efectivo requiere que el usuario no esté marcado como menor"
-    ],
-    "p3": "Si crees que un niño menor de 16 años ha creado una cuenta, contáctanos en legal@spektt.com."
+    "p1": "Spektt es para adultos de 18 años o más. No recopilamos a sabiendas información personal de menores de 18 años. Si descubrimos que una persona menor de 18 años ha creado una cuenta, cerraremos esa cuenta y eliminaremos sus datos asociados sin demora.",
+    "p2": "La edad se basa en la fecha de nacimiento ingresada al configurar la cuenta, que no se puede cambiar después. Si una fecha se ingresó por error, nuestro equipo solo puede corregirla tras ver una prueba de edad, y cada corrección queda registrada.",
+    "p3": "Si crees que una persona menor de 18 años tiene una cuenta, contáctanos en legal@spektt.com."
   },
   "s9": {
     "heading": "9. TUS DERECHOS",

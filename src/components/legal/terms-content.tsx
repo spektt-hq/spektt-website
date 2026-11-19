@@ -46,24 +46,6 @@ export default function TermsContent({ d }: { d: TermsDictionary }) {
             <p className='privacy-policy-text mt-3'>{d.s2.s2_1_body}</p>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s2.s2_2_heading}</h3>
             <p className='privacy-policy-text mt-3'>{d.s2.s2_2_body}</p>
-            <div className='mt-4 overflow-x-auto'>
-              <table className='w-full text-sm border-collapse'>
-                <thead>
-                  <tr className='border-b border-white/10'>
-                    <th className='privacy-policy-header text-left py-2 pr-4'>{d.s2.tableHeadFeature}</th>
-                    <th className='privacy-policy-header text-left py-2'>{d.s2.tableHeadAge}</th>
-                  </tr>
-                </thead>
-                <tbody className='divide-y divide-white/10'>
-                  {d.s2.tableRows.map(([feature, age], i) => (
-                    <tr key={i}>
-                      <td className='privacy-policy-text py-2 pr-4'>{feature}</td>
-                      <td className='privacy-policy-text py-2'>{age}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
             <h3 className='privacy-policy-header text-xl mt-5'>{d.s2.s2_3_heading}</h3>
             <p className='privacy-policy-text mt-3'>{d.s2.s2_3_body}</p>
           </section>

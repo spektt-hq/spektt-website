@@ -225,9 +225,6 @@ export default function PrivacyContent({ d }: { d: PrivacyDictionary }) {
             <h2 className='privacy-policy-header text-2xl'>{d.s8.heading}</h2>
             <p className='privacy-policy-text mt-3'>{d.s8.p1}</p>
             <p className='privacy-policy-text mt-3'>{d.s8.p2}</p>
-            <ul className='list-disc list-inside mt-2 space-y-1'>
-              {d.s8.items.map((item, i) => <li key={i} className='privacy-policy-text'>{item}</li>)}
-            </ul>
             <p className='privacy-policy-text mt-3'>{d.s8.p3}</p>
           </section>
 

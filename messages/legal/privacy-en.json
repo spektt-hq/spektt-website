@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: November 10th, 2026",
+  "lastUpdated": "Last Updated: November 19th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -333,8 +333,8 @@
     "s5_5_body": "A user whose message request you decline cannot contact you again for 30 days. This record is automatically purged after the 30-day cooldown. Blocked users cannot message you at all.",
     "s5_6_heading": "5.6 Message Deletion",
     "s5_6_body": "Deleted messages are replaced with \"This message was deleted\" for both participants and permanently purged from our servers within 30 days. Deleted conversations are removed from your view immediately and purged within 30 days.",
-    "s5_7_heading": "5.7 Minor Users",
-    "s5_7_body": "Users identified as minors have restricted access to direct messaging. Age determination is based on the date of birth entered during account setup."
+    "s5_7_heading": "5.7 Age",
+    "s5_7_body": "Messaging, like the rest of Spektt, is for adults only (see section 8). Age is based on the date of birth entered during account setup."
   },
   "s6": {
     "heading": "6. CLUSTERS (COMMUNITY GROUPS)",
@@ -355,14 +355,9 @@
   },
   "s8": {
     "heading": "8. CHILDREN'S PRIVACY",
-    "p1": "Spektt is intended for users aged 16 and above. We do not knowingly collect personal information from children under 16. If we become aware that a child under 16 has created an account, we will delete that account and its associated data promptly.",
-    "p2": "For users aged 16–17 (minors), additional restrictions apply:",
-    "items": [
-      "Minors cannot enter any Showdown (Pulse or Premium)",
-      "Direct messaging is restricted for minor users",
-      "Cash prize participation requires the user to not be flagged as a minor"
-    ],
-    "p3": "If you believe a child under 16 has created an account, contact us at legal@spektt.com."
+    "p1": "Spektt is for adults aged 18 and over. We do not knowingly collect personal information from anyone under 18. If we become aware that someone under 18 has created an account, we will close that account and delete its associated data promptly.",
+    "p2": "Age is based on the date of birth entered during account setup, which cannot be changed afterwards. If a date was entered by mistake, our staff can correct it only after seeing proof of age, and every correction is logged.",
+    "p3": "If you believe someone under 18 has an account, contact us at legal@spektt.com."
   },
   "s9": {
     "heading": "9. YOUR RIGHTS",

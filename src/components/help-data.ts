@@ -243,7 +243,7 @@ Special states (both types):
         q: 'Are there restrictions on who can enter?',
         a: `Yes. Two types of restrictions apply:
 
-Age — Users flagged as minors are not permitted to enter any Showdown.
+Age — Showdowns, like all of Spektt, are for adults aged 18 and over.
 
 Geography — Users in Qatar, UAE, and Saudi Arabia cannot enter any Showdown. Premium Showdowns (cash prizes) are currently open to Nigerian participants only — prize payments are made to Nigerian bank accounts. If your region is restricted, you'll see a notice on the Showdown's detail page.
 
