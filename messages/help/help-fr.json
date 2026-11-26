@@ -34,6 +34,14 @@
         {
           "q": "Puis-je utiliser Spektt sur une tablette ?",
           "a": "Spektt fonctionne sur les tablettes Android, bien que l'expérience soit optimisée pour les téléphones. L'iPad n'est pas actuellement pris en charge."
+        },
+        {
+          "q": "Qu'est-ce qu'un compte de marque ?",
+          "a": "Les entreprises peuvent rejoindre Spektt en tant que marques : choisissez « Je suis une marque » à l'inscription. Spektt vérifie chaque marque avant que sa page soit visible, en confirmant une adresse e-mail professionnelle sur le site web de la marque, et une marque vérifiée affiche un badge doré. Les marques peuvent sponsoriser des Showdowns avec prix en argent (Spektt les organise toujours et choisit les juges) et envoyer des demandes de travail rémunéré aux créateurs Disponibles pour travailler. Les marques ne peuvent pas participer ni voter aux Showdowns, rejoindre des Clusters ou gagner de l'XP. Les Conditions pour les marques sont sur spektt.com/brand-terms."
+        },
+        {
+          "q": "Que sont les Articles ?",
+          "a": "De courts récits que l'équipe de Spektt écrit sur des créateurs de la plateforme : leur travail, leur façon de créer et ce qu'ils ont appris. Retrouvez-les dans la section Articles de l'onglet Explorer. Personne ne paie pour être mis en avant, et nous ne présentons un créateur qu'avec son accord. Comment nous choisissons : spektt.com/featured-creators."
         }
       ]
     },
@@ -91,6 +99,10 @@
         {
           "q": "Comment partager mon profil ?",
           "a": "Appuyez sur l'icône de partage sur votre page de profil pour copier le lien de votre profil Spektt ou le partager directement vers d'autres applications."
+        },
+        {
+          "q": "Qu'est-ce que « Disponible pour travailler » ?",
+          "a": "Un interrupteur dans Modifier le profil. Activez-le et les marques vérifiées peuvent vous envoyer une demande de travail rémunéré. Elle arrive comme une requête : acceptez-la et elle devient une conversation normale, ou refusez, bloquez ou signalez la marque. Une marque ne doit jamais vous demander de payer pour obtenir un travail ; signalez-la si cela arrive. Vous pouvez désactiver « Disponible pour travailler » à tout moment dans Modifier le profil."
         }
       ]
     },
@@ -225,7 +237,7 @@
         },
         {
           "q": "Puis-je participer à un Showdown dans un Cluster ?",
-          "a": "Oui — si vous êtes membre de ce Cluster. Les Showdowns de Cluster sont des Showdowns Pulse — votés par la communauté, avec XP et badges mais sans prix en argent — et suivent les mêmes règles que les Showdowns Pulse globaux, limités aux membres du Cluster. Les récompenses apparaissent dans votre onglet Awards avec le nom du Cluster."
+          "a": "Oui — si vous êtes membre de ce Cluster. La plupart des Showdowns de Cluster sont des Showdowns Pulse — votés par la communauté, avec XP et badges mais sans prix en argent — et suivent les mêmes règles que les Showdowns Pulse globaux, limités aux membres du Cluster. Un Showdown de Cluster peut aussi offrir des prix en argent lorsqu'une marque vérifiée le sponsorise : seuls les membres ayant rejoint avant l'ouverture des participations peuvent alors participer ou voter, et l'administrateur et les modérateurs du Cluster ne peuvent pas participer. Les récompenses apparaissent dans votre onglet Awards avec le nom du Cluster."
         },
         {
           "q": "Que se passe-t-il si un Showdown n'a pas assez de participations ?",
@@ -237,11 +249,11 @@
         },
         {
           "q": "Qui peut créer un Showdown ?",
-          "a": "Les Showdowns globaux sont créés et gérés par Spektt. Les administrateurs de Cluster peuvent créer des Showdowns pour leur communauté. Pour organiser un Showdown, contactez showdowns@spektt.com."
+          "a": "Les Showdowns globaux sont créés et gérés par Spektt. Les administrateurs de Cluster peuvent créer des Showdowns pour leur communauté. Les marques vérifiées peuvent proposer un Showdown avec prix en argent, que Spektt examine et organise (voir les Conditions pour les marques). Pour organiser un Showdown, contactez showdowns@spektt.com."
         },
         {
           "q": "Puis-je suivre une participation pour voir son évolution ?",
-          "a": "Oui — c'est à cela que sert l'étoile sur chaque participation. Appuyez dessus pour enregistrer une participation pendant que vous parcourez le Showdown, puis revenez une fois celui-ci terminé pour voir son classement et son nombre de votes. C'est aussi pratique pendant le vote, puisque vous n'avez qu'un seul vote et pouvez présélectionner vos favoris avant de décider.\n\nPour voir vos participations enregistrées, ouvrez le Showdown et basculez la grille de « Toutes » à « Enregistrées ». Toucher l'une d'elles ouvre une visionneuse contenant uniquement vos participations enregistrées, pour les parcourir sans défiler parmi toutes les autres.\n\nQuelques points à connaître :\n\n• Votre liste enregistrée est privée. Les créateurs ne sont jamais informés que vous avez enregistré leur participation, et enregistrer n'est pas un vote — cela n'a aucun effet sur le résultat de qui que ce soit.\n• Les participations enregistrées restent anonymes tant que le Showdown est en cours, exactement comme les autres. Les auteurs et le nombre de votes sont révélés une fois celui-ci terminé.\n• La liste reste disponible après la fin du Showdown — c'est tout l'intérêt. L'étoile disparaît une fois le vote terminé (il n'y a plus rien à suivre), mais vos participations enregistrées restent pour consulter les résultats.\n• Les comptes gratuits peuvent enregistrer jusqu'à 5 participations par Showdown. Spektt Pro supprime cette limite.\n• Votre liste enregistrée est stockée sur votre appareil, elle ne vous suit donc pas sur un autre téléphone.\n• Si une participation est retirée ou supprimée du Showdown, elle disparaît automatiquement de votre liste enregistrée."
+          "a": "Oui — c'est à cela que sert l'étoile sur chaque participation. Appuyez dessus pour enregistrer une participation pendant que vous parcourez le Showdown, puis revenez une fois celui-ci terminé pour voir son classement et son nombre de votes. C'est aussi pratique pendant le vote, puisque vous n'avez qu'un seul vote et pouvez présélectionner vos favoris avant de décider.\n\nPour voir vos participations enregistrées, ouvrez le Showdown et basculez la grille de « Toutes » à « Enregistrées ». Toucher l'une d'elles ouvre une visionneuse contenant uniquement vos participations enregistrées, pour les parcourir sans défiler parmi toutes les autres.\n\nQuelques points à connaître :\n\n• Votre liste enregistrée est privée. Les créateurs ne sont jamais informés que vous avez enregistré leur participation, et enregistrer n'est pas un vote — cela n'a aucun effet sur le résultat de qui que ce soit.\n• Les participations enregistrées restent anonymes tant que le Showdown est en cours, exactement comme les autres. Les auteurs et le nombre de votes sont révélés une fois celui-ci terminé.\n• La liste reste disponible après la fin du Showdown — c'est tout l'intérêt. L'étoile disparaît une fois le vote terminé (il n'y a plus rien à suivre), mais vos participations enregistrées restent pour consulter les résultats.\n• Les comptes gratuits peuvent enregistrer jusqu'à 5 participations par Showdown. Spektt Pro supprime cette limite.\n• Avec un compte gratuit, votre liste enregistrée est stockée sur votre appareil, elle ne vous suit donc pas sur un autre téléphone. Avec Spektt Pro, elle est enregistrée sur votre compte et vous suit.\n• Si une participation est retirée ou supprimée du Showdown, elle disparaît automatiquement de votre liste enregistrée."
         },
         {
           "q": "Je pense qu'un résultat de Showdown est injuste. Que puis-je faire ?",
@@ -270,7 +282,7 @@
         },
         {
           "q": "Que peut faire un administrateur de Cluster ?",
-          "a": "En tant qu’administrateur de Cluster, vous pouvez :\n• Organiser des Showdowns de Cluster (Pulse)\n• Supprimer les publications qui violent les règles du Cluster\n• Bannir des membres du Cluster\n• Suspendre temporairement des membres\n• Nommer des modérateurs pour gérer la communauté\n• Épingler des publications en haut du fil du Cluster\n• Archiver le Cluster\n• Transférer les droits d’administrateur à un autre membre"
+          "a": "En tant qu’administrateur de Cluster, vous pouvez :\n• Organiser des Showdowns de Cluster (Pulse), et inviter une marque vérifiée à en sponsoriser un avec prix en argent\n• Supprimer les publications qui violent les règles du Cluster\n• Bannir des membres du Cluster\n• Suspendre temporairement des membres\n• Nommer des modérateurs pour gérer la communauté\n• Épingler des publications en haut du fil du Cluster\n• Archiver le Cluster\n• Transférer les droits d’administrateur à un autre membre"
         },
         {
           "q": "Un Cluster peut-il organiser plusieurs Showdowns en même temps ?",

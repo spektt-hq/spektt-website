@@ -34,6 +34,14 @@
         {
           "q": "Can I use Spektt on a tablet?",
           "a": "Spektt works on Android tablets, though the experience is optimised for phones. iPad is not currently supported."
+        },
+        {
+          "q": "What are brand accounts?",
+          "a": "Companies can join Spektt as brands: choose \"I'm a brand\" when you sign up. Spektt verifies every brand before its page goes live, by confirming a work email at the brand's own website, and a verified brand shows a gold badge. Brands can sponsor cash Showdowns (Spektt still runs them and chooses the judges) and send inquiries about paid work to creators who are Open to work. Brands can't enter or vote in Showdowns, join Clusters or earn XP. The Brand Terms are at spektt.com/brand-terms."
+        },
+        {
+          "q": "What are Articles?",
+          "a": "Short stories Spektt's team writes about creators on the platform: their work, how they make it and what they learned. Find them in the Articles section of the Explore tab. Nobody pays to be featured, and we only feature a creator with their consent. How we choose: spektt.com/featured-creators."
         }
       ]
     },
@@ -91,6 +99,10 @@
         {
           "q": "How do I share my profile?",
           "a": "Tap the share icon on your profile page to copy your Spektt profile link or share it directly to other apps."
+        },
+        {
+          "q": "What is \"Open to work\"?",
+          "a": "A switch in Edit Profile. Turn it on and verified brands can send you an inquiry about paid work. It arrives as a request: accept it and it becomes a normal chat, or decline, block or report the brand. A brand must never ask you to pay to get work; report it if one does. You can turn Open to work off at any time in Edit Profile."
         }
       ]
     },
@@ -225,7 +237,7 @@
         },
         {
           "q": "Can I enter a Showdown inside a Cluster?",
-          "a": "Yes — if you're a member of that Cluster. Cluster Showdowns are Pulse Showdowns — community-voted, with XP and badges but no cash prize — and follow the same rules as global Pulse Showdowns, scoped to that Cluster's members. A Cluster Showdown award appears in your Awards tab with the Cluster's name alongside the medal."
+          "a": "Yes — if you're a member of that Cluster. Most Cluster Showdowns are Pulse Showdowns — community-voted, with XP and badges but no cash prize — and follow the same rules as global Pulse Showdowns, scoped to that Cluster's members. A Cluster Showdown can also have cash prizes when a verified brand sponsors it: then only members who joined before submissions opened can enter or vote, and the Cluster's admin and moderators can't enter. A Cluster Showdown award appears in your Awards tab with the Cluster's name alongside the medal."
         },
         {
           "q": "What happens if a Showdown doesn't get enough entries?",
@@ -237,11 +249,11 @@
         },
         {
           "q": "Who can create a Showdown?",
-          "a": "Global Showdowns are created and managed by Spektt. Cluster admins can create Showdowns scoped to their Cluster. If you're interested in running a Showdown for your community, contact showdowns@spektt.com."
+          "a": "Global Showdowns are created and managed by Spektt. Cluster admins can create Showdowns scoped to their Cluster. Verified brands can propose a cash Showdown, which Spektt reviews and runs (see the Brand Terms). If you're interested in running a Showdown for your community, contact showdowns@spektt.com."
         },
         {
           "q": "Can I follow an entry to see how it does?",
-          "a": "Yes — that's what the star on each entry is for. Tap it to save an entry while you browse, then come back after the Showdown ends to see how it placed and how many votes it got. It's also handy while voting is live, since you only get one vote and can shortlist a few favourites before deciding.\n\nTo see your saved entries, open the Showdown and switch the entry grid from All to Saved. Tapping one opens a viewer containing only your saved entries, so you can go through them without scrolling past everything else.\n\nA few things worth knowing:\n\n• Your saved list is private. Creators are never told that you saved their entry, and saving is not a vote — it has no effect on anyone's result.\n• Saved entries stay anonymous while the Showdown is running, exactly like the rest of the entries. Authors and vote counts are revealed once it ends.\n• The list stays after the Showdown ends — that's the point. The star disappears once voting is over (there's nothing left to follow), but your saved entries remain so you can check the results.\n• Free accounts can save up to 5 entries per Showdown. Spektt Pro removes the limit.\n• Your saved list is stored on your device, so it doesn't follow you to another phone.\n• If an entry is withdrawn or removed from the Showdown, it drops out of your saved list automatically."
+          "a": "Yes — that's what the star on each entry is for. Tap it to save an entry while you browse, then come back after the Showdown ends to see how it placed and how many votes it got. It's also handy while voting is live, since you only get one vote and can shortlist a few favourites before deciding.\n\nTo see your saved entries, open the Showdown and switch the entry grid from All to Saved. Tapping one opens a viewer containing only your saved entries, so you can go through them without scrolling past everything else.\n\nA few things worth knowing:\n\n• Your saved list is private. Creators are never told that you saved their entry, and saving is not a vote — it has no effect on anyone's result.\n• Saved entries stay anonymous while the Showdown is running, exactly like the rest of the entries. Authors and vote counts are revealed once it ends.\n• The list stays after the Showdown ends — that's the point. The star disappears once voting is over (there's nothing left to follow), but your saved entries remain so you can check the results.\n• Free accounts can save up to 5 entries per Showdown. Spektt Pro removes the limit.\n• On a free account your saved list is stored on your device, so it doesn't follow you to another phone. With Spektt Pro it's saved to your account and follows you.\n• If an entry is withdrawn or removed from the Showdown, it drops out of your saved list automatically."
         },
         {
           "q": "I think a Showdown result was unfair. What can I do?",
@@ -270,7 +282,7 @@
         },
         {
           "q": "What can a Cluster admin do?",
-          "a": "As a Cluster admin you can:\n• Run Cluster Showdowns (Pulse)\n• Remove posts that violate the Cluster rules\n• Ban members from the Cluster\n• Temporarily suspend members\n• Appoint moderators to help manage the community\n• Pin posts to the top of the Cluster feed\n• Archive the Cluster\n• Transfer admin rights to another member"
+          "a": "As a Cluster admin you can:\n• Run Cluster Showdowns (Pulse), and invite a verified brand to sponsor a cash one\n• Remove posts that violate the Cluster rules\n• Ban members from the Cluster\n• Temporarily suspend members\n• Appoint moderators to help manage the community\n• Pin posts to the top of the Cluster feed\n• Archive the Cluster\n• Transfer admin rights to another member"
         },
         {
           "q": "Can a Cluster run more than one Showdown at a time?",

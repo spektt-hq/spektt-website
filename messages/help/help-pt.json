@@ -34,6 +34,14 @@
         {
           "q": "Posso usar o Spektt em um tablet?",
           "a": "O Spektt funciona em tablets Android, embora a experiência seja otimizada para celulares. O iPad não é suportado atualmente."
+        },
+        {
+          "q": "O que são contas de marca?",
+          "a": "Empresas podem entrar na Spektt como marcas: escolha «Sou uma marca» ao se cadastrar. A Spektt verifica cada marca antes de sua página ficar visível, confirmando um e-mail de trabalho no site da própria marca, e uma marca verificada exibe um selo dourado. Marcas podem patrocinar Showdowns com prêmios em dinheiro (a Spektt continua organizando e escolhe os jurados) e enviar consultas sobre trabalho pago a criadores Disponíveis para trabalhar. Marcas não podem participar nem votar em Showdowns, entrar em Clusters nem ganhar XP. Os Termos para Marcas estão em spektt.com/brand-terms."
+        },
+        {
+          "q": "O que são Artigos?",
+          "a": "Histórias curtas que a equipe da Spektt escreve sobre criadores da plataforma: o trabalho deles, como criam e o que aprenderam. Encontre-as na seção Artigos da aba Explorar. Ninguém paga para ser destaque, e só destacamos um criador com o consentimento dele. Como escolhemos: spektt.com/featured-creators."
         }
       ]
     },
@@ -91,6 +99,10 @@
         {
           "q": "Como compartilho meu perfil?",
           "a": "Toque no ícone de compartilhamento na página do seu perfil para copiar o link do seu perfil Spektt ou compartilhá-lo diretamente em outros aplicativos."
+        },
+        {
+          "q": "O que é «Disponível para trabalhar»?",
+          "a": "Um botão em Editar perfil. Ative-o e marcas verificadas poderão enviar a você uma consulta sobre trabalho pago. Ela chega como uma solicitação: aceite e ela vira uma conversa normal, ou recuse, bloqueie ou denuncie a marca. Uma marca nunca deve pedir que você pague para conseguir trabalho; denuncie se isso acontecer. Você pode desativar «Disponível para trabalhar» a qualquer momento em Editar perfil."
         }
       ]
     },
@@ -225,7 +237,7 @@
         },
         {
           "q": "Posso participar de um Showdown dentro de um Cluster?",
-          "a": "Sim — se você for membro desse Cluster. Cluster Showdowns são Showdowns Pulse — votados pela comunidade, com XP e badges mas sem prêmio em dinheiro — e seguem as mesmas regras dos Showdowns Pulse globais, limitados aos membros daquele Cluster. Um prêmio de Cluster Showdown aparece na sua aba Awards com o nome do Cluster ao lado da medalha."
+          "a": "Sim — se você for membro desse Cluster. A maioria dos Cluster Showdowns são Showdowns Pulse — votados pela comunidade, com XP e badges mas sem prêmio em dinheiro — e seguem as mesmas regras dos Showdowns Pulse globais, limitados aos membros daquele Cluster. Um Cluster Showdown também pode ter prêmios em dinheiro quando uma marca verificada o patrocina: nesse caso, só podem participar ou votar os membros que entraram antes de as inscrições abrirem, e o administrador e os moderadores do Cluster não podem participar. Um prêmio de Cluster Showdown aparece na sua aba Awards com o nome do Cluster ao lado da medalha."
         },
         {
           "q": "O que acontece se um Showdown não receber entradas suficientes?",
@@ -237,11 +249,11 @@
         },
         {
           "q": "Quem pode criar um Showdown?",
-          "a": "Os Showdowns globais são criados e gerenciados pelo Spektt. Administradores de Cluster podem criar Showdowns limitados ao seu Cluster. Se você tiver interesse em organizar um Showdown para sua comunidade, entre em contato com showdowns@spektt.com."
+          "a": "Os Showdowns globais são criados e gerenciados pelo Spektt. Administradores de Cluster podem criar Showdowns limitados ao seu Cluster. Marcas verificadas podem propor um Showdown com prêmios em dinheiro, que a Spektt analisa e organiza (veja os Termos para Marcas). Se você tiver interesse em organizar um Showdown para sua comunidade, entre em contato com showdowns@spektt.com."
         },
         {
           "q": "Posso acompanhar uma entrada para ver como ela se sai?",
-          "a": "Sim — é para isso que serve a estrela em cada entrada. Toque nela para salvar uma entrada enquanto navega, depois volte após o Showdown terminar para ver a colocação e quantos votos recebeu. Também é útil durante a votação, já que você tem apenas um voto e pode pré-selecionar suas favoritas antes de decidir.\n\nPara ver suas entradas salvas, abra o Showdown e alterne a grade de entradas de «Todas» para «Salvas». Tocar em uma abre um visualizador contendo apenas suas entradas salvas, para que você possa percorrê-las sem rolar por todas as outras.\n\nAlgumas coisas que vale a pena saber:\n\n• Sua lista salva é privada. Os criadores nunca sabem que você salvou a entrada deles, e salvar não é um voto — não tem efeito no resultado de ninguém.\n• As entradas salvas permanecem anônimas enquanto o Showdown está em andamento, assim como as demais entradas. Autores e contagens de votos são revelados quando ele termina.\n• A lista permanece após o fim do Showdown — esse é o objetivo. A estrela desaparece quando a votação termina (não há mais nada para acompanhar), mas suas entradas salvas permanecem para você conferir os resultados.\n• Contas gratuitas podem salvar até 5 entradas por Showdown. O Spektt Pro remove esse limite.\n• Sua lista salva é armazenada no seu dispositivo, então ela não te acompanha em outro celular.\n• Se uma entrada for retirada ou removida do Showdown, ela sai automaticamente da sua lista salva."
+          "a": "Sim — é para isso que serve a estrela em cada entrada. Toque nela para salvar uma entrada enquanto navega, depois volte após o Showdown terminar para ver a colocação e quantos votos recebeu. Também é útil durante a votação, já que você tem apenas um voto e pode pré-selecionar suas favoritas antes de decidir.\n\nPara ver suas entradas salvas, abra o Showdown e alterne a grade de entradas de «Todas» para «Salvas». Tocar em uma abre um visualizador contendo apenas suas entradas salvas, para que você possa percorrê-las sem rolar por todas as outras.\n\nAlgumas coisas que vale a pena saber:\n\n• Sua lista salva é privada. Os criadores nunca sabem que você salvou a entrada deles, e salvar não é um voto — não tem efeito no resultado de ninguém.\n• As entradas salvas permanecem anônimas enquanto o Showdown está em andamento, assim como as demais entradas. Autores e contagens de votos são revelados quando ele termina.\n• A lista permanece após o fim do Showdown — esse é o objetivo. A estrela desaparece quando a votação termina (não há mais nada para acompanhar), mas suas entradas salvas permanecem para você conferir os resultados.\n• Contas gratuitas podem salvar até 5 entradas por Showdown. O Spektt Pro remove esse limite.\n• Em uma conta gratuita, sua lista salva é armazenada no seu dispositivo, então ela não te acompanha em outro celular. Com o Spektt Pro, ela fica salva na sua conta e te acompanha.\n• Se uma entrada for retirada ou removida do Showdown, ela sai automaticamente da sua lista salva."
         },
         {
           "q": "Acho que o resultado de um Showdown foi injusto. O que posso fazer?",
@@ -270,7 +282,7 @@
         },
         {
           "q": "O que um administrador de Cluster pode fazer?",
-          "a": "Como administrador de Cluster, você pode:\n• Executar Cluster Showdowns (Pulse)\n• Remover publicações que violem as regras do Cluster\n• Banir membros do Cluster\n• Suspender temporariamente membros\n• Nomear moderadores para ajudar a gerenciar a comunidade\n• Fixar publicações no topo do feed do Cluster\n• Arquivar o Cluster\n• Transferir direitos de administrador para outro membro"
+          "a": "Como administrador de Cluster, você pode:\n• Executar Cluster Showdowns (Pulse), e convidar uma marca verificada para patrocinar um com prêmios em dinheiro\n• Remover publicações que violem as regras do Cluster\n• Banir membros do Cluster\n• Suspender temporariamente membros\n• Nomear moderadores para ajudar a gerenciar a comunidade\n• Fixar publicações no topo do feed do Cluster\n• Arquivar o Cluster\n• Transferir direitos de administrador para outro membro"
         },
         {
           "q": "Um Cluster pode ter mais de um Showdown ao mesmo tempo?",
