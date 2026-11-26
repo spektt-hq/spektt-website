@@ -34,19 +34,19 @@ export const Route = createRootRoute({
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       // Smart Banner — "Open in Spektt" on mobile Safari before the app is installed.
       { name: 'apple-itunes-app', content: 'app-id=6770248818' },
-      { title: 'Spektt — Where Creatives Compete' },
+      { title: 'Spektt — Where Creatives Find Community and Get Hired' },
       {
         name: 'description',
         content:
-          'Join Spektt, the creative platform where you showcase your work, enter Showdowns, and compete for prizes.',
+          'Join Spektt: share your work, find your community, meet verified brands and get hired.',
       },
       { property: 'og:site_name', content: 'Spektt' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:title', content: 'Spektt — Where Creatives Compete' },
+      { property: 'og:title', content: 'Spektt — Where Creatives Find Community and Get Hired' },
       {
         property: 'og:description',
         content:
-          'Join Spektt, the creative platform where you showcase your work, enter Showdowns, and compete for prizes.',
+          'Join Spektt: share your work, find your community, meet verified brands and get hired.',
       },
       { property: 'og:image', content: 'https://spektt.com/spektt-new-favicon.png' },
       { name: 'twitter:card', content: 'summary' },
