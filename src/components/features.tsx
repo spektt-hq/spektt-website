@@ -1,4 +1,4 @@
-import { FaTrophy, FaUsers, FaStar, FaChartLine, FaMessage } from 'react-icons/fa6'
+import { FaTrophy, FaUsers, FaStar, FaHandshake, FaMessage } from 'react-icons/fa6'
 import { BsImages } from 'react-icons/bs'
 import { IconType } from 'react-icons'
 
@@ -20,7 +20,8 @@ interface FeatureCardProps {
   desc: string
 }
 
-const featureIcons: IconType[] = [FaTrophy, FaUsers, BsImages, FaStar, FaChartLine, FaMessage]
+// Same order as `features.items` in messages/*.json: communities, brands, portfolio, messages, Showdowns, Pro.
+const featureIcons: IconType[] = [FaUsers, FaHandshake, BsImages, FaMessage, FaTrophy, FaStar]
 
 function Features({ dict }: FeaturesProps) {
   return (
