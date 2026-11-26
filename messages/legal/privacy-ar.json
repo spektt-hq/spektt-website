@@ -1,7 +1,7 @@
 {
   "pageTitle": "سياسة الخصوصية",
   "effectiveDate": "تاريخ السريان: July 30th, 2026",
-  "lastUpdated": "آخر تحديث: November 19th, 2026",
+  "lastUpdated": "آخر تحديث: November 26th, 2026",
   "intro": "يتم تشغيل Spektt (\"نحن\" أو \"لنا\") بواسطة Axlume Tech Limited، وهي شركة مسجلة في جمهورية نيجيريا الفيدرالية. نحن ملتزمون بحماية خصوصيتك. توضح سياسة الخصوصية هذه المعلومات الشخصية التي نجمعها، وكيف نستخدمها، ومع من نشاركها، وحقوقك المتعلقة ببياناتك عند استخدام تطبيق Spektt للهواتف المحمولة (\"التطبيق\") والخدمات ذات الصلة على spektt.com. من خلال إنشاء حساب أو استخدام التطبيق، فإنك توافق على جمع واستخدام معلوماتك كما هو موضح هنا.",
   "toc": {
     "title": "جدول المحتويات",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. من نحن",
-    "body": "Spektt هي منصة مجتمع إبداعي تم إنشاؤها للمصورين الفوتوغرافيين، ومصوري الفيديو، ورسامي الرسوم المتحركة ثلاثية الأبعاد، ومهندسي الصوت، والفنانين الرقميين، وغيرهم من المبدعين.",
+    "body": "Spektt هي منصة مجتمع إبداعي تم إنشاؤها للمصورين الفوتوغرافيين، ومصوري الفيديو، ورسامي الرسوم المتحركة ثلاثية الأبعاد، ومهندسي الصوت، والفنانين الرقميين، وغيرهم من المبدعين، وللعلامات التجارية التي ترعى مسابقات Showdown الخاصة بهم.",
     "legalEntity": "الكيان القانوني: Axlume Tech Limited",
     "registration": "التسجيل: لجنة شؤون الشركات (CAC)، جمهورية نيجيريا الفيدرالية",
     "contactLabel": "التواصل:",
@@ -61,6 +61,7 @@
     "contestItems": [
       "المشاركات المقدمة إلى Showdowns",
       "الأصوات التي تدلي بها على المشاركات",
+      "إذا شاركت في مسابقة Showdown مقدَّمة من علامة تجارية، ترى تلك العلامة التجارية إجمالياتها (المشاركات، والمشاهدات، والأصوات بعد النتائج، وعدد المشاركين في كل مدينة وفق الموقع في ملفك الشخصي)، ولا ترى اسمك أو صوتك أبدًا",
       "درجات الحكام (إذا تم تعيينك كحكم في Premium Showdown)",
       "تفاصيل دفع الجوائز: إذا ربحت جائزة نقدية في Premium Showdown، فإننا نجمع اسم البنك، ورقم الحساب، واسم الحساب، والرقم الضريبي الاختياري فقط لدفع جائزتك. يتم تخزين هذه البيانات فقط طالما كان ذلك ضرورياً لإكمال الدفع والامتثال للوائح المالية والضريبية النيجيرية."
     ],
@@ -126,21 +127,21 @@
       "تُفحص جميع النصوص، بما فيها الرسائل الخاصة، على خوادم Spektt الخاصة بحثًا عن أنماط الاحتيال، مثل أرقام الهواتف وطلبات الدفع وشراء الأصوات. نحتفظ فقط بسجل يفيد بتطابق نمط ما، وليس بنص الرسالة، ولا يقرأ أي شخص رسائلك إلا إذا تم الإبلاغ عن إحداها.",
       "تساعد هذه الفحوصات مشرفينا، ويتخذ القرار شخص، باستثناء حالة واحدة: أي تطابق مع مواد الاعتداء الجنسي على الأطفال المعروفة يُحذف فورًا، ويُحظر الحساب نهائيًا، ويُبلَّغ عن الحالة إلى السلطات المختصة كما يقتضي القانون."
     ],
-    "brandHeading": "Brand Accounts (companies that sign up to sponsor Showdowns; the applicant must be 18 or over)",
+    "brandHeading": "حسابات العلامات التجارية (شركات تسجّل لرعاية مسابقات Showdown؛ يجب أن يبلغ مقدّم الطلب 18 عامًا أو أكثر)",
     "brandItems": [
-      "Brand name, logo, website, industry and \"About\" text, shown publicly on the brand's page",
-      "A work email at the brand's own website domain, and the applicant's full name: private, seen only by the applicant and by Spektt staff, never shown on the brand's page",
-      "A 6-digit code we email to that address to confirm it (stored only as a hash; deleted once used, or with the account)",
-      "Verification checks: the date the website's domain was registered (from public domain registries), whether the name is close to a well-known brand, and, if a person reviews it, their decision and the reason given to the brand",
-      "Inquiries a brand sends to creators: the message (kept like any direct message), how many it sent that day, and, for staff only, whether a message asked a creator to pay a fee and how many people blocked or reported the brand in the last 30 days (not who did). A brand never sees a creator's age or date of birth; we only check that the creator is 18 or over",
-      "Brand Showdowns and money: the Showdowns a brand proposes (brief, dates, prizes, review decisions); its dedicated bank account number for payments; its credit and every payment, refund and charge, with the payment processor's reference and which Spektt staff member recorded or confirmed it",
-      "Cluster sponsorship: invites from a Cluster's admin (their pitch and drafted brief, and the brand's answer); whether a brand accepts invites, and the categories and minimum Cluster size it chose (shown to Cluster admins so they know whom they may invite); the Clusters it asked never to invite it again (private)",
-      "The brand's private Console: creators, posts and Showdowns it saved (a name, a picture and a link to each; only the brand sees them, and nobody is told); reports for its own Showdowns, made of totals only"
+      "اسم العلامة التجارية وشعارها وموقعها الإلكتروني ومجالها ونص «نبذة»، وتُعرض علنًا في صفحة العلامة التجارية",
+      "بريد إلكتروني للعمل على نطاق موقع العلامة التجارية، والاسم الكامل لمقدّم الطلب: خاصّان، لا يراهما إلا مقدّم الطلب وفريق Spektt، ولا يُعرضان أبدًا في صفحة العلامة التجارية",
+      "رمز من 6 أرقام نرسله إلى ذلك العنوان لتأكيده (يُخزَّن بصيغة مشفّرة فقط؛ ويُحذف بعد استخدامه، أو مع الحساب)",
+      "فحوص التوثيق: تاريخ تسجيل نطاق الموقع (من سجلات النطاقات العامة)، وما إذا كان الاسم قريبًا من علامة معروفة، وإذا راجعه شخص: قراره والسبب المُبلَّغ للعلامة التجارية",
+      "الاستفسارات التي ترسلها العلامة التجارية إلى المبدعين: الرسالة (تُحفظ مثل أي رسالة مباشرة)، وعدد ما أرسلته في ذلك اليوم، ولفريق Spektt فقط: ما إذا طلبت رسالة من مبدع دفع رسوم، وعدد من حظروا العلامة التجارية أو أبلغوا عنها خلال آخر 30 يومًا (لا هويتهم). لا ترى العلامة التجارية أبدًا عمر المبدع أو تاريخ ميلاده؛ نتحقق فقط من أنه يبلغ 18 عامًا أو أكثر",
+      "مسابقات العلامة التجارية والأموال: المسابقات التي تقترحها العلامة التجارية (الملخص الإبداعي، المواعيد، الجوائز، قرارات المراجعة)؛ ورقم حسابها المصرفي المخصص للمدفوعات؛ ورصيدها وكل دفعة واسترداد وخصم، مع مرجع معالج المدفوعات وعضو فريق Spektt الذي سجّلها أو أكدها",
+      "رعاية الـ Clusters: الدعوات من مسؤول Cluster (عرضه وملخصه الإبداعي المُعدّ، ورد العلامة التجارية)؛ وما إذا كانت العلامة التجارية تقبل الدعوات، والفئات والحجم الأدنى للـ Cluster الذي اختارته (يُعرض على مسؤولي الـ Clusters ليعرفوا من يمكنهم دعوته)؛ والـ Clusters التي طلبت ألا تدعوها مجددًا أبدًا (خاص)",
+      "لوحة التحكم الخاصة بالعلامة التجارية: المبدعون والمنشورات ومسابقات Showdown التي حفظتها (اسم وصورة ورابط لكلٍّ منها؛ لا يراها إلا العلامة التجارية ولا يُبلَّغ أحد)؛ وتقارير مسابقاتها، المكوّنة من إجماليات فقط"
     ],
-    "openHeading": "Open to Work (creators)",
+    "openHeading": "متاح للعمل (المبدعون)",
     "openItems": [
-      "Whether you have switched on Open to work, shown publicly on your profile. It lets verified brands send you an inquiry, which you can accept, decline, block or report. Switch it off at any time in Settings",
-      "Saved by a brand: a verified brand may save your profile, your posts or a Showdown you entered to a private list in its Console (your name, picture and a link, nothing private). Only that brand sees the list and you are not notified. A post you delete, or that is removed, leaves every list; deleting your account removes you from all of them"
+      "ما إذا كنت قد فعّلت «متاح للعمل»، ويُعرض علنًا في ملفك الشخصي. يتيح للعلامات التجارية الموثَّقة إرسال استفسار إليك، يمكنك قبوله أو رفضه أو حظره أو الإبلاغ عنه. أوقفه في أي وقت من الإعدادات",
+      "محفوظ لدى علامة تجارية: يجوز لعلامة تجارية موثَّقة حفظ ملفك الشخصي أو منشوراتك أو مسابقة Showdown شاركت فيها في قائمة خاصة في لوحة التحكم لديها (اسمك وصورتك ورابط، لا شيء خاص). لا يرى القائمة إلا تلك العلامة التجارية ولا يتم إشعارك. المنشور الذي تحذفه، أو الذي يُزال، يخرج من كل القوائم؛ وحذف حسابك يزيلك منها جميعًا"
     ]
   },
   "s3": {
@@ -158,6 +159,16 @@
         "التحقق من عمرك لأهلية Showdown",
         "تاريخ الميلاد",
         "تنفيذ العقد + الالتزام القانوني"
+      ],
+      [
+        "توثيق حسابات العلامات التجارية ومنع انتحال الهوية",
+        "بريد العمل، اسم مقدّم الطلب، اسم العلامة التجارية، نطاق الموقع وتاريخ تسجيله",
+        "المصالح المشروعة + تنفيذ العقد"
+      ],
+      [
+        "استفسارات العلامات التجارية: تمكين العلامات التجارية من التواصل مع المبدعين المتاحين للعمل، وحماية المبدعين من الاحتيال",
+        "إعداد متاح للعمل، عمر المبدع (يُتحقق منه ولا يُشارك أبدًا)، رسائل الاستفسار، أعداد الحظر والإبلاغ، تنبيهات طلب الرسوم",
+        "تنفيذ العقد + المصالح المشروعة"
       ],
       [
         "تقديم الخلاصة واكتشاف المحتوى",
@@ -282,7 +293,17 @@
       [
         "Amazon Web Services (SES)",
         "إرسال رسائل البريد الإلكتروني الخاصة بالمعاملات",
-        "عنوان البريد الإلكتروني، رموز OTP، محتوى التنبيهات"
+        "عنوان البريد الإلكتروني (وبريد العمل للعلامة التجارية)، رموز OTP ورموز توثيق العلامة التجارية، محتوى التنبيهات"
+      ],
+      [
+        "سجلات النطاقات العامة (RDAP، عبر IANA وrdap.org)",
+        "معرفة تاريخ تسجيل نطاق موقع العلامة التجارية",
+        "اسم النطاق فقط، دون أي بيانات شخصية"
+      ],
+      [
+        "Pixelpay (PixelPay Systems Limited، نيجيريا)",
+        "الحسابات المصرفية المخصصة للعلامات التجارية واستلام تحويلاتها لجوائز ورسوم مسابقات Showdown",
+        "اسم العلامة التجارية وبيانات حسابها، والتحويلات التي تجريها (المبلغ، البيانات المصرفية للمرسِل، المرجع)"
       ],
       [
         "Sentry",
@@ -406,6 +427,14 @@
     "tableHeadPeriod": "فترة الاحتفاظ",
     "tableRows": [
       [
+        "طلب العلامة التجارية (بريد العمل، اسم مقدّم الطلب، الفحوص، قرار الفريق)",
+        "حتى حذف الحساب؛ ويُحفظ قرار الفريق أيضًا في سجل الإشراف"
+      ],
+      [
+        "مؤشرات استفسارات العلامات التجارية (العدد اليومي، حالات الحظر والإبلاغ ضد العلامة التجارية، تنبيهات طلب الرسوم)",
+        "العدد اليومي: يوم واحد. الحظر والإبلاغ: 30 يومًا. تنبيهات طلب الرسوم: حتى حذف حساب العلامة التجارية"
+      ],
+      [
         "بيانات الملف الشخصي للحساب",
         "حتى حذف الحساب (تُمحى بيانات الملف الشخصي بعد فترة السماح البالغة 30 يومًا؛ ولا يُحتفظ إلا بسجل حساب مصغّر غير شخصي — راجع القسم 9.3)"
       ],
@@ -512,6 +541,10 @@
       ],
       [
         "منع الاحتيال والتلاعب بالتصويت",
+        "المصالح المشروعة"
+      ],
+      [
+        "توثيق حسابات العلامات التجارية (فحوص انتحال الهوية)",
         "المصالح المشروعة"
       ],
       [

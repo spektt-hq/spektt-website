@@ -1,119 +1,119 @@
 {
-  "title": "Brand Terms",
-  "lastUpdated": "Last Updated: November 26th, 2026",
+  "title": "Termos para Marcas",
+  "lastUpdated": "Última Atualização: November 26th, 2026",
   "intro": [
-    "These Brand Terms apply to companies that use Spektt as a brand (\"Brand\", \"you\"), on top of Spektt's general Terms and Conditions (spektt.com/terms) and Privacy Policy (spektt.com/privacy). Spektt is operated by Axlume Tech Limited (\"Spektt\", \"we\", \"us\"), registered with the Corporate Affairs Commission of the Federal Republic of Nigeria.",
-    "If these Brand Terms and the general Terms disagree on something about brand accounts or brand Showdowns, these Brand Terms apply."
+    "Estes Termos para Marcas se aplicam às empresas que usam a Spektt como marca («Marca», «você»), além dos Termos e Condições gerais da Spektt (spektt.com/terms) e da sua Política de Privacidade (spektt.com/privacy). A Spektt é operada pela Axlume Tech Limited («Spektt», «nós»), registrada na Corporate Affairs Commission da República Federal da Nigéria.",
+    "Se estes Termos para Marcas e os Termos gerais divergirem em algo sobre contas de marca ou Showdowns de marca, valem estes Termos para Marcas."
   ],
   "sections": [
     {
-      "heading": "1. Who May Open a Brand Account",
+      "heading": "1. Quem pode abrir uma conta de marca",
       "paras": [],
       "items": [
-        "A brand account belongs to a company, organisation or business, not a person. It is opened by someone 18 or over who is authorised to act for that brand; by accepting these terms they accept them on the brand's behalf and confirm that authority.",
-        "A brand needs its own account. An existing creator account cannot become a brand account.",
-        "You must give accurate details: the brand's name, industry, website (the brand's own, starting https://), a work email at that website's domain (not Gmail, Yahoo, Outlook or another free email service) and the applicant's full name.",
-        "You must have the right to use the brand's name and logo. Pretending to be a brand you do not represent is impersonation: the account is removed and may be reported."
+        "Uma conta de marca pertence a uma empresa, organização ou negócio, não a uma pessoa. Ela é aberta por alguém com 18 anos ou mais autorizado a agir pela marca; ao aceitar estes termos, essa pessoa os aceita em nome da marca e confirma essa autorização.",
+        "Uma marca precisa da sua própria conta. Uma conta de criador existente não pode se tornar uma conta de marca.",
+        "Você deve fornecer dados corretos: o nome da marca, o setor, o site (o da própria marca, começando com https://), um e-mail de trabalho no domínio desse site (não Gmail, Yahoo, Outlook nem outro serviço de e-mail gratuito) e o nome completo do solicitante.",
+        "Você deve ter o direito de usar o nome e o logotipo da marca. Fingir ser uma marca que você não representa é falsidade ideológica: a conta é removida e pode ser denunciada."
       ]
     },
     {
-      "heading": "2. Verification",
+      "heading": "2. Verificação",
       "paras": [],
       "items": [
-        "We email a 6-digit code to your work email. Confirming it proves you can receive mail at the brand's domain.",
-        "We also check whether the brand name is close to a well-known brand and when the website's domain was registered. If the name is close to a well-known brand, or the domain is under 6 months old or its age cannot be confirmed, a person at Spektt reviews the application, usually within 2 business days. Otherwise the brand is verified as soon as the email is confirmed.",
-        "A verified brand shows a gold badge beside its name everywhere on Spektt. The badge means Spektt confirmed control of the brand's email domain; it is not an endorsement of the brand, its products or its claims.",
-        "If we reject an application we tell you why. You may fix it and apply again from the app (three applications per account in all), or appeal a rejection within 3 business days by email to safety@spektt.com.",
-        "Your website and work email are fixed once verified. Moving to a new domain is a new verification (contact support@spektt.com). A new brand name is checked again; a name close to a different well-known brand is refused."
+        "Enviamos um código de 6 dígitos para o seu e-mail de trabalho. Confirmá-lo prova que você recebe e-mails no domínio da marca.",
+        "Também verificamos se o nome da marca é parecido com o de uma marca conhecida e quando o domínio do site foi registrado. Se o nome for parecido com o de uma marca conhecida, ou se o domínio tiver menos de 6 meses ou a sua idade não puder ser confirmada, uma pessoa da Spektt analisa a solicitação, normalmente em até 2 dias úteis. Caso contrário, a marca é verificada assim que o e-mail é confirmado.",
+        "Uma marca verificada exibe um selo dourado ao lado do nome em toda a Spektt. O selo significa que a Spektt confirmou o controle do domínio de e-mail da marca; não é um endosso da marca, dos seus produtos ou das suas afirmações.",
+        "Se recusarmos uma solicitação, explicamos o motivo. Você pode corrigi-la e solicitar de novo pelo app (três solicitações por conta no total), ou recorrer da recusa em até 3 dias úteis por e-mail para safety@spektt.com.",
+        "O seu site e o seu e-mail de trabalho ficam fixos depois que a marca é verificada. Mudar para um novo domínio exige uma nova verificação (fale com support@spektt.com). Um novo nome de marca é verificado de novo; um nome parecido com o de outra marca conhecida é recusado."
       ]
     },
     {
-      "heading": "3. What a Brand Account Can and Cannot Do",
+      "heading": "3. O que uma conta de marca pode e não pode fazer",
+      "items": [],
       "paras": [
-        "A verified brand can keep a public brand page (logo, name, industry, About, website), post work such as briefs and campaign material, follow creators, and present Showdowns (section 5).",
-        "A brand account cannot enter or vote in Showdowns; create or join Clusters; earn XP, badges or a leaderboard place; buy Spektt Pro; or start an ordinary direct message. Its only way to contact a creator is an inquiry (below). Until verified, a brand's page is visible only to the brand, and it cannot post, follow or appear in search.",
-        "A verified brand's private Console lets it save creators, posts and Showdowns (only the brand sees them; nobody is told) and see a report for each Showdown it presents: entries, views, votes after results, and how many entrants come from each city, never who."
-      ],
-      "items": []
-    },
-    {
-      "heading": "Inquiries to Creators",
-      "paras": [
-        "A verified brand may send an inquiry, a first message about work, to a creator who has switched on Open to work and is 18 or over. The creator sees it as a request and may accept it (it becomes a normal chat), decline, block or report."
-      ],
-      "items": [
-        "Limits. At most 5 new inquiries a day. After a creator declines, you cannot send them another for 30 days.",
-        "Never ask a creator to pay. No registration, application, casting, training or \"starter kit\" fees, deposits, or anything else a creator must pay to get or keep work. It is a serious breach and may lead to the account's removal (section 9).",
-        "Be who you say you are. Describe real work, from your brand, at the rate you state. No impersonation, no recruiting for another company without saying so, and no moving a creator off Spektt to deceive them.",
-        "Review. Blocks and reports against a brand are reviewed by a person, never acted on automatically. Spektt may pause a brand's inquiries while it looks into them, and tells the brand; existing chats and the brand page are not affected by a pause.",
-        "Spektt is not a party to any work agreed through an inquiry. Rates, rights, delivery and payment are between the brand and the creator."
+        "Uma marca verificada pode manter uma página de marca pública (logotipo, nome, setor, Sobre, site), publicar conteúdo como briefs e materiais de campanha, seguir criadores e apresentar Showdowns (seção 5).",
+        "Uma conta de marca não pode participar nem votar em Showdowns; criar nem entrar em Clusters; ganhar XP, selos ou posição no ranking; comprar o Spektt Pro; nem iniciar uma mensagem direta comum. A sua única forma de contatar um criador é uma consulta (abaixo). Até ser verificada, a página de uma marca só é visível para a própria marca, que não pode publicar, seguir nem aparecer na busca.",
+        "O Console privado de uma marca verificada permite guardar criadores, publicações e Showdowns (só a marca os vê; ninguém é avisado) e ver um relatório de cada Showdown que ela apresenta: participações, visualizações, votos após os resultados e quantos participantes há por cidade, nunca quem são."
       ]
     },
     {
-      "heading": "4. Your Page and Content",
+      "heading": "Consultas a criadores",
+      "paras": [
+        "Uma marca verificada pode enviar uma consulta, uma primeira mensagem sobre um trabalho, a um criador que tenha ativado «Disponível para trabalhar» e tenha 18 anos ou mais. O criador a vê como uma solicitação e pode aceitá-la (ela vira uma conversa normal), recusá-la, bloquear ou denunciar a marca."
+      ],
+      "items": [
+        "Limites. No máximo 5 novas consultas por dia. Depois que um criador recusar uma, você não pode enviar outra a ele por 30 dias.",
+        "Nunca peça a um criador que pague. Nada de taxa de inscrição, de candidatura, de casting, de treinamento ou de «kit inicial», depósito, nem nada que um criador precise pagar para conseguir ou manter um trabalho. É uma violação grave e pode levar à remoção da conta (seção 9).",
+        "Seja quem você diz ser. Descreva um trabalho real, da sua marca, pelo valor que você informa. Nada de falsidade ideológica, de recrutar para outra empresa sem dizer, nem de tirar um criador da Spektt para enganá-lo.",
+        "Análise. Bloqueios e denúncias contra uma marca são analisados por uma pessoa, nunca tratados automaticamente. A Spektt pode pausar as consultas de uma marca enquanto analisa, e avisa a marca; as conversas existentes e a página da marca não são afetadas pela pausa.",
+        "A Spektt não é parte de nenhum trabalho combinado por meio de uma consulta. Valores, direitos, entregas e pagamentos são entre a marca e o criador."
+      ]
+    },
+    {
+      "heading": "4. A sua página e o seu conteúdo",
       "paras": [],
       "items": [
-        "Everything on your page and in your posts must be accurate, lawful and follow the Community Guidelines. You are responsible for any advertising claims you make, including any rules that apply to advertising in your country.",
-        "You keep ownership of your logo and content. You let Spektt display them on Spektt and in Spektt's own promotion of your page or your Showdowns, for as long as your account exists.",
-        "You must not ask creators to pay you, to move a Showdown conversation off Spektt, or to trade votes; nor contact entrants about a Showdown outside Spektt while it is running."
+        "Tudo na sua página e nas suas publicações deve ser correto, lícito e seguir as Diretrizes da Comunidade. Você é responsável pelas suas alegações publicitárias, incluindo as regras de publicidade do seu país.",
+        "Você continua dono do seu logotipo e do seu conteúdo. Você permite que a Spektt os exiba na Spektt e na divulgação que a Spektt fizer da sua página ou dos seus Showdowns, enquanto a sua conta existir.",
+        "Você não deve pedir que criadores paguem a você, levar uma conversa sobre um Showdown para fora da Spektt nem trocar votos; nem contatar participantes sobre um Showdown fora da Spektt enquanto ele estiver em andamento."
       ]
     },
     {
-      "heading": "5. Brand Showdowns",
+      "heading": "5. Showdowns de marca",
       "paras": [],
       "items": [
-        "A verified brand can propose a Showdown: its name, brief, rules, judging criteria, dates and a cash prize pool split into first, second and third prizes. Prizes are cash only: no products, vouchers or services.",
-        "Spektt is the Sponsor of every Showdown under its Official Showdown Rules (spektt.com/showdown-rules); the brand appears as its \"Presented by\" partner, with its name and logo linking to its page. Apple and Google are not sponsors and are not involved.",
-        "Brand Showdowns are Premium Showdowns, open to adults in Nigeria for now. Submissions stay open for at least 7 days and open at least 3 days after the Showdown is submitted.",
-        "Pool limits: at least ₦100,000 (₦50,000 in a Cluster); up to ₦500,000 for a brand's first Showdown, and up to ₦1,000,000 after one completed Showdown. One brand Showdown at a time; a Showdown is finished once its winners are announced.",
-        "Spektt's judges (three to seven, chosen by Spektt) judge by the published criteria; the brand does not choose the judges or the winners. Votes count only from trusted accounts. Results follow the Official Showdown Rules.",
-        "Once it is paid for, Spektt reviews the Showdown within 1 business day and publishes it, or rejects it with a reason (section 8). Once paid for, its prizes cannot be changed.",
-        "Entrants keep ownership of their work. Presenting a Showdown gives the brand no rights in any entry; any use of an entry must be agreed directly with its creator.",
-        "In a Cluster: a Cluster's admin may invite you to present a Showdown there, with a drafted brief, but only if you switch invites on (Console, Sponsorship invites; optionally for some categories and a minimum Cluster size). You may change anything before paying, decline (that Cluster cannot invite you again for 30 days) or block the Cluster. Only members who joined before submissions opened may enter or vote, and the Cluster's admin and moderators may not enter. The admin receives nothing: no fee, share or credit, and offering one is a breach of these terms."
+        "Uma marca verificada pode propor um Showdown: nome, brief, regras, critérios de julgamento, datas e um prêmio total em dinheiro dividido entre primeiro, segundo e terceiro lugares. Os prêmios são apenas em dinheiro: nada de produtos, vales ou serviços.",
+        "A Spektt é a Patrocinadora de todo Showdown, conforme suas Regras Oficiais dos Showdowns (spektt.com/showdown-rules); a marca aparece como parceira «Apresentado por», com nome e logotipo ligados à sua página. A Apple e o Google não são patrocinadores e não estão envolvidos.",
+        "Os Showdowns de marca são Showdowns Premium, abertos por enquanto a adultos na Nigéria. As inscrições ficam abertas por pelo menos 7 dias e abrem pelo menos 3 dias depois de o Showdown ser enviado.",
+        "Limites do prêmio total: pelo menos ₦100.000 (₦50.000 em um Cluster); até ₦500.000 no primeiro Showdown de uma marca, e até ₦1.000.000 depois de um Showdown concluído. Um Showdown de marca por vez; um Showdown termina quando seus vencedores são anunciados.",
+        "Os jurados da Spektt (de três a sete, escolhidos pela Spektt) julgam pelos critérios publicados; a marca não escolhe os jurados nem os vencedores. Só contam os votos de contas confiáveis. Os resultados seguem as Regras Oficiais dos Showdowns.",
+        "Depois que o Showdown é pago, a Spektt o analisa em até 1 dia útil e o publica, ou o recusa com o motivo (seção 8). Depois de pago, os prêmios não podem ser alterados.",
+        "Os participantes continuam donos das suas obras. Apresentar um Showdown não dá à marca nenhum direito sobre as participações; qualquer uso de uma participação deve ser combinado diretamente com o seu criador.",
+        "Em um Cluster: o administrador de um Cluster pode convidar você a apresentar um Showdown nele, com um brief redigido, mas só se você ativar os convites (Console, Convites de patrocínio; opcionalmente para algumas categorias e um tamanho mínimo de Cluster). Você pode mudar qualquer coisa antes de pagar, recusar (esse Cluster não poderá convidar você por 30 dias) ou bloquear o Cluster. Só podem participar ou votar os membros que entraram antes de as inscrições abrirem, e o administrador e os moderadores do Cluster não podem participar. O administrador não recebe nada: nem taxa, nem parte, nem crédito, e oferecer isso a ele é uma violação destes termos."
       ]
     },
     {
-      "heading": "6. Fees and Payment",
+      "heading": "6. Taxas e pagamento",
       "paras": [],
       "items": [
-        "You pay the prize pool plus Spektt's fee of 25% of the pool, charged on top: a ₦200,000 pool costs ₦250,000. The whole pool goes to the winners (less the withholding tax described in the Official Showdown Rules); the fee is Spektt's.",
-        "Your brand account. Once verified, your brand gets its own bank account number, held for Spektt by our payment processor (named in the Privacy Policy). You pay by bank transfer to that account, in one or several transfers. Spektt never takes payment inside the app.",
-        "Every transfer becomes credit for your brand. When you submit a Showdown, its pool and fee are paid from your credit; until your credit covers it, the Showdown waits. Spektt records transfers within 1 business day of receiving them, and a large transfer may need a second check by Spektt staff first. Spektt pays the processor's transfer fees; you are credited what you sent.",
-        "\"Paid to creators\" on your page is what your Showdowns have paid winners (net of tax withheld), calculated from actual payouts. It cannot be edited."
+        "Você paga o prêmio total mais a taxa da Spektt de 25% do prêmio, cobrada à parte: um prêmio de ₦200.000 custa ₦250.000. Todo o prêmio vai para os vencedores (menos a retenção na fonte descrita nas Regras Oficiais dos Showdowns); a taxa é da Spektt.",
+        "A conta da sua marca. Depois de verificada, a sua marca recebe o seu próprio número de conta bancária, mantido para a Spektt pelo nosso processador de pagamentos (indicado na Política de Privacidade). Você paga por transferência bancária para essa conta, em uma ou mais transferências. A Spektt nunca recebe pagamentos dentro do app.",
+        "Cada transferência vira crédito para a sua marca. Quando você envia um Showdown, o prêmio e a taxa são pagos com o seu crédito; enquanto o crédito não cobrir, o Showdown aguarda. A Spektt registra as transferências em até 1 dia útil após recebê-las, e uma transferência grande pode precisar antes de uma segunda conferência da equipe da Spektt. A Spektt paga as tarifas de transferência do processador; você recebe crédito pelo valor que enviou.",
+        "«Pago aos criadores» na sua página é o que os seus Showdowns pagaram aos vencedores (líquido da retenção), calculado a partir dos pagamentos reais. Não pode ser editado."
       ]
     },
     {
-      "heading": "7. Prizes Nobody Claims",
+      "heading": "7. Prêmios que ninguém resgata",
+      "items": [],
       "paras": [
-        "A winner has 14 days to claim; an unclaimed prize passes to the next eligible entrant, at most twice. A prize nobody ends up with goes back to you as credit and is never kept by Spektt. Credit can be used on future Showdowns, or refunded on request."
-      ],
-      "items": []
+        "Um vencedor tem 14 dias para resgatar; um prêmio não resgatado passa ao próximo participante elegível, no máximo duas vezes. Um prêmio que no fim não é concedido volta para você como crédito e nunca fica com a Spektt. O crédito pode ser usado em Showdowns futuros ou reembolsado mediante pedido."
+      ]
     },
     {
-      "heading": "8. Cancellations and Refunds",
+      "heading": "8. Cancelamentos e reembolsos",
       "paras": [],
       "items": [
-        "Too few entries (Premium Showdowns need 10): submissions are extended once, by 7 days. If there are still too few, the Showdown closes: the pool goes back to your credit, and the fee is carried to your next Showdown (it pays that Showdown's fee only and cannot be withdrawn).",
-        "You withdraw before Spektt approves the Showdown: everything you paid goes back to your credit.",
-        "Spektt rejects or cancels the Showdown: everything goes back to your credit, refundable on request.",
-        "Once enough creators have entered, the brand cannot cancel the Showdown: creators have done the work."
+        "Poucas participações (os Showdowns Premium precisam de 10): o prazo de inscrição é estendido uma vez, por 7 dias. Se ainda forem poucas, o Showdown é encerrado: o prêmio volta para o seu crédito e a taxa passa para o seu próximo Showdown (ela só paga a taxa desse Showdown e não pode ser sacada).",
+        "Você retira o Showdown antes de a Spektt aprová-lo: tudo o que você pagou volta para o seu crédito.",
+        "A Spektt recusa ou cancela o Showdown: tudo volta para o seu crédito, reembolsável mediante pedido.",
+        "Depois que criadores suficientes participaram, a marca não pode cancelar o Showdown: os criadores já fizeram o trabalho."
       ]
     },
     {
-      "heading": "9. Suspension and Removal",
+      "heading": "9. Suspensão e remoção",
+      "items": [],
       "paras": [
-        "We may warn a brand, pause its inquiries, or suspend or remove its account, page or a Showdown for breaking these Brand Terms, the general Terms, the Community Guidelines or the law, or for suspected impersonation or fraud. A suspension is always a person's decision, never automatic.",
-        "A suspended brand's running Showdown continues for its entrants, no longer linking to the brand, and its credit is frozen until we review it."
-      ],
-      "items": []
+        "Podemos advertir uma marca, pausar as suas consultas, ou suspender ou remover a sua conta, a sua página ou um Showdown por violação destes Termos para Marcas, dos Termos gerais, das Diretrizes da Comunidade ou da lei, ou por suspeita de falsidade ideológica ou fraude. Uma suspensão é sempre decisão de uma pessoa, nunca automática.",
+        "O Showdown em andamento de uma marca suspensa continua para os seus participantes, sem mais ligar à marca, e o crédito dela fica congelado até a nossa análise."
+      ]
     },
     {
-      "heading": "10. General",
+      "heading": "10. Disposições gerais",
+      "items": [],
       "paras": [
-        "Liability, indemnity, governing law and disputes are as in the general Terms (the laws of the Federal Republic of Nigeria). We may update these Brand Terms; we email material changes to your work email before they take effect.",
-        "Contact: support@spektt.com · Appeals: safety@spektt.com · Axlume Tech Limited, Federal Republic of Nigeria."
-      ],
-      "items": []
+        "Responsabilidade, indenização, lei aplicável e disputas seguem os Termos gerais (as leis da República Federal da Nigéria). Podemos atualizar estes Termos para Marcas; enviamos as mudanças relevantes para o seu e-mail de trabalho antes que entrem em vigor.",
+        "Contato: support@spektt.com · Recursos: safety@spektt.com · Axlume Tech Limited, República Federal da Nigéria."
+      ]
     }
   ]
 }

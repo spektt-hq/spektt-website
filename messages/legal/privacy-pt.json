@@ -1,7 +1,7 @@
 {
   "pageTitle": "Política de Privacidade",
   "effectiveDate": "Data de Vigência: July 30th, 2026",
-  "lastUpdated": "Última Atualização: November 19th, 2026",
+  "lastUpdated": "Última Atualização: November 26th, 2026",
   "intro": "Spektt (\"nós\", \"nosso\" ou \"nos\") é operado pela Axlume Tech Limited, uma empresa registrada na República Federal da Nigéria. Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica quais informações pessoais coletamos, como as usamos, com quem as compartilhamos e seus direitos em relação aos seus dados ao usar o aplicativo móvel Spektt (\"App\") e serviços relacionados em spektt.com. Ao criar uma conta ou usar o App, você concorda com a coleta e o uso de suas informações conforme descrito aqui.",
   "toc": {
     "title": "Índice",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. QUEM SOMOS",
-    "body": "Spektt é uma plataforma de comunidade criativa criada para fotógrafos, videomakers, animadores 3D, engenheiros de som, artistas digitais e outros criativos.",
+    "body": "Spektt é uma plataforma de comunidade criativa criada para fotógrafos, videomakers, animadores 3D, engenheiros de som, artistas digitais e outros criativos, e para as marcas que patrocinam os seus Showdowns.",
     "legalEntity": "Entidade Legal: Axlume Tech Limited",
     "registration": "Registro: Corporate Affairs Commission (CAC), República Federal da Nigéria",
     "contactLabel": "Contato:",
@@ -61,6 +61,7 @@
     "contestItems": [
       "Entradas de concursos enviadas para Showdowns",
       "Votos que você dá em entradas de concursos",
+      "Se você participar de um Showdown apresentado por uma marca, essa marca vê os totais (participações, visualizações, votos após os resultados e quantos participantes há por cidade, pela localização do seu perfil), nunca o seu nome nem o seu voto",
       "Pontuações de jurados (se você for designado como jurado em um Premium Showdown)",
       "Detalhes de pagamento de prêmio: Se você ganhar um Premium Showdown com prêmio em dinheiro, coletamos o nome do seu banco, número da conta, nome da conta e Tax ID opcional exclusivamente para pagar seu prêmio. Esses dados são armazenados apenas pelo tempo necessário para concluir o pagamento e cumprir as regulamentações financeiras e fiscais nigerianas."
     ],
@@ -126,21 +127,21 @@
       "Todos os textos, incluindo mensagens privadas, são verificados nos próprios servidores da Spektt em busca de padrões de golpe, como números de telefone, pedidos de pagamento ou compra de votos. Guardamos apenas o registro de que um padrão foi identificado, não o texto da mensagem, e nenhuma pessoa lê suas mensagens a menos que uma seja denunciada.",
       "Essas verificações ajudam nossos moderadores, e a decisão é tomada por uma pessoa, com uma exceção: uma correspondência com material conhecido de abuso sexual infantil é removida imediatamente, a conta é banida permanentemente e o caso é comunicado às autoridades competentes, conforme exige a lei."
     ],
-    "brandHeading": "Brand Accounts (companies that sign up to sponsor Showdowns; the applicant must be 18 or over)",
+    "brandHeading": "Contas de marca (empresas que se cadastram para patrocinar Showdowns; o solicitante deve ter 18 anos ou mais)",
     "brandItems": [
-      "Brand name, logo, website, industry and \"About\" text, shown publicly on the brand's page",
-      "A work email at the brand's own website domain, and the applicant's full name: private, seen only by the applicant and by Spektt staff, never shown on the brand's page",
-      "A 6-digit code we email to that address to confirm it (stored only as a hash; deleted once used, or with the account)",
-      "Verification checks: the date the website's domain was registered (from public domain registries), whether the name is close to a well-known brand, and, if a person reviews it, their decision and the reason given to the brand",
-      "Inquiries a brand sends to creators: the message (kept like any direct message), how many it sent that day, and, for staff only, whether a message asked a creator to pay a fee and how many people blocked or reported the brand in the last 30 days (not who did). A brand never sees a creator's age or date of birth; we only check that the creator is 18 or over",
-      "Brand Showdowns and money: the Showdowns a brand proposes (brief, dates, prizes, review decisions); its dedicated bank account number for payments; its credit and every payment, refund and charge, with the payment processor's reference and which Spektt staff member recorded or confirmed it",
-      "Cluster sponsorship: invites from a Cluster's admin (their pitch and drafted brief, and the brand's answer); whether a brand accepts invites, and the categories and minimum Cluster size it chose (shown to Cluster admins so they know whom they may invite); the Clusters it asked never to invite it again (private)",
-      "The brand's private Console: creators, posts and Showdowns it saved (a name, a picture and a link to each; only the brand sees them, and nobody is told); reports for its own Showdowns, made of totals only"
+      "Nome, logotipo, site, setor e texto «Sobre» da marca, exibidos publicamente na página da marca",
+      "Um e-mail de trabalho no domínio do site da marca e o nome completo do solicitante: privados, vistos apenas pelo solicitante e pela equipe da Spektt, nunca exibidos na página da marca",
+      "Um código de 6 dígitos que enviamos a esse endereço para confirmá-lo (guardado apenas como hash; apagado após o uso, ou junto com a conta)",
+      "As verificações: a data de registro do domínio do site (dos registros públicos de domínios), se o nome é parecido com o de uma marca conhecida e, se uma pessoa analisar, a decisão dela e o motivo informado à marca",
+      "As consultas que uma marca envia a criadores: a mensagem (guardada como qualquer mensagem direta), quantas ela enviou naquele dia e, só para a equipe, se uma mensagem pediu que um criador pagasse uma taxa, e quantas pessoas bloquearam ou denunciaram a marca nos últimos 30 dias (não quem). Uma marca nunca vê a idade nem a data de nascimento de um criador; só verificamos se ele tem 18 anos ou mais",
+      "Showdowns de marca e dinheiro: os Showdowns que uma marca propõe (brief, datas, prêmios, decisões de análise); o número da sua conta bancária dedicada aos pagamentos; o seu crédito e cada pagamento, reembolso e cobrança, com a referência do processador de pagamentos e qual membro da equipe da Spektt o registrou ou confirmou",
+      "Patrocínio de Clusters: os convites do administrador de um Cluster (a proposta e o brief redigido, e a resposta da marca); se a marca aceita convites, e as categorias e o tamanho mínimo de Cluster que escolheu (mostrados aos administradores de Clusters para que saibam quem podem convidar); os Clusters que ela pediu que nunca mais a convidassem (privado)",
+      "O Console privado da marca: os criadores, publicações e Showdowns que ela guardou (um nome, uma imagem e um link de cada; só a marca os vê e ninguém é avisado); os relatórios dos seus próprios Showdowns, feitos apenas de totais"
     ],
-    "openHeading": "Open to Work (creators)",
+    "openHeading": "Disponível para trabalhar (criadores)",
     "openItems": [
-      "Whether you have switched on Open to work, shown publicly on your profile. It lets verified brands send you an inquiry, which you can accept, decline, block or report. Switch it off at any time in Settings",
-      "Saved by a brand: a verified brand may save your profile, your posts or a Showdown you entered to a private list in its Console (your name, picture and a link, nothing private). Only that brand sees the list and you are not notified. A post you delete, or that is removed, leaves every list; deleting your account removes you from all of them"
+      "Se você ativou «Disponível para trabalhar», exibido publicamente no seu perfil. Isso permite que marcas verificadas enviem a você uma consulta, que você pode aceitar, recusar, bloquear ou denunciar. Desative a qualquer momento em Configurações",
+      "Guardado por uma marca: uma marca verificada pode guardar o seu perfil, as suas publicações ou um Showdown de que você participou em uma lista privada do Console dela (o seu nome, a sua imagem e um link, nada privado). Só essa marca vê a lista e você não é avisado. Uma publicação que você apaga, ou que é removida, sai de todas as listas; apagar a sua conta tira você de todas"
     ]
   },
   "s3": {
@@ -158,6 +159,16 @@
         "Verificar sua idade para elegibilidade ao Showdown",
         "Data de nascimento",
         "Execução de contrato + Obrigação legal"
+      ],
+      [
+        "Verificar contas de marca e evitar falsidade ideológica",
+        "E-mail de trabalho, nome do solicitante, nome da marca, domínio do site e a sua data de registro",
+        "Interesses legítimos + Execução de contrato"
+      ],
+      [
+        "Consultas de marca: permitir que marcas contatem criadores Disponíveis para trabalhar e proteger os criadores de golpes",
+        "Configuração Disponível para trabalhar, idade do criador (verificada, nunca compartilhada), mensagens de consulta, número de bloqueios e denúncias, alertas de pedido de taxa",
+        "Execução de contrato + Interesses legítimos"
       ],
       [
         "Fornecer o feed e descoberta de conteúdo",
@@ -282,7 +293,17 @@
       [
         "Amazon Web Services (SES)",
         "Entrega de e-mails transacionais",
-        "Endereço de e-mail, códigos OTP, conteúdo de alertas"
+        "Endereço de e-mail (e o e-mail de trabalho de uma marca), códigos OTP e de verificação de marca, conteúdo de alertas"
+      ],
+      [
+        "Registros públicos de domínios (RDAP, via IANA e rdap.org)",
+        "Consultar quando o domínio do site de uma marca foi registrado",
+        "Apenas o nome de domínio, nenhum dado pessoal"
+      ],
+      [
+        "Pixelpay (PixelPay Systems Limited, Nigéria)",
+        "Contas bancárias dedicadas das marcas e recebimento das suas transferências para prêmios e taxas de Showdowns",
+        "O nome e os dados de conta de uma marca, as transferências que ela faz (valor, dados bancários do remetente, referência)"
       ],
       [
         "Sentry",
@@ -406,6 +427,14 @@
     "tableHeadPeriod": "Período de Retenção",
     "tableRows": [
       [
+        "Solicitação de marca (e-mail de trabalho, nome do solicitante, verificações, uma decisão da equipe)",
+        "Até a conta ser apagada; uma decisão da equipe também fica no registro de moderação"
+      ],
+      [
+        "Sinais de consultas de marca (contagem diária, bloqueios e denúncias contra uma marca, alertas de pedido de taxa)",
+        "A contagem diária: um dia. Bloqueios e denúncias: 30 dias. Alertas de pedido de taxa: até a conta da marca ser apagada"
+      ],
+      [
         "Dados de perfil da conta",
         "Até a exclusão da conta (dados do perfil apagados após o período de carência de 30 dias; apenas um registro de conta mínimo e não pessoal é mantido — veja a Seção 9.3)"
       ],
@@ -512,6 +541,10 @@
       ],
       [
         "Prevenir fraude e manipulação de votos",
+        "Interesses legítimos"
+      ],
+      [
+        "Verificar contas de marca (checagens de falsidade ideológica)",
         "Interesses legítimos"
       ],
       [
