@@ -125,6 +125,22 @@
       "تُفحص النصوص العامة — التعليقات التوضيحية والأوصاف والوسوم والتعليقات وأسماء الملفات الشخصية ونصوص الـ Clusters والـ Showdowns — بواسطة خدمة الإشراف من OpenAI لاكتشاف المحتوى الضار. لا تُرسل الرسائل الخاصة أبدًا إلى OpenAI أو إلى أي طرف ثالث آخر.",
       "تُفحص جميع النصوص، بما فيها الرسائل الخاصة، على خوادم Spektt الخاصة بحثًا عن أنماط الاحتيال، مثل أرقام الهواتف وطلبات الدفع وشراء الأصوات. نحتفظ فقط بسجل يفيد بتطابق نمط ما، وليس بنص الرسالة، ولا يقرأ أي شخص رسائلك إلا إذا تم الإبلاغ عن إحداها.",
       "تساعد هذه الفحوصات مشرفينا، ويتخذ القرار شخص، باستثناء حالة واحدة: أي تطابق مع مواد الاعتداء الجنسي على الأطفال المعروفة يُحذف فورًا، ويُحظر الحساب نهائيًا، ويُبلَّغ عن الحالة إلى السلطات المختصة كما يقتضي القانون."
+    ],
+    "brandHeading": "Brand Accounts (companies that sign up to sponsor Showdowns; the applicant must be 18 or over)",
+    "brandItems": [
+      "Brand name, logo, website, industry and \"About\" text, shown publicly on the brand's page",
+      "A work email at the brand's own website domain, and the applicant's full name: private, seen only by the applicant and by Spektt staff, never shown on the brand's page",
+      "A 6-digit code we email to that address to confirm it (stored only as a hash; deleted once used, or with the account)",
+      "Verification checks: the date the website's domain was registered (from public domain registries), whether the name is close to a well-known brand, and, if a person reviews it, their decision and the reason given to the brand",
+      "Inquiries a brand sends to creators: the message (kept like any direct message), how many it sent that day, and, for staff only, whether a message asked a creator to pay a fee and how many people blocked or reported the brand in the last 30 days (not who did). A brand never sees a creator's age or date of birth; we only check that the creator is 18 or over",
+      "Brand Showdowns and money: the Showdowns a brand proposes (brief, dates, prizes, review decisions); its dedicated bank account number for payments; its credit and every payment, refund and charge, with the payment processor's reference and which Spektt staff member recorded or confirmed it",
+      "Cluster sponsorship: invites from a Cluster's admin (their pitch and drafted brief, and the brand's answer); whether a brand accepts invites, and the categories and minimum Cluster size it chose (shown to Cluster admins so they know whom they may invite); the Clusters it asked never to invite it again (private)",
+      "The brand's private Console: creators, posts and Showdowns it saved (a name, a picture and a link to each; only the brand sees them, and nobody is told); reports for its own Showdowns, made of totals only"
+    ],
+    "openHeading": "Open to Work (creators)",
+    "openItems": [
+      "Whether you have switched on Open to work, shown publicly on your profile. It lets verified brands send you an inquiry, which you can accept, decline, block or report. Switch it off at any time in Settings",
+      "Saved by a brand: a verified brand may save your profile, your posts or a Showdown you entered to a private list in its Console (your name, picture and a link, nothing private). Only that brand sees the list and you are not notified. A post you delete, or that is removed, leaves every list; deleting your account removes you from all of them"
     ]
   },
   "s3": {

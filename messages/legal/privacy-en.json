@@ -1,7 +1,7 @@
 {
   "pageTitle": "Privacy Policy",
   "effectiveDate": "Effective Date: July 30th, 2026",
-  "lastUpdated": "Last Updated: November 19th, 2026",
+  "lastUpdated": "Last Updated: November 26th, 2026",
   "intro": "Spektt (\"we\", \"our\", or \"us\") is operated by Axlume Tech Limited, a company registered in the Federal Republic of Nigeria. We are committed to protecting your privacy. This Privacy Policy explains what personal information we collect, how we use it, who we share it with, and your rights regarding your data when you use the Spektt mobile application (\"App\") and related services at spektt.com. By creating an account or using the App, you agree to the collection and use of your information as described here.",
   "toc": {
     "title": "Table of Contents",
@@ -26,7 +26,7 @@
   },
   "s1": {
     "heading": "1. WHO WE ARE",
-    "body": "Spektt is a creative community platform built for photographers, videographers, 3D animators, sound engineers, digital artists, and other creatives.",
+    "body": "Spektt is a creative community platform built for photographers, videographers, 3D animators, sound engineers, digital artists, and other creatives, and for the brands that sponsor their Showdowns.",
     "legalEntity": "Legal Entity: Axlume Tech Limited",
     "registration": "Registration: Corporate Affairs Commission (CAC), Federal Republic of Nigeria",
     "contactLabel": "Contact:",
@@ -61,6 +61,7 @@
     "contestItems": [
       "Contest entries submitted to Showdowns",
       "Votes you cast on contest entries",
+      "If you enter a brand-presented Showdown, the presenting brand sees its totals (entries, views, votes after results, and how many entrants come from each city, from the location on your profile), never your name or your vote",
       "Judge scores (if you are assigned as a judge in a Premium Showdown)",
       "Prize payment details: If you win a cash-prize Premium Showdown, we collect your bank name, account number, account name, and optional Tax ID solely to pay your prize. This data is stored only as long as necessary to complete payment and comply with Nigerian financial and tax regulations."
     ],
@@ -125,6 +126,22 @@
       "Public text — captions, descriptions, tags, comments, profile names, and Cluster and Showdown text — is checked by OpenAI's moderation service for harmful content. Private messages are never sent to OpenAI or any other third party.",
       "All text, including private messages, is checked on Spektt's own servers for scam patterns such as phone numbers, payment requests and vote-buying. We keep a record that a pattern matched, not the message text, and no person reads your messages unless one is reported.",
       "These checks help our moderators, and a person makes the decision, with one exception: a match against known child sexual abuse material is removed at once, the account is permanently banned, and the case is reported to the relevant authorities as the law requires."
+    ],
+    "brandHeading": "Brand Accounts (companies that sign up to sponsor Showdowns; the applicant must be 18 or over)",
+    "brandItems": [
+      "Brand name, logo, website, industry and \"About\" text, shown publicly on the brand's page",
+      "A work email at the brand's own website domain, and the applicant's full name: private, seen only by the applicant and by Spektt staff, never shown on the brand's page",
+      "A 6-digit code we email to that address to confirm it (stored only as a hash; deleted once used, or with the account)",
+      "Verification checks: the date the website's domain was registered (from public domain registries), whether the name is close to a well-known brand, and, if a person reviews it, their decision and the reason given to the brand",
+      "Inquiries a brand sends to creators: the message (kept like any direct message), how many it sent that day, and, for staff only, whether a message asked a creator to pay a fee and how many people blocked or reported the brand in the last 30 days (not who did). A brand never sees a creator's age or date of birth; we only check that the creator is 18 or over",
+      "Brand Showdowns and money: the Showdowns a brand proposes (brief, dates, prizes, review decisions); its dedicated bank account number for payments; its credit and every payment, refund and charge, with the payment processor's reference and which Spektt staff member recorded or confirmed it",
+      "Cluster sponsorship: invites from a Cluster's admin (their pitch and drafted brief, and the brand's answer); whether a brand accepts invites, and the categories and minimum Cluster size it chose (shown to Cluster admins so they know whom they may invite); the Clusters it asked never to invite it again (private)",
+      "The brand's private Console: creators, posts and Showdowns it saved (a name, a picture and a link to each; only the brand sees them, and nobody is told); reports for its own Showdowns, made of totals only"
+    ],
+    "openHeading": "Open to Work (creators)",
+    "openItems": [
+      "Whether you have switched on Open to work, shown publicly on your profile. It lets verified brands send you an inquiry, which you can accept, decline, block or report. Switch it off at any time in Settings",
+      "Saved by a brand: a verified brand may save your profile, your posts or a Showdown you entered to a private list in its Console (your name, picture and a link, nothing private). Only that brand sees the list and you are not notified. A post you delete, or that is removed, leaves every list; deleting your account removes you from all of them"
     ]
   },
   "s3": {
@@ -142,6 +159,16 @@
         "Verifying your age for Showdown eligibility",
         "Date of birth",
         "Contract performance + Legal obligation"
+      ],
+      [
+        "Verifying brand accounts and preventing impersonation",
+        "Work email, applicant's name, brand name, website domain and its registration date",
+        "Legitimate interests + Contract performance"
+      ],
+      [
+        "Brand inquiries: letting brands contact creators who are Open to work, and protecting creators from scams",
+        "Open to work setting, the creator's age (checked, never shared), inquiry messages, block and report counts, fee wording flags",
+        "Contract performance + Legitimate interests"
       ],
       [
         "Delivering the feed and content discovery",
@@ -266,7 +293,17 @@
       [
         "Amazon Web Services (SES)",
         "Transactional email delivery",
-        "Email address, OTP codes, alert content"
+        "Email address (and a brand's work email), OTP and brand verification codes, alert content"
+      ],
+      [
+        "Public domain registries (RDAP, through IANA and rdap.org)",
+        "Looking up when a brand's website domain was registered",
+        "The domain name only, no personal data"
+      ],
+      [
+        "Pixelpay (PixelPay Systems Limited, Nigeria)",
+        "Brands' dedicated bank accounts and receiving their transfers for Showdown prizes and fees",
+        "A brand's name and account details, the transfers it makes (amount, sender's bank details, reference)"
       ],
       [
         "Sentry",
@@ -390,6 +427,14 @@
     "tableHeadPeriod": "Retention Period",
     "tableRows": [
       [
+        "Brand application (work email, applicant's name, checks, a staff decision)",
+        "Until the account is deleted; a staff decision is also kept in the moderation log"
+      ],
+      [
+        "Brand inquiry signals (daily count, blocks and reports against a brand, fee wording flags)",
+        "The daily count: one day. Blocks and reports: 30 days. Fee wording flags: until the brand account is deleted"
+      ],
+      [
         "Account profile data",
         "Until account deletion (profile details erased after the 30-day grace period; only a minimal, non-personal account record is kept — see Section 9.3)"
       ],
@@ -496,6 +541,10 @@
       ],
       [
         "Preventing fraud and vote manipulation",
+        "Legitimate interests"
+      ],
+      [
+        "Verifying brand accounts (impersonation checks)",
         "Legitimate interests"
       ],
       [
